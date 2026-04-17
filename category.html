@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>카테고리 · YEDO LIGHTING</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#00b8a9;--teal-dark:#009e90;--teal-pale:rgba(0,184,169,0.07);--teal-dim:rgba(0,184,169,0.2);--bg:#fff;--bg2:#f7f8f8;--text:#1a1a1a;--text-dim:#555;--text-faint:#aaa;--border:#e8e8e8;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-weight:300;line-height:1.6;}
+/* NAV */
+nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;}
+.nav-top{display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:88px;gap:20px;}
+.nav-logo{font-family:'Barlow Condensed',sans-serif;font-size:48px;font-weight:700;letter-spacing:0.06em;color:var(--text);text-decoration:none;flex-shrink:0;line-height:1;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
+.nav-logo span{color:var(--teal);}
+.nav-logo small{display:block;font-family:'Noto Sans KR',sans-serif;font-size:11px;font-weight:300;letter-spacing:0.18em;color:var(--text-faint);margin-top:1px;transform:scaleY(1.176);transform-origin:left center;}
+.nav-right{display:flex;align-items:center;gap:24px;flex:1;justify-content:flex-end;}
+.nav-links{display:flex;gap:28px;}
+.nav-links a{font-size:15px;color:var(--text-dim);text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--teal);}
+.nav-center{position:relative;max-width:280px;min-width:180px;}
+.nav-search{width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:22px;padding:8px 16px 8px 38px;font-size:15px;color:var(--text);font-family:inherit;outline:none;transition:border-color 0.2s;}
+.nav-search:focus{border-color:var(--teal);}
+.nav-search::placeholder{color:var(--text-faint);}
+.nav-search-ico{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-faint);font-size:14px;pointer-events:none;}
+.nav-contact{font-size:14px;font-weight:500;color:#fff;background:var(--teal);padding:8px 20px;border-radius:3px;text-decoration:none;transition:background 0.2s;}
+.nav-contact:hover{background:var(--teal-dark);}
+/* TOP CAT BAR */
+.top-cat-bar{border-bottom:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;}
+.top-cat-bar::-webkit-scrollbar{display:none;}
+.top-cat-inner{display:inline-flex;}
+.top-cat-btn{font-size:14px;color:var(--text-dim);background:none;border:none;padding:14px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
+.top-cat-btn:hover{color:var(--teal);}
+.top-cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
+.top-cat-item{position:relative;display:inline-block;}
+.top-cat-dropdown{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:6px;box-shadow:0 4px 20px rgba(0,0,0,0.12);padding:6px 0;min-width:140px;z-index:9999;}
+.top-cat-item:hover .top-cat-dropdown{display:block;}
+.top-cat-dropdown-item{display:block;width:100%;padding:9px 20px;font-size:13px;color:var(--text-dim);background:none;border:none;cursor:pointer;font-family:inherit;text-align:left;transition:color 0.15s,background 0.15s;white-space:nowrap;}
+.top-cat-dropdown-item:hover{color:var(--teal);background:var(--teal-pale);}
+.breadcrumb{padding:12px 66px;font-size:12px;color:var(--text-faint);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;}
+.breadcrumb a{color:var(--text-faint);text-decoration:none;}
+.breadcrumb a:hover{color:var(--teal);}
+.breadcrumb span{color:var(--text-dim);}
+/* LAYOUT */
+.cat-wrap{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 200px);}
+/* SIDEBAR */
+.sidebar{border-right:1px solid var(--border);padding:28px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;}
+.sidebar-section-title{font-size:18px;font-weight:700;color:var(--text);padding:0 24px 12px;border-bottom:1px solid var(--border);margin-bottom:8px;}
+.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:var(--text-dim);padding:10px 24px;cursor:pointer;background:none;border:none;border-left:3px solid transparent;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
+.sidebar-cat:hover{color:var(--teal);background:var(--teal-pale);}
+.sidebar-cat.active{color:var(--teal);border-left-color:var(--teal);background:var(--teal-pale);font-weight:500;}
+.sidebar-count{font-size:11px;color:var(--text-faint);}
+.sidebar-sub{display:none;flex-direction:column;}
+.sidebar-sub.open{display:flex;}
+.sidebar-subcat{font-size:13px;color:var(--text-faint);padding:7px 24px 7px 40px;cursor:pointer;background:none;border:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
+.sidebar-subcat:hover{color:var(--teal);background:var(--teal-pale);}
+.sidebar-subcat.active{color:var(--teal);font-weight:500;}
+/* CONTENT */
+.content{padding:32px 48px 80px;}
+.content-header{margin-bottom:28px;border-bottom:1px solid var(--border);padding-bottom:20px;}
+.content-title{font-size:28px;font-weight:700;color:var(--text);margin-bottom:4px;}
+.content-count{font-size:13px;color:var(--text-faint);}
+/* GRID */
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.product-card{background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;transition:box-shadow 0.25s,border-color 0.25s,transform 0.2s;text-decoration:none;display:block;}
+.product-card:hover{box-shadow:0 6px 28px rgba(0,184,169,0.11);border-color:var(--teal-dim);transform:translateY(-2px);}
+.prod-img-wrap{height:300px;background:var(--bg2);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;}
+.prod-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform 0.3s;}
+.product-card:hover .prod-img-wrap img{transform:scale(1.04);}
+.prod-badge{position:absolute;top:10px;left:10px;font-size:10px;font-weight:700;padding:3px 8px;border-radius:2px;}
+.badge-new{background:var(--teal);color:#fff;}
+.badge-best{background:#e74c3c;color:#fff;}
+.prod-info{padding:14px 16px 18px;}
+.prod-cat{font-size:11px;color:var(--teal);letter-spacing:0.07em;margin-bottom:5px;text-transform:uppercase;}
+.prod-name{font-size:15px;font-weight:500;color:var(--text);line-height:1.4;}
+.empty-state{grid-column:1/-1;padding:80px 0;text-align:center;color:var(--text-faint);}
+.load-wrap{text-align:center;margin-top:40px;}
+.load-btn{font-size:14px;color:var(--teal);border:1px solid var(--teal);background:none;padding:12px 40px;border-radius:3px;cursor:pointer;font-family:inherit;transition:all 0.2s;}
+.load-btn:hover{background:var(--teal);color:#fff;}
+@media(max-width:900px){
+  .nav-top{padding:0 20px;height:60px;}.nav-logo{font-size:28px;}.nav-links,.nav-center{display:none;}
+  .top-cat-bar{padding:0 16px;}.breadcrumb{padding:10px 20px;}
+  .cat-wrap{grid-template-columns:1fr;}
+  .sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--border);padding:12px 0;display:flex;overflow-x:auto;white-space:nowrap;}
+  .sidebar-section-title{display:none;}
+  .sidebar-cat{display:inline-flex;padding:8px 14px;border-left:none;border-bottom:2px solid transparent;width:auto;}
+  .sidebar-cat.active{border-left:none;border-bottom-color:var(--teal);}
+  .sidebar-sub{display:none!important;}
+  .content{padding:24px 20px 60px;}
+  .product-grid{grid-template-columns:repeat(2,1fr);gap:12px;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-logo"><span>YEDO</span> LIGHTING<small>예도전기조명</small></a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="index.html#about">회사소개</a>
+        <a href="index.html#catalogue-anchor">카탈로그</a>
+        <a href="index.html#contact">문의</a>
+      </div>
+      <div class="nav-center">
+        <span class="nav-search-ico">🔍</span>
+        <input class="nav-search" type="text" id="nav-search" placeholder="제품명으로 검색...">
+      </div>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:500;color:var(--text-dim);white-space:nowrap;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="var(--teal)"/></svg>031-977-1585</span>
+      <a href="index.html#contact" class="nav-contact">문의하기</a>
+    </div>
+  </div>
+  <div class="top-cat-bar">
+    <div class="top-cat-inner" id="top-cat-inner"></div>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="index.html">홈</a> › <span id="bc-text">전체 제품</span>
+</div>
+
+<div class="cat-wrap">
+  <aside class="sidebar">
+    <div class="sidebar-section-title" id="sidebar-title">카테고리</div>
+    <div id="sidebar-cats"></div>
+  </aside>
+  <div class="content">
+    <div class="content-header">
+      <h1 class="content-title" id="content-title">전체 제품</h1>
+      <p id="content-notice" style="display:none;font-size:15px;font-weight:500;color:var(--text);margin-top:8px;"></p>
+      <span class="content-count" id="content-count"></span>
+    </div>
+    <div class="product-grid" id="product-grid"></div>
+    <div class="load-wrap" id="load-wrap" style="display:none;">
+      <button class="load-btn" id="load-btn">더 보기</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── 데이터 ──
+const SK='yedo_products';
+function getProds(){try{return JSON.parse(localStorage.getItem(SK))||[];}catch{return[];}}
+let allProds=getProds();
+
+if(!allProds.length){
+  allProds=[
+    {name:"KS. T-LINE 레일등 LED 20W",category:"레일등",subcategory:"레일형",image:"https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",specs:"전압: 220V / 60Hz\n소비전력: 20W",badge:"NEW"},
+    {name:"KC. 직사각매입등 LED 디밍형",category:"매입등",subcategory:"직사각",image:"https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",specs:"전압: 220V / 60Hz\n소비전력: 20W",badge:""},
+    {name:"KS. 마그네틱 SMPS 150W",category:"마그네틱",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",specs:"전압: 220V / 60Hz\n출력: DC 48V",badge:""},
+    {name:"TS-LINE 22 레일등 LED",category:"레일등",subcategory:"레일형",image:"https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",specs:"전압: 220V / 60Hz\n소비전력: 22W",badge:"NEW"},
+    {name:"KS. 원볼 스포트 레일 COB 8W",category:"스포트",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202511/447cab0d50743fd982c72963600545c3.jpg",specs:"전압: 220V / 60Hz\n소비전력: 8W",badge:""},
+    {name:"KC. 마그네틱 레일 시스템",category:"마그네틱",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202502/2ece4912db1ce8b5de7b61b36909ac4b.jpg",specs:"전압: DC 48V",badge:"BEST"},
+    {name:"KS. COB 공회전 매입등",category:"매입등",subcategory:"원형",image:"https://ydl.co.kr/web/product/medium/202507/134bde483b616eb85c8157c26838ef7a.jpg",specs:"전압: 220V / 60Hz\n소비전력: 10W",badge:""},
+    {name:"KC. T5 LED 18W 1200",category:"T5",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202412/023d1b2766534dde921f7f3e5ba6c3f8.jpg",specs:"전압: 220V / 60Hz\n소비전력: 18W",badge:""},
+  ];
+  localStorage.setItem(SK,JSON.stringify(allProds));
+}
+
+// ── 상태 ──
+// URL 파라미터에서 초기값 읽기
+const params = new URLSearchParams(location.search);
+let activeCat = params.get('cat') || '전체';
+let activeSubCat = params.get('sub') || '';
+let searchQuery = params.get('q') || '';
+let visible = 20;
+
+// ── 카테고리 목록 (저장된 순서 반영) ──
+function getCats(){
+  const saved = JSON.parse(localStorage.getItem('yedo_cat_order')||'[]');
+  const existing = [...new Set(allProds.map(p=>p.category).filter(Boolean))];
+  const ordered = saved.length ? [...saved, ...existing.filter(c=>!saved.includes(c))] : existing;
+  return ['전체', ...ordered];
+}
+
+// ── 렌더 함수 ──
+function renderTopBar(){
+  const cats = getCats();
+  // 검색 중이면 전체 active
+  const curActive = searchQuery ? '전체' : activeCat;
+  document.getElementById('top-cat-inner').innerHTML = cats.map(c=>{
+    const fromProds=[...new Set(allProds.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
+    const fromSaved=JSON.parse(localStorage.getItem('yedo_subcats_'+c)||'[]');
+    const subs=[...new Set([...fromSaved,...fromProds])];
+    const dropdown=subs.length?`<div class="top-cat-dropdown">${subs.map(s=>`<button class="top-cat-dropdown-item" onclick="event.stopPropagation();activeCat='${c}';selectSubCat('${s}')">${s}</button>`).join('')}</div>`:'';
+    return `<div class="top-cat-item"><button class="top-cat-btn${c===curActive?' active':''}" data-cat="${c}">${c}</button>${dropdown}</div>`;
+  }).join('');
+  document.querySelectorAll('.top-cat-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=>{ selectCat(btn.dataset.cat); });
+  });
+}
+
+function renderSidebar(){
+  const title = document.getElementById('sidebar-title');
+  const sb = document.getElementById('sidebar-cats');
+  if(searchQuery){
+    title.textContent='검색 결과';
+    sb.innerHTML='';
+    return;
+  }
+  if(activeCat==='전체'){
+    title.textContent='카테고리';
+    const cats = getCats().filter(c=>c!=='전체');
+    sb.innerHTML = cats.map(c=>{
+      const cnt = allProds.filter(p=>p.category===c).length;
+      return `<button class="sidebar-cat" data-cat="${c}">${c}<span class="sidebar-count">(${cnt})</span></button>`;
+    }).join('');
+  } else {
+    title.textContent = activeCat;
+    // 제품에서 + admin 별도 저장 서브카테고리 합치기
+    const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
+    const fromSaved=JSON.parse(localStorage.getItem('yedo_subcats_'+activeCat)||'[]');
+    const subs=[...new Set([...fromSaved,...fromProds])];
+    const total = allProds.filter(p=>p.category===activeCat).length;
+    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체<span class="sidebar-count">(${total})</span></button>`;
+    subs.forEach(s=>{
+      const cnt = allProds.filter(p=>p.category===activeCat&&p.subcategory===s).length;
+      html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}<span class="sidebar-count">(${cnt})</span></button>`;
+    });
+    sb.innerHTML = html;
+  }
+  sb.querySelectorAll('.sidebar-cat').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const cat = btn.dataset.cat;
+      const sub = btn.dataset.sub||'';
+      if(sub) selectSubCat(sub);
+      else selectCat(cat);
+    });
+  });
+}
+
+function renderProducts(){
+  let filtered;
+  if(searchQuery){
+    const q = searchQuery.toLowerCase();
+    filtered = allProds.filter(p=>(p.name||'').toLowerCase().includes(q));
+  } else {
+    filtered = allProds.filter(p=>{
+      const mc = activeCat==='전체' || p.category===activeCat;
+      const ms = !activeSubCat || p.subcategory===activeSubCat;
+      return mc && ms;
+    });
+  }
+
+  document.getElementById('content-count').textContent = `총 ${filtered.length}개`;
+  const grid = document.getElementById('product-grid');
+  const slice = filtered.slice(0, visible);
+
+  if(!slice.length){
+    grid.innerHTML='<div class="empty-state"><p>제품이 없습니다.</p></div>';
+    document.getElementById('load-wrap').style.display='none';
+    return;
+  }
+
+  grid.innerHTML = slice.map(p=>{
+    const idx = allProds.indexOf(p);
+    const img = p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'">` : '';
+    const badge = p.badge ? `<span class="prod-badge badge-${p.badge==='NEW'?'new':'best'}">${p.badge}</span>` : '';
+    return `<a href="product.html?idx=${idx}" class="product-card">
+      <div class="prod-img-wrap">${img}${badge}</div>
+      <div class="prod-info">
+        <div class="prod-cat">${p.category||''}${p.subcategory?' · '+p.subcategory:''}</div>
+        <div class="prod-name">${p.name}</div>
+      </div>
+    </a>`;
+  }).join('');
+
+  const lw = document.getElementById('load-wrap');
+  if(filtered.length > visible){
+    lw.style.display='block';
+    document.getElementById('load-btn').textContent=`더 보기 (${filtered.length-visible}개 남음)`;
+  } else {
+    lw.style.display='none';
+  }
+}
+
+function updateUI(){
+  let titleText, bcText;
+  if(searchQuery){
+    titleText = '검색 결과';
+    bcText = '검색: ' + searchQuery;
+  } else {
+    titleText = activeCat==='전체' ? '전체 제품' : activeCat;
+    bcText = activeCat==='전체' ? '전체 제품' : activeCat;
+  }
+  document.getElementById('content-title').textContent = titleText;
+  document.getElementById('bc-text').textContent = bcText;
+  // 카테고리별 안내 메시지
+  const noticeMap = {
+    '레일 및 부품': '부품은 각 레일 카테고리 내에서 확인 가능합니다.',
+  };
+  const notice = document.getElementById('content-notice');
+  const msg = noticeMap[activeCat];
+  if(msg && !searchQuery){ notice.textContent=msg; notice.style.display='block'; }
+  else notice.style.display='none';
+  renderTopBar();
+  renderSidebar();
+  renderProducts();
+}
+
+// ── 액션 ──
+function selectCat(cat){
+  activeCat = cat;
+  activeSubCat = '';
+  searchQuery = '';
+  visible = 20;
+  document.getElementById('nav-search').value = '';
+  history.replaceState(null,'',`category.html?cat=${encodeURIComponent(cat)}`);
+  updateUI();
+}
+
+function selectSubCat(sub){
+  activeSubCat = sub;
+  visible = 20;
+  searchQuery = '';
+  document.getElementById('nav-search').value='';
+  history.replaceState(null,'',`category.html?cat=${encodeURIComponent(activeCat)}&sub=${encodeURIComponent(sub)}`);
+  updateUI();
+}
+
+function doSearch(q){
+  searchQuery = q;
+  visible = 20;
+  history.replaceState(null,'','category.html');
+  updateUI();
+}
+
+// ── 이벤트 ──
+document.getElementById('nav-search').addEventListener('input', e=>{
+  doSearch(e.target.value.trim());
+});
+
+document.getElementById('load-btn').addEventListener('click', ()=>{
+  visible += 20;
+  renderProducts();
+});
+
+// ── 초기 렌더 ──
+if(searchQuery) document.getElementById('nav-search').value = searchQuery;
+updateUI();
+</script>
+
+<!-- FLOATING BUTTONS -->
+<div id="float-btns" style="position:fixed;right:0;bottom:60px;z-index:999;display:flex;flex-direction:column;gap:0;align-items:center;">
+  <a href="https://pf.kakao.com/_LFwMn" target="_blank" style="width:68px;height:68px;background:#FEE500;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-decoration:none;border-radius:10px 0 0 0;">
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 6C11.373 6 6 10.477 6 16c0 3.632 2.13 6.812 5.347 8.666-.213.77-.77 2.795-.882 3.228-.138.535.196.527.413.384.17-.113 2.692-1.83 3.789-2.576.757.107 1.536.164 2.333.164 6.627 0 12-4.477 12-10S24.627 6 18 6z" fill="#3C1E1E"/></svg>
+    <span style="font-size:10px;font-weight:700;color:#3C1E1E;font-family:sans-serif;line-height:1;">상담</span>
+  </a>
+  <button onclick="toggleRecentPanel()" id="recent-float-btn" style="width:68px;height:68px;background:#1a1f3a;border:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;position:relative;">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="1.5"/><path d="M12 7v5l3 3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <span style="font-size:10px;font-weight:700;color:#fff;font-family:sans-serif;line-height:1;">최근</span>
+    <span id="recent-count" style="position:absolute;top:4px;right:4px;background:#00b8a9;color:#fff;font-size:8px;font-weight:700;width:14px;height:14px;border-radius:50%;display:none;align-items:center;justify-content:center;font-family:sans-serif;"></span>
+  </button>
+  <button onclick="window.scrollTo({top:0,behavior:'smooth'})" style="width:68px;height:68px;background:#00b04a;border:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;border-radius:0 0 0 10px;">
+    <svg width="26" height="26" viewBox="0 0 20 20" fill="none"><path d="M5 13l5-5 5 5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span style="font-size:10px;font-weight:700;color:#fff;font-family:sans-serif;line-height:1;">TOP</span>
+  </button>
+</div>
+<div id="recent-panel" style="display:none;position:fixed;right:72px;bottom:60px;z-index:998;width:280px;background:#fff;border:1px solid #e8e8e8;border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,0.15);overflow:hidden;">
+  <div style="padding:14px 16px;border-bottom:1px solid #f0f0f0;display:flex;justify-content:space-between;align-items:center;">
+    <span style="font-size:13px;font-weight:500;font-family:'Noto Sans KR',sans-serif;color:#1a1a1a;">최근 본 상품</span>
+    <button onclick="toggleRecentPanel()" style="background:none;border:none;cursor:pointer;font-size:16px;color:#aaa;">✕</button>
+  </div>
+  <div id="recent-list" style="max-height:360px;overflow-y:auto;"></div>
+</div>
+<script>
+const RECENT_KEY='yedo_recent';
+function getRecent(){try{return JSON.parse(localStorage.getItem(RECENT_KEY))||[];}catch{return[];}}
+function renderRecentPanel(){
+  const list=getRecent();
+  const cnt=document.getElementById('recent-count');
+  if(list.length){cnt.style.display='flex';cnt.textContent=list.length;}else cnt.style.display='none';
+  const el=document.getElementById('recent-list');
+  if(!list.length){el.innerHTML='<p style="padding:24px;text-align:center;font-size:13px;color:#aaa;font-family:\'Noto Sans KR\',sans-serif;">최근 본 상품이 없습니다.</p>';return;}
+  el.innerHTML=list.map(r=>`<a href="product.html?idx=${r.idx}" style="display:flex;align-items:center;gap:10px;padding:10px 14px;text-decoration:none;border-bottom:1px solid #f5f5f5;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background=''"><div style="width:48px;height:48px;border-radius:4px;background:#f5f5f5;flex-shrink:0;overflow:hidden;">${r.image?`<img src="${r.image}" style="width:100%;height:100%;object-fit:contain;padding:3px;">`:''}  </div><div style="flex:1;min-width:0;"><div style="font-size:11px;color:#00b8a9;margin-bottom:2px;">${r.category||''}</div><div style="font-size:12px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.name}</div></div></a>`).join('');
+}
+function toggleRecentPanel(){
+  const panel=document.getElementById('recent-panel');
+  const isOpen=panel.style.display!=='none';
+  panel.style.display=isOpen?'none':'block';
+  if(!isOpen)renderRecentPanel();
+}
+document.addEventListener('click',e=>{
+  const panel=document.getElementById('recent-panel');
+  const btn=document.getElementById('recent-float-btn');
+  if(panel&&panel.style.display!=='none'&&!panel.contains(e.target)&&!btn.contains(e.target))panel.style.display='none';
+});
+renderRecentPanel();
+</script>
+</body>
+</html>

@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YEDO 관리자</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#00b8a9;--teal-dark:#009e90;--teal-pale:rgba(0,184,169,0.08);--teal-dim:rgba(0,184,169,0.2);--bg:#f4f5f5;--bg2:#fff;--text:#1a1a1a;--text-dim:#666;--text-faint:#aaa;--border:#e4e4e4;--danger:#e74c3c;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-weight:300;}
+.admin-wrap{display:grid;grid-template-columns:220px 1fr;min-height:100vh;}
+.sidebar{background:#1c1c1c;position:sticky;top:0;height:100vh;overflow-y:auto;}
+.sidebar-logo{padding:24px 20px 20px;border-bottom:1px solid rgba(255,255,255,0.08);}
+.sidebar-logo-text{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:0.08em;color:#fff;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
+.sidebar-logo-text span{color:var(--teal);}
+.sidebar-logo-sub{font-size:11px;color:rgba(255,255,255,0.3);margin-top:4px;}
+.sidebar-nav{padding:12px 0;}
+.nav-item{display:flex;align-items:center;gap:10px;padding:11px 20px;font-size:13px;color:rgba(255,255,255,0.5);cursor:pointer;transition:all 0.2s;border-left:3px solid transparent;}
+.nav-item:hover{color:rgba(255,255,255,0.85);background:rgba(255,255,255,0.04);}
+.nav-item.active{color:#fff;border-left-color:var(--teal);background:rgba(0,184,169,0.08);}
+.nav-item-icon{font-size:15px;width:20px;text-align:center;}
+.sidebar-divider{height:1px;background:rgba(255,255,255,0.06);margin:8px 0;}
+.sidebar-footer{padding:16px 20px;border-top:1px solid rgba(255,255,255,0.07);}
+.sidebar-footer a{font-size:12px;color:rgba(255,255,255,0.35);text-decoration:none;display:flex;align-items:center;gap:6px;}
+.sidebar-footer a:hover{color:var(--teal);}
+.main{padding:32px 36px;overflow-y:auto;}
+.page{display:none;}
+.page.active{display:block;}
+.page-title{font-size:20px;font-weight:700;margin-bottom:4px;}
+.page-sub{font-size:13px;color:var(--text-dim);margin-bottom:28px;}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:24px;margin-bottom:20px;}
+.card-title{font-size:14px;font-weight:500;margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.form-group{margin-bottom:14px;}
+.form-label{font-size:12px;color:var(--text-dim);margin-bottom:5px;display:block;}
+.form-input,.form-textarea,.form-select{width:100%;background:#fafafa;border:1px solid var(--border);border-radius:4px;padding:10px 12px;font-size:13px;color:var(--text);font-family:inherit;font-weight:300;outline:none;transition:border-color 0.2s;}
+.form-input:focus,.form-textarea:focus{border-color:var(--teal);}
+.form-input::placeholder,.form-textarea::placeholder{color:var(--text-faint);}
+.form-textarea{min-height:90px;resize:vertical;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.btn{font-size:13px;font-weight:500;padding:9px 20px;border-radius:4px;border:none;cursor:pointer;font-family:inherit;transition:all 0.2s;display:inline-flex;align-items:center;gap:6px;}
+.btn-primary{background:var(--teal);color:#fff;}
+.btn-primary:hover{background:var(--teal-dark);}
+.btn-secondary{background:var(--bg);border:1px solid var(--border);color:var(--text-dim);}
+.btn-secondary:hover{border-color:var(--teal);color:var(--teal);}
+.btn-danger{background:var(--danger);color:#fff;}
+.btn-danger:hover{background:#c0392b;}
+.btn-sm{font-size:12px;padding:6px 14px;}
+.btn-group{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+.toggle-wrap{display:flex;align-items:center;gap:10px;margin-bottom:16px;}
+.toggle{position:relative;width:42px;height:22px;}
+.toggle input{opacity:0;width:0;height:0;}
+.toggle-slider{position:absolute;inset:0;background:#ddd;border-radius:22px;cursor:pointer;transition:0.2s;}
+.toggle-slider::before{content:'';position:absolute;width:16px;height:16px;left:3px;top:3px;background:#fff;border-radius:50%;transition:0.2s;}
+.toggle input:checked+.toggle-slider{background:var(--teal);}
+.toggle input:checked+.toggle-slider::before{transform:translateX(20px);}
+.toggle-label{font-size:13px;color:var(--text-dim);}
+.cat-manage-item{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px 16px;display:flex;align-items:center;gap:12px;margin-bottom:8px;cursor:pointer;transition:border-color 0.2s;}
+.cat-manage-item:hover{border-color:var(--teal-dim);}
+.cat-manage-item.active{border-color:var(--teal);background:var(--teal-pale);}
+.cat-manage-name{flex:1;font-size:14px;font-weight:500;}
+.cat-manage-count{font-size:12px;color:var(--text-faint);}
+.cat-prod-item{background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:10px 14px;display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.cat-prod-thumb{width:40px;height:40px;object-fit:contain;border-radius:3px;background:var(--bg2);border:1px solid var(--border);padding:2px;flex-shrink:0;}
+.cat-prod-name{flex:1;font-size:13px;}
+.cat-prod-btns{display:flex;gap:4px;}
+.order-btn{background:var(--bg2);border:1px solid var(--border);border-radius:3px;width:28px;height:28px;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background 0.2s;}
+.order-btn:hover{background:var(--teal-pale);border-color:var(--teal);}
+.edit-cat-input{background:var(--bg);border:1px solid var(--border);border-radius:3px;padding:4px 8px;font-size:13px;font-family:inherit;outline:none;width:120px;}
+.edit-cat-input:focus{border-color:var(--teal);}
+.product-list-item{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:14px 16px;display:flex;align-items:center;gap:14px;transition:border-color 0.2s;}
+.product-list-item:hover{border-color:var(--teal-dim);}
+.prod-thumb{width:56px;height:56px;border-radius:4px;object-fit:contain;background:var(--bg);border:1px solid var(--border);padding:4px;flex-shrink:0;}
+.prod-thumb-ph{width:56px;height:56px;border-radius:4px;background:var(--bg);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-faint);font-size:18px;flex-shrink:0;}
+.prod-info{flex:1;min-width:0;}
+.prod-name{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.prod-cat-badge{font-size:11px;color:var(--teal);background:var(--teal-pale);padding:2px 8px;border-radius:10px;display:inline-block;margin-top:3px;}
+.prod-actions{display:flex;gap:6px;flex-shrink:0;}
+.gallery-list{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
+.gallery-thumb-item{position:relative;aspect-ratio:1;border-radius:6px;overflow:hidden;background:var(--bg);border:1px solid var(--border);}
+.gallery-thumb-item img{width:100%;height:100%;object-fit:cover;}
+.gallery-thumb-item .del-btn{position:absolute;top:6px;right:6px;background:rgba(231,76,60,0.85);border:none;color:#fff;width:24px;height:24px;border-radius:50%;font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.gallery-thumb-item .gal-label{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,0.55);color:#fff;font-size:11px;padding:4px 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#edit-overlay{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,0.45);align-items:center;justify-content:center;padding:20px;}
+#edit-overlay.on{display:flex;}
+.edit-box{background:#fff;border-radius:8px;max-width:640px;width:100%;max-height:90vh;overflow-y:auto;padding:32px;}
+.edit-title{font-size:16px;font-weight:700;margin-bottom:20px;}
+.img-preview{max-width:120px;max-height:80px;object-fit:contain;border-radius:4px;border:1px solid var(--border);display:none;margin-top:8px;}
+.import-box{background:#1c1c1c;border-radius:6px;padding:20px;margin-bottom:16px;}
+.import-box-title{font-size:13px;font-weight:500;color:#fff;margin-bottom:8px;}
+.import-box-sub{font-size:12px;color:rgba(255,255,255,0.4);line-height:1.6;margin-bottom:12px;}
+.code-block{background:#111;border-radius:4px;padding:14px;font-family:monospace;font-size:12px;color:#00b8a9;white-space:pre-wrap;word-break:break-all;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);}
+.import-textarea{width:100%;background:#111;border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:12px;font-size:12px;color:#f0f0f0;font-family:monospace;min-height:120px;resize:vertical;outline:none;}
+.import-textarea:focus{border-color:var(--teal);}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px;}
+.stat-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:18px 20px;}
+.stat-card-num{font-size:28px;font-weight:700;color:var(--teal);margin-bottom:4px;}
+.stat-card-label{font-size:12px;color:var(--text-dim);}
+#toast{position:fixed;bottom:28px;right:28px;background:#1c1c1c;color:#fff;padding:12px 20px;border-radius:6px;font-size:13px;z-index:9999;opacity:0;transform:translateY(8px);transition:all 0.3s;pointer-events:none;border-left:3px solid var(--teal);}
+#toast.show{opacity:1;transform:translateY(0);}
+</style>
+</head>
+<body>
+<div id="toast"></div>
+<div class="admin-wrap">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="sidebar-logo-text"><span>YEDO</span> ADMIN</div>
+      <div class="sidebar-logo-sub">예도전기조명 관리자</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-item active" data-page="dashboard"><span class="nav-item-icon">📊</span>대시보드</div>
+      <div class="sidebar-divider"></div>
+      <div class="nav-item" data-page="products"><span class="nav-item-icon">💡</span>제품 관리</div>
+      <div class="nav-item" data-page="categories"><span class="nav-item-icon">📂</span>카테고리 관리</div>
+      <div class="nav-item" data-page="gallery"><span class="nav-item-icon">🖼️</span>갤러리 관리</div>
+      <div class="sidebar-divider"></div>
+      <div class="nav-item" data-page="banner"><span class="nav-item-icon">📢</span>공지 배너</div>
+      <div class="nav-item" data-page="popup"><span class="nav-item-icon">🔔</span>팝업 배너</div>
+      <div class="sidebar-divider"></div>
+      
+      <div class="nav-item" data-page="catalogue"><span class="nav-item-icon">📋</span>카탈로그 설정</div>
+      <div class="nav-item" data-page="company"><span class="nav-item-icon">🏢</span>이미지 설정</div>
+      <div class="nav-item" data-page="import"><span class="nav-item-icon">⬇️</span>카페24 가져오기</div>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="index.html" target="_blank">🌐 사이트 미리보기</a>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- DASHBOARD -->
+    <div class="page active" id="page-dashboard">
+      <div class="page-title">대시보드</div>
+      <div class="page-sub">전체 현황을 확인하세요.</div>
+      <div class="stats-row">
+        <div class="stat-card"><div class="stat-card-num" id="stat-products">0</div><div class="stat-card-label">등록 제품 수</div></div>
+        <div class="stat-card"><div class="stat-card-num" id="stat-gallery">0</div><div class="stat-card-label">갤러리 이미지</div></div>
+        <div class="stat-card"><div class="stat-card-num" id="stat-cats">0</div><div class="stat-card-label">카테고리 수</div></div>
+        <div class="stat-card"><div class="stat-card-num" id="stat-banner">OFF</div><div class="stat-card-label">공지 배너 상태</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">🚀 빠른 시작</div>
+        <p style="font-size:14px;color:var(--text-dim);line-height:1.9;">
+          1. <strong>카페24 가져오기</strong>에서 기존 제품을 한 번에 불러오거나<br>
+          2. <strong>제품 관리</strong>에서 직접 제품을 추가하세요.<br>
+          3. <strong>카탈로그 설정</strong>에서 PDF 링크와 이미지를 등록하세요.<br>
+          4. <strong>회사 정보</strong>에서 연락처, 소개글을 수정하세요.
+        </p>
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="page" id="page-products">
+      <div class="page-title">제품 관리</div>
+      <div class="page-sub">제품을 추가, 수정, 삭제할 수 있습니다.</div>
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+          <input class="form-input" type="text" id="prod-filter" placeholder="🔍 제품명 검색..." style="max-width:280px;">
+          <button class="btn btn-primary" onclick="openAddProduct()">+ 제품 추가</button>
+        </div>
+        <div class="product-list" id="product-list"></div>
+        <div id="prod-empty" style="display:none;text-align:center;padding:40px;color:var(--text-faint);font-size:14px;">등록된 제품이 없습니다.</div>
+      </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="page" id="page-categories">
+      <div class="page-title">카테고리 관리</div>
+      <div class="page-sub">카테고리 순서 변경, 추가, 이름 수정, 삭제 및 카테고리 내 제품 순서를 관리합니다.</div>
+
+      <div class="card">
+        <div class="card-title">📂 카테고리 순서 / 추가</div>
+        <div style="display:flex;gap:8px;margin-bottom:16px;">
+          <input class="form-input" type="text" id="new-cat-input" placeholder="새 카테고리 이름" style="max-width:240px;">
+          <button class="btn btn-primary" onclick="addNewCat()">+ 추가</button>
+        </div>
+        <p style="font-size:12px;color:var(--text-dim);margin-bottom:12px;">↑↓ 버튼으로 카테고리 순서를 변경하세요.</p>
+        <div id="cat-manage-list"></div>
+        <div class="btn-group" style="margin-top:16px;">
+          <button class="btn btn-primary" onclick="saveCatOrder()">순서 저장</button>
+        </div>
+      </div>
+
+      <div class="card" id="cat-products-card" style="display:none;">
+        <div class="card-title" id="cat-products-title">카테고리 제품 순서</div>
+        <p style="font-size:12px;color:var(--text-dim);margin-bottom:16px;">↑↓ 버튼으로 순서를 변경하세요.</p>
+        <div id="cat-products-list"></div>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="page" id="page-gallery">
+      <div class="page-title">갤러리 관리</div>
+      <div class="page-sub">시공 사례 이미지를 관리합니다.</div>
+      <div class="card">
+        <div class="card-title">➕ 이미지 추가</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">이미지 URL</label>
+            <input class="form-input" type="text" id="gal-url" placeholder="https://...">
+          </div>
+          <div class="form-group">
+            <label class="form-label">제목 (선택)</label>
+            <input class="form-input" type="text" id="gal-title" placeholder="시공 사례 제목">
+          </div>
+        </div>
+        <div id="gal-preview-wrap" style="margin-bottom:12px;"></div>
+        <button class="btn btn-primary" onclick="addGallery()">추가</button>
+      </div>
+      <div class="card">
+        <div class="card-title">🖼️ 등록된 이미지 <span id="gal-count" style="font-size:12px;color:var(--text-faint);font-weight:300;"></span></div>
+        <div class="gallery-list" id="gallery-list"></div>
+        <div id="gal-empty" style="display:none;text-align:center;padding:30px;color:var(--text-faint);font-size:14px;">이미지가 없습니다.</div>
+      </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="page" id="page-banner">
+      <div class="page-title">공지 배너</div>
+      <div class="page-sub">사이트 상단에 표시되는 공지 띠 배너입니다.</div>
+      <div class="card">
+        <div class="toggle-wrap">
+          <label class="toggle"><input type="checkbox" id="banner-active"><span class="toggle-slider"></span></label>
+          <span class="toggle-label">배너 활성화</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">배너 문구</label>
+          <input class="form-input" type="text" id="banner-text" placeholder="예: 신제품 출시! 마그네틱 트랙 시스템 신규 라인업 추가">
+        </div>
+        <div class="form-group">
+          <label class="form-label">링크 URL (선택)</label>
+          <input class="form-input" type="text" id="banner-link" placeholder="https://...">
+        </div>
+        <button class="btn btn-primary" onclick="saveBanner()">저장</button>
+      </div>
+    </div>
+
+    <!-- POPUP -->
+    <div class="page" id="page-popup">
+      <div class="page-title">팝업 배너</div>
+      <div class="page-sub">사이트 접속 시 표시되는 팝업입니다. (당일 1회)</div>
+      <div class="card">
+        <div class="toggle-wrap">
+          <label class="toggle"><input type="checkbox" id="popup-active"><span class="toggle-slider"></span></label>
+          <span class="toggle-label">팝업 활성화</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">제목</label>
+          <input class="form-input" type="text" id="popup-title-input" placeholder="팝업 제목">
+        </div>
+        <div class="form-group">
+          <label class="form-label">내용</label>
+          <textarea class="form-textarea" id="popup-text-input" placeholder="팝업 내용을 입력하세요"></textarea>
+        </div>
+        <div class="form-group">
+          <label class="form-label">이미지 URL (선택)</label>
+          <input class="form-input" type="text" id="popup-image" placeholder="https://...">
+        </div>
+        <div class="form-group">
+          <label class="form-label">버튼 링크 (선택)</label>
+          <input class="form-input" type="text" id="popup-link" placeholder="https://...">
+        </div>
+        <button class="btn btn-primary" onclick="savePopup()">저장</button>
+      </div>
+    </div>
+
+    <!-- CATALOGUE -->
+    <!-- COMPANY / IMAGE SETTINGS -->
+    <div class="page" id="page-company">
+      <div class="page-title">이미지 설정</div>
+      <div class="page-sub">URL 입력 후 다운로드 버튼을 누르면 이미지가 적용된 index.html이 다운로드됩니다. 기존 파일에 덮어쓰세요.</div>
+      <div class="card">
+        <p style="font-size:12px;color:var(--text-dim);margin-bottom:16px;">💡 이미지 파일을 직접 업로드하거나 URL을 입력하세요. 파일 업로드 시 화질이 가장 선명해요!</p>
+
+        <!-- 슬라이드 1 -->
+        <div style="border:1px solid var(--border);border-radius:6px;padding:16px;margin-bottom:16px;">
+          <div style="font-size:14px;font-weight:500;margin-bottom:12px;color:var(--text);">슬라이드 1</div>
+          <div class="form-group">
+            <label class="form-label">이미지 파일 업로드</label>
+            <input type="file" accept="image/*" id="hero-file-1" onchange="handleSlideFile(1)" style="display:none;">
+            <button class="btn btn-secondary" onclick="document.getElementById('hero-file-1').click()">📁 파일 선택</button>
+            <span id="hero-file-name-1" style="font-size:12px;color:var(--text-dim);margin-left:8px;"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label">또는 이미지 URL</label>
+            <input class="form-input" type="text" id="hero-img-1" placeholder="https://..." oninput="previewHeroImg(1)">
+          </div>
+          <img id="hero-preview-1" style="max-width:100%;max-height:120px;object-fit:cover;border-radius:4px;border:1px solid var(--border);display:none;margin-top:8px;">
+          <div class="form-group" style="margin-top:8px;">
+            <label class="form-label">클릭 링크 URL</label>
+            <input class="form-input" type="text" id="hero-link-1" placeholder="https:// 또는 product.html?idx=0">
+          </div>
+        </div>
+
+        <!-- 슬라이드 2 -->
+        <div style="border:1px solid var(--border);border-radius:6px;padding:16px;margin-bottom:16px;">
+          <div style="font-size:14px;font-weight:500;margin-bottom:12px;color:var(--text);">슬라이드 2</div>
+          <div class="form-group">
+            <label class="form-label">이미지 파일 업로드</label>
+            <input type="file" accept="image/*" id="hero-file-2" onchange="handleSlideFile(2)" style="display:none;">
+            <button class="btn btn-secondary" onclick="document.getElementById('hero-file-2').click()">📁 파일 선택</button>
+            <span id="hero-file-name-2" style="font-size:12px;color:var(--text-dim);margin-left:8px;"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label">또는 이미지 URL</label>
+            <input class="form-input" type="text" id="hero-img-2" placeholder="https://..." oninput="previewHeroImg(2)">
+          </div>
+          <img id="hero-preview-2" style="max-width:100%;max-height:120px;object-fit:cover;border-radius:4px;border:1px solid var(--border);display:none;margin-top:8px;">
+          <div class="form-group" style="margin-top:8px;">
+            <label class="form-label">클릭 링크 URL</label>
+            <input class="form-input" type="text" id="hero-link-2" placeholder="https:// 또는 category.html?cat=T시리즈">
+          </div>
+        </div>
+
+        <!-- 슬라이드 3 -->
+        <div style="border:1px solid var(--border);border-radius:6px;padding:16px;margin-bottom:16px;">
+          <div style="font-size:14px;font-weight:500;margin-bottom:12px;color:var(--text);">슬라이드 3</div>
+          <div class="form-group">
+            <label class="form-label">이미지 파일 업로드</label>
+            <input type="file" accept="image/*" id="hero-file-3" onchange="handleSlideFile(3)" style="display:none;">
+            <button class="btn btn-secondary" onclick="document.getElementById('hero-file-3').click()">📁 파일 선택</button>
+            <span id="hero-file-name-3" style="font-size:12px;color:var(--text-dim);margin-left:8px;"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label">또는 이미지 URL</label>
+            <input class="form-input" type="text" id="hero-img-3" placeholder="https://..." oninput="previewHeroImg(3)">
+          </div>
+          <img id="hero-preview-3" style="max-width:100%;max-height:120px;object-fit:cover;border-radius:4px;border:1px solid var(--border);display:none;margin-top:8px;">
+          <div class="form-group" style="margin-top:8px;">
+            <label class="form-label">클릭 링크 URL</label>
+            <input class="form-input" type="text" id="hero-link-3" placeholder="https:// 또는 category.html?cat=마그네틱">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">회사 소개 이미지 URL (About Us 옆)</label>
+          <input class="form-input" type="text" id="about-image" placeholder="https://..." oninput="previewAboutImg()">
+          <img id="about-img-preview" style="max-width:240px;max-height:100px;object-fit:cover;border-radius:4px;border:1px solid var(--border);display:none;margin-top:8px;">
+        </div>
+        <div class="form-group">
+          <label class="form-label">카탈로그 표지 이미지 URL</label>
+          <input class="form-input" type="text" id="cat-image" placeholder="https://..." oninput="previewCatImg()">
+          <img id="cat-img-preview" style="max-width:200px;max-height:120px;object-fit:contain;border-radius:4px;border:1px solid var(--border);display:none;margin-top:8px;">
+        </div>
+        <div style="height:1px;background:var(--border);margin:20px 0;"></div>
+        <div class="card-title" style="margin-bottom:12px;">🖼️ 라이프스타일 이미지 (카탈로그 섹션 배경)</div>
+        <div class="form-group">
+          <label class="form-label">이미지 1 URL</label>
+          <input class="form-input" type="text" id="lifestyle-1" placeholder="https://...">
+        </div>
+        <div class="form-group">
+          <label class="form-label">이미지 1 제목</label>
+          <input class="form-input" type="text" id="lifestyle-label-1" placeholder="예: 예도 T-시리즈 상품">
+        </div>
+        <div class="form-group">
+          <label class="form-label">이미지 2 URL</label>
+          <input class="form-input" type="text" id="lifestyle-2" placeholder="https://...">
+        </div>
+        <div class="form-group">
+          <label class="form-label">이미지 2 제목</label>
+          <input class="form-input" type="text" id="lifestyle-label-2" placeholder="예: 예도 마그네틱 레일">
+        </div>
+        <div class="form-group">
+          <label class="form-label">이미지 3 URL</label>
+          <input class="form-input" type="text" id="lifestyle-3" placeholder="https://...">
+        </div>
+        <div class="form-group">
+          <label class="form-label">이미지 3 제목</label>
+          <input class="form-input" type="text" id="lifestyle-label-3" placeholder="예: 깔끔한 디자인 매입라인등">
+        </div>
+        <button class="btn btn-primary" onclick="generateCode()" style="margin-top:8px;font-size:14px;padding:12px 28px;">⬇️ index.html 다운로드 (이미지 적용)</button>
+      </div>
+    </div>
+
+    <div class="page" id="page-catalogue">
+      <div class="page-title">카탈로그 설정</div>
+      <div class="page-sub">카탈로그 날짜 텍스트와 PDF 다운로드 링크를 관리합니다. (이미지는 회사 정보에서 설정)</div>
+      <div class="card">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">날짜 / 버전 텍스트</label>
+            <input class="form-input" type="text" id="cat-date" placeholder="2026년 / VOL.26">
+          </div>
+          <div class="form-group">
+            <label class="form-label">다운로드 PDF URL</label>
+            <input class="form-input" type="text" id="cat-pdf" placeholder="https://drive.google.com/...">
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="saveCatalogue()">저장</button>
+      </div>
+    </div>
+
+    <!-- IMPORT -->
+    <div class="page" id="page-import">
+      <div class="page-title">카페24 제품 가져오기</div>
+      <div class="page-sub">기존 ydl.co.kr 제품을 한 번에 불러올 수 있습니다.</div>
+      <div class="card">
+        <div class="card-title">1️⃣ 카페24에서 제품 데이터 추출</div>
+        <p style="font-size:13px;color:var(--text-dim);line-height:1.8;margin-bottom:16px;">ydl.co.kr 접속 → F12 → Console에 아래 코드를 붙여넣고 실행하세요.</p>
+        <div class="import-box">
+          <div class="import-box-title">📋 콘솔에 붙여넣을 코드</div>
+          <div class="code-block" id="scraper-code"></div>
+          <button class="btn btn-secondary btn-sm" onclick="copyScript()" style="background:rgba(255,255,255,0.08);color:#fff;border-color:rgba(255,255,255,0.15);">코드 복사</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">2️⃣ 추출된 JSON 붙여넣기</div>
+        <textarea class="import-textarea" id="import-json" placeholder='[{"name":"제품명","image":"https://...","category":"레일등","description":"..."}]'></textarea>
+        <div class="btn-group">
+          <button class="btn btn-primary" onclick="importProducts()">가져오기 (기존에 추가)</button>
+          <button class="btn btn-secondary" onclick="importProductsReplace()">가져오기 (전체 교체)</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">3️⃣ 데이터 관리</div>
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="exportProducts()">📤 전체 내보내기 (JSON)</button>
+          <button class="btn btn-danger" onclick="clearAllProducts()">🗑️ 전체 제품 삭제</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- PRODUCT EDIT MODAL -->
+<div id="edit-overlay">
+  <div class="edit-box">
+    <div class="edit-title" id="edit-title">제품 추가</div>
+    <input type="hidden" id="edit-idx" value="-1">
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">제품명 *</label>
+        <input class="form-input" type="text" id="edit-name" placeholder="제품명">
+      </div>
+      <div class="form-group">
+        <label class="form-label">카테고리 *</label>
+        <input class="form-input" type="text" id="edit-category" placeholder="예: 레일등, 매입등, 마그네틱" list="cat-list">
+        <datalist id="cat-list"></datalist>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">서브카테고리 (선택)</label>
+      <input class="form-input" type="text" id="edit-subcategory" placeholder="예: 레일형, 직부형, 매입형" list="subcat-list">
+      <datalist id="subcat-list"></datalist>
+    </div>
+    <div class="form-group">
+      <label class="form-label">메인 이미지 URL</label>
+      <input class="form-input" type="text" id="edit-image" placeholder="https://file.cafe24cos.com/..." oninput="previewEditImg()">
+      <img class="img-preview" id="edit-img-preview">
+    </div>
+    <div class="form-group">
+      <label class="form-label">추가 이미지 URL (줄바꿈으로 여러 장 입력)</label>
+      <textarea class="form-textarea" id="edit-images" placeholder="https://이미지1.jpg&#10;https://이미지2.jpg&#10;https://이미지3.jpg" style="min-height:80px;"></textarea>
+    </div>
+    <div class="form-group">
+      <label class="form-label">상세 이미지 URL (Detail 탭에 표시, 줄바꿈으로 여러 장)</label>
+      <textarea class="form-textarea" id="edit-detail-images" placeholder="https://상세이미지1.jpg&#10;https://상세이미지2.jpg" style="min-height:80px;"></textarea>
+    </div>
+    <div class="form-group">
+      <label class="form-label">제품 설명</label>
+      <textarea class="form-textarea" id="edit-desc" placeholder="제품 설명을 입력하세요"></textarea>
+    </div>
+    <div class="form-group">
+      <label class="form-label">상세 스펙 (줄바꿈으로 구분, 예: 전압: 220V)</label>
+      <textarea class="form-textarea" id="edit-specs" placeholder="전압: 220V / 60Hz&#10;소비전력: 20W&#10;색온도: 3000K"></textarea>
+    </div>
+    <div class="form-group">
+      <label class="form-label">배지 (NEW / BEST / 추천)</label>
+      <input class="form-input" type="text" id="edit-badge" placeholder="NEW">
+    </div>
+    <div class="form-group">
+      <label class="form-label">관련 제품 선택 <span style="font-weight:300;font-size:12px;color:var(--text-faint);">(상세페이지 하단에 표시, 최대 6개)</span></label>
+      <input class="form-input" type="text" id="related-search" placeholder="제품명으로 검색..." oninput="filterRelatedList()" style="margin-bottom:8px;">
+      <div id="related-prod-list" style="max-height:220px;overflow-y:auto;border:1px solid var(--border);border-radius:4px;padding:8px;background:var(--bg2);"></div>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="saveProduct()">저장</button>
+      <button class="btn btn-secondary" onclick="closeEditModal()">취소</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const SK={products:'yedo_products',gallery:'yedo_gallery',banner:'yedo_banner',popup:'yedo_popup',company:'yedo_company'};
+const get=k=>{try{return JSON.parse(localStorage.getItem(k))||null;}catch{return null;}};
+const set=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+
+function toast(msg,ok=true){
+  const el=document.getElementById('toast');
+  el.textContent=msg; el.style.borderLeftColor=ok?'var(--teal)':'var(--danger)';
+  el.classList.add('show'); setTimeout(()=>el.classList.remove('show'),2600);
+}
+
+document.querySelectorAll('.nav-item[data-page]').forEach(item=>{
+  item.addEventListener('click',()=>{
+    document.querySelectorAll('.nav-item').forEach(i=>i.classList.remove('active'));
+    document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+    item.classList.add('active');
+    document.getElementById('page-'+item.dataset.page).classList.add('active');
+    refreshPage(item.dataset.page);
+  });
+});
+
+function refreshPage(p){
+  if(p==='dashboard') updateDashboard();
+  if(p==='products') renderProductList();
+  if(p==='categories') renderCatManage();
+  if(p==='gallery') renderGalleryList();
+  if(p==='banner') loadBannerForm();
+  if(p==='popup') loadPopupForm();
+  if(p==='company') loadCompanyForm();
+  if(p==='catalogue') loadCatalogueForm();
+}
+
+function updateDashboard(){
+  const prods=get(SK.products)||[];
+  const gals=get(SK.gallery)||[];
+  const banner=get(SK.banner);
+  const cats=new Set(prods.map(p=>p.category).filter(Boolean));
+  document.getElementById('stat-products').textContent=prods.length;
+  document.getElementById('stat-gallery').textContent=gals.length;
+  document.getElementById('stat-cats').textContent=cats.size;
+  document.getElementById('stat-banner').textContent=(banner&&banner.active)?'ON':'OFF';
+}
+
+function renderProductList(filter=''){
+  const prods=get(SK.products)||[];
+  const list=document.getElementById('product-list');
+  const empty=document.getElementById('prod-empty');
+  const f=filter.toLowerCase();
+  const filtered=f?prods.filter(p=>(p.name||'').toLowerCase().includes(f)||(p.category||'').toLowerCase().includes(f)):prods;
+  if(!filtered.length){list.innerHTML='';empty.style.display='';return;}
+  empty.style.display='none';
+  list.innerHTML=filtered.map(p=>{
+    const idx=prods.indexOf(p);
+    return `<div class="product-list-item">
+      ${p.image?`<img class="prod-thumb" src="${p.image}" alt="" onerror="this.style.display='none'">`:`<div class="prod-thumb-ph">💡</div>`}
+      <div class="prod-info"><div class="prod-name">${p.name}</div><span class="prod-cat-badge">${p.category||'미분류'}</span></div>
+      <div class="prod-actions">
+        <button class="btn btn-secondary btn-sm" onclick="openEditProduct(${idx})">수정</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteProduct(${idx})">삭제</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+document.getElementById('prod-filter').addEventListener('input',e=>renderProductList(e.target.value));
+
+function openAddProduct(){
+  document.getElementById('edit-title').textContent='제품 추가';
+  document.getElementById('edit-idx').value='-1';
+  ['name','category','subcategory','image','images','detail-images','desc','specs','badge'].forEach(f=>document.getElementById('edit-'+f).value='');
+  document.getElementById('edit-img-preview').style.display='none';
+  populateCatDatalist();
+  document.getElementById('edit-overlay').classList.add('on');
+}
+
+function openEditProduct(idx){
+  const prods=get(SK.products)||[];
+  const p=prods[idx]; if(!p) return;
+  document.getElementById('edit-title').textContent='제품 수정';
+  document.getElementById('edit-idx').value=idx;
+  document.getElementById('edit-name').value=p.name||'';
+  document.getElementById('edit-category').value=p.category||'';
+  document.getElementById('edit-subcategory').value=p.subcategory||'';
+  document.getElementById('edit-image').value=p.image||'';
+  document.getElementById('edit-images').value=(p.images||[]).join('\n');
+  document.getElementById('edit-detail-images').value=(p.detail_images||[]).join('\n');
+  document.getElementById('edit-desc').value=p.description||'';
+  document.getElementById('edit-specs').value=p.specs||'';
+  document.getElementById('edit-badge').value=p.badge||'';
+  previewEditImg();
+  populateCatDatalist();
+  renderRelatedProdList(idx, p.related_products||[]);
+  document.getElementById('edit-overlay').classList.add('on');
+}
+
+function filterRelatedList(){
+  const q=document.getElementById('related-search').value.toLowerCase();
+  document.querySelectorAll('#related-prod-list label').forEach(label=>{
+    const name=label.querySelector('span')?.textContent.toLowerCase()||'';
+    label.style.display=!q||name.includes(q)?'':'none';
+  });
+}
+
+function renderRelatedProdList(currentIdx, selected){
+  const prods=get(SK.products)||[];
+  const list=document.getElementById('related-prod-list');
+  if(!prods.length){list.innerHTML='<p style="font-size:12px;color:var(--text-faint);padding:8px;">등록된 제품이 없습니다.</p>';return;}
+  list.innerHTML=prods.map((p,i)=>{
+    if(i===parseInt(currentIdx)) return '';
+    const checked=selected.includes(i)?'checked':'';
+    return `<label style="display:flex;align-items:center;gap:8px;padding:6px 4px;cursor:pointer;border-bottom:1px solid var(--border);font-size:13px;">
+      <input type="checkbox" value="${i}" ${checked} style="width:15px;height:15px;accent-color:var(--teal);flex-shrink:0;">
+      ${p.image?`<img src="${p.image}" style="width:36px;height:36px;object-fit:contain;border-radius:3px;background:#fff;flex-shrink:0;">`:'<div style="width:36px;height:36px;background:var(--bg3);border-radius:3px;flex-shrink:0;"></div>'}
+      <span style="flex:1;color:var(--text);">${p.name}</span>
+      <span style="font-size:11px;color:var(--teal);">${p.category||''}</span>
+    </label>`;
+  }).join('');
+}
+
+function populateCatDatalist(){
+  const prods=get(SK.products)||[];
+  const cats=[...new Set(prods.map(p=>p.category).filter(Boolean))];
+  const subs=[...new Set(prods.map(p=>p.subcategory).filter(Boolean))];
+  document.getElementById('cat-list').innerHTML=cats.map(c=>`<option value="${c}">`).join('');
+  document.getElementById('subcat-list').innerHTML=subs.map(s=>`<option value="${s}">`).join('');
+}
+
+function previewEditImg(){
+  const url=document.getElementById('edit-image').value.trim();
+  const img=document.getElementById('edit-img-preview');
+  if(url){img.src=url;img.style.display='block';}else img.style.display='none';
+}
+
+function saveProduct(){
+  const name=document.getElementById('edit-name').value.trim();
+  if(!name){toast('제품명을 입력하세요.',false);return;}
+  const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
+  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),related_products:related};
+  const prods=get(SK.products)||[];
+  const idx=parseInt(document.getElementById('edit-idx').value);
+  if(idx>=0) prods[idx]=prod; else prods.push(prod);
+  set(SK.products,prods);
+  closeEditModal(); renderProductList(document.getElementById('prod-filter').value);
+  updateDashboard(); toast(idx>=0?'수정되었습니다.':'추가되었습니다.');
+}
+
+function deleteProduct(idx){
+  if(!confirm('이 제품을 삭제할까요?')) return;
+  const prods=get(SK.products)||[]; prods.splice(idx,1);
+  set(SK.products,prods); renderProductList(document.getElementById('prod-filter').value);
+  updateDashboard(); toast('삭제되었습니다.');
+}
+
+function closeEditModal(){document.getElementById('edit-overlay').classList.remove('on');}
+document.getElementById('edit-overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeEditModal();});
+
+// ── 카테고리 관리 ──
+let selectedCat='';
+let catOrder=[];
+
+function getCatOrder(){
+  const prods=get(SK.products)||[];
+  const saved=get('yedo_cat_order')||[];
+  const existing=[...new Set(prods.map(p=>p.category).filter(Boolean))];
+  // saved 전부 유지(빈 카테고리 포함) + 새 제품 카테고리 추가
+  const ordered=[...saved, ...existing.filter(c=>!saved.includes(c))];
+  return ordered;
+}
+
+function addNewCat(){
+  const name=document.getElementById('new-cat-input').value.trim();
+  if(!name){toast('카테고리 이름을 입력하세요.',false);return;}
+  // localStorage에서 직접 읽어서 빈 카테고리 유지
+  const saved=get('yedo_cat_order')||[];
+  if(!catOrder.length) catOrder=[...saved];
+  if(catOrder.includes(name)){toast('이미 존재하는 카테고리예요.',false);return;}
+  catOrder.push(name);
+  set('yedo_cat_order',catOrder);
+  document.getElementById('new-cat-input').value='';
+  toast('카테고리가 추가됐어요!');
+  renderCatManage();
+}
+
+function saveCatOrder(){
+  set('yedo_cat_order',catOrder);
+  toast('카테고리 순서가 저장됐어요!');
+}
+
+function getSubCats(cat){
+  const prods=get(SK.products)||[];
+  const fromProds=[...new Set(prods.filter(p=>p.category===cat&&p.subcategory).map(p=>p.subcategory))];
+  const fromSaved=get('yedo_subcats_'+cat)||[];
+  return [...new Set([...fromSaved,...fromProds])];
+}
+
+function renderCatManage(){
+  catOrder=getCatOrder();
+  const prods=get(SK.products)||[];
+  const list=document.getElementById('cat-manage-list');
+  if(!catOrder.length){list.innerHTML='<p style="color:var(--text-faint);font-size:13px;">등록된 카테고리가 없습니다.</p>';return;}
+  list.innerHTML=catOrder.map((c,i)=>{
+    const cnt=prods.filter(p=>p.category===c).length;
+    const subs=getSubCats(c);
+    const subTags=subs.map(s=>`
+      <span style="display:inline-flex;align-items:center;gap:3px;background:var(--teal-pale);border:1px solid var(--teal-dim);border-radius:12px;padding:3px 10px;font-size:11px;color:var(--teal);">
+        ${s}
+        <button onclick="renameSubCat('${c}','${s}')" style="background:none;border:none;cursor:pointer;font-size:11px;color:var(--text-faint);padding:0 2px;" title="이름수정">✏️</button>
+        <button onclick="deleteSubCat('${c}','${s}')" style="background:none;border:none;cursor:pointer;font-size:11px;color:#e74c3c;padding:0;" title="삭제">✕</button>
+      </span>`).join('');
+    return `<div style="background:#fff;border:1px solid var(--border);border-radius:6px;padding:14px 16px;margin-bottom:8px;">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:${subs.length?'12':'0'}px;">
+        <span style="font-size:15px;font-weight:500;color:var(--text);">${c}</span>
+        <span style="font-size:12px;color:var(--text-faint);">${cnt}개</span>
+        <div style="display:flex;gap:4px;margin-left:auto;">
+          ${i>0?`<button class="order-btn" onclick="moveCat(${i},'up')">↑</button>`:'<button class="order-btn" disabled style="opacity:0.3;">↑</button>'}
+          ${i<catOrder.length-1?`<button class="order-btn" onclick="moveCat(${i},'down')">↓</button>`:'<button class="order-btn" disabled style="opacity:0.3;">↓</button>'}
+          <button class="btn btn-secondary btn-sm" onclick="editCatName(${i},'${c}')">이름수정</button>
+          <button class="btn btn-danger btn-sm" onclick="deleteCat('${c}')">삭제</button>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:6px;">
+        <span style="font-size:11px;color:var(--text-faint);">서브:</span>
+        ${subTags||'<span style="font-size:11px;color:var(--text-faint);">없음</span>'}
+        <button onclick="addSubCatInline('${c}')" style="display:inline-flex;align-items:center;gap:2px;background:none;border:1px dashed var(--border-mid);border-radius:12px;padding:3px 10px;font-size:11px;color:var(--text-faint);cursor:pointer;transition:all 0.15s;" onmouseover="this.style.borderColor='var(--teal)';this.style.color='var(--teal)'" onmouseout="this.style.borderColor='var(--border-mid)';this.style.color='var(--text-faint)'">+ 추가</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function addSubCatInline(cat){
+  const name=prompt('"'+cat+'" 카테고리에 추가할 서브카테고리 이름:');
+  if(!name||!name.trim()) return;
+  const n=name.trim();
+  const saved=get('yedo_subcats_'+cat)||[];
+  if(saved.includes(n)){toast('이미 있는 서브카테고리예요.',false);return;}
+  saved.push(n);
+  set('yedo_subcats_'+cat,saved);
+  toast('"'+n+'" 서브카테고리가 추가됐어요!');
+  renderCatManage();
+}
+
+function renameSubCat(cat,oldName){
+  const newName=prompt('"'+oldName+'" 이름 변경:',oldName);
+  if(!newName||newName.trim()===oldName) return;
+  const n=newName.trim();
+  const prods=get(SK.products)||[];
+  prods.forEach(p=>{if(p.category===cat&&p.subcategory===oldName)p.subcategory=n;});
+  set(SK.products,prods);
+  const saved=(get('yedo_subcats_'+cat)||[]).map(s=>s===oldName?n:s);
+  set('yedo_subcats_'+cat,saved);
+  toast('이름이 변경됐어요!');
+  renderCatManage();
+}
+
+function deleteSubCat(cat,name){
+  if(!confirm('"'+name+'" 서브카테고리를 삭제할까요?\n해당 서브카테고리 제품들은 미분류로 변경됩니다.')) return;
+  const prods=get(SK.products)||[];
+  prods.forEach(p=>{if(p.category===cat&&p.subcategory===name)p.subcategory='';});
+  set(SK.products,prods);
+  set('yedo_subcats_'+cat,(get('yedo_subcats_'+cat)||[]).filter(s=>s!==name));
+  toast('서브카테고리가 삭제됐어요!');
+  renderCatManage();
+}
+
+function moveCat(idx,dir){
+  const swap=dir==='up'?idx-1:idx+1;
+  if(swap<0||swap>=catOrder.length)return;
+  [catOrder[idx],catOrder[swap]]=[catOrder[swap],catOrder[idx]];
+  set('yedo_cat_order',catOrder);
+  renderCatManage();
+}
+
+function editCatName(i,oldCat){
+  const newCat=prompt('새 카테고리 이름을 입력하세요:',oldCat);
+  if(!newCat||newCat.trim()===oldCat){return;}
+  const nc=newCat.trim();
+  const prods=get(SK.products)||[];
+  prods.forEach(p=>{if(p.category===oldCat)p.category=nc;});
+  set(SK.products,prods);
+  catOrder[i]=nc;
+  set('yedo_cat_order',catOrder);
+  if(selectedCat===oldCat)selectedCat=nc;
+  toast('카테고리 이름이 변경됐어요.');
+  renderCatManage();
+}
+
+function selectCat(cat){
+  selectedCat=cat;
+  const card=document.getElementById('cat-products-card');
+  if(card) card.style.display='block';
+  const title=document.getElementById('cat-products-title');
+  if(title) title.textContent='"'+cat+'" 카테고리 제품 순서';
+  renderCatProducts(cat);
+}
+
+function deleteCat(cat){
+  if(!confirm(`"${cat}" 카테고리를 삭제할까요?\n해당 카테고리 제품들은 미분류로 변경됩니다.`))return;
+  const prods=get(SK.products)||[];
+  prods.forEach(p=>{if(p.category===cat)p.category='';});
+  set(SK.products,prods);
+  catOrder=catOrder.filter(c=>c!==cat);
+  set('yedo_cat_order',catOrder);
+  if(selectedCat===cat){selectedCat='';document.getElementById('cat-products-card').style.display='none';}
+  toast('카테고리가 삭제됐어요.');
+  renderCatManage();
+}
+
+function renderCatProducts(cat){
+  const prods=get(SK.products)||[];
+  const items=prods.map((p,i)=>({...p,_idx:i})).filter(p=>p.category===cat);
+  const list=document.getElementById('cat-products-list');
+  if(!items.length){list.innerHTML='<p style="color:var(--text-faint);font-size:13px;padding:12px 0;">이 카테고리에 제품이 없습니다.</p>';return;}
+  list.innerHTML=items.map((p,i)=>`
+    <div class="cat-prod-item">
+      ${p.image?`<img class="cat-prod-thumb" src="${p.image}" onerror="this.style.display='none'">`:'<div class="cat-prod-thumb"></div>'}
+      <span class="cat-prod-name">${p.name}</span>
+      <span style="font-size:11px;color:var(--teal);margin-right:8px;">${p.subcategory||''}</span>
+      <div class="cat-prod-btns">
+        ${i>0?`<button class="order-btn" onclick="moveCatProd(${p._idx},'up','${cat}')">↑</button>`:'<button class="order-btn" disabled style="opacity:0.3;">↑</button>'}
+        ${i<items.length-1?`<button class="order-btn" onclick="moveCatProd(${p._idx},'down','${cat}')">↓</button>`:'<button class="order-btn" disabled style="opacity:0.3;">↓</button>'}
+        <button class="btn btn-secondary btn-sm" onclick="openEditProduct(${p._idx})">수정</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteProduct(${p._idx})">삭제</button>
+      </div>
+    </div>`).join('');
+}
+
+function moveCatProd(idx,dir,cat){
+  const prods=get(SK.products)||[];
+  const catProds=prods.map((p,i)=>({...p,_i:i})).filter(p=>p.category===cat);
+  const pos=catProds.findIndex(p=>p._i===idx);
+  const swapPos=dir==='up'?pos-1:pos+1;
+  if(swapPos<0||swapPos>=catProds.length)return;
+  const a=catProds[pos]._i, b=catProds[swapPos]._i;
+  [prods[a],prods[b]]=[prods[b],prods[a]];
+  set(SK.products,prods);
+  renderCatProducts(cat);
+}
+
+function saveCatProductOrder(){toast('순서가 저장됐어요!');}
+
+document.getElementById('gal-url').addEventListener('input',e=>{
+  const url=e.target.value.trim();
+  document.getElementById('gal-preview-wrap').innerHTML=url?`<img src="${url}" style="max-height:80px;border-radius:4px;border:1px solid var(--border);object-fit:contain;padding:4px;" onerror="this.style.display='none'">` :'';
+});
+
+function addGallery(){
+  const url=document.getElementById('gal-url').value.trim();
+  if(!url){toast('이미지 URL을 입력하세요.',false);return;}
+  const items=get(SK.gallery)||[];
+  items.push({image:url,title:document.getElementById('gal-title').value.trim()});
+  set(SK.gallery,items);
+  document.getElementById('gal-url').value=''; document.getElementById('gal-title').value='';
+  document.getElementById('gal-preview-wrap').innerHTML='';
+  renderGalleryList(); updateDashboard(); toast('이미지가 추가되었습니다.');
+}
+
+function renderGalleryList(){
+  const items=get(SK.gallery)||[];
+  const grid=document.getElementById('gallery-list');
+  const empty=document.getElementById('gal-empty');
+  const cnt=document.getElementById('gal-count');
+  cnt.textContent=items.length?`(${items.length}개)`:'';
+  if(!items.length){grid.innerHTML='';empty.style.display='';return;}
+  empty.style.display='none';
+  grid.innerHTML=items.map((item,i)=>`
+    <div class="gallery-thumb-item">
+      <img src="${item.image}" alt="" onerror="this.style.background='var(--bg)'">
+      <button class="del-btn" onclick="deleteGallery(${i})">✕</button>
+      ${item.title?`<div class="gal-label">${item.title}</div>`:''}
+    </div>`).join('');
+}
+
+function deleteGallery(idx){
+  const items=get(SK.gallery)||[]; items.splice(idx,1);
+  set(SK.gallery,items); renderGalleryList(); updateDashboard(); toast('삭제되었습니다.');
+}
+
+function loadBannerForm(){
+  const b=get(SK.banner)||{};
+  document.getElementById('banner-active').checked=!!b.active;
+  document.getElementById('banner-text').value=b.text||'';
+  document.getElementById('banner-link').value=b.link||'';
+}
+function saveBanner(){
+  set(SK.banner,{active:document.getElementById('banner-active').checked,text:document.getElementById('banner-text').value.trim(),link:document.getElementById('banner-link').value.trim()});
+  toast('배너가 저장되었습니다.'); updateDashboard();
+}
+
+function loadPopupForm(){
+  const p=get(SK.popup)||{};
+  document.getElementById('popup-active').checked=!!p.active;
+  document.getElementById('popup-title-input').value=p.title||'';
+  document.getElementById('popup-text-input').value=p.text||'';
+  document.getElementById('popup-image').value=p.image||'';
+  document.getElementById('popup-link').value=p.link||'';
+}
+function savePopup(){
+  set(SK.popup,{active:document.getElementById('popup-active').checked,title:document.getElementById('popup-title-input').value.trim(),text:document.getElementById('popup-text-input').value.trim(),image:document.getElementById('popup-image').value.trim(),link:document.getElementById('popup-link').value.trim()});
+  toast('팝업이 저장되었습니다.');
+}
+
+function generateCode(){
+  const s1=document.getElementById('hero-img-1').value.trim();
+  const s2=document.getElementById('hero-img-2').value.trim();
+  const s3=document.getElementById('hero-img-3').value.trim();
+  const l1=document.getElementById('hero-link-1')?document.getElementById('hero-link-1').value.trim():'';
+  const l2=document.getElementById('hero-link-2')?document.getElementById('hero-link-2').value.trim():'';
+  const l3=document.getElementById('hero-link-3')?document.getElementById('hero-link-3').value.trim():'';
+  const ab=document.getElementById('about-image').value.trim();
+  const cat=document.getElementById('cat-image').value.trim();
+  const ls1=document.getElementById('lifestyle-1')?document.getElementById('lifestyle-1').value.trim():'';
+  const ls2=document.getElementById('lifestyle-2')?document.getElementById('lifestyle-2').value.trim():'';
+  const ls3=document.getElementById('lifestyle-3')?document.getElementById('lifestyle-3').value.trim():'';
+
+  // index.html 파일 fetch 후 CONFIG 교체해서 다운로드
+  fetch('index.html')
+    .then(r=>r.text())
+    .then(html=>{
+      const newConfig=`const CONFIG = {\n  slide1_image: '${s1}',\n  slide1_link: '${l1}',\n  slide2_image: '${s2}',\n  slide2_link: '${l2}',\n  slide3_image: '${s3}',\n  slide3_link: '${l3}',\n  about_image: '${ab}',\n  catalogue_image: '${cat}',\n  lifestyle_1: '${ls1}',\n  lifestyle_2: '${ls2}',\n  lifestyle_3: '${ls3}',\n};`;
+      // CONFIG 블록 교체
+      const updated=html.replace(/\/\* =+\s*✏️.*?=+ \*\/[\s\S]*?\/\* =+ \*\//,
+        `/* ========================================\n   ✏️  이미지 직접 수정 구역\n   URL을 바꾸면 바로 반영됩니다\n======================================== */\n${newConfig}\n/* ======================================== */`);
+      const blob=new Blob([updated],{type:'text/html'});
+      const a=document.createElement('a');
+      a.href=URL.createObjectURL(blob);
+      a.download='index.html';
+      a.click();
+      toast('index.html 다운로드 완료! 기존 파일에 덮어쓰세요.');
+    })
+    .catch(()=>toast('index.html을 같은 폴더에 넣어주세요.',false));
+}
+function copyCode(){
+  const code=document.getElementById('code-output')?document.getElementById('code-output').textContent:'';
+  navigator.clipboard.writeText(code).then(()=>toast('복사됐어요!')).catch(()=>toast('직접 선택해서 복사해주세요.',false));
+}
+function loadCompanyForm(){
+  const c=get(SK.company)||{};
+  document.getElementById('company-about').value=c.about||'';
+  document.getElementById('company-phone').value=c.phone||'';
+  document.getElementById('company-email').value=c.email||'';
+  document.getElementById('company-address').value=c.address||'';
+  [1,2,3].forEach(i=>{
+    const val=c['hero_img_'+i]||'';
+    document.getElementById('hero-img-'+i).value=val;
+    const prev=document.getElementById('hero-preview-'+i);
+    if(val){prev.src=val;prev.style.display='block';}else prev.style.display='none';
+  });
+  const ai=document.getElementById('about-image');
+  const ap=document.getElementById('about-img-preview');
+  ai.value=c.about_image||'';
+  if(c.about_image){ap.src=c.about_image;ap.style.display='block';}else ap.style.display='none';
+  const ci=document.getElementById('cat-image');
+  const cp=document.getElementById('cat-img-preview');
+  if(ci){ci.value=c.cat_image||'';}
+  if(cp&&c.cat_image){cp.src=c.cat_image;cp.style.display='block';}
+}
+// 슬라이드 파일 업로드 → base64 변환
+function handleSlideFile(i){
+  const file=document.getElementById('hero-file-'+i).files[0];
+  if(!file) return;
+  if(file.size>5*1024*1024){toast('파일이 너무 커요! 5MB 이하로 올려주세요.',false);return;}
+  document.getElementById('hero-file-name-'+i).textContent=file.name;
+  const reader=new FileReader();
+  reader.onload=e=>{
+    const base64=e.target.result;
+    document.getElementById('hero-img-'+i).value=base64;
+    const prev=document.getElementById('hero-preview-'+i);
+    prev.src=base64; prev.style.display='block';
+    toast('이미지 로드 완료! 아래 다운로드 버튼으로 index.html 저장하세요.');
+  };
+  reader.readAsDataURL(file);
+}
+function previewHeroImg(i){
+  const url=document.getElementById('hero-img-'+i).value.trim();
+  const img=document.getElementById('hero-preview-'+i);
+  if(url){img.src=url;img.style.display='block';}else img.style.display='none';
+}
+function saveHeroImages(){
+  const c=get(SK.company)||{};
+  [1,2,3].forEach(i=>c['hero_img_'+i]=document.getElementById('hero-img-'+i).value.trim());
+  set(SK.company,c); toast('배너 이미지가 저장되었습니다.');
+}
+function previewAboutImg(){
+  const url=document.getElementById('about-image').value.trim();
+  const img=document.getElementById('about-img-preview');
+  if(url){img.src=url;img.style.display='block';}else img.style.display='none';
+}
+function saveAboutImage(){
+  const c=get(SK.company)||{};
+  c.about_image=document.getElementById('about-image').value.trim();
+  set(SK.company,c); toast('회사 소개 이미지가 저장되었습니다.');
+}
+function saveCompany(){
+  const c=get(SK.company)||{};
+  set(SK.company,{...c,about:document.getElementById('company-about').value.trim(),phone:document.getElementById('company-phone').value.trim(),email:document.getElementById('company-email').value.trim(),address:document.getElementById('company-address').value.trim()});
+  toast('회사 정보가 저장되었습니다.');
+}
+
+function loadCatalogueForm(){
+  const c=get(SK.company)||{};
+  document.getElementById('cat-image').value=c.cat_image||'';
+  document.getElementById('cat-date').value=c.cat_date||'';
+  document.getElementById('cat-pdf').value=c.cat_pdf||'';
+  if(c.cat_image){const img=document.getElementById('cat-img-preview');img.src=c.cat_image;img.style.display='block';}
+}
+function previewCatImg(){
+  const url=document.getElementById('cat-image').value.trim();
+  const img=document.getElementById('cat-img-preview');
+  if(url){img.src=url;img.style.display='block';}else img.style.display='none';
+}
+function saveCatalogue(){
+  const c=get(SK.company)||{};
+  set(SK.company,{...c,cat_image:document.getElementById('cat-image').value.trim(),cat_date:document.getElementById('cat-date').value.trim(),cat_pdf:document.getElementById('cat-pdf').value.trim()});
+  toast('카탈로그 설정이 저장되었습니다.');
+}
+
+const scraperCode=`(async function(){
+  const results=[];
+  const items=document.querySelectorAll('.prdList li, .xans-product-listnormal li');
+  for(const item of items){
+    const nameEl=item.querySelector('.name a, .prdName a, strong.name');
+    const imgEl=item.querySelector('img.thumb, .prdImg img, .thumbnail img, img');
+    const catEl=item.querySelector('.category, .cate');
+    if(!nameEl) continue;
+    let image=imgEl?(imgEl.dataset.src||imgEl.src||''):'';
+    if(image.startsWith('//')) image='https:'+image;
+    results.push({name:nameEl.textContent.trim(),image,category:catEl?catEl.textContent.trim():'',description:'',specs:''});
+  }
+  console.log(JSON.stringify(results,null,2));
+  console.log('총 '+results.length+'개 추출 완료');
+  return results;
+})();`;
+
+document.getElementById('scraper-code').textContent=scraperCode;
+
+function copyScript(){
+  navigator.clipboard.writeText(scraperCode).then(()=>toast('코드가 복사되었습니다.')).catch(()=>toast('복사 실패.',false));
+}
+
+function importProducts(){
+  const raw=document.getElementById('import-json').value.trim();
+  if(!raw){toast('JSON을 붙여넣어 주세요.',false);return;}
+  try{
+    const data=JSON.parse(raw);
+    if(!Array.isArray(data)){toast('올바른 JSON 배열이 아닙니다.',false);return;}
+    const existing=get(SK.products)||[];
+    set(SK.products,[...existing,...data]);
+    document.getElementById('import-json').value='';
+    updateDashboard(); toast(`${data.length}개 제품이 추가되었습니다.`);
+  }catch(e){toast('JSON 오류: '+e.message,false);}
+}
+
+function importProductsReplace(){
+  if(!confirm('기존 제품을 모두 삭제하고 새로 가져올까요?')) return;
+  const raw=document.getElementById('import-json').value.trim();
+  if(!raw){toast('JSON을 붙여넣어 주세요.',false);return;}
+  try{
+    const data=JSON.parse(raw);
+    if(!Array.isArray(data)){toast('올바른 JSON 배열이 아닙니다.',false);return;}
+    set(SK.products,data);
+    document.getElementById('import-json').value='';
+    updateDashboard(); toast(`${data.length}개 제품으로 교체되었습니다.`);
+  }catch(e){toast('JSON 오류: '+e.message,false);}
+}
+
+function exportProducts(){
+  const prods=get(SK.products)||[];
+  const blob=new Blob([JSON.stringify(prods,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='yedo_products.json'; a.click(); toast('내보내기 완료.');
+}
+
+function clearAllProducts(){
+  if(!confirm('전체 제품을 삭제할까요? 되돌릴 수 없습니다.')) return;
+  localStorage.removeItem(SK.products); updateDashboard(); toast('전체 제품이 삭제되었습니다.');
+}
+
+updateDashboard();
+</script>
+</body>
+</html>

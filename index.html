@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>예도전기조명 · YEDO LIGHTING</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Bebas+Neue&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --teal:#00b8a9;--teal-dark:#009e90;--teal-pale:rgba(0,184,169,0.07);--teal-dim:rgba(0,184,169,0.2);
+  --bg:#fff;--bg2:#f7f8f8;--bg3:#eef0f0;
+  --text:#1a1a1a;--text-dim:#555;--text-faint:#aaa;
+  --border:#e8e8e8;--border-mid:#ccc;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-weight:300;line-height:1.6;overflow-x:hidden;}
+
+/* ── TOP NOTICE BAR ── */
+.notice-bar{background:#1a1a1a;color:rgba(255,255,255,0.75);text-align:center;font-size:12px;padding:8px 20px;letter-spacing:0.04em;display:none;}
+.notice-bar a{color:#fff;text-decoration:none;margin-left:8px;}
+.notice-bar a:hover{text-decoration:underline;}
+
+/* ── NAV ── */
+nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid var(--border);}
+.nav-top{display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:88px;gap:20px;}
+.nav-logo{font-family:'Barlow Condensed',sans-serif;font-size:48px;font-weight:700;letter-spacing:0.06em;color:var(--text);text-decoration:none;flex-shrink:0;line-height:1;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
+.nav-logo span{color:var(--teal);}
+.nav-logo small{display:block;font-family:'Noto Sans KR',sans-serif;font-size:11px;font-weight:300;letter-spacing:0.18em;color:var(--text-faint);margin-top:1px;transform:scaleY(1.176);transform-origin:left center;}
+.nav-center{position:relative;max-width:280px;min-width:180px;}
+.nav-search{width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:22px;padding:8px 16px 8px 38px;font-size:15px;color:var(--text);font-family:inherit;outline:none;transition:border-color 0.2s,box-shadow 0.2s;}
+.nav-search:focus{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-pale);}
+.nav-search::placeholder{color:var(--text-faint);}
+.nav-search-ico{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-faint);font-size:14px;pointer-events:none;}
+.nav-right{display:flex;align-items:center;gap:24px;flex:1;justify-content:flex-end;}
+.nav-links{display:flex;gap:28px;}
+.nav-links a{font-size:15px;color:var(--text-dim);text-decoration:none;transition:color 0.2s;white-space:nowrap;letter-spacing:0.02em;}
+.nav-links a:hover{color:var(--teal);}
+.nav-contact{font-size:14px;font-weight:500;color:#fff;background:var(--teal);padding:8px 20px;border-radius:3px;text-decoration:none;white-space:nowrap;transition:background 0.2s;letter-spacing:0.04em;}
+.nav-contact:hover{background:var(--teal-dark);}
+
+/* ── CATEGORY BAR ── */
+.cat-bar{border-top:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;}
+.cat-bar::-webkit-scrollbar{display:none;}
+.cat-item{position:relative;display:inline-block;}
+.cat-dropdown{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:6px;box-shadow:0 4px 20px rgba(0,0,0,0.12);padding:6px 0;min-width:140px;z-index:9999;}
+.cat-item:hover .cat-dropdown{display:block;}
+.cat-dropdown-item{display:block;width:100%;padding:9px 20px;font-size:13px;color:var(--text-dim);background:none;border:none;cursor:pointer;font-family:inherit;text-align:left;transition:color 0.15s,background 0.15s;white-space:nowrap;}
+.cat-dropdown-item:hover{color:var(--teal);background:var(--teal-pale);}
+.cat-bar-inner{display:inline-flex;}
+.cat-btn{font-size:15px;color:var(--text-dim);background:none;border:none;padding:11px 18px;cursor:pointer;font-family:inherit;font-weight:400;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
+.cat-btn:hover{color:var(--teal);}
+.cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
+
+/* ── POPUP ── */
+#popup-overlay{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.55);align-items:center;justify-content:center;}
+#popup-overlay.on{display:flex;}
+.popup-box{background:#fff;border-radius:8px;max-width:480px;width:92%;position:relative;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,0.2);}
+.popup-img-wrap img{width:100%;max-height:240px;object-fit:cover;display:block;}
+.popup-body{padding:28px 28px 22px;}
+.popup-title{font-size:17px;font-weight:700;margin-bottom:8px;}
+.popup-text{font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:20px;}
+.popup-foot{display:flex;justify-content:space-between;align-items:center;}
+.popup-dismiss{font-size:12px;color:var(--text-faint);background:none;border:none;cursor:pointer;font-family:inherit;}
+.popup-cta-btn{font-size:13px;font-weight:500;color:#fff;background:var(--teal);border:none;padding:9px 22px;border-radius:3px;cursor:pointer;font-family:inherit;}
+.popup-x{position:absolute;top:10px;right:10px;width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,0.35);border:none;color:#fff;font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+
+/* ── HERO SLIDER ── */
+.hero-slider{position:relative;overflow:hidden;background:#111;height:760px;}
+.hero-slides{display:flex;transition:transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94);}
+.hero-slide{min-width:100%;height:760px;position:relative;display:flex;align-items:center;overflow:hidden;cursor:pointer;}
+.hero-slide-bg{position:absolute;inset:0;z-index:0;overflow:hidden;}.hero-slide-bg img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;}
+.hero-slide-pattern{position:absolute;inset:0;z-index:1;background-image:linear-gradient(rgba(0,184,169,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,184,169,0.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 20%,transparent 80%);}
+
+.hero-visual-right{position:absolute;right:80px;top:50%;transform:translateY(-50%);z-index:2;opacity:0.85;}
+
+.hero-slide-content{position:relative;z-index:2;padding:0 80px;max-width:680px;}
+.hero-slide-tag{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:0.16em;color:var(--teal);text-transform:uppercase;margin-bottom:20px;background:rgba(0,184,169,0.1);border:1px solid rgba(0,184,169,0.25);padding:5px 14px;border-radius:20px;}
+.hero-slide-tag::before{content:'';width:5px;height:5px;background:var(--teal);border-radius:50%;animation:blink 2s ease-in-out infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0.2;}}
+.hero-slide-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,6vw,80px);line-height:1;letter-spacing:0.04em;color:#fff;margin-bottom:16px;}
+.hero-slide-title span{color:var(--teal);}
+.hero-slide-sub{font-size:17px;color:rgba(255,255,255,0.55);line-height:1.8;margin-bottom:32px;max-width:440px;}
+.hero-slide-btn{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:#fff;background:var(--teal);padding:13px 28px;border-radius:3px;text-decoration:none;transition:background 0.2s;border:none;cursor:pointer;font-family:inherit;}
+.hero-slide-btn:hover{background:var(--teal-dark);}
+.hero-slide-btn-ghost{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:rgba(255,255,255,0.6);padding:13px 28px;border-radius:3px;text-decoration:none;border:1px solid rgba(255,255,255,0.2);margin-left:10px;transition:all 0.2s;}
+.hero-slide-btn-ghost:hover{color:#fff;border-color:rgba(255,255,255,0.5);}
+
+.hero-prev,.hero-next{position:absolute;top:50%;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background 0.2s;backdrop-filter:blur(4px);}
+.hero-prev{left:24px;}
+.hero-next{right:24px;}
+.hero-prev:hover,.hero-next:hover{background:rgba(0,184,169,0.3);}
+.hero-dots{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:10;}
+.hero-dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,0.3);cursor:pointer;transition:all 0.2s;}
+.hero-dot.active{background:var(--teal);width:20px;border-radius:4px;}
+
+/* ── STATS ── */
+.stats-bar{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border);}
+.stat-item{padding:28px 32px;border-right:1px solid var(--border);text-align:center;transition:background 0.2s;}
+.stat-item:last-child{border-right:none;}
+.stat-item:hover{background:var(--teal-pale);}
+.stat-num{font-family:'Bebas Neue',sans-serif;font-size:38px;letter-spacing:0.04em;color:var(--teal);margin-bottom:4px;height:46px;display:flex;align-items:center;justify-content:center;}
+.stat-label{font-size:14px;color:var(--text-dim);letter-spacing:0.03em;}
+
+/* ── NEW PRODUCTS SCROLL ── */
+.new-section{padding:60px 0 40px;}
+.sec-header-pad{padding:0 48px;display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px;}
+.eyebrow{font-size:11px;letter-spacing:0.16em;color:var(--teal);text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:8px;}
+.eyebrow::before{content:'';width:18px;height:1.5px;background:var(--teal);}
+.sec-title{font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:0.04em;color:var(--text);}
+.see-all{font-size:15px;color:var(--teal);text-decoration:none;display:flex;align-items:center;gap:4px;transition:gap 0.2s;}
+.see-all:hover{gap:8px;}
+.new-scroll-wrap{position:relative;}
+.new-scroll{display:flex;gap:24px;overflow-x:auto;padding:0 48px 20px;scrollbar-width:none;scroll-snap-type:x mandatory;}
+.new-scroll::-webkit-scrollbar{display:none;}
+.new-card{min-width:0;width:calc((100vw - 96px - 64px) / 5);background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;transition:box-shadow 0.25s,border-color 0.25s,transform 0.2s;scroll-snap-align:start;flex-shrink:0;}
+.new-card:hover{box-shadow:0 6px 24px rgba(0,184,169,0.12);border-color:var(--teal-dim);transform:translateY(-2px);}
+.new-card-img{height:300px;background:var(--bg2);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;}
+.new-card-img img{width:100%;height:100%;object-fit:cover;padding:0;transition:transform 0.3s;}
+.new-card:hover .new-card-img img{transform:scale(1.05);}
+.new-badge{position:absolute;top:8px;left:8px;font-size:10px;font-weight:700;padding:3px 7px;border-radius:2px;letter-spacing:0.06em;}
+.badge-new{background:var(--teal);color:#fff;}
+.badge-best{background:#e74c3c;color:#fff;}
+.badge-rec{background:#f39c12;color:#fff;}
+.new-card-info{padding:16px 18px 18px;}
+.new-card-cat{font-size:13px;color:var(--teal);letter-spacing:0.07em;margin-bottom:3px;text-transform:uppercase;}
+.new-card-name{font-size:16px;font-weight:500;color:var(--text);line-height:1.4;}
+
+/* ── CATEGORY IMAGE CARDS ── */
+.cat-cards-section{padding:60px 48px;background:var(--bg2);border-top:1px solid var(--border);}
+.cat-img-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:28px;}
+.cat-img-card{border-radius:6px;overflow:hidden;cursor:pointer;position:relative;aspect-ratio:3/4;background:var(--bg3);border:1px solid var(--border);transition:transform 0.25s,box-shadow 0.25s;}
+.cat-img-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,0.1);}
+.cat-img-card-bg{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,0.7) 100%);}
+.cat-img-card-visual{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding-bottom:40px;}
+.cat-img-card-label{position:absolute;bottom:0;left:0;right:0;padding:12px 14px;}
+.cat-img-card-en{font-size:9px;letter-spacing:0.12em;color:var(--teal);text-transform:uppercase;margin-bottom:3px;}
+.cat-img-card-ko{font-size:13px;font-weight:500;color:#fff;}
+
+/* ── ALL PRODUCTS ── */
+.products-section{padding:64px 48px 80px;background:#fff;scroll-margin-top:160px;}
+.product-toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px;}
+.product-search-inner{position:relative;max-width:320px;flex:1;}
+.product-search-inner input{width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;outline:none;transition:border-color 0.2s;}
+.product-search-inner input:focus{border-color:var(--teal);}
+.product-search-inner input::placeholder{color:var(--text-faint);}
+.prod-count{font-size:15px;color:var(--text-faint);}
+.product-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;}
+.product-card{background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;transition:box-shadow 0.25s,border-color 0.25s,transform 0.2s;}
+.product-card:hover{box-shadow:0 6px 28px rgba(0,184,169,0.11);border-color:var(--teal-dim);transform:translateY(-2px);}
+.prod-img-wrap{height:300px;background:var(--bg2);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;}
+.prod-img-wrap img{width:100%;height:100%;object-fit:cover;padding:0;transition:transform 0.3s;}
+.product-card:hover .prod-img-wrap img{transform:scale(1.04);}
+.no-img-ph{display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--text-faint);font-size:11px;}
+.prod-badge{position:absolute;top:8px;left:8px;font-size:10px;font-weight:700;padding:3px 7px;border-radius:2px;}
+.prod-info{padding:16px 18px 20px;}
+.prod-cat{font-size:13px;color:var(--teal);letter-spacing:0.07em;margin-bottom:4px;text-transform:uppercase;}
+.prod-name{font-size:16px;font-weight:500;color:var(--text);margin-bottom:5px;line-height:1.4;}
+.prod-desc{display:none;}
+.empty-state{grid-column:1/-1;padding:80px 0;text-align:center;color:var(--text-faint);}
+.empty-state p{font-size:14px;margin-top:12px;line-height:1.7;}
+.load-wrap{text-align:center;margin-top:40px;}
+.load-btn{font-size:15px;color:var(--teal);border:1px solid var(--teal);background:none;padding:11px 36px;border-radius:3px;cursor:pointer;font-family:inherit;transition:all 0.2s;}
+.load-btn:hover{background:var(--teal);color:#fff;}
+
+/* ── PRODUCT MODAL ── */
+#modal-overlay{display:none;position:fixed;inset:0;z-index:900;background:rgba(0,0,0,0.55);align-items:center;justify-content:center;padding:20px;}
+#modal-overlay.on{display:flex;}
+.modal-box{background:#fff;border-radius:8px;max-width:760px;width:100%;max-height:92vh;overflow-y:auto;position:relative;box-shadow:0 28px 80px rgba(0,0,0,0.18);}
+.modal-close-btn{position:absolute;top:14px;right:14px;background:var(--bg2);border:1px solid var(--border);width:32px;height:32px;border-radius:50%;font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text-dim);z-index:10;transition:background 0.2s;}
+.modal-close-btn:hover{background:var(--bg3);}
+.modal-layout{display:grid;grid-template-columns:1fr 1fr;}
+.modal-img-panel{background:var(--bg2);display:flex;align-items:center;justify-content:center;min-height:320px;padding:36px;border-radius:8px 0 0 8px;}
+.modal-img-panel img{max-width:100%;max-height:280px;object-fit:contain;}
+.modal-info-panel{padding:40px 36px;display:flex;flex-direction:column;}
+.modal-cat-tag{font-size:10px;letter-spacing:0.12em;color:var(--teal);text-transform:uppercase;margin-bottom:10px;}
+.modal-prod-name{font-size:22px;font-weight:700;color:var(--text);margin-bottom:14px;line-height:1.3;}
+.modal-prod-desc{font-size:14px;color:var(--text-dim);line-height:1.8;margin-bottom:20px;flex:1;}
+.modal-specs{background:var(--bg2);border-radius:4px;padding:16px;margin-bottom:22px;}
+.spec-row{display:flex;gap:12px;font-size:13px;padding:5px 0;border-bottom:1px solid var(--border);}
+.spec-row:last-child{border-bottom:none;}
+.spec-k{color:var(--text-faint);min-width:80px;flex-shrink:0;}
+.spec-v{color:var(--text);}
+.modal-tabs{display:flex;gap:0;border-bottom:1px solid var(--border);margin:12px 0 0;}
+.modal-tab{font-size:13px;color:var(--text-dim);background:none;border:none;padding:9px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;font-weight:400;}
+.modal-tab:hover{color:var(--teal);}
+.modal-tab.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
+.modal-tab-content{padding-top:16px;min-height:80px;}
+.modal-inquiry-note{font-size:12px;color:var(--text-faint);margin-bottom:12px;line-height:1.6;}
+.modal-cta{width:100%;font-size:14px;font-weight:500;background:var(--teal);color:#fff;border:none;padding:13px;border-radius:4px;cursor:pointer;font-family:inherit;transition:background 0.2s;display:flex;align-items:center;justify-content:center;gap:6px;}
+.modal-cta:hover{background:var(--teal-dark);}
+
+/* ── CATALOGUE DL ── */
+.catalogue-dl-section{background:var(--bg2);padding:80px 64px;border-top:1px solid var(--border);scroll-margin-top:140px;}
+.catalogue-dl-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1400px;margin:0 auto;}
+.catalogue-dl-left{display:flex;flex-direction:column;justify-content:flex-start;height:100%;}
+.cat-sec-eyebrow{font-size:11px;letter-spacing:0.16em;color:var(--teal);text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.cat-sec-eyebrow::before{content:'';width:18px;height:1.5px;background:var(--teal);}
+.catalogue-dl-title{font-size:clamp(24px,3vw,42px);font-weight:700;color:var(--text);line-height:1.2;margin-bottom:20px;}
+.catalogue-dl-sub{font-size:20px;font-weight:500;color:var(--text-dim);}
+.catalogue-dl-right{display:flex;align-items:center;justify-content:center;}
+.cat-book-wrap{width:100%;border-radius:6px;overflow:hidden;}
+.cat-book-wrap img{width:100%;height:auto;object-fit:cover;border-radius:6px;box-shadow:0 24px 60px rgba(0,0,0,0.5);}
+.cat-book-placeholder{width:100%;aspect-ratio:4/3;background:#fff;border:1px solid var(--border);border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.catalogue-dl-btn{display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;color:#fff;background:var(--teal);padding:13px 0;width:33%;border-radius:3px;text-decoration:none;transition:background 0.2s;border:none;margin-top:32px;}
+.catalogue-dl-btn:hover{background:var(--teal-dark);}
+
+/* ── ABOUT ── */
+.about-section{padding:80px 48px;display:grid;grid-template-columns:1fr 1.2fr;gap:60px;align-items:center;background:#fff;border-top:1px solid var(--border);scroll-margin-top:140px;}
+.about-title{font-family:'Bebas Neue',sans-serif;font-size:42px;letter-spacing:0.04em;line-height:1.1;margin-bottom:16px;}
+.about-body{font-size:14px;color:var(--text-dim);line-height:1.9;margin-bottom:28px;}
+.about-checks{display:flex;flex-direction:column;gap:10px;margin-bottom:28px;}
+.about-check{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--text-dim);}
+.check-circle{width:20px;height:20px;background:var(--teal-pale);border:1px solid var(--teal-dim);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+.check-circle svg{width:10px;height:10px;}
+.about-history{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.history-item{background:#fff;border:1px solid var(--border);border-radius:6px;padding:16px 18px;}
+.history-year{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--teal);letter-spacing:0.04em;margin-bottom:4px;}
+.history-text{font-size:12px;color:var(--text-dim);line-height:1.6;}
+.about-visual-side{background:var(--bg3);border-radius:8px;height:560px;display:flex;align-items:center;justify-content:center;border:1px solid var(--border);}
+
+/* ── GALLERY ── */
+.gallery-section{padding:72px 48px;border-top:1px solid var(--border);}
+.gallery-grid{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:240px 240px;gap:10px;margin-top:28px;}
+.gallery-item{border-radius:6px;overflow:hidden;background:var(--bg2);cursor:pointer;position:relative;border:1px solid var(--border);}
+.gallery-item:first-child{grid-row:1/3;}
+.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform 0.4s;}
+.gallery-item:hover img{transform:scale(1.04);}
+.gallery-overlay{position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,0.5) 100%);opacity:0;transition:opacity 0.3s;}
+.gallery-item:hover .gallery-overlay{opacity:1;}
+.gallery-label{position:absolute;bottom:0;left:0;right:0;padding:14px 16px;transform:translateY(100%);transition:transform 0.3s;}
+.gallery-item:hover .gallery-label{transform:translateY(0);}
+.gallery-label-text{font-size:13px;font-weight:500;color:#fff;}
+.gallery-label-sub{font-size:11px;color:rgba(255,255,255,0.6);}
+.gallery-empty{grid-column:1/-1;text-align:center;padding:60px;color:var(--text-faint);font-size:14px;}
+
+/* ── CATALOGUE ── */
+.catalogue-section{background:transparent;padding:32px 48px;}
+.featured-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;background:transparent;}
+.featured-item{position:relative;overflow:hidden;cursor:pointer;display:block;text-decoration:none;background:#fff;aspect-ratio:2/2.5;border-radius:16px;}
+.featured-item img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s;display:block;}
+.featured-item:hover img{transform:scale(1.04);}
+.featured-item-ph{width:100%;height:100%;min-height:320px;background:#e8eeec;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:13px;font-family:'Noto Sans KR',sans-serif;}
+.featured-top-label{position:absolute;top:20px;right:20px;font-size:12px;color:rgba(0,0,0,0.5);font-family:'Noto Sans KR',sans-serif;letter-spacing:0.04em;text-align:right;}
+.featured-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.15) 45%,transparent 70%);transition:opacity 0.3s;}
+.featured-item:hover .featured-overlay{opacity:0.9;}
+.featured-info{position:absolute;bottom:0;left:0;right:0;padding:28px 24px 32px;}
+.featured-tag{font-size:11px;color:rgba(255,255,255,0.6);margin-bottom:8px;letter-spacing:0.04em;}
+.featured-name{font-size:26px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:8px;}
+.featured-desc{font-size:13px;color:rgba(255,255,255,0.65);line-height:1.7;}
+.cat-update-date{font-size:14px;color:rgba(255,255,255,0.6);}
+.cat-sec-desc-top{font-size:14px;color:#888;margin-bottom:10px;letter-spacing:0.02em;}
+.cat-sec-title-big span{color:var(--teal);}
+
+/* ── CONTACT ── */
+.contact-section{padding:80px 48px;display:grid;grid-template-columns:1fr 1fr;gap:64px;border-top:1px solid var(--border);background:#ebebeb;scroll-margin-top:140px;}
+.con-title{font-family:'Bebas Neue',sans-serif;font-size:42px;letter-spacing:0.04em;margin-bottom:12px;line-height:1.1;}
+.con-title span{color:var(--teal);}
+.con-body{font-size:14px;color:var(--text-dim);line-height:1.9;margin-bottom:28px;}
+.con-info-list{margin-bottom:4px;}
+.con-row{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--border);}
+.con-key{font-size:11px;letter-spacing:0.08em;color:var(--teal);font-weight:500;min-width:68px;text-transform:uppercase;padding-top:1px;}
+.con-val{font-size:13px;color:var(--text-dim);}
+.con-form{display:flex;flex-direction:column;gap:11px;}
+.con-input,.con-textarea{width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:11px 14px;font-size:13px;color:var(--text);font-family:inherit;font-weight:300;outline:none;transition:border-color 0.2s,box-shadow 0.2s;}
+.con-input:focus,.con-textarea:focus{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-pale);}
+.con-input::placeholder,.con-textarea::placeholder{color:var(--text-faint);}
+.con-textarea{min-height:110px;resize:vertical;}
+.con-2col{display:grid;grid-template-columns:1fr 1fr;gap:11px;}
+.con-submit{font-size:14px;font-weight:500;background:var(--teal);color:#fff;border:none;padding:13px;border-radius:4px;cursor:pointer;font-family:inherit;transition:background 0.2s;width:100%;}
+.con-submit:hover{background:var(--teal-dark);}
+.con-note{font-size:11px;color:var(--text-faint);line-height:1.6;margin-top:8px;}
+
+/* ── FOOTER ── */
+footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px;}
+.footer-brand{}
+.footer-logo{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:0.12em;color:#fff;margin-bottom:8px;}
+.footer-logo span{color:var(--teal);}
+.footer-tagline{font-size:12px;color:rgba(255,255,255,0.3);line-height:1.7;max-width:220px;}
+.footer-col-title{font-size:11px;letter-spacing:0.1em;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:14px;font-weight:500;}
+.footer-col-links{display:flex;flex-direction:column;gap:8px;}
+.footer-col-links a{font-size:13px;color:rgba(255,255,255,0.35);text-decoration:none;transition:color 0.2s;}
+.footer-col-links a:hover{color:var(--teal);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.07);padding-top:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+.footer-copy{font-size:12px;}
+.footer-admin-link{font-size:12px;color:rgba(255,255,255,0.2);text-decoration:none;transition:color 0.2s;}
+.footer-admin-link:hover{color:var(--teal);}
+
+/* FOOTER COMPANY INFO */
+.footer-company{border-top:1px solid rgba(255,255,255,0.07);padding:32px 0;display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;}
+.footer-company-left{display:flex;flex-direction:column;gap:16px;flex:1;min-width:300px;}
+.footer-company-logo{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;letter-spacing:0.06em;color:#fff;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
+.footer-company-logo span{color:var(--teal);}
+.footer-company-info{display:flex;flex-direction:column;gap:5px;}
+.footer-info-section-title{font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);margin-bottom:4px;letter-spacing:0.04em;}
+.footer-company-info p{font-size:12px;color:rgba(255,255,255,0.3);line-height:1.7;}
+.footer-company-info strong{color:rgba(255,255,255,0.55);font-weight:500;}
+.footer-company-right{flex-shrink:0;}
+.footer-cs{display:flex;gap:48px;}
+.footer-cs-col{}
+.footer-cs-title{font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);margin-bottom:12px;letter-spacing:0.04em;}
+.footer-cs-sub-title{font-size:11px;color:rgba(255,255,255,0.4);margin-bottom:3px;}
+.footer-cs-val{font-size:13px;color:rgba(255,255,255,0.55);}
+
+
+/* ── FADE IN ── */
+.fi{opacity:0;transform:translateY(14px);transition:opacity 0.55s ease,transform 0.55s ease;}
+.fi.vis{opacity:1;transform:translateY(0);}
+
+/* ── MOBILE NAV ── */
+.mobile-menu-btn{display:none;background:none;border:none;cursor:pointer;padding:4px;flex-direction:column;gap:5px;}
+.mobile-menu-btn span{display:block;width:22px;height:1.5px;background:var(--text);transition:all 0.3s;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px){
+  .cat-img-grid{grid-template-columns:repeat(4,1fr);}
+  .product-grid{grid-template-columns:repeat(3,1fr);}
+  .footer-top{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:900px){
+  .product-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:768px){
+  .nav-top{padding:0 20px;height:56px;}
+  .nav-links,.nav-center{display:none;}
+  .mobile-menu-btn{display:flex;}
+  .cat-bar{padding:0 20px;}
+  .hero-slider{height:380px;}
+  .hero-slide{height:380px;}
+  .hero-slide-content{padding:0 40px;}
+  .hero-visual-right{display:none;}
+  .stats-bar{grid-template-columns:repeat(2,1fr);}
+  .sec-header-pad{padding:0 20px;}
+  .new-scroll{padding:0 20px 16px;}
+  .cat-cards-section{padding:48px 20px;}
+  .cat-img-grid{grid-template-columns:repeat(3,1fr);}
+  .products-section{padding:48px 20px 60px;}
+  .about-section{grid-template-columns:1fr;padding:48px 20px;gap:36px;}
+  .about-visual-side{display:none;}
+  .gallery-section{padding:48px 20px;}
+  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto;}
+  .gallery-item:first-child{grid-row:auto;grid-column:1/3;}
+  .catalogue-section{padding:56px 20px;}
+  .cat-sec-inner{grid-template-columns:1fr;gap:36px;}
+  .contact-section{grid-template-columns:1fr;padding:48px 20px;gap:40px;}
+  .footer-top{grid-template-columns:1fr 1fr;padding:0;}
+  footer{padding:40px 20px 24px;}
+  .modal-layout{grid-template-columns:1fr;}
+  .modal-img-panel{border-radius:8px 8px 0 0;min-height:200px;}
+}
+@media(max-width:480px){
+  .cat-img-grid{grid-template-columns:repeat(2,1fr);}
+  .product-grid{grid-template-columns:repeat(2,1fr);gap:10px;}
+  .con-2col{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- POPUP -->
+<div id="popup-overlay">
+  <div class="popup-box">
+    <button class="popup-x" onclick="closePopup()">✕</button>
+    <div id="popup-img-wrap"></div>
+    <div class="popup-body">
+      <div class="popup-title" id="popup-title"></div>
+      <div class="popup-text" id="popup-text"></div>
+      <div class="popup-foot">
+        <button class="popup-dismiss" onclick="closePopup(true)">오늘 하루 보지 않기</button>
+        <button class="popup-cta-btn" id="popup-cta-btn">자세히 보기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTICE BAR -->
+<div class="notice-bar" id="notice-bar"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-top">
+    <a href="#" class="nav-logo"><span>YEDO</span> LIGHTING<small>예도전기조명</small></a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#about">회사소개</a>
+        <a href="#products">제품</a>
+        <a href="#catalogue-anchor">카탈로그</a>
+        <a href="#contact">문의</a>
+      </div>
+      <div class="nav-center">
+        <span class="nav-search-ico">🔍</span>
+        <input class="nav-search" type="text" id="nav-search" placeholder="제품명으로 검색...">
+      </div>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:500;color:var(--text-dim);white-space:nowrap;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="var(--teal)"/></svg>
+        031-977-1585
+      </span>
+      <a href="#contact" class="nav-contact">문의하기</a>
+      <button class="mobile-menu-btn" id="mob-btn"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="cat-bar">
+    <div class="cat-bar-inner" id="cat-bar-inner">
+      <button class="cat-btn active" data-cat="전체">전체</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section class="hero-slider" id="hero-slider">
+  <div class="hero-slides" id="hero-slides">
+
+    <!-- Slide 1 -->
+    <div class="hero-slide" style="background:linear-gradient(135deg,#0a0a0a 0%,#1a2a28 50%,#0d1f1d 100%);">
+      <div class="hero-slide-bg" id="slide-bg-1"><img src="https://i.postimg.cc/DZrKM7H0/gwang-gobaeneo2-01.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+      <div class="hero-slide-content">
+        <div class="hero-slide-tag">Since 1995 · 조명 전문 제조기업</div>
+        <h1 class="hero-slide-title">빛으로<br><span>완성하는</span><br>공간의 가치</h1>
+        <p class="hero-slide-sub">30년 이상 직접 설계하고 제조한 프리미엄 LED 조명. 레일등부터 마그네틱 트랙까지, 모든 공간에 최적화된 솔루션을 제공합니다.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0;">
+          <a href="category.html?cat=전체" class="hero-slide-btn">제품 보기</a>
+          <a href="#catalogue-anchor" class="hero-slide-btn-ghost">카탈로그 다운로드</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide" style="background:linear-gradient(135deg,#0a1a1a 0%,#0d2422 50%,#081a18 100%);">
+      <div class="hero-slide-bg" id="slide-bg-2"></div>
+      <div class="hero-slide-content">
+        <div class="hero-slide-tag">Featured Series · 마그네틱 트랙</div>
+        <h1 class="hero-slide-title">자유로운<br><span>공간 설계</span><br>마그네틱 트랙</h1>
+        <p class="hero-slide-sub">레일 위에서 자유롭게 이동·회전하는 마그네틱 방식. DC 48V / DC 41V 시스템으로 매입형과 일반형 모두 지원합니다.</p>
+        <a href="category.html?cat=마그네틱" class="hero-slide-btn">시리즈 보기</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide" style="background:linear-gradient(135deg,#0f0f18 0%,#1a1a2e 50%,#0d0d20 100%);">
+      <div class="hero-slide-bg" id="slide-bg-3"></div>
+      <div class="hero-slide-content">
+        <div class="hero-slide-tag">KC 안전인증 · 자체 제조</div>
+        <h1 class="hero-slide-title">직접 만드는<br><span>믿을 수 있는</span><br>KC 인증 조명</h1>
+        <p class="hero-slide-sub">모든 제품을 직접 설계하고 제조합니다. KC 안전 인증을 보유하여 품질과 안전을 동시에 보장합니다.</p>
+        <a href="category.html?cat=T시리즈" class="hero-slide-btn">제품 보기</a>
+      </div>
+    </div>
+
+  </div>
+  <button class="hero-prev" onclick="slideMove(-1)">‹</button>
+  <button class="hero-next" onclick="slideMove(1)">›</button>
+  <div class="hero-dots" id="hero-dots"></div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar fi">
+  <div class="stat-item"><div class="stat-num">30+</div><div class="stat-label">년 직접 제조 경력</div></div>
+  <div class="stat-item"><div class="stat-num">780+</div><div class="stat-label">제품 라인업</div></div>
+  <div class="stat-item"><div class="stat-num" style="font-family:'Noto Sans KR',sans-serif;font-size:24px;font-weight:700;">KC·KS</div><div class="stat-label">안전인증 보유</div></div>
+  <div class="stat-item"><div class="stat-num" style="font-family:'Noto Sans KR',sans-serif;font-size:32px;font-weight:700;">자체</div><div class="stat-label">설계 · 제조</div></div>
+</div>
+
+<!-- NEW PRODUCTS -->
+<section class="new-section fi">
+  <div class="sec-header-pad">
+    <div><div class="eyebrow">New Products</div><h2 class="sec-title">신제품</h2></div>
+    <a href="#products" class="see-all" onclick="setCat('전체')">전체 보기 →</a>
+  </div>
+  <div class="new-scroll-wrap">
+    <div class="new-scroll" id="new-scroll"></div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section id="catalogue" class="catalogue-section fi">
+  <div class="featured-grid">
+
+    <!-- T시리즈 -->
+    <a href="category.html?cat=T시리즈" class="featured-item" id="featured-1">
+      <div class="featured-item-ph" id="lifestyle-img-1">관리자에서 이미지 등록</div>
+      <div class="featured-top-label" id="lifestyle-toplabel-1">T 시리즈</div>
+      <div class="featured-overlay"></div>
+      <div class="featured-info">
+        <div class="featured-tag">자체 개발 · 특허 상품</div>
+        <div class="featured-name" id="lifestyle-label-1">T 시리즈<br>레일등 · 직부등</div>
+        <div class="featured-desc" id="lifestyle-desc-1">예도전기조명이 직접 개발한 레일등, 직부등.<br>특허 보유 · KS 인증 · KC 인증 · 국내 자체 제조</div>
+      </div>
+    </a>
+
+    <!-- M시리즈 -->
+    <a href="category.html?cat=M시리즈" class="featured-item" id="featured-2">
+      <div class="featured-item-ph" id="lifestyle-img-2">관리자에서 이미지 등록</div>
+      <div class="featured-top-label" id="lifestyle-toplabel-2">M 시리즈</div>
+      <div class="featured-overlay"></div>
+      <div class="featured-info">
+        <div class="featured-tag">자체 개발 · 특허 상품</div>
+        <div class="featured-name" id="lifestyle-label-2">M 시리즈<br>라인매입등 · 사각매입등</div>
+        <div class="featured-desc" id="lifestyle-desc-2">예도전기조명이 직접 개발한 라인매입등, 사각매입등.<br>특허 보유 · KS 인증 · KC 인증 · 국내 자체 제조</div>
+      </div>
+    </a>
+
+    <!-- Magnetic -->
+    <a href="category.html?cat=마그네틱" class="featured-item" id="featured-3">
+      <div class="featured-item-ph" id="lifestyle-img-3">관리자에서 이미지 등록</div>
+      <div class="featured-top-label" id="lifestyle-toplabel-3">마그네틱 레일 시스템</div>
+      <div class="featured-overlay"></div>
+      <div class="featured-info">
+        <div class="featured-tag">프리미엄 · 자유로운 배치</div>
+        <div class="featured-name" id="lifestyle-label-3">Magnetic<br>Rail System</div>
+        <div class="featured-desc" id="lifestyle-desc-3">원하는 곳에 착! 예쁘고 간편한 마그네틱 조명.<br>하이엔드 인테리어에 강력 추천</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- PRODUCT MODAL -->
+<div id="modal-overlay">
+  <div class="modal-box">
+    <button class="modal-close-btn" onclick="closeModal()">✕</button>
+    <div class="modal-layout">
+      <div class="modal-img-panel"><img id="modal-img" src="" alt=""></div>
+      <div class="modal-info-panel">
+        <div class="modal-cat-tag" id="modal-cat"></div>
+        <div class="modal-prod-name" id="modal-name"></div>
+
+        <!-- TABS -->
+        <div class="modal-tabs">
+          <button class="modal-tab active" onclick="switchTab('info')">기본 정보</button>
+          <button class="modal-tab" onclick="switchTab('spec')">상세 스펙</button>
+        </div>
+
+        <!-- TAB: 기본정보 -->
+        <div class="modal-tab-content" id="tab-info">
+          <div class="modal-prod-desc" id="modal-desc"></div>
+        </div>
+
+        <!-- TAB: 상세스펙 -->
+        <div class="modal-tab-content" id="tab-spec" style="display:none;">
+          <div class="modal-specs" id="modal-specs"></div>
+          <p class="modal-no-spec" id="modal-no-spec" style="display:none;font-size:13px;color:var(--text-faint);padding:16px 0;">등록된 스펙 정보가 없습니다.</p>
+        </div>
+
+        <div class="modal-divider"></div>
+        <p class="modal-inquiry-note">사양, 납기, 견적 문의는 아래 버튼을 이용해주세요.</p>
+        <div style="display:flex;gap:10px;">
+          <button class="modal-cta" style="flex:1;" onclick="closeModal();document.getElementById('contact').scrollIntoView({behavior:'smooth'})">📩 제품 문의하기</button>
+          <button class="modal-cta" id="modal-detail-btn" style="flex:1;background:#fff;color:var(--teal);border:1px solid var(--teal);" onclick="">상세 페이지 →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ALL PRODUCTS -->
+<section id="products" class="products-section">
+  <div class="product-toolbar fi">
+    <div><div class="eyebrow">Products</div><h2 class="sec-title">전체 제품</h2></div>
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+      <div class="product-search-inner">
+        <input type="text" id="prod-search" placeholder="🔍  제품명 검색...">
+      </div>
+      <span class="prod-count" id="prod-count"></span>
+    </div>
+  </div>
+  <div class="product-grid" id="product-grid"></div>
+  <div class="load-wrap" id="load-wrap" style="display:none;">
+    <button class="load-btn" id="load-btn">더 보기</button>
+  </div>
+</section>
+
+<!-- PRODUCT MODAL -->
+<div id="modal-overlay">
+  <div class="modal-box">
+    <button class="modal-close-btn" onclick="closeModal()">✕</button>
+    <div class="modal-layout">
+      <div class="modal-img-panel"><img id="modal-img" src="" alt=""></div>
+      <div class="modal-info-panel">
+        <div class="modal-cat-tag" id="modal-cat"></div>
+        <div class="modal-prod-name" id="modal-name"></div>
+
+        <!-- TABS -->
+        <div class="modal-tabs">
+          <button class="modal-tab active" onclick="switchTab('info')">기본 정보</button>
+          <button class="modal-tab" onclick="switchTab('spec')">상세 스펙</button>
+        </div>
+
+        <!-- TAB: 기본정보 -->
+        <div class="modal-tab-content" id="tab-info">
+          <div class="modal-prod-desc" id="modal-desc"></div>
+        </div>
+
+        <!-- TAB: 상세스펙 -->
+        <div class="modal-tab-content" id="tab-spec" style="display:none;">
+          <div class="modal-specs" id="modal-specs"></div>
+          <p class="modal-no-spec" id="modal-no-spec" style="display:none;font-size:13px;color:var(--text-faint);padding:16px 0;">등록된 스펙 정보가 없습니다.</p>
+        </div>
+
+        <div class="modal-divider"></div>
+        <p class="modal-inquiry-note">사양, 납기, 견적 문의는 아래 버튼을 이용해주세요.</p>
+        <div style="display:flex;gap:10px;">
+          <button class="modal-cta" style="flex:1;" onclick="closeModal();document.getElementById('contact').scrollIntoView({behavior:'smooth'})">📩 제품 문의하기</button>
+          <button class="modal-cta" id="modal-detail-btn" style="flex:1;background:#fff;color:var(--teal);border:1px solid var(--teal);" onclick="">상세 페이지 →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CATALOGUE -->
+<section class="catalogue-dl-section fi" id="catalogue-anchor">
+  <div class="catalogue-dl-inner">
+    <div class="catalogue-dl-left">
+      <div class="cat-sec-eyebrow">Catalogue</div>
+      <h2 class="catalogue-dl-title">예도전기조명 / <span style="color:var(--teal);">카탈로그</span></h2>
+      <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+        <span class="catalogue-dl-sub"><span id="cat-update-date">2026년 / <span style="color:#e8a020;">VOL.25</span></span></span>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;">
+        <a href="https://drive.usercontent.google.com/download?id=1Ag_btwSr1Z4WFQHKcKBAaGVdmY_TLWGK&export=download&authuser=0" class="catalogue-dl-btn" id="cat-download-btn" target="_blank">카탈로그 다운로드</a>
+      </div>
+    </div>
+    <div class="catalogue-dl-right">
+      <div class="cat-book-wrap" id="cat-book-wrap">
+        <div class="cat-book-placeholder">
+          <svg width="56" height="56" viewBox="0 0 80 80" fill="none"><rect x="10" y="8" width="44" height="60" rx="3" fill="rgba(0,0,0,0.04)" stroke="#ddd" stroke-width="1"/><rect x="26" y="8" width="44" height="60" rx="3" fill="rgba(0,0,0,0.02)" stroke="#eee" stroke-width="1"/><line x1="20" y1="24" x2="46" y2="24" stroke="#ccc" stroke-width="1"/><line x1="20" y1="32" x2="46" y2="32" stroke="#ddd" stroke-width="1"/><line x1="20" y1="40" x2="38" y2="40" stroke="#ddd" stroke-width="1"/></svg>
+          <p style="font-size:12px;color:var(--text-faint);margin-top:12px;text-align:center;">관리자에서<br>이미지를 등록해주세요</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section fi">
+  <div>
+    <div class="eyebrow">About Us</div>
+    <h2 class="about-title">창의적인 기업<br>젊고 역동적인 기업</h2>
+    <p class="about-body" id="about-body-text">1995년 설립 이후 예도전기조명은 모든 제품을 직접 설계하고 제조합니다. 외부 OEM 없이 자체 기술력으로 레일등, 매입등, 마그네틱 트랙 시스템을 개발하여 상업·주거·산업 공간에 최적화된 조명 솔루션을 공급합니다.</p>
+    <div class="about-checks">
+      <div class="about-check"><div class="check-circle"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#00b8a9" stroke-width="1.5" stroke-linecap="round"/></svg></div>자체 설계 · 직접 제조 — OEM 없음</div>
+      <div class="about-check"><div class="check-circle"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#00b8a9" stroke-width="1.5" stroke-linecap="round"/></svg></div>KC·KS 안전인증 보유 전 제품 라인</div>
+      <div class="about-check"><div class="check-circle"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#00b8a9" stroke-width="1.5" stroke-linecap="round"/></svg></div>30년 조명 엔지니어링 기술 축적</div>
+      <div class="about-check"><div class="check-circle"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#00b8a9" stroke-width="1.5" stroke-linecap="round"/></svg></div>상업·주거·산업 공간 토탈 솔루션</div>
+    </div>
+    <div class="about-history">
+      <div class="history-item"><div class="history-year">1995</div><div class="history-text">예도전기조명 설립</div></div>
+      <div class="history-item"><div class="history-year">KC</div><div class="history-text">안전 인증 전 제품 취득</div></div>
+      <div class="history-item"><div class="history-year">LED</div><div class="history-text">LED 전문 라인업 구축</div></div>
+      <div class="history-item"><div class="history-year">2020+</div><div class="history-text">마그네틱 트랙 시스템 개발</div></div>
+    </div>
+  </div>
+  <div class="about-visual-side"></div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section fi">
+  <div>
+    <div class="eyebrow">Contact</div>
+    <h2 class="con-title">제품 문의</h2>
+    <span style="display:inline-flex;align-items:center;gap:8px;font-size:17px;font-weight:500;color:var(--text);margin-bottom:16px;margin-top:4px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="var(--teal)"/></svg>
+      031-977-1585
+    </span>
+    <p class="con-body" id="about-body-text2">사양, 납기, 단가 등 궁금한 사항을 남겨주시면 빠르게 답변 드리겠습니다.</p>
+    <div class="con-info-list" id="con-info-list">
+      <div class="con-row"><div class="con-key">Website</div><div class="con-val">ydl.co.kr</div></div>
+      <div class="con-row"><div class="con-key">Tel.</div><div class="con-val">031-977-1585</div></div>
+      <div class="con-row"><div class="con-key">Email</div><div class="con-val">ydl1585@daum.net</div></div>
+      <div class="con-row"><div class="con-key">Address</div><div class="con-val">경기도 고양시 일산동구 장진천길 6</div></div>
+    </div>
+  </div>
+  <div>
+    <form class="con-form" action="https://formspree.io/f/xpqkqaop" method="POST" id="contact-form">
+      <div class="con-2col">
+        <input class="con-input" type="text" name="company" placeholder="회사명 / 기관명">
+        <input class="con-input" type="text" name="name" placeholder="담당자명" required>
+      </div>
+      <div class="con-2col">
+        <input class="con-input" type="text" name="phone" placeholder="연락처" required>
+        <input class="con-input" type="email" name="email" placeholder="이메일" required>
+      </div>
+      <input class="con-input" type="text" name="product" id="con-product" placeholder="문의 제품명 (예: T-LINE 레일등, 마그네틱 트랙)">
+      <input type="hidden" name="_subject" id="form-subject" value="[YEDO] 제품 문의">
+      <textarea class="con-textarea" name="message" placeholder="문의 내용을 입력해주세요&#10;(제품명, 설치 공간, 수량, 납기 등을 함께 적어주시면 빠른 답변이 가능합니다)" required></textarea>
+      <button class="con-submit" type="submit" id="submit-btn">문의 보내기</button>
+      <p id="form-success" style="display:none;color:var(--teal);font-size:14px;margin-top:12px;font-weight:500;">✓ 문의가 접수됐어요! 빠르게 답변 드리겠습니다.</p>
+      <p id="form-error" style="display:none;color:#e74c3c;font-size:14px;margin-top:12px;">전송 중 오류가 발생했습니다. 다시 시도해주세요.</p>
+      <p class="con-note">※ 본 사이트는 제품 정보 확인 및 문의 전용입니다. 온라인 판매는 진행하지 않습니다.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <div class="footer-company">
+    <div class="footer-company-left">
+      <div class="footer-company-logo"><span>YEDO</span> LIGHTING</div>
+      <div class="footer-company-info">
+        <p class="footer-info-section-title">기본정보</p>
+        <p><strong>상호명</strong> (주)예도전기조명 &nbsp;<strong>대표자명</strong> 이항주 대표</p>
+        <p><strong>사업장 주소</strong> 10257 경기도 고양시 일산동구 장진천길 6 (설문동) 예도전기</p>
+        <p><strong>대표 전화</strong> 031-977-1585 &nbsp;<strong>사업자 등록번호</strong> 128-86-05331</p>
+      </div>
+    </div>
+    <div class="footer-company-right">
+      <div class="footer-cs">
+        <div class="footer-cs-col">
+          <p class="footer-cs-title">고객센터 정보</p>
+          <p class="footer-cs-sub-title">상담/주문전화</p>
+          <p class="footer-cs-val">031-977-1585</p>
+          <p class="footer-cs-sub-title" style="margin-top:12px;">상담/주문 이메일</p>
+          <p class="footer-cs-val">ydl1585@daum.net</p>
+          <p class="footer-cs-sub-title" style="margin-top:12px;">CS운영시간</p>
+          <p class="footer-cs-val">9:00 - 18:30</p>
+        </div>
+        <div class="footer-cs-col">
+          <p class="footer-cs-title">SNS</p>
+          <p class="footer-cs-val">instagram</p>
+          <p class="footer-cs-val">kakao</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 (주)예도전기조명. All rights reserved.</span>
+    <a href="admin.html" class="footer-admin-link">관리자</a>
+  </div>
+</footer>
+
+<script>
+/* ========================================
+   ✏️  이미지 직접 수정 구역
+   URL을 바꾸면 바로 반영됩니다
+======================================== */
+const CONFIG = {
+  // 메인 배너 슬라이드 이미지 (비워두면 기본 배경)
+  slide1_image: 'https://res.cloudinary.com/dafx5aokq/image/upload/v1776414391/%EA%B4%91%EA%B3%A0%EB%B0%B0%EB%84%8833-02_a0i1gs.jpg',   // 예: 'https://i.postimg.cc/xxx/image.jpg'
+  slide2_image: '',
+  slide2_link: '',
+  slide3_image: '',
+
+  // 회사 소개 옆 이미지
+  about_image: 'https://i.postimg.cc/8PxB5mY7/hoesajeongyeong.jpg',    // 예: 'https://i.postimg.cc/xxx/about.jpg'
+
+  // 카탈로그 표지 이미지
+  catalogue_image: 'https://i.ibb.co/SXXrzv9g/vol-25-01.png',
+  // 라이프스타일 이미지 3장
+  lifestyle_1: 'https://i.postimg.cc/bvpnDC9T/laipeuseutailjjog-01.jpg',
+  lifestyle_2: 'https://i.postimg.cc/sX0GLVd0/laipeuseutailjjog-03.jpg',
+  lifestyle_3: 'https://i.postimg.cc/yd5y2Mw6/laipeuseutailjjog-06.jpg',
+  lifestyle_4: '',
+};
+/* ======================================== */
+
+const SK={products:'yedo_products',gallery:'yedo_gallery',banner:'yedo_banner',popup:'yedo_popup',company:'yedo_company'};
+const get=k=>{try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch{return null;}};
+
+let allProds=get(SK.products)||[];
+
+// 샘플 데이터 (등록된 제품 없을 때만)
+if(!allProds.length){
+  allProds = [
+    {name:"KS. T-LINE 레일등 LED 20W",category:"레일등",image:"https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",description:"220V / 60Hz, 레일형 LED 조명. T-LINE 시리즈 대표 제품으로 상업 공간에 최적화된 고효율 레일등입니다.",specs:"전압: 220V / 60Hz\n소비전력: 20W\n색온도: 3000K / 4000K",badge:"NEW"},
+    {name:"KC. 직사각매입등 LED 디밍형",category:"매입등",image:"https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",description:"디밍 기능이 탑재된 직사각 매입등. 밝기 조절이 가능하여 다양한 공간 연출에 적합합니다.",specs:"전압: 220V / 60Hz\n소비전력: 20W\n디밍: 가능",badge:""},
+    {name:"KS. 마그네틱 SMPS 150W (DC48V)",category:"마그네틱",image:"https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",description:"마그네틱 트랙 시스템용 안정기. DC48V 출력으로 안정적인 전력 공급.",specs:"전압: 220V / 60Hz\n출력: DC 48V\n용량: 150W",badge:""},
+    {name:"TS-LINE 22 레일등 LED",category:"레일등",image:"https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",description:"슬림한 디자인의 TS-LINE 시리즈 레일등. 깔끔한 마감과 고효율 성능을 자랑합니다.",specs:"전압: 220V / 60Hz\n소비전력: 22W",badge:"NEW"},
+    {name:"KS. 원볼 스포트 레일 COB 8W",category:"스포트",image:"https://ydl.co.kr/web/product/medium/202511/447cab0d50743fd982c72963600545c3.jpg",description:"COB 방식의 원볼 스포트 레일등. 집중 조명이 필요한 공간에 최적.",specs:"전압: 220V / 60Hz\n소비전력: 8W\n방식: COB",badge:""},
+    {name:"KC. 마그네틱 레일 시스템",category:"마그네틱",image:"https://ydl.co.kr/web/product/medium/202502/2ece4912db1ce8b5de7b61b36909ac4b.jpg",description:"자유로운 위치 조정이 가능한 마그네틱 레일 시스템. 매입형·일반형 지원.",specs:"전압: DC 48V\n타입: 매입형 / 일반형",badge:"BEST"},
+    {name:"KS. (3) COB 공회전 매입등",category:"매입등",image:"https://ydl.co.kr/web/product/medium/202507/134bde483b616eb85c8157c26838ef7a.jpg",description:"3인치 COB 방식 공회전 매입등. 360도 회전으로 다양한 방향 조명 가능.",specs:"전압: 220V / 60Hz\n소비전력: 10W\n크기: 3인치",badge:""},
+    {name:"KC. T5 LED 18W 1200 (2핀)",category:"T5",image:"https://ydl.co.kr/web/product/medium/202412/023d1b2766534dde921f7f3e5ba6c3f8.jpg",description:"고효율 T5 LED 형광등 대체 램프. 기존 형광등 교체 시 바로 사용 가능.",specs:"전압: 220V / 60Hz\n소비전력: 18W\n길이: 1200mm\n핀: 2핀",badge:""},
+  ];
+  localStorage.setItem(SK.products, JSON.stringify(allProds));
+}
+let filtered=[...allProds];
+let activeCat='전체',query='',visible=12;
+
+/* ── POPUP ── */
+function initPopup(){
+  const p=get(SK.popup);
+  if(!p||!p.active) return;
+  if(localStorage.getItem('yedo_popup_hide')===new Date().toDateString()) return;
+  document.getElementById('popup-title').textContent=p.title||'';
+  document.getElementById('popup-text').textContent=p.text||'';
+  const iw=document.getElementById('popup-img-wrap');
+  iw.innerHTML=p.image?`<img src="${p.image}" alt="" style="width:100%;max-height:240px;object-fit:cover;display:block;">` :'';
+  const cta=document.getElementById('popup-cta-btn');
+  if(p.link){cta.onclick=()=>{window.open(p.link,'_blank');closePopup(false);};cta.style.display='';}
+  else cta.style.display='none';
+  document.getElementById('popup-overlay').classList.add('on');
+}
+function closePopup(dismiss=false){
+  document.getElementById('popup-overlay').classList.remove('on');
+  if(dismiss) localStorage.setItem('yedo_popup_hide',new Date().toDateString());
+}
+document.getElementById('popup-overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closePopup(false);});
+
+/* ── NOTICE BAR ── */
+function initBanner(){
+  const b=get(SK.banner);
+  const el=document.getElementById('notice-bar');
+  if(b&&b.active&&b.text){
+    el.innerHTML=b.text+(b.link?` <a href="${b.link}" target="_blank">자세히 보기</a>`:'');
+    el.style.display='block';
+  }
+}
+
+/* ── COMPANY ── */
+function initCompany(){
+  const c=get(SK.company);
+  if(!c) return;
+  if(c.about) document.getElementById('about-body-text').textContent=c.about;
+  if(c.phone||c.email||c.address){
+    const el=document.getElementById('con-info-list');
+    const rows=[['Website','ydl.co.kr'],['Phone',c.phone],['Email',c.email],['Address',c.address],['Cert.','KC·KS 안전인증 보유'],['Supply','B2B 전문 공급']];
+    el.innerHTML=rows.filter(r=>r[1]).map(r=>`<div class="con-row"><div class="con-key">${r[0]}</div><div class="con-val">${r[1]}</div></div>`).join('');
+  }
+}
+
+/* ── HERO SLIDER ── */
+let slideIdx=0;
+const totalSlides=document.querySelectorAll('.hero-slide').length;
+function buildDots(){
+  const dots=document.getElementById('hero-dots');
+  dots.innerHTML=Array.from({length:totalSlides},(_,i)=>`<div class="hero-dot${i===0?' active':''}" onclick="goSlide(${i})"></div>`).join('');
+}
+function goSlide(i){
+  slideIdx=i;
+  document.getElementById('hero-slides').style.transform=`translateX(-${i*100}%)`;
+  document.querySelectorAll('.hero-dot').forEach((d,j)=>d.classList.toggle('active',j===i));
+}
+function slideMove(dir){goSlide((slideIdx+dir+totalSlides)%totalSlides);}
+setInterval(()=>slideMove(1),5000);
+buildDots();
+
+/* ── CATEGORY BAR ── */
+function buildCatBar(){
+  const saved=get('yedo_cat_order')||[];
+  const existing=[...new Set(allProds.map(p=>p.category).filter(Boolean))];
+  const ordered=saved.length?[...saved,...existing.filter(c=>!saved.includes(c))]:existing;
+  const cats=['전체',...ordered];
+  const inner=document.getElementById('cat-bar-inner');
+  inner.innerHTML=cats.map(c=>{
+    const fromProds=[...new Set(allProds.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
+    const fromSaved=get('yedo_subcats_'+c)||[];
+    const subs=[...new Set([...fromSaved,...fromProds])];
+    const dropdown=subs.length?`<div class="cat-dropdown">${
+      subs.map(s=>`<button class="cat-dropdown-item" onclick="event.stopPropagation();location.href='category.html?cat=${encodeURIComponent(c)}&sub=${encodeURIComponent(s)}'">${s}</button>`).join('')
+    }</div>`:'';
+    return `<div class="cat-item"><button class="cat-btn${c===activeCat?' active':''}" onclick="location.href='category.html?cat=${encodeURIComponent(c)}'">${c}</button>${dropdown}</div>`;
+  }).join('');
+}
+function setCat(cat){
+  activeCat=cat; visible=12;
+  document.querySelectorAll('.cat-btn').forEach(b=>b.classList.toggle('active',b.dataset.cat===cat));
+  applyFilter();
+}
+
+/* ── CAT IMAGE GRID ── */
+const catIcons={
+  '레일등':'<svg viewBox="0 0 60 60" fill="none" width="52" height="52"><rect x="5" y="12" width="50" height="6" rx="2" fill="rgba(0,184,169,0.7)"/><line x1="18" y1="18" x2="18" y2="30" stroke="rgba(0,184,169,0.6)" stroke-width="2"/><circle cx="18" cy="33" r="7" fill="rgba(0,184,169,0.5)"/><line x1="42" y1="18" x2="42" y2="30" stroke="rgba(0,184,169,0.6)" stroke-width="2"/><circle cx="42" cy="33" r="7" fill="rgba(0,184,169,0.5)"/></svg>',
+  '매입등':'<svg viewBox="0 0 60 60" fill="none" width="52" height="52"><circle cx="30" cy="30" r="18" stroke="rgba(0,184,169,0.6)" stroke-width="1.5" fill="none"/><circle cx="30" cy="30" r="10" fill="rgba(0,184,169,0.5)"/><circle cx="30" cy="30" r="4" fill="rgba(0,184,169,0.9)"/></svg>',
+  '마그네틱':'<svg viewBox="0 0 60 60" fill="none" width="52" height="52"><rect x="5" y="14" width="50" height="5" rx="1.5" fill="rgba(0,184,169,0.6)"/><circle cx="18" cy="16.5" r="7" fill="rgba(0,184,169,0.7)"/><circle cx="30" cy="16.5" r="7" fill="rgba(0,184,169,0.7)"/><circle cx="42" cy="16.5" r="7" fill="rgba(0,184,169,0.7)"/><rect x="5" y="34" width="50" height="5" rx="1.5" fill="rgba(0,184,169,0.4)"/></svg>',
+  '직부등':'<svg viewBox="0 0 60 60" fill="none" width="52" height="52"><rect x="15" y="8" width="30" height="10" rx="2" fill="rgba(0,184,169,0.6)"/><circle cx="30" cy="32" r="14" stroke="rgba(0,184,169,0.5)" stroke-width="1.5" fill="rgba(0,184,169,0.15)"/><circle cx="30" cy="32" r="6" fill="rgba(0,184,169,0.6)"/></svg>',
+  '투광기':'<svg viewBox="0 0 60 60" fill="none" width="52" height="52"><rect x="5" y="10" width="50" height="16" rx="3" fill="rgba(0,184,169,0.5)"/><polygon points="10,26 5,52 55,52 50,26" fill="rgba(0,184,169,0.1)"/><circle cx="20" cy="18" r="4" fill="rgba(0,184,169,0.8)"/><circle cx="30" cy="18" r="4" fill="rgba(0,184,169,0.8)"/><circle cx="40" cy="18" r="4" fill="rgba(0,184,169,0.8)"/></svg>',
+  '램프':'<svg viewBox="0 0 60 60" fill="none" width="52" height="52"><circle cx="30" cy="24" r="14" stroke="rgba(0,184,169,0.5)" stroke-width="1.5" fill="rgba(0,184,169,0.12)"/><rect x="24" y="38" width="12" height="4" rx="1" fill="rgba(0,184,169,0.4)"/><rect x="24" y="42" width="12" height="4" rx="1" fill="rgba(0,184,169,0.3)"/><circle cx="30" cy="24" r="6" fill="rgba(0,184,169,0.6)"/></svg>',
+};
+function buildCatImgGrid(){}
+
+/* ── NEW PRODUCTS SCROLL ── */
+function renderNewScroll(){
+  const newProds=allProds.filter(p=>p.badge==='NEW'||p.badge==='BEST').slice(0,12);
+  const all=newProds.length?newProds:allProds.slice(0,10);
+  const scroll=document.getElementById('new-scroll');
+  if(!all.length){scroll.innerHTML='<div style="padding:20px 0;color:#aaa;font-size:13px;">관리자 페이지에서 제품을 추가해주세요.</div>';return;}
+  scroll.innerHTML=all.map(p=>{
+    const idx=allProds.indexOf(p);
+    const badge=p.badge?`<span class="new-badge badge-${p.badge==='NEW'?'new':p.badge==='BEST'?'best':'rec'}">${p.badge}</span>`:'';
+    const img=p.image?`<img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:12px;\\'>이미지 없음</div>'">`:'<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:12px;">이미지 없음</div>';
+    return `<div class="new-card" onclick="openModal(${idx})">
+      <div class="new-card-img">${img}${badge}</div>
+      <div class="new-card-info">
+        <div class="new-card-cat">${p.category||''}</div>
+        <div class="new-card-name">${p.name}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ── FILTER ── */
+function applyFilter(){
+  filtered=allProds.filter(p=>{
+    const mc=activeCat==='전체'||p.category===activeCat;
+    const q=query.toLowerCase();
+    const ms=!q||(p.name||'').toLowerCase().includes(q)||(p.description||'').toLowerCase().includes(q)||(p.category||'').toLowerCase().includes(q);
+    return mc&&ms;
+  });
+  renderProds();
+}
+
+/* ── RENDER PRODUCTS ── */
+function renderProds(){
+  const grid=document.getElementById('product-grid');
+  const cnt=document.getElementById('prod-count');
+  cnt.textContent=`총 ${filtered.length}개`;
+  if(!filtered.length){
+    grid.innerHTML=`<div class="empty-state"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#ccc" stroke-width="1.5"/><path d="M16 24h16" stroke="#ccc" stroke-width="1.5" stroke-linecap="round"/></svg><p>등록된 제품이 없습니다.<br>관리자 페이지에서 제품을 추가해주세요.</p></div>`;
+    document.getElementById('load-wrap').style.display='none';
+    return;
+  }
+  const slice=filtered.slice(0,visible);
+  grid.innerHTML=slice.map(p=>{
+    const idx=allProds.indexOf(p);
+    const img=p.image?`<img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'no-img-ph\\'>이미지 없음</div>'">`:`<div class="no-img-ph">이미지 없음</div>`;
+    const badge=p.badge?`<span class="prod-badge badge-${p.badge==='NEW'?'new':p.badge==='BEST'?'best':'rec'}">${p.badge}</span>`:'';
+    return `<div class="product-card fi" onclick="openModal(${idx})">
+      <div class="prod-img-wrap">${img}${badge}</div>
+      <div class="prod-info">
+        <div class="prod-cat">${p.category||''}</div>
+        <div class="prod-name">${p.name}</div>
+        <div class="prod-desc">${p.description||''}</div>
+      </div>
+    </div>`;
+  }).join('');
+  setTimeout(()=>grid.querySelectorAll('.fi').forEach(el=>el.classList.add('vis')),40);
+  const lw=document.getElementById('load-wrap');
+  if(filtered.length>visible){lw.style.display='block';document.getElementById('load-btn').textContent=`더 보기 (${filtered.length-visible}개 남음)`;}
+  else lw.style.display='none';
+}
+
+/* ── MODAL ── */
+function switchTab(tab){
+  document.querySelectorAll('.modal-tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.modal-tab-content').forEach(t=>t.style.display='none');
+  document.querySelector(`.modal-tab[onclick="switchTab('${tab}')"]`).classList.add('active');
+  document.getElementById('tab-'+tab).style.display='block';
+}
+function openModal(idx){
+  const p=allProds[idx]; if(!p) return;
+  const img=document.getElementById('modal-img');
+  img.src=p.image||''; img.style.display=p.image?'block':'none';
+  document.getElementById('modal-cat').textContent=p.category||'';
+  document.getElementById('modal-name').textContent=p.name||'';
+  document.getElementById('modal-desc').textContent=p.description||'';
+  const specs=document.getElementById('modal-specs');
+  const noSpec=document.getElementById('modal-no-spec');
+  if(p.specs){
+    specs.style.display='';
+    noSpec.style.display='none';
+    specs.innerHTML=p.specs.split('\n').filter(Boolean).map(line=>{
+      const [k,...v]=line.split(':');
+      return `<div class="spec-row"><div class="spec-k">${k.trim()}</div><div class="spec-v">${v.join(':').trim()}</div></div>`;
+    }).join('');
+  } else { specs.style.display='none'; noSpec.style.display=''; }
+  switchTab('info');
+  document.getElementById('modal-detail-btn').onclick=()=>{ closeModal(); location.href=`product.html?idx=${idx}`; };
+  document.getElementById('modal-overlay').classList.add('on');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){document.getElementById('modal-overlay').classList.remove('on');document.body.style.overflow='';}
+document.getElementById('modal-overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal();});
+
+/* ── GALLERY ── */
+function renderGallery(){
+  const items=get(SK.gallery)||[];
+  const grid=document.getElementById('gallery-grid');
+  if(!items.length){grid.innerHTML='<div class="gallery-empty">관리자 페이지에서 갤러리 이미지를 추가해주세요.</div>';return;}
+  grid.innerHTML=items.slice(0,5).map((item,i)=>`
+    <div class="gallery-item" onclick="window.open('${item.image}','_blank')">
+      <img src="${item.image}" alt="${item.title||''}" loading="lazy">
+      <div class="gallery-overlay"></div>
+      <div class="gallery-label">
+        <div class="gallery-label-text">${item.title||'시공 사례'}</div>
+        <div class="gallery-label-sub">크게 보기</div>
+      </div>
+    </div>`).join('');
+}
+
+/* ── SEARCH ── */
+document.getElementById('nav-search').addEventListener('input',e=>{
+  query=e.target.value;
+  const pi=document.getElementById('prod-search');
+  if(pi) pi.value=query;
+  visible=12; applyFilter();
+  if(query) document.getElementById('products').scrollIntoView({behavior:'smooth'});
+});
+document.getElementById('prod-search').addEventListener('input',e=>{
+  query=e.target.value;
+  document.getElementById('nav-search').value=query;
+  visible=12; applyFilter();
+});
+document.getElementById('load-btn').addEventListener('click',()=>{visible+=12;renderProds();});
+
+/* ── FADE IN ── */
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach((e,i)=>{if(e.isIntersecting){setTimeout(()=>e.target.classList.add('vis'),i*50);obs.unobserve(e.target);}});
+},{threshold:0.06});
+document.querySelectorAll('.fi').forEach(el=>obs.observe(el));
+
+/* ── INIT ── */
+/* ── INIT ── */
+// CONFIG 이미지 직접 적용
+document.addEventListener('DOMContentLoaded',function(){
+  [1,2,3].forEach(i=>{
+    const img=CONFIG['slide'+i+'_image'];
+    const link=CONFIG['slide'+i+'_link'];
+    if(img){
+      const el=document.getElementById('slide-bg-'+i);
+      el.innerHTML='<img src="'+img+'" alt="" style="width:100%;height:100%;object-fit:cover;display:block;">';
+      el.style='position:absolute;inset:0;z-index:0;';
+      const slide=el.closest('.hero-slide');
+      slide.querySelector('.hero-slide-content').style.display='none';
+      if(link){
+        slide.style.cursor='pointer';
+        slide.onclick=()=>{ window.location.href=link; };
+      }
+    }
+  });
+  if(CONFIG.about_image){
+    const el=document.querySelector('.about-visual-side');
+    if(el) el.innerHTML='<img src="'+CONFIG.about_image+'" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">';
+  }
+  // 주력제품 쇼케이스 이미지
+  [1,2,3,4].forEach(i=>{
+    const url=CONFIG['lifestyle_'+i]||(get(SK.company)||{})['lifestyle_'+i];
+    const el=document.getElementById('lifestyle-img-'+i);
+    if(url&&el){
+      const h=el.style.minHeight||'';
+      el.outerHTML='<img src="'+url+'" style="width:100%;height:100%;object-fit:cover;'+(h?'min-height:'+h+';':'')+'" id="lifestyle-img-'+i+'">';
+    }
+    const label=(get(SK.company)||{})['lifestyle_label_'+i];
+    const lel=document.getElementById('lifestyle-label-'+i);
+    if(label&&lel) lel.textContent=label;
+  });
+  // 카탈로그 이미지
+  if(CONFIG.catalogue_image){
+    const bw=document.getElementById('cat-book-wrap');
+    if(bw) bw.innerHTML='<img src="'+CONFIG.catalogue_image+'" alt="카탈로그">';
+  }
+  // 카탈로그 날짜/PDF
+  const comp=get(SK.company)||{};
+  if(comp.cat_date){const el=document.getElementById('cat-update-date');if(el)el.innerHTML=comp.cat_date;}
+  if(comp.cat_pdf){const el=document.getElementById('cat-download-btn');if(el)el.href=comp.cat_pdf;}
+});
+
+// 문의 폼 Formspree 연결
+document.getElementById('contact-form').addEventListener('submit',async function(e){
+  e.preventDefault();
+  const btn=document.getElementById('submit-btn');
+  const success=document.getElementById('form-success');
+  const error=document.getElementById('form-error');
+  // 메일 제목 동적 설정
+  const nameVal=this.querySelector('[name="name"]').value;
+  const productVal=this.querySelector('[name="product"]').value;
+  this.querySelector('#form-subject').value='[YEDO 문의] '+(productVal||'제품 문의')+' - '+nameVal;
+  btn.textContent='전송 중...'; btn.disabled=true;
+  success.style.display='none'; error.style.display='none';
+  try{
+    const res=await fetch('https://formspree.io/f/xpqkqaop',{
+      method:'POST', body:new FormData(this), headers:{Accept:'application/json'}
+    });
+    if(res.ok){ success.style.display='block'; this.reset(); }
+    else { error.style.display='block'; }
+  } catch(err){ error.style.display='block'; }
+  btn.textContent='문의 보내기'; btn.disabled=false;
+});
+
+initPopup(); initBanner(); initCompany();
+buildCatBar(); buildCatImgGrid(); renderNewScroll(); applyFilter(); renderGallery();
+</script>
+
+
+
+<!-- FLOATING BUTTONS -->
+<div id="float-btns" style="position:fixed;right:0;bottom:60px;z-index:999;display:flex;flex-direction:column;gap:0;align-items:center;">
+
+  <!-- 카카오톡 상담 -->
+  <a href="https://pf.kakao.com/_LFwMn" target="_blank"
+    style="width:68px;height:68px;background:#FEE500;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-decoration:none;border-radius:10px 0 0 0;"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 6C11.373 6 6 10.477 6 16c0 3.632 2.13 6.812 5.347 8.666-.213.77-.77 2.795-.882 3.228-.138.535.196.527.413.384.17-.113 2.692-1.83 3.789-2.576.757.107 1.536.164 2.333.164 6.627 0 12-4.477 12-10S24.627 6 18 6z" fill="#3C1E1E"/></svg>
+    <span style="font-size:10px;font-weight:700;color:#3C1E1E;font-family:sans-serif;line-height:1;">상담</span>
+  </a>
+
+  <!-- 최근 본 제품 -->
+  <button onclick="toggleRecentPanel()" id="recent-float-btn"
+    style="width:68px;height:68px;background:#1a1f3a;border:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;position:relative;">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="1.5"/><path d="M12 7v5l3 3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <span style="font-size:10px;font-weight:700;color:#fff;font-family:sans-serif;line-height:1;">최근</span>
+    <span id="recent-count" style="position:absolute;top:4px;right:4px;background:#00b8a9;color:#fff;font-size:8px;font-weight:700;width:14px;height:14px;border-radius:50%;display:none;align-items:center;justify-content:center;font-family:sans-serif;"></span>
+  </button>
+
+  <!-- 위로가기 -->
+  <button onclick="window.scrollTo({top:0,behavior:'smooth'})"
+    style="width:68px;height:68px;background:#00b04a;border:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;border-radius:0 0 0 10px;">
+    <svg width="26" height="26" viewBox="0 0 20 20" fill="none"><path d="M5 13l5-5 5 5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span style="font-size:10px;font-weight:700;color:#fff;font-family:sans-serif;line-height:1;">TOP</span>
+  </button>
+</div>
+
+<!-- 최근 본 제품 패널 -->
+<div id="recent-panel" style="display:none;position:fixed;right:56px;bottom:60px;z-index:998;width:280px;background:#fff;border:1px solid #e8e8e8;border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,0.15);overflow:hidden;">
+  <div style="padding:14px 16px;border-bottom:1px solid #f0f0f0;display:flex;justify-content:space-between;align-items:center;">
+    <span style="font-size:13px;font-weight:500;font-family:'Noto Sans KR',sans-serif;color:#1a1a1a;">최근 본 상품</span>
+    <button onclick="toggleRecentPanel()" style="background:none;border:none;cursor:pointer;font-size:16px;color:#aaa;">✕</button>
+  </div>
+  <div id="recent-list" style="max-height:360px;overflow-y:auto;"></div>
+</div>
+
+<script>
+const RECENT_KEY='yedo_recent';
+function getRecent(){try{return JSON.parse(localStorage.getItem(RECENT_KEY))||[];}catch{return[];}}
+function saveRecent(list){localStorage.setItem(RECENT_KEY,JSON.stringify(list));}
+
+function addRecent(idx,name,image,category){
+  let list=getRecent();
+  list=list.filter(r=>r.idx!==idx);
+  list.unshift({idx,name,image,category,time:Date.now()});
+  if(list.length>10) list=list.slice(0,10);
+  saveRecent(list);
+}
+
+function renderRecentPanel(){
+  const list=getRecent();
+  const cnt=document.getElementById('recent-count');
+  if(list.length){cnt.style.display='flex';cnt.textContent=list.length;}
+  else cnt.style.display='none';
+  const el=document.getElementById('recent-list');
+  if(!list.length){el.innerHTML='<p style="padding:24px;text-align:center;font-size:13px;color:#aaa;font-family:\'Noto Sans KR\',sans-serif;">최근 본 상품이 없습니다.</p>';return;}
+  el.innerHTML=list.map(r=>`
+    <a href="product.html?idx=${r.idx}" style="display:flex;align-items:center;gap:10px;padding:10px 14px;text-decoration:none;border-bottom:1px solid #f5f5f5;transition:background 0.15s;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background=''">
+      <div style="width:48px;height:48px;border-radius:4px;background:#f5f5f5;flex-shrink:0;overflow:hidden;">
+        ${r.image?`<img src="${r.image}" style="width:100%;height:100%;object-fit:contain;padding:3px;">`:''}
+      </div>
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:11px;color:#00b8a9;margin-bottom:2px;font-family:'Noto Sans KR',sans-serif;">${r.category||''}</div>
+        <div style="font-size:12px;color:#333;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:'Noto Sans KR',sans-serif;">${r.name}</div>
+      </div>
+    </a>`).join('');
+}
+
+function toggleRecentPanel(){
+  const panel=document.getElementById('recent-panel');
+  const isOpen=panel.style.display!=='none';
+  panel.style.display=isOpen?'none':'block';
+  if(!isOpen) renderRecentPanel();
+}
+
+document.addEventListener('click',e=>{
+  const panel=document.getElementById('recent-panel');
+  const btn=document.getElementById('recent-float-btn');
+  if(panel&&panel.style.display!=='none'&&!panel.contains(e.target)&&!btn.contains(e.target))
+    panel.style.display='none';
+});
+
+renderRecentPanel();
+</script>
+
+</body>
+</html>
