@@ -186,23 +186,17 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 
 <script>
 const SK='yedo_products';
-const getProds=()=>{
-  try{
-    const data=JSON.parse(localStorage.getItem(SK))||[];
-    if(data.length) return data;
-  }catch{}
-  // 샘플 데이터
-  return[
-    {name:"KS. T-LINE 레일등 LED 20W",category:"레일등",subcategory:"레일형",image:"https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",description:"220V/60Hz 레일형 LED 조명. T-LINE 시리즈 대표 제품으로 상업 공간에 최적화된 고효율 레일등입니다.",specs:"전압: 220V / 60Hz\n소비전력: 20W\n색온도: 3000K / 4000K",badge:"NEW"},
-    {name:"KC. 직사각매입등 LED 디밍형",category:"매입등",subcategory:"직사각",image:"https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",description:"디밍 기능이 탑재된 직사각 매입등. 밝기 조절이 가능하여 다양한 공간 연출에 적합합니다.",specs:"전압: 220V / 60Hz\n소비전력: 20W\n디밍: 가능",badge:""},
-    {name:"KS. 마그네틱 SMPS 150W",category:"마그네틱",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",description:"마그네틱 트랙 시스템용 안정기. DC48V 출력으로 안정적인 전력 공급.",specs:"전압: 220V / 60Hz\n출력: DC 48V\n용량: 150W",badge:""},
-    {name:"TS-LINE 22 레일등 LED",category:"레일등",subcategory:"레일형",image:"https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",description:"슬림한 디자인의 TS-LINE 시리즈 레일등. 깔끔한 마감과 고효율 성능을 자랑합니다.",specs:"전압: 220V / 60Hz\n소비전력: 22W",badge:"NEW"},
-    {name:"KS. 원볼 스포트 레일 COB 8W",category:"스포트",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202511/447cab0d50743fd982c72963600545c3.jpg",description:"COB 방식의 원볼 스포트 레일등. 집중 조명이 필요한 공간에 최적.",specs:"전압: 220V / 60Hz\n소비전력: 8W\n방식: COB",badge:""},
-    {name:"KC. 마그네틱 레일 시스템",category:"마그네틱",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202502/2ece4912db1ce8b5de7b61b36909ac4b.jpg",description:"자유로운 위치 조정이 가능한 마그네틱 레일 시스템. 매입형·일반형 지원.",specs:"전압: DC 48V\n타입: 매입형 / 일반형",badge:"BEST"},
-    {name:"KS. COB 공회전 매입등",category:"매입등",subcategory:"원형",image:"https://ydl.co.kr/web/product/medium/202507/134bde483b616eb85c8157c26838ef7a.jpg",description:"3인치 COB 방식 공회전 매입등. 360도 회전으로 다양한 방향 조명 가능.",specs:"전압: 220V / 60Hz\n소비전력: 10W\n크기: 3인치",badge:""},
-    {name:"KC. T5 LED 18W 1200",category:"T5",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202412/023d1b2766534dde921f7f3e5ba6c3f8.jpg",description:"고효율 T5 LED 형광등 대체 램프. 기존 형광등 교체 시 바로 사용 가능.",specs:"전압: 220V / 60Hz\n소비전력: 18W\n길이: 1200mm",badge:""},
-  ];
-};
+let _yedoData=null;
+async function loadYedoData(){
+  if(_yedoData) return _yedoData;
+  try{const r=await fetch('yedo-data.json?v='+Date.now());if(r.ok)_yedoData=await r.json();}catch(e){}
+  return _yedoData||{};
+}
+function getVal(k){
+  if(_yedoData&&_yedoData[k]!==undefined) return _yedoData[k];
+  try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch{return null;}
+}
+const getProds=()=>getVal(SK)||[];
 let currentSrc='';
 
 function switchTab(tab){
@@ -235,8 +229,8 @@ document.getElementById('nav-search').addEventListener('keydown',e=>{
 });
 
 function buildCatBar(){
-  const prods=JSON.parse(localStorage.getItem('yedo_products')||'[]');
-  const saved=JSON.parse(localStorage.getItem('yedo_cat_order')||'[]');
+  const prods=getVal('yedo_products')||[];
+  const saved=getVal('yedo_cat_order')||[];
   const existing=[...new Set(prods.map(p=>p.category).filter(Boolean))];
   const ordered=saved.length?[...saved,...existing.filter(c=>!saved.includes(c))]:existing;
   const cats=['전체',...ordered];
@@ -244,13 +238,12 @@ function buildCatBar(){
   if(!inner) return;
   inner.innerHTML=cats.map(c=>{
     const fromProds=[...new Set(prods.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
-    const fromSaved=JSON.parse(localStorage.getItem('yedo_subcats_'+c)||'[]');
+    const fromSaved=getVal('yedo_subcats_'+c)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     const dropdown=subs.length?`<div class="cat-dropdown">${subs.map(s=>`<button class="cat-dropdown-item" onclick="event.stopPropagation();location.href='category.html?cat=${encodeURIComponent(c)}&sub=${encodeURIComponent(s)}'">${s}</button>`).join('')}</div>`:'';
     return `<div class="cat-item"><button class="cat-btn" onclick="location.href='category.html?cat=${encodeURIComponent(c)}'">${c}</button>${dropdown}</div>`;
   }).join('');
 }
-buildCatBar();
 
 function loadProduct(){
   const params=new URLSearchParams(location.search);
@@ -315,7 +308,11 @@ function loadProduct(){
     }
   }
 }
-loadProduct();
+(async function(){
+  await loadYedoData();
+  buildCatBar();
+  loadProduct();
+})();
 </script>
 
 

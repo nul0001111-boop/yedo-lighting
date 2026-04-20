@@ -142,22 +142,18 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 <script>
 // ── 데이터 ──
 const SK='yedo_products';
-function getProds(){try{return JSON.parse(localStorage.getItem(SK))||[];}catch{return[];}}
-let allProds=getProds();
-
-if(!allProds.length){
-  allProds=[
-    {name:"KS. T-LINE 레일등 LED 20W",category:"레일등",subcategory:"레일형",image:"https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",specs:"전압: 220V / 60Hz\n소비전력: 20W",badge:"NEW"},
-    {name:"KC. 직사각매입등 LED 디밍형",category:"매입등",subcategory:"직사각",image:"https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",specs:"전압: 220V / 60Hz\n소비전력: 20W",badge:""},
-    {name:"KS. 마그네틱 SMPS 150W",category:"마그네틱",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",specs:"전압: 220V / 60Hz\n출력: DC 48V",badge:""},
-    {name:"TS-LINE 22 레일등 LED",category:"레일등",subcategory:"레일형",image:"https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",specs:"전압: 220V / 60Hz\n소비전력: 22W",badge:"NEW"},
-    {name:"KS. 원볼 스포트 레일 COB 8W",category:"스포트",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202511/447cab0d50743fd982c72963600545c3.jpg",specs:"전압: 220V / 60Hz\n소비전력: 8W",badge:""},
-    {name:"KC. 마그네틱 레일 시스템",category:"마그네틱",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202502/2ece4912db1ce8b5de7b61b36909ac4b.jpg",specs:"전압: DC 48V",badge:"BEST"},
-    {name:"KS. COB 공회전 매입등",category:"매입등",subcategory:"원형",image:"https://ydl.co.kr/web/product/medium/202507/134bde483b616eb85c8157c26838ef7a.jpg",specs:"전압: 220V / 60Hz\n소비전력: 10W",badge:""},
-    {name:"KC. T5 LED 18W 1200",category:"T5",subcategory:"",image:"https://ydl.co.kr/web/product/medium/202412/023d1b2766534dde921f7f3e5ba6c3f8.jpg",specs:"전압: 220V / 60Hz\n소비전력: 18W",badge:""},
-  ];
-  localStorage.setItem(SK,JSON.stringify(allProds));
+let _yedoData=null;
+async function loadYedoData(){
+  if(_yedoData) return _yedoData;
+  try{const r=await fetch('yedo-data.json?v='+Date.now());if(r.ok)_yedoData=await r.json();}catch(e){}
+  return _yedoData||{};
 }
+function getVal(k){
+  if(_yedoData&&_yedoData[k]!==undefined) return _yedoData[k];
+  try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch{return null;}
+}
+function getProds(){return getVal(SK)||[];}
+let allProds=[];
 
 // ── 상태 ──
 // URL 파라미터에서 초기값 읽기
@@ -169,7 +165,7 @@ let visible = 20;
 
 // ── 카테고리 목록 (저장된 순서 반영) ──
 function getCats(){
-  const saved = JSON.parse(localStorage.getItem('yedo_cat_order')||'[]');
+  const saved = getVal('yedo_cat_order')||[];
   const existing = [...new Set(allProds.map(p=>p.category).filter(Boolean))];
   const ordered = saved.length ? [...saved, ...existing.filter(c=>!saved.includes(c))] : existing;
   return ['전체', ...ordered];
@@ -182,7 +178,7 @@ function renderTopBar(){
   const curActive = searchQuery ? '전체' : activeCat;
   document.getElementById('top-cat-inner').innerHTML = cats.map(c=>{
     const fromProds=[...new Set(allProds.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
-    const fromSaved=JSON.parse(localStorage.getItem('yedo_subcats_'+c)||'[]');
+    const fromSaved=getVal('yedo_subcats_'+c)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     const dropdown=subs.length?`<div class="top-cat-dropdown">${subs.map(s=>`<button class="top-cat-dropdown-item" onclick="event.stopPropagation();activeCat='${c}';selectSubCat('${s}')">${s}</button>`).join('')}</div>`:'';
     return `<div class="top-cat-item"><button class="top-cat-btn${c===curActive?' active':''}" data-cat="${c}">${c}</button>${dropdown}</div>`;
@@ -211,7 +207,7 @@ function renderSidebar(){
     title.textContent = activeCat;
     // 제품에서 + admin 별도 저장 서브카테고리 합치기
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
-    const fromSaved=JSON.parse(localStorage.getItem('yedo_subcats_'+activeCat)||'[]');
+    const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     const total = allProds.filter(p=>p.category===activeCat).length;
     let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체<span class="sidebar-count">(${total})</span></button>`;
@@ -339,7 +335,11 @@ document.getElementById('load-btn').addEventListener('click', ()=>{
 
 // ── 초기 렌더 ──
 if(searchQuery) document.getElementById('nav-search').value = searchQuery;
-updateUI();
+(async function(){
+  await loadYedoData();
+  allProds = getProds();
+  updateUI();
+})();
 </script>
 
 <!-- FLOATING BUTTONS -->

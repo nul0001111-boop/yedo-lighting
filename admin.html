@@ -141,6 +141,27 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
         <div class="stat-card"><div class="stat-card-num" id="stat-cats">0</div><div class="stat-card-label">카테고리 수</div></div>
         <div class="stat-card"><div class="stat-card-num" id="stat-banner">OFF</div><div class="stat-card-label">공지 배너 상태</div></div>
       </div>
+      <div class="card" style="border:2px solid var(--teal);">
+        <div class="card-title">💾 사이트에 데이터 저장</div>
+        <p style="font-size:13px;color:var(--text-dim);margin-bottom:16px;">제품/카테고리 수정 후 이 버튼을 누르면 <strong>GitHub에 자동 저장</strong>되어 사이트에 바로 반영됩니다.</p>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+          <button class="btn btn-primary" onclick="saveToGitHub()" style="font-size:15px;padding:12px 32px;">🚀 GitHub에 저장 (자동 반영)</button>
+          <span id="save-status" style="font-size:13px;color:var(--text-dim);"></span>
+        </div>
+        <p style="font-size:11px;color:var(--text-faint);margin-top:10px;">* yedo-data.json 파일이 GitHub에 자동 업로드됩니다. git push 불필요!</p>
+      </div>
+      <div class="card" id="github-settings-card">
+        <div class="card-title">⚙️ GitHub 연동 설정</div>
+        <p style="font-size:12px;color:var(--text-dim);margin-bottom:12px;">최초 1회만 설정하면 됩니다. 토큰은 이 브라우저에만 저장됩니다.</p>
+        <div class="form-group">
+          <label class="form-label">GitHub Personal Access Token</label>
+          <input class="form-input" type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <button class="btn btn-primary btn-sm" onclick="saveGHToken()">토큰 저장</button>
+          <span id="gh-token-status" style="font-size:12px;color:var(--text-dim);"></span>
+        </div>
+      </div>
       <div class="card">
         <div class="card-title">🚀 빠른 시작</div>
         <p style="font-size:14px;color:var(--text-dim);line-height:1.9;">
@@ -513,6 +534,100 @@ function refreshPage(p){
   if(p==='popup') loadPopupForm();
   if(p==='company') loadCompanyForm();
   if(p==='catalogue') loadCatalogueForm();
+}
+
+// ── GitHub 연동 ──
+const GH_OWNER = 'nul0001111-boop';
+const GH_REPO  = 'yedo-lighting';
+const GH_FILE  = 'yedo-data.json';
+const GH_BRANCH= 'main';
+
+function saveGHToken(){
+  const t = document.getElementById('gh-token').value.trim();
+  if(!t){toast('토큰을 입력하세요.',false);return;}
+  localStorage.setItem('yedo_gh_token', t);
+  document.getElementById('gh-token').value='';
+  document.getElementById('gh-token-status').textContent='✅ 저장됨';
+  document.getElementById('gh-token-status').style.color='var(--teal)';
+  toast('토큰이 저장되었습니다!');
+}
+
+function loadGHTokenStatus(){
+  const t = localStorage.getItem('yedo_gh_token');
+  const st = document.getElementById('gh-token-status');
+  if(t){ st.textContent='✅ 토큰 설정됨'; st.style.color='var(--teal)'; }
+  else { st.textContent='⚠️ 토큰 없음 — 아래에 입력하세요'; st.style.color='#e67e22'; }
+}
+
+async function saveToGitHub(){
+  const status = document.getElementById('save-status');
+  const token = localStorage.getItem('yedo_gh_token');
+  if(!token){
+    toast('먼저 GitHub 토큰을 설정하세요!', false);
+    status.textContent='⚠️ 토큰 없음';
+    return;
+  }
+
+  // 모든 yedo 데이터 수집
+  const allData = {};
+  for(let i=0; i<localStorage.length; i++){
+    const k = localStorage.key(i);
+    if(k && k.startsWith('yedo') && k !== 'yedo_gh_token'){
+      try{ allData[k] = JSON.parse(localStorage.getItem(k)); }
+      catch{ allData[k] = localStorage.getItem(k); }
+    }
+  }
+
+  const jsonContent = JSON.stringify(allData, null, 2);
+  const encoded = btoa(unescape(encodeURIComponent(jsonContent)));
+
+  status.textContent = '⏳ GitHub에 저장 중...';
+  status.style.color = 'var(--text-dim)';
+
+  try {
+    // 현재 파일 SHA 가져오기 (업데이트에 필요)
+    const apiBase = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`;
+    const headers = {
+      'Authorization': `token ${token}`,
+      'Content-Type': 'application/json'
+    };
+
+    let sha = null;
+    const getRes = await fetch(apiBase, { headers });
+    if(getRes.ok){
+      const getJson = await getRes.json();
+      sha = getJson.sha;
+    }
+
+    // 파일 업로드
+    const body = { message: 'admin: update yedo-data.json', content: encoded, branch: GH_BRANCH };
+    if(sha) body.sha = sha;
+
+    const putRes = await fetch(apiBase, {
+      method: 'PUT',
+      headers,
+      body: JSON.stringify(body)
+    });
+
+    if(putRes.ok){
+      status.style.color = 'var(--teal)';
+      status.textContent = '✅ GitHub 저장 완료! 1~2분 후 사이트에 반영됩니다.';
+      toast('GitHub에 저장 완료! 사이트가 곧 업데이트됩니다 🎉');
+    } else {
+      const err = await putRes.json();
+      status.style.color = 'var(--danger)';
+      status.textContent = '❌ 저장 실패: ' + (err.message||putRes.status);
+      toast('저장 실패: ' + (err.message||putRes.status), false);
+    }
+  } catch(e) {
+    status.style.color = 'var(--danger)';
+    status.textContent = '❌ 오류: ' + e.message;
+    toast('오류: ' + e.message, false);
+  }
+}
+
+async function saveAllData(){
+  await saveToGitHub();
 }
 
 function updateDashboard(){
@@ -1060,7 +1175,21 @@ function clearAllProducts(){
   localStorage.removeItem(SK.products); updateDashboard(); toast('전체 제품이 삭제되었습니다.');
 }
 
-updateDashboard();
+// 시작 시 yedo-data.json → localStorage 동기화
+(async function(){
+  try{
+    const r = await fetch('yedo-data.json?v='+Date.now());
+    if(r.ok){
+      const data = await r.json();
+      Object.keys(data).forEach(k=>{
+        if(k !== 'yedo_gh_token') localStorage.setItem(k, JSON.stringify(data[k]));
+      });
+    }
+  }catch(e){}
+  updateDashboard();
+  loadGHTokenStatus();
+  renderProductList();
+})();
 </script>
 </body>
 </html>
