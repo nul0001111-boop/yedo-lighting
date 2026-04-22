@@ -28,10 +28,10 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .nav-contact{font-size:14px;font-weight:500;color:#fff;background:var(--teal);padding:8px 20px;border-radius:3px;text-decoration:none;transition:background 0.2s;}
 .nav-contact:hover{background:var(--teal-dark);}
 /* TOP CAT BAR */
-.top-cat-bar{border-bottom:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;height:48px;}
+.top-cat-bar{border-bottom:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;}
 .top-cat-bar::-webkit-scrollbar{display:none;}
 .top-cat-inner{display:inline-flex;}
-.top-cat-btn{font-size:17px;color:var(--text-dim);background:none;border:none;padding:14px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
+.top-cat-btn{font-size:17px;color:var(--text-dim);background:none;border:none;padding:13px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
 .top-cat-btn:hover{color:var(--teal);}
 .top-cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
 .top-cat-item{position:relative;display:inline-block;}
@@ -44,20 +44,20 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .breadcrumb a:hover{color:var(--teal);}
 .breadcrumb span{color:var(--text-dim);}
 /* LAYOUT */
-.cat-wrap{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 200px);}
+.cat-wrap{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 200px);}
 /* SIDEBAR */
 .sidebar{border-right:1px solid var(--border);padding:40px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;background:#fff;}
-.sidebar-section-title{font-size:28px;font-weight:700;color:var(--text);padding:0 48px 20px;margin-bottom:0;letter-spacing:-0.02em;line-height:1.2;}
-.sidebar-divider-main{height:1px;background:var(--border);margin:20px 48px 20px;}
-.sidebar-label{display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:500;color:var(--text);padding:0 48px 16px;cursor:default;}
+.sidebar-section-title{font-size:28px;font-weight:700;color:var(--text);padding:0 32px 20px;margin-bottom:0;letter-spacing:-0.02em;line-height:1.2;}
+.sidebar-divider-main{height:1px;background:var(--border);margin:20px 32px 20px;}
+.sidebar-label{display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:500;color:var(--text);padding:0 32px 16px;cursor:default;}
 .sidebar-label-dash{font-size:18px;color:var(--text);line-height:1;}
-.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:var(--text-dim);padding:8px 48px;cursor:pointer;background:none;border:none;border-left:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s;}
+.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:var(--text-dim);padding:8px 32px;cursor:pointer;background:none;border:none;border-left:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s;}
 .sidebar-cat:hover{color:var(--text);}
 .sidebar-cat.active{color:var(--text);font-weight:500;}
 .sidebar-count{font-size:12px;color:var(--text-faint);}
 .sidebar-sub{display:none;flex-direction:column;}
 .sidebar-sub.open{display:flex;}
-.sidebar-subcat{font-size:13px;color:var(--text-faint);padding:6px 48px 6px 60px;cursor:pointer;background:none;border:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s;}
+.sidebar-subcat{font-size:13px;color:var(--text-faint);padding:6px 32px 6px 44px;cursor:pointer;background:none;border:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s;}
 .sidebar-subcat:hover{color:var(--text);}
 .sidebar-subcat.active{color:var(--text);font-weight:500;}
 /* CONTENT */
@@ -128,7 +128,7 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
   <aside class="sidebar">
     <div class="sidebar-section-title" id="sidebar-title">카테고리</div>
     <div class="sidebar-divider-main"></div>
-    <div class="sidebar-label-wrap" id="sidebar-label-wrap" style="display:flex;align-items:center;justify-content:space-between;padding:0 48px 16px;"><span style="font-size:14px;font-weight:500;color:var(--text);" id="sidebar-label-text">카테고리</span><span style="font-size:18px;line-height:1;">—</span></div>
+    <div class="sidebar-label-wrap" id="sidebar-label-wrap" style="display:flex;align-items:center;justify-content:space-between;padding:0 32px 16px;"><span style="font-size:14px;font-weight:500;color:var(--text);" id="sidebar-label-text">카테고리</span><span style="font-size:18px;line-height:1;">—</span></div>
     <div id="sidebar-cats"></div>
   </aside>
   <div class="content">
@@ -220,13 +220,6 @@ function renderSidebar(){
     let html = subs.map(s=>{
       return `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
     }).join('');
-    // 다른 카테고리
-    const otherCats = getCats().filter(c=>c!=='전체'&&c!==activeCat);
-    if(otherCats.length){
-      html += `<div style="height:1px;background:var(--border);margin:16px 48px;"></div>`;
-      html += `<div style="padding:0 48px 12px;font-size:14px;font-weight:500;color:var(--text);">다른 카테고리</div>`;
-      html += otherCats.map(c=>`<button class="sidebar-cat" data-cat="${c}">${c}</button>`).join('');
-    }
     sb.innerHTML = html;
   }
   sb.querySelectorAll('.sidebar-cat').forEach(btn=>{
@@ -394,7 +387,7 @@ function renderRecentPanel(){
   if(list.length){cnt.style.display='flex';cnt.textContent=list.length;}else cnt.style.display='none';
   const el=document.getElementById('recent-list');
   if(!list.length){el.innerHTML='<p style="padding:24px;text-align:center;font-size:13px;color:#aaa;font-family:\'Noto Sans KR\',sans-serif;">최근 본 상품이 없습니다.</p>';return;}
-  el.innerHTML=list.map(r=>`<a href="product.html?idx=${r.idx}" style="display:flex;align-items:center;gap:10px;padding:10px 14px;text-decoration:none;border-bottom:1px solid #f5f5f5;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background=''"><div style="width:48px;height:48px;border-radius:4px;background:#f5f5f5;flex-shrink:0;overflow:hidden;">${r.image?`<img src="${r.image}" style="width:100%;height:100%;object-fit:contain;padding:3px;">`:''}  </div><div style="flex:1;min-width:0;"><div style="font-size:11px;color:#00b8a9;margin-bottom:2px;">${r.category||''}</div><div style="font-size:12px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.name}</div></div></a>`).join('');
+  el.innerHTML=list.map(r=>`<a href="product.html?idx=${r.idx}" style="display:flex;align-items:center;gap:10px;padding:10px 14px;text-decoration:none;border-bottom:1px solid #f5f5f5;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background=''"><div style="width:48px;border-radius:4px;background:#f5f5f5;flex-shrink:0;overflow:hidden;">${r.image?`<img src="${r.image}" style="width:100%;height:100%;object-fit:contain;padding:3px;">`:''}  </div><div style="flex:1;min-width:0;"><div style="font-size:11px;color:#00b8a9;margin-bottom:2px;">${r.category||''}</div><div style="font-size:12px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.name}</div></div></a>`).join('');
 }
 function toggleRecentPanel(){
   const panel=document.getElementById('recent-panel');
