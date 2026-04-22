@@ -247,9 +247,19 @@ function buildCatBar(){
 
 function loadProduct(){
   const params=new URLSearchParams(location.search);
-  const idx=parseInt(params.get('idx'));
   const prods=getProds();
-  const p=prods[idx];
+  
+  // name 파라미터 우선, 없으면 idx 폴백
+  let p, idx;
+  const name = params.get('name');
+  if(name){
+    idx = prods.findIndex(p=>p.name===decodeURIComponent(name));
+    p = prods[idx];
+  } else {
+    idx = parseInt(params.get('idx'));
+    p = prods[idx];
+  }
+  
   if(!p){document.body.innerHTML='<div style="padding:80px;text-align:center;color:#aaa;font-family:sans-serif;">제품을 찾을 수 없습니다. <a href="index.html" style="color:#00b8a9;">홈으로</a></div>';return;}
 
   document.title=p.name+' · YEDO LIGHTING';

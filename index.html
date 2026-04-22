@@ -956,7 +956,7 @@ function openModal(idx){
     }).join('');
   } else { specs.style.display='none'; noSpec.style.display=''; }
   switchTab('info');
-  document.getElementById('modal-detail-btn').onclick=()=>{ closeModal(); location.href=`product.html?idx=${idx}`; };
+  document.getElementById('modal-detail-btn').onclick=()=>{ closeModal(); location.href=`product.html?name=${encodeURIComponent(p.name)}`; };
   document.getElementById('modal-overlay').classList.add('on');
   document.body.style.overflow='hidden';
 }
