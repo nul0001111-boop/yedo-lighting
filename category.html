@@ -47,7 +47,7 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .cat-wrap{display:grid;grid-template-columns:320px 1fr;min-height:calc(100vh - 200px);}
 /* SIDEBAR */
 .sidebar{border-right:1px solid var(--border);padding:28px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;}
-.sidebar-section-title{font-size:22px;font-weight:700;color:var(--text);padding:0 24px 12px 24px;border-bottom:1px solid var(--border);margin-bottom:8px;border-left:3px solid transparent;}
+.sidebar-section-title{font-size:22px;font-weight:700;color:var(--text);padding:0 24px 12px 27px;border-bottom:1px solid var(--border);margin-bottom:8px;}
 .sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:19px;color:var(--text-dim);padding:10px 24px;cursor:pointer;background:none;border:none;border-left:3px solid transparent;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
 .sidebar-cat:hover{color:var(--teal);background:var(--teal-pale);}
 .sidebar-cat.active{color:var(--teal);border-left-color:var(--teal);background:var(--teal-pale);font-weight:500;}
@@ -189,7 +189,7 @@ function renderTopBar(){
 }
 
 function formatCatName(c){
-  if(c==='마그네틱 트랙 시스템') return '마그네틱<br>트랙 시스템';
+  if(c==='마그네틱 트랙 시스템') return '<span style="display:inline-block;max-width:120px;line-height:1.4;">마그네틱 트랙 시스템</span>';
   return c;
 }
 
