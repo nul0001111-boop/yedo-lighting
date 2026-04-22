@@ -34,6 +34,7 @@
     "마그네틱 조명",
     "마그네틱 안정기"
   ],
+  "yedo_last_saved": 1776832419743,
   "yedo_products": [
     {
       "name": "KS. T-LINE 레일등 LED 20W",
@@ -59,10 +60,15 @@
     {
       "name": "KS. 마그네틱 SMPS 150W (DC48V)",
       "category": "",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",
+      "images": [],
+      "detail_images": [],
       "description": "마그네틱 트랙 시스템용 안정기. DC48V 출력으로 안정적인 전력 공급.",
       "specs": "전압: 220V / 60Hz\n출력: DC 48V\n용량: 150W",
-      "badge": ""
+      "badge": "",
+      "visible": false,
+      "related_products": []
     },
     {
       "name": "TS-LINE 22 레일등 LED",
