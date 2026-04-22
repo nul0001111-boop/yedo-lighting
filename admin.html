@@ -1245,8 +1245,8 @@ function clearAllProducts(){
       const data = await r.json();
       const remoteSavedAt = data['yedo_saved_at'] || 0;
       const localSavedAt = parseInt(localStorage.getItem('yedo_saved_at') || '0');
-      // 원격이 더 최신이거나 로컬에 데이터가 없을 때만 동기화
-      if(remoteSavedAt >= localSavedAt){
+      // 원격이 더 최신일 때만 동기화 (같으면 유지)
+      if(remoteSavedAt > localSavedAt){
         Object.keys(data).forEach(k=>{
           if(k !== 'yedo_gh_token'){
             localStorage.setItem(k, JSON.stringify(data[k]));
