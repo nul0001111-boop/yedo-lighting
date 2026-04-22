@@ -111,13 +111,6 @@
   ],
   "yedo_recent": [
     {
-      "idx": 0,
-      "name": "KS. T-LINE 레일등 LED 20W",
-      "image": "https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",
-      "category": "",
-      "time": 1776832116676
-    },
-    {
       "idx": 3,
       "name": "TS-LINE 22 레일등 LED",
       "image": "https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
@@ -137,6 +130,13 @@
       "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "category": "",
       "time": 1776651406722
+    },
+    {
+      "idx": 0,
+      "name": "KS. T-LINE 레일등 LED 20W",
+      "image": "https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",
+      "category": "",
+      "time": 1776651403581
     }
   ]
 }
