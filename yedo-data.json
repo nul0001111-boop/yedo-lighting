@@ -1,5 +1,40 @@
 {
-  "yedo_last_saved": 1776837567427,
+  "yedo_subcats_T시리즈": [
+    "레일형",
+    "직부형",
+    "매입형",
+    "간접등 T5"
+  ],
+  "yedo_cat_order": [
+    "NEW PRODUCT",
+    "T시리즈",
+    "M시리즈",
+    "마그네틱 트랙 시스템",
+    "매입등",
+    "MR 매입등",
+    "멀티등기구",
+    "직부등",
+    "홍조명(방등)",
+    "스포트라이트",
+    "팬던트",
+    "투광기",
+    "램프",
+    "레일 및 부품",
+    "배선기구"
+  ],
+  "yedo_subcats_레일 및 부품": [
+    "KC. 레일",
+    "KC. 레이스웨이 레일",
+    "KC. 광폭 레이스웨이 레일",
+    "KC. 포트랙 레일",
+    "일반레일(국산)"
+  ],
+  "yedo_subcats_마그네틱 트랙 시스템": [
+    "마그네틱 레일",
+    "마그네틱 조명",
+    "마그네틱 안정기"
+  ],
+  "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
@@ -61,7 +96,7 @@
     },
     {
       "name": "KC. 직사각매입등 LED 디밍형",
-      "category": "M시리즈",
+      "category": "LED 매입등",
       "subcategory": "사각매입등",
       "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "images": [],
@@ -296,7 +331,7 @@
     },
     {
       "name": "KC. 직사각매입등 LED20W",
-      "category": "M시리즈",
+      "category": "LED 매입등",
       "subcategory": "사각매입등",
       "image": "https://ydl.co.kr/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
       "images": [],
@@ -313,9 +348,7 @@
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 240 X 110 X H21\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~100mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
-      "related_products": [
-        0
-      ]
+      "related_products": []
     },
     {
       "name": "KS. 마그네틱 SMPS 150W / 250W (DC48V)",
@@ -9991,55 +10024,38 @@
     }
   ],
   "yedo_subcats_M시리즈": [
-    "라인매입등"
+    "라인매입등",
+    "사각매입등"
   ],
   "yedo_recent": [
-    {
-      "idx": 1,
-      "name": "KC. 직사각매입등 LED 디밍형",
-      "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
-      "category": "",
-      "time": 1776837646537
-    },
-    {
-      "idx": 9,
-      "name": "T22 직부등 전용 전원마감",
-      "image": "https://ydl.co.kr/web/product/medium/202603/44aee6afab50bf0d2ec604c72b549445.jpg",
-      "category": "T시리즈",
-      "time": 1776837530270
-    },
     {
       "idx": 3,
       "name": "TS-LINE 22 레일등 LED",
       "image": "https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
       "category": "",
-      "time": 1776837526925
+      "time": 1776651430086
     },
     {
-      "idx": 10,
-      "name": "TS-LINE 60 레일등 LED",
-      "image": "https://ydl.co.kr/web/product/medium/202601/82f3e659dc576747c19f80eb23a11ae9.jpg",
-      "category": "T시리즈",
-      "time": 1776837524568
+      "idx": 2,
+      "name": "KS. 마그네틱 SMPS 150W (DC48V)",
+      "image": "https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",
+      "category": "",
+      "time": 1776651408110
+    },
+    {
+      "idx": 1,
+      "name": "KC. 직사각매입등 LED 디밍형",
+      "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
+      "category": "",
+      "time": 1776651406722
+    },
+    {
+      "idx": 0,
+      "name": "KS. T-LINE 레일등 LED 20W",
+      "image": "https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",
+      "category": "",
+      "time": 1776651403581
     }
   ],
-  "yedo_cat_order": [
-    "LED 매입등",
-    "T시리즈",
-    "M시리즈",
-    "레일 및 부품",
-    "스포트 라이트",
-    "직부등",
-    "마그네틱 트랙 시스템",
-    "램프",
-    "멀티등기구",
-    "악세사리",
-    "MR 매입등",
-    "기타",
-    "투광기",
-    "벽등",
-    "팬던트",
-    "홈조명(방등)"
-  ],
-  "yedo_saved_at": 1776837702715
+  "yedo_saved_at": 1776838140233
 }
