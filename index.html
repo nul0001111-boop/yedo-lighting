@@ -893,7 +893,7 @@ function renderNewScroll(){
 /* ── FILTER ── */
 function applyFilter(){
   filtered=allProds.filter(p=>{
-    const mc=activeCat==='전체'||p.category===activeCat;
+    const mc=!activeCat||activeCat==='전체'||p.category===activeCat;
     const q=query.toLowerCase();
     const ms=!q||(p.name||'').toLowerCase().includes(q)||(p.description||'').toLowerCase().includes(q)||(p.category||'').toLowerCase().includes(q);
     return mc&&ms;
