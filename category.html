@@ -10,6 +10,8 @@
 :root{--teal:#00b8a9;--teal-dark:#009e90;--teal-pale:rgba(0,184,169,0.07);--teal-dim:rgba(0,184,169,0.2);--bg:#f5f6f7;--bg2:#fff;--text:#1a1a1a;--text-dim:#555;--text-faint:#aaa;--border:#e8e8e8;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-weight:300;line-height:1.6;}
+
+/* NAV */
 nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;}
 .nav-top{display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:88px;gap:20px;}
 .nav-logo{font-family:'Barlow Condensed',sans-serif;font-size:54px;font-weight:700;letter-spacing:0.06em;color:var(--text);text-decoration:none;flex-shrink:0;line-height:1;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
@@ -26,50 +28,79 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .nav-search-ico{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-faint);font-size:14px;pointer-events:none;}
 .nav-contact{font-size:14px;font-weight:500;color:#fff;background:var(--teal);padding:8px 20px;border-radius:3px;text-decoration:none;transition:background 0.2s;}
 .nav-contact:hover{background:var(--teal-dark);}
-.filter-wrap{background:#fff;border-bottom:1px solid var(--border);padding:0 48px;position:sticky;top:88px;z-index:150;}
-.filter-cats{display:flex;gap:0;overflow-x:auto;scrollbar-width:none;}
-.filter-cats::-webkit-scrollbar{display:none;}
-.filter-cat-btn{font-size:15px;font-weight:400;color:var(--text-dim);background:none;border:none;border-bottom:2px solid transparent;padding:14px 20px;cursor:pointer;font-family:inherit;white-space:nowrap;transition:color 0.2s,border-color 0.2s;}
-.filter-cat-btn:hover{color:var(--teal);}
-.filter-cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
-.sub-filter-wrap{background:#fafafa;border-bottom:1px solid var(--border);padding:10px 48px;display:none;}
-.sub-filter-wrap.show{display:block;}
-.sub-filter-inner{display:flex;gap:8px;flex-wrap:wrap;}
-.sub-btn{font-size:13px;color:var(--text-dim);background:#fff;border:1px solid var(--border);border-radius:20px;padding:5px 16px;cursor:pointer;font-family:inherit;transition:all 0.2s;}
-.sub-btn:hover{border-color:var(--teal);color:var(--teal);}
-.sub-btn.active{background:var(--teal);color:#fff;border-color:var(--teal);}
-.page-header{padding:28px 48px 20px;background:#fff;border-bottom:1px solid var(--border);}
-.page-title{font-size:26px;font-weight:700;color:var(--text);}
-.page-count{font-size:13px;color:var(--text-faint);margin-top:4px;}
-.content{padding:32px 48px 80px;}
-.product-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;}
-.product-card{background:#fff;border:1px solid var(--border);border-radius:8px;overflow:hidden;cursor:pointer;transition:box-shadow 0.25s,border-color 0.25s,transform 0.2s;text-decoration:none;display:block;}
-.product-card:hover{box-shadow:0 8px 32px rgba(0,184,169,0.12);border-color:var(--teal-dim);transform:translateY(-3px);}
+
+/* TOP CAT BAR */
+.top-cat-bar{border-bottom:1px solid var(--border);background:#fff;padding:0 48px;overflow-x:auto;scrollbar-width:none;}
+.top-cat-bar::-webkit-scrollbar{display:none;}
+.top-cat-inner{display:flex;}
+.top-cat-btn{font-size:15px;color:var(--text-dim);background:none;border:none;border-bottom:2px solid transparent;padding:12px 18px;cursor:pointer;font-family:inherit;white-space:nowrap;transition:color 0.2s,border-color 0.2s;}
+.top-cat-btn:hover{color:var(--teal);}
+.top-cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
+
+/* BREADCRUMB */
+.breadcrumb{padding:12px 48px;font-size:12px;color:var(--text-faint);background:var(--bg);border-bottom:1px solid var(--border);}
+.breadcrumb a{color:var(--text-faint);text-decoration:none;}
+.breadcrumb a:hover{color:var(--teal);}
+
+/* LAYOUT */
+.page-wrap{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 200px);}
+
+/* SIDEBAR */
+.sidebar{background:#fff;border-right:1px solid var(--border);padding:32px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;}
+.sidebar-cat-title{font-size:22px;font-weight:700;color:var(--text);padding:0 28px 16px;border-bottom:2px solid var(--text);margin-bottom:20px;}
+.sidebar-label{font-size:11px;font-weight:500;color:var(--text-faint);letter-spacing:0.12em;padding:0 28px;margin-bottom:8px;text-transform:uppercase;}
+.sidebar-item{display:flex;justify-content:space-between;align-items:center;padding:9px 28px;font-size:15px;color:var(--text-dim);cursor:pointer;background:none;border:none;font-family:inherit;width:100%;text-align:left;transition:color 0.15s,background 0.15s;border-left:3px solid transparent;}
+.sidebar-item:hover{color:var(--text);background:var(--bg);}
+.sidebar-item.active{color:var(--teal);font-weight:500;border-left-color:var(--teal);}
+.sidebar-count{font-size:12px;color:var(--text-faint);}
+.sidebar-divider{height:1px;background:var(--border);margin:16px 28px;}
+
+/* CONTENT */
+.content{padding:32px 40px 80px;}
+.content-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border);}
+.content-title{font-size:24px;font-weight:700;color:var(--text);}
+.content-count{font-size:13px;color:var(--text-faint);}
+
+/* SEARCH BAR */
+.content-search{margin-bottom:20px;}
+.content-search input{width:100%;max-width:360px;background:#fff;border:1px solid var(--border);border-radius:4px;padding:9px 16px;font-size:14px;color:var(--text);font-family:inherit;outline:none;transition:border-color 0.2s;}
+.content-search input:focus{border-color:var(--teal);}
+
+/* GRID */
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.product-card{background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;transition:box-shadow 0.25s,border-color 0.25s,transform 0.2s;text-decoration:none;display:block;}
+.product-card:hover{box-shadow:0 6px 24px rgba(0,184,169,0.11);border-color:var(--teal-dim);transform:translateY(-2px);}
 .prod-img-wrap{aspect-ratio:1;background:#f8f9f9;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;}
 .prod-img-wrap img{width:100%;height:100%;object-fit:contain;transition:transform 0.3s;}
 .product-card:hover .prod-img-wrap img{transform:scale(1.04);}
 .prod-badge{position:absolute;top:10px;left:10px;font-size:10px;font-weight:700;padding:3px 8px;border-radius:2px;}
 .badge-new{background:var(--teal);color:#fff;}
 .badge-best{background:#e74c3c;color:#fff;}
-.prod-info{padding:14px 16px 18px;}
-.prod-cat{font-size:11px;color:var(--teal);letter-spacing:0.07em;margin-bottom:5px;text-transform:uppercase;}
-.prod-name{font-size:15px;font-weight:500;color:var(--text);line-height:1.4;}
-.empty-state{grid-column:1/-1;padding:100px 0;text-align:center;color:var(--text-faint);}
-.load-wrap{text-align:center;margin-top:40px;}
-.load-btn{font-size:14px;color:var(--teal);border:1px solid var(--teal);background:none;padding:12px 48px;border-radius:3px;cursor:pointer;font-family:inherit;transition:all 0.2s;}
+.prod-info{padding:12px 14px 16px;}
+.prod-cat{font-size:11px;color:var(--teal);letter-spacing:0.07em;margin-bottom:4px;text-transform:uppercase;}
+.prod-name{font-size:14px;font-weight:500;color:var(--text);line-height:1.4;}
+.empty-state{grid-column:1/-1;padding:80px 0;text-align:center;color:var(--text-faint);}
+.load-wrap{text-align:center;margin-top:36px;}
+.load-btn{font-size:14px;color:var(--teal);border:1px solid var(--teal);background:none;padding:11px 44px;border-radius:3px;cursor:pointer;font-family:inherit;transition:all 0.2s;}
 .load-btn:hover{background:var(--teal);color:#fff;}
-.search-banner{background:var(--teal-pale);border:1px solid var(--teal-dim);border-radius:6px;padding:12px 20px;margin-bottom:20px;font-size:14px;color:var(--text-dim);display:none;}
-.search-banner.show{display:block;}
-@media(max-width:1200px){.product-grid{grid-template-columns:repeat(4,1fr);}}
+
+@media(max-width:1100px){.product-grid{grid-template-columns:repeat(3,1fr);}}
 @media(max-width:900px){
   .nav-top{padding:0 20px;height:60px;}.nav-logo{font-size:34px;}.nav-links{display:none;}
-  .filter-wrap{padding:0 16px;top:60px;}.sub-filter-wrap{padding:10px 16px;}
-  .page-header{padding:20px 20px 16px;}.content{padding:20px 16px 60px;}
+  .top-cat-bar{padding:0 16px;}
+  .breadcrumb{padding:10px 20px;}
+  .page-wrap{grid-template-columns:1fr;}
+  .sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--border);padding:16px 0;display:flex;overflow-x:auto;white-space:nowrap;gap:0;}
+  .sidebar-cat-title,.sidebar-label,.sidebar-divider{display:none;}
+  .sidebar-item{display:inline-flex;padding:8px 16px;border-left:none;border-bottom:2px solid transparent;width:auto;white-space:nowrap;}
+  .sidebar-item.active{border-left:none;border-bottom-color:var(--teal);}
+  .content{padding:20px 16px 60px;}
   .product-grid{grid-template-columns:repeat(2,1fr);gap:12px;}
 }
 </style>
 </head>
 <body>
+
 <nav>
   <div class="nav-top">
     <a href="index.html" class="nav-logo"><span>YEDO</span> LIGHTING<small>예도전기조명</small></a>
@@ -87,22 +118,29 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
       <a href="index.html#contact" class="nav-contact">문의하기</a>
     </div>
   </div>
+  <div class="top-cat-bar">
+    <div class="top-cat-inner" id="top-cat-inner"></div>
+  </div>
 </nav>
-<div class="filter-wrap">
-  <div class="filter-cats" id="filter-cats"></div>
+
+<div class="breadcrumb">
+  <a href="index.html">홈</a> › <span id="bc-cat">전체 제품</span>
 </div>
-<div class="sub-filter-wrap" id="sub-filter-wrap">
-  <div class="sub-filter-inner" id="sub-filter-inner"></div>
-</div>
-<div class="page-header">
-  <div class="page-title" id="page-title">전체 제품</div>
-  <div class="page-count" id="page-count"></div>
-</div>
-<div class="content">
-  <div class="search-banner" id="search-banner"></div>
-  <div class="product-grid" id="product-grid"></div>
-  <div class="load-wrap" id="load-wrap" style="display:none;">
-    <button class="load-btn" id="load-btn">더 보기</button>
+
+<div class="page-wrap">
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar"></aside>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <div class="content-header">
+      <h1 class="content-title" id="content-title">전체 제품</h1>
+      <span class="content-count" id="content-count"></span>
+    </div>
+    <div class="product-grid" id="product-grid"></div>
+    <div class="load-wrap" id="load-wrap" style="display:none;">
+      <button class="load-btn" id="load-btn">더 보기</button>
+    </div>
   </div>
 </div>
 
@@ -137,20 +175,49 @@ function getSubCats(cat){
   const fromSaved=getVal('yedo_subcats_'+cat)||[];
   return[...new Set([...fromSaved,...fromProds])];
 }
-function renderFilterBar(){
+
+function renderTopBar(){
   const cats=getCats();
   const cur=searchQuery?'전체':activeCat;
-  document.getElementById('filter-cats').innerHTML=cats.map(c=>`<button class="filter-cat-btn${c===cur?' active':''}" onclick="selectCat('${c}')">${c}</button>`).join('');
+  document.getElementById('top-cat-inner').innerHTML=cats.map(c=>`
+    <button class="top-cat-btn${c===cur?' active':''}" onclick="selectCat('${c}')">${c}</button>
+  `).join('');
 }
-function renderSubFilter(){
-  const wrap=document.getElementById('sub-filter-wrap');
-  const inner=document.getElementById('sub-filter-inner');
-  if(activeCat==='전체'||searchQuery){wrap.classList.remove('show');return;}
-  const subs=getSubCats(activeCat);
-  if(!subs.length){wrap.classList.remove('show');return;}
-  wrap.classList.add('show');
-  inner.innerHTML=[`<button class="sub-btn${!activeSubCat?' active':''}" onclick="selectSubCat('')">전체</button>`,...subs.map(s=>`<button class="sub-btn${activeSubCat===s?' active':''}" onclick="selectSubCat('${s}')">${s}</button>`)].join('');
+
+function renderSidebar(){
+  const sb=document.getElementById('sidebar');
+  if(searchQuery){sb.innerHTML='';return;}
+
+  if(activeCat==='전체'){
+    // 전체일 때: 카테고리 목록
+    const cats=getCats().filter(c=>c!=='전체');
+    sb.innerHTML=`
+      <div class="sidebar-cat-title">전체 제품</div>
+      <div class="sidebar-label">카테고리</div>
+      ${cats.map(c=>{
+        const cnt=allProds.filter(p=>p.category===c).length;
+        return `<button class="sidebar-item" onclick="selectCat('${c}')">${c}<span class="sidebar-count">(${cnt})</span></button>`;
+      }).join('')}`;
+  } else {
+    // 특정 카테고리: 서브카테고리
+    const subs=getSubCats(activeCat);
+    const total=allProds.filter(p=>p.category===activeCat).length;
+    sb.innerHTML=`
+      <div class="sidebar-cat-title">${activeCat}</div>
+      <div class="sidebar-label">서브카테고리</div>
+      <button class="sidebar-item${!activeSubCat?' active':''}" onclick="selectSubCat('')">전체<span class="sidebar-count">(${total})</span></button>
+      ${subs.map(s=>{
+        const cnt=allProds.filter(p=>p.category===activeCat&&p.subcategory===s).length;
+        return `<button class="sidebar-item${activeSubCat===s?' active':''}" onclick="selectSubCat('${s}')">${s}<span class="sidebar-count">(${cnt})</span></button>`;
+      }).join('')}
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-label">다른 카테고리</div>
+      ${getCats().filter(c=>c!=='전체'&&c!==activeCat).map(c=>`
+        <button class="sidebar-item" onclick="selectCat('${c}')">${c}</button>
+      `).join('')}`;
+  }
 }
+
 function renderProducts(){
   let filtered;
   if(searchQuery){
@@ -163,11 +230,10 @@ function renderProducts(){
       return mc&&ms;
     });
   }
-  document.getElementById('page-count').textContent=`총 ${filtered.length}개`;
-  document.getElementById('page-title').textContent=searchQuery?`"${searchQuery}" 검색 결과`:activeCat==='전체'?'전체 제품':activeCat;
-  const banner=document.getElementById('search-banner');
-  if(searchQuery){banner.textContent=`"${searchQuery}" 검색 결과 ${filtered.length}개`;banner.classList.add('show');}
-  else banner.classList.remove('show');
+  const title=searchQuery?`"${searchQuery}" 검색 결과`:activeCat==='전체'?'전체 제품':activeCat+(activeSubCat?' · '+activeSubCat:'');
+  document.getElementById('content-title').textContent=title;
+  document.getElementById('bc-cat').textContent=activeCat==='전체'?'전체 제품':activeCat;
+  document.getElementById('content-count').textContent=`총 ${filtered.length}개`;
   const grid=document.getElementById('product-grid');
   const slice=filtered.slice(0,visible);
   if(!slice.length){
@@ -190,9 +256,10 @@ function renderProducts(){
   if(filtered.length>visible){lw.style.display='block';document.getElementById('load-btn').textContent=`더 보기 (${filtered.length-visible}개 남음)`;}
   else lw.style.display='none';
 }
-function updateUI(){renderFilterBar();renderSubFilter();renderProducts();}
+
+function updateUI(){renderTopBar();renderSidebar();renderProducts();}
 function selectCat(cat){activeCat=cat;activeSubCat='';searchQuery='';visible=20;document.getElementById('nav-search').value='';history.replaceState(null,'',`category.html?cat=${encodeURIComponent(cat)}`);updateUI();}
-function selectSubCat(sub){activeSubCat=sub;visible=20;searchQuery='';document.getElementById('nav-search').value='';history.replaceState(null,'',`category.html?cat=${encodeURIComponent(activeCat)}&sub=${encodeURIComponent(sub)}`);updateUI();}
+function selectSubCat(sub){activeSubCat=sub;visible=20;document.getElementById('nav-search').value='';history.replaceState(null,'',`category.html?cat=${encodeURIComponent(activeCat)}&sub=${encodeURIComponent(sub)}`);updateUI();}
 function doSearch(q){searchQuery=q;visible=20;history.replaceState(null,'','category.html');updateUI();}
 document.getElementById('nav-search').addEventListener('input',e=>doSearch(e.target.value.trim()));
 document.getElementById('load-btn').addEventListener('click',()=>{visible+=20;renderProducts();});
