@@ -31,7 +31,7 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .top-cat-bar{border-bottom:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;}
 .top-cat-bar::-webkit-scrollbar{display:none;}
 .top-cat-inner{display:inline-flex;}
-.top-cat-btn{font-size:17px;color:var(--text-dim);background:none;border:none;padding:13px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
+.top-cat-btn{font-size:17px;color:var(--text-dim);background:none;border:none;padding:14px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
 .top-cat-btn:hover{color:var(--teal);}
 .top-cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
 .top-cat-item{position:relative;display:inline-block;}
@@ -39,29 +39,26 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .top-cat-item:hover .top-cat-dropdown{display:block;}
 .top-cat-dropdown-item{display:block;width:100%;padding:9px 20px;font-size:17px;color:var(--text-dim);background:none;border:none;cursor:pointer;font-family:inherit;text-align:left;transition:color 0.15s,background 0.15s;white-space:nowrap;}
 .top-cat-dropdown-item:hover{color:var(--teal);background:var(--teal-pale);}
-.breadcrumb{padding:12px 48px;font-size:12px;color:var(--text-faint);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;}
+.breadcrumb{padding:12px 66px;font-size:12px;color:var(--text-faint);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;}
 .breadcrumb a{color:var(--text-faint);text-decoration:none;}
 .breadcrumb a:hover{color:var(--teal);}
 .breadcrumb span{color:var(--text-dim);}
 /* LAYOUT */
-.cat-wrap{display:grid;grid-template-columns:360px 1fr;min-height:calc(100vh - 200px);}
+.cat-wrap{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 200px);}
 /* SIDEBAR */
-.sidebar{border-right:1px solid var(--border);padding:40px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;background:#fff;}
-.sidebar-section-title{font-size:24px;font-weight:700;color:var(--text);padding:0 48px 20px;margin-bottom:0;letter-spacing:-0.02em;line-height:1.2;}
-.sidebar-divider-main{height:1px;background:var(--border);margin:20px 48px 20px;}
-.sidebar-label{display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:500;color:var(--text);padding:0 48px 16px;cursor:default;}
-.sidebar-label-dash{font-size:18px;color:var(--text);line-height:1;}
-.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:var(--text-dim);padding:8px 48px;cursor:pointer;background:none;border:none;border-left:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s;}
-.sidebar-cat:hover{color:var(--text);}
-.sidebar-cat.active{color:var(--text);font-weight:500;}
-.sidebar-count{font-size:12px;color:var(--text-faint);}
+.sidebar{border-right:1px solid var(--border);padding:28px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;}
+.sidebar-section-title{font-size:18px;font-weight:700;color:var(--text);padding:0 24px 12px;border-bottom:1px solid var(--border);margin-bottom:8px;}
+.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:17px;color:var(--text-dim);padding:10px 24px;cursor:pointer;background:none;border:none;border-left:3px solid transparent;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
+.sidebar-cat:hover{color:var(--teal);background:var(--teal-pale);}
+.sidebar-cat.active{color:var(--teal);border-left-color:var(--teal);background:var(--teal-pale);font-weight:500;}
+.sidebar-count{font-size:11px;color:var(--text-faint);}
 .sidebar-sub{display:none;flex-direction:column;}
 .sidebar-sub.open{display:flex;}
-.sidebar-subcat{font-size:13px;color:var(--text-faint);padding:6px 48px 6px 60px;cursor:pointer;background:none;border:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s;}
-.sidebar-subcat:hover{color:var(--text);}
-.sidebar-subcat.active{color:var(--text);font-weight:500;}
+.sidebar-subcat{font-size:16px;color:var(--text-faint);padding:7px 24px 7px 40px;cursor:pointer;background:none;border:none;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
+.sidebar-subcat:hover{color:var(--teal);background:var(--teal-pale);}
+.sidebar-subcat.active{color:var(--teal);font-weight:500;}
 /* CONTENT */
-.content{padding:40px 48px 80px;}
+.content{padding:32px 48px 80px;}
 .content-header{margin-bottom:28px;border-bottom:1px solid var(--border);padding-bottom:20px;}
 .content-title{font-size:28px;font-weight:700;color:var(--text);margin-bottom:4px;}
 .content-count{font-size:13px;color:var(--text-faint);}
@@ -127,14 +124,11 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 <div class="cat-wrap">
   <aside class="sidebar">
     <div class="sidebar-section-title" id="sidebar-title">카테고리</div>
-    <div class="sidebar-divider-main"></div>
-    <div class="sidebar-label-wrap" id="sidebar-label-wrap" style="display:flex;align-items:center;justify-content:space-between;padding:0 48px 16px;"><span style="font-size:14px;font-weight:500;color:var(--text);" id="sidebar-label-text">카테고리</span><span style="font-size:18px;line-height:1;">—</span></div>
     <div id="sidebar-cats"></div>
   </aside>
   <div class="content">
     <div class="content-header">
       <h1 class="content-title" id="content-title">전체 제품</h1>
-      <p id="content-sub-title" style="font-size:14px;color:var(--text-faint);margin-top:4px;display:none;"></p>
       <p id="content-notice" style="display:none;font-size:15px;font-weight:500;color:var(--text);margin-top:8px;"></p>
       <span class="content-count" id="content-count"></span>
     </div>
@@ -197,37 +191,37 @@ function renderTopBar(){
 function renderSidebar(){
   const title = document.getElementById('sidebar-title');
   const sb = document.getElementById('sidebar-cats');
-  const labelText = document.getElementById('sidebar-label-text');
-  const labelWrap = document.getElementById('sidebar-label-wrap');
   if(searchQuery){
     title.textContent='검색 결과';
-    labelWrap.style.display='none';
     sb.innerHTML='';
     return;
   }
-  labelWrap.style.display='none'; // 레이블 숨김
   if(activeCat==='전체'){
-    title.textContent='전체 제품';
+    title.textContent='카테고리';
     const cats = getCats().filter(c=>c!=='전체');
     sb.innerHTML = cats.map(c=>{
-      return `<button class="sidebar-cat" data-cat="${c}">${c}</button>`;
+      const cnt = allProds.filter(p=>p.category===c).length;
+      return `<button class="sidebar-cat" data-cat="${c}">${c}<span class="sidebar-count">(${cnt})</span></button>`;
     }).join('');
   } else {
     title.textContent = activeCat;
+    // 제품에서 + admin 별도 저장 서브카테고리 합치기
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
-    let html = subs.map(s=>{
-      return `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
-    }).join('');
+    const total = allProds.filter(p=>p.category===activeCat).length;
+    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체<span class="sidebar-count">(${total})</span></button>`;
+    subs.forEach(s=>{
+      const cnt = allProds.filter(p=>p.category===activeCat&&p.subcategory===s).length;
+      html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}<span class="sidebar-count">(${cnt})</span></button>`;
+    });
     sb.innerHTML = html;
   }
   sb.querySelectorAll('.sidebar-cat').forEach(btn=>{
     btn.addEventListener('click', ()=>{
       const cat = btn.dataset.cat;
-      const sub = btn.dataset.sub;
-      window.scrollTo({top:0, behavior:'smooth'});
-      if(sub !== undefined && sub !== '') selectSubCat(sub);
+      const sub = btn.dataset.sub||'';
+      if(sub) selectSubCat(sub);
       else selectCat(cat);
     });
   });
@@ -288,18 +282,10 @@ function updateUI(){
   }
   document.getElementById('content-title').textContent = titleText;
   document.getElementById('bc-text').textContent = bcText;
-
-  // 서브카테고리 표시
-  const subEl = document.getElementById('content-sub-title');
-  if(activeSubCat && !searchQuery){
-    subEl.textContent = activeCat + ' › ' + activeSubCat;
-    subEl.style.display = 'block';
-    document.getElementById('content-title').textContent = activeSubCat;
-  } else {
-    subEl.style.display = 'none';
-  }
-
-  const noticeMap = {'레일 및 부품': '부품은 각 레일 카테고리 내에서 확인 가능합니다.'};
+  // 카테고리별 안내 메시지
+  const noticeMap = {
+    '레일 및 부품': '부품은 각 레일 카테고리 내에서 확인 가능합니다.',
+  };
   const notice = document.getElementById('content-notice');
   const msg = noticeMap[activeCat];
   if(msg && !searchQuery){ notice.textContent=msg; notice.style.display='block'; }
@@ -387,7 +373,7 @@ function renderRecentPanel(){
   if(list.length){cnt.style.display='flex';cnt.textContent=list.length;}else cnt.style.display='none';
   const el=document.getElementById('recent-list');
   if(!list.length){el.innerHTML='<p style="padding:24px;text-align:center;font-size:13px;color:#aaa;font-family:\'Noto Sans KR\',sans-serif;">최근 본 상품이 없습니다.</p>';return;}
-  el.innerHTML=list.map(r=>`<a href="product.html?idx=${r.idx}" style="display:flex;align-items:center;gap:10px;padding:10px 14px;text-decoration:none;border-bottom:1px solid #f5f5f5;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background=''"><div style="width:48px;border-radius:4px;background:#f5f5f5;flex-shrink:0;overflow:hidden;">${r.image?`<img src="${r.image}" style="width:100%;height:100%;object-fit:contain;padding:3px;">`:''}  </div><div style="flex:1;min-width:0;"><div style="font-size:11px;color:#00b8a9;margin-bottom:2px;">${r.category||''}</div><div style="font-size:12px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.name}</div></div></a>`).join('');
+  el.innerHTML=list.map(r=>`<a href="product.html?idx=${r.idx}" style="display:flex;align-items:center;gap:10px;padding:10px 14px;text-decoration:none;border-bottom:1px solid #f5f5f5;" onmouseover="this.style.background='#f9f9f9'" onmouseout="this.style.background=''"><div style="width:48px;height:48px;border-radius:4px;background:#f5f5f5;flex-shrink:0;overflow:hidden;">${r.image?`<img src="${r.image}" style="width:100%;height:100%;object-fit:contain;padding:3px;">`:''}  </div><div style="flex:1;min-width:0;"><div style="font-size:11px;color:#00b8a9;margin-bottom:2px;">${r.category||''}</div><div style="font-size:12px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.name}</div></div></a>`).join('');
 }
 function toggleRecentPanel(){
   const panel=document.getElementById('recent-panel');
