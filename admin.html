@@ -617,6 +617,8 @@ async function saveToGitHub(){
       status.style.color = 'var(--teal)';
       status.textContent = '✅ GitHub 저장 완료! 1~2분 후 사이트에 반영됩니다.';
       toast('GitHub에 저장 완료! 사이트가 곧 업데이트됩니다 🎉');
+      // 저장 성공 시 타임스탬프 기록 (다음 로드 시 덮어쓰기 방지용)
+      localStorage.setItem('yedo_last_saved', Date.now().toString());
     } else {
       const err = await putRes.json();
       status.style.color = 'var(--danger)';
@@ -1181,14 +1183,19 @@ function clearAllProducts(){
   localStorage.removeItem(SK.products); updateDashboard(); toast('전체 제품이 삭제되었습니다.');
 }
 
-// 시작 시 yedo-data.json → localStorage 동기화
+// 시작 시 yedo-data.json → localStorage 동기화 (localStorage 비어있을 때만)
 (async function(){
   try{
     const r = await fetch('yedo-data.json?v='+Date.now());
     if(r.ok){
       const data = await r.json();
       Object.keys(data).forEach(k=>{
-        if(k !== 'yedo_gh_token') localStorage.setItem(k, JSON.stringify(data[k]));
+        if(k !== 'yedo_gh_token'){
+          // localStorage에 이미 데이터가 있으면 덮어쓰지 않음
+          if(!localStorage.getItem(k)){
+            localStorage.setItem(k, JSON.stringify(data[k]));
+          }
+        }
       });
     }
   }catch(e){}
