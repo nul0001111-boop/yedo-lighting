@@ -1,5 +1,5 @@
 {
-  "yedo_last_saved": 1776837499052,
+  "yedo_last_saved": 1776837567427,
   "yedo_products": [
     {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
@@ -9990,7 +9990,17 @@
       "related_products": []
     }
   ],
+  "yedo_subcats_M시리즈": [
+    "라인매입등"
+  ],
   "yedo_recent": [
+    {
+      "idx": 1,
+      "name": "KC. 직사각매입등 LED 디밍형",
+      "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
+      "category": "",
+      "time": 1776837646537
+    },
     {
       "idx": 9,
       "name": "T22 직부등 전용 전원마감",
@@ -10013,5 +10023,23 @@
       "time": 1776837524568
     }
   ],
-  "yedo_saved_at": 1776837567427
+  "yedo_cat_order": [
+    "LED 매입등",
+    "T시리즈",
+    "M시리즈",
+    "레일 및 부품",
+    "스포트 라이트",
+    "직부등",
+    "마그네틱 트랙 시스템",
+    "램프",
+    "멀티등기구",
+    "악세사리",
+    "MR 매입등",
+    "기타",
+    "투광기",
+    "벽등",
+    "팬던트",
+    "홈조명(방등)"
+  ],
+  "yedo_saved_at": 1776837702715
 }
