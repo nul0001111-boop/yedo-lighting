@@ -34,7 +34,7 @@
     "마그네틱 조명",
     "마그네틱 안정기"
   ],
-  "yedo_last_saved": 1776836766818,
+  "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
@@ -96,7 +96,7 @@
     },
     {
       "name": "KC. 직사각매입등 LED 디밍형",
-      "category": "M시리즈",
+      "category": "LED 매입등",
       "subcategory": "사각매입등",
       "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "images": [],
@@ -274,7 +274,7 @@
     },
     {
       "name": "KS. M60 라인 매입등",
-      "category": "M시리즈",
+      "category": "LED 매입등",
       "subcategory": "라인매입등",
       "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
       "images": [],
@@ -331,7 +331,7 @@
     },
     {
       "name": "KC. 직사각매입등 LED20W",
-      "category": "M시리즈",
+      "category": "LED 매입등",
       "subcategory": "사각매입등",
       "image": "https://ydl.co.kr/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
       "images": [],
@@ -479,6 +479,27 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 60W / 45W / 30W / 15W\n색상: WHITE\n전체 사이즈: 1200/900/600/300 X 60 X H52\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 직사각매입등 LED 디밍형",
+      "category": "LED 매입등",
+      "subcategory": "사각매입등",
+      "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260130/d7ed8cb31677336308fa57a19516f0c9.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260106/fa4aeb16dd73169d3f67f4d78c6b367c.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260106/8bca6b51f510825636013f5bcf0ff022.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260106/57a10729f2d2f87da3683be36f577ee0.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260106/735a82e9b0d2224ea2dce42505b34e67.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260130/b7a224e9ef8ed872f2016edee54f68b6.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 15W / LED 10W\n색상: WHITE\n전체 사이즈: 220 X 90 X H26 / 150 X 65 X H26\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75mm / ∅50mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -693,6 +714,27 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅245XH55\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 직사각매입등 LED20W",
+      "category": "LED 매입등",
+      "subcategory": "사각매입등",
+      "image": "https://ydl.co.kr/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250710/6909fbae52d0b1aeee6abd24f9a2ccbd.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250624/d304f26ab9218b1158f6a8d38554b2fb.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250415/80ba7f90607fafdaff4ba58209ed78b8.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250415/cb28bbb6e554ad646c734907d590178f.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250710/2a7b74c0353e1ddb7424b4bc8fdfe554.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250624/ec04a742669c51e10193bb9f3b0638da.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 240 X 110 X H21\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~100mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -1807,7 +1849,7 @@
     },
     {
       "name": "KS. M33라인 매입등 300 LED 8W",
-      "category": "M시리즈",
+      "category": "LED 매입등",
       "subcategory": "라인매입등",
       "image": "https://ydl.co.kr/web/product/medium/202412/5cce10b371fa90067c2187ea08521df8.jpg",
       "images": [],
@@ -9987,25 +10029,11 @@
   ],
   "yedo_recent": [
     {
-      "idx": 8,
-      "name": "KS. 클랙슨 매입등 (확산형) LED",
-      "image": "https://ydl.co.kr/web/product/medium/202603/de5cb41d76191533e048d5f54af298d2.jpg",
-      "category": "LED 매입등",
-      "time": 1776836547974
-    },
-    {
-      "idx": 9,
-      "name": "T22 직부등 전용 전원마감",
-      "image": "https://ydl.co.kr/web/product/medium/202603/44aee6afab50bf0d2ec604c72b549445.jpg",
-      "category": "T시리즈",
-      "time": 1776836529686
-    },
-    {
       "idx": 3,
       "name": "TS-LINE 22 레일등 LED",
       "image": "https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
       "category": "",
-      "time": 1776836521555
+      "time": 1776651430086
     },
     {
       "idx": 2,
@@ -10028,5 +10056,6 @@
       "category": "",
       "time": 1776651403581
     }
-  ]
+  ],
+  "yedo_saved_at": 1776837233288
 }
