@@ -777,7 +777,7 @@ function get(k){
 }
 
 let allProds = [];
-let filtered=[],activeCat='',query='',visible=12;
+let filtered=[],activeCat='',query='',visible=10;
 
 /* ── POPUP ── */
 function initPopup(){
@@ -855,7 +855,7 @@ function buildCatBar(){
   }).join('');
 }
 function setCat(cat){
-  activeCat=cat; visible=12;
+  activeCat=cat; visible=10;
   document.querySelectorAll('.cat-btn').forEach(b=>b.classList.toggle('active',b.dataset.cat===cat));
   applyFilter();
 }
@@ -873,8 +873,14 @@ function buildCatImgGrid(){}
 
 /* ── NEW PRODUCTS SCROLL ── */
 function renderNewScroll(){
-  const newProds=allProds.filter(p=>p.badge==='NEW'||p.badge==='BEST').slice(0,12);
-  const all=newProds.length?newProds:allProds.slice(0,10);
+  const mainNew = get('yedo_main_new')||[];
+  let all;
+  if(mainNew.length){
+    all = mainNew.slice(0,5).map(name=>allProds.find(p=>p.name===name)).filter(Boolean);
+  } else {
+    all = allProds.filter(p=>p.badge==='NEW'||p.badge==='BEST').slice(0,5);
+    if(!all.length) all = allProds.slice(0,5);
+  }
   const scroll=document.getElementById('new-scroll');
   if(!all.length){scroll.innerHTML='<div style="padding:20px 0;color:#aaa;font-size:13px;">관리자 페이지에서 제품을 추가해주세요.</div>';return;}
   scroll.innerHTML=all.map(p=>{
@@ -893,12 +899,18 @@ function renderNewScroll(){
 
 /* ── FILTER ── */
 function applyFilter(){
-  filtered=allProds.filter(p=>{
-    const mc=!activeCat||activeCat==='전체'||p.category===activeCat;
-    const q=query.toLowerCase();
-    const ms=!q||(p.name||'').toLowerCase().includes(q)||(p.description||'').toLowerCase().includes(q)||(p.category||'').toLowerCase().includes(q);
-    return mc&&ms;
-  });
+  const mainAll = get('yedo_main_all')||[];
+  if(mainAll.length && !activeCat && !query){
+    // 메인 페이지 설정에서 선택한 제품만 표시
+    filtered = mainAll.slice(0,10).map(name=>allProds.find(p=>p.name===name)).filter(Boolean);
+  } else {
+    filtered=allProds.filter(p=>{
+      const mc=!activeCat||activeCat==='전체'||p.category===activeCat;
+      const q=query.toLowerCase();
+      const ms=!q||(p.name||'').toLowerCase().includes(q)||(p.description||'').toLowerCase().includes(q)||(p.category||'').toLowerCase().includes(q);
+      return mc&&ms;
+    });
+  }
   renderProds();
 }
 
@@ -985,15 +997,15 @@ document.getElementById('nav-search').addEventListener('input',e=>{
   query=e.target.value;
   const pi=document.getElementById('prod-search');
   if(pi) pi.value=query;
-  visible=12; applyFilter();
+  visible=10; applyFilter();
   if(query) document.getElementById('products').scrollIntoView({behavior:'smooth'});
 });
 document.getElementById('prod-search').addEventListener('input',e=>{
   query=e.target.value;
   document.getElementById('nav-search').value=query;
-  visible=12; applyFilter();
+  visible=10; applyFilter();
 });
-document.getElementById('load-btn').addEventListener('click',()=>{visible+=12;renderProds();});
+document.getElementById('load-btn').addEventListener('click',()=>{visible+=10;renderProds();});
 
 /* ── FADE IN ── */
 const obs=new IntersectionObserver(entries=>{

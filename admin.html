@@ -114,6 +114,7 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <div class="sidebar-divider"></div>
       <div class="nav-item" data-page="products"><span class="nav-item-icon">💡</span>제품 관리</div>
       <div class="nav-item" data-page="categories"><span class="nav-item-icon">📂</span>카테고리 관리</div>
+      <div class="nav-item" data-page="mainpage"><span class="nav-item-icon">🏠</span>메인 페이지 설정</div>
       <div class="nav-item" data-page="gallery"><span class="nav-item-icon">🖼️</span>갤러리 관리</div>
       <div class="sidebar-divider"></div>
       <div class="nav-item" data-page="banner"><span class="nav-item-icon">📢</span>공지 배너</div>
@@ -218,6 +219,38 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
         <div class="card-title" id="cat-products-title">카테고리 제품 순서</div>
         <p style="font-size:12px;color:var(--text-dim);margin-bottom:16px;">↑↓ 버튼으로 순서를 변경하세요.</p>
         <div id="cat-products-list"></div>
+      </div>
+    </div>
+
+    <!-- MAIN PAGE -->
+    <div class="page" id="page-mainpage">
+      <div class="page-title">메인 페이지 설정</div>
+      <div class="page-sub">메인 페이지에 표시할 신제품/추천제품을 선택하세요.</div>
+
+      <div class="card">
+        <div class="card-title">⭐ 신제품 섹션 (최대 5개)</div>
+        <p style="font-size:12px;color:var(--text-dim);margin-bottom:12px;">선택한 순서대로 표시됩니다. 5개 초과 선택 시 앞에서 5개만 표시.</p>
+        <div style="display:flex;gap:8px;margin-bottom:12px;">
+          <input class="form-input" type="text" id="main-new-search" placeholder="🔍 제품명 검색..." style="max-width:280px;" oninput="renderMainNewList()">
+        </div>
+        <div id="main-new-selected" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;min-height:36px;"></div>
+        <div id="main-new-list" style="max-height:300px;overflow-y:auto;border:1px solid var(--border);border-radius:4px;padding:8px;"></div>
+        <div class="btn-group">
+          <button class="btn btn-primary" onclick="saveMainPage()">저장</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">🏷️ 전체 제품 섹션 (최대 10개)</div>
+        <p style="font-size:12px;color:var(--text-dim);margin-bottom:12px;">선택 안 하면 전체 제품에서 자동으로 표시됩니다.</p>
+        <div style="display:flex;gap:8px;margin-bottom:12px;">
+          <input class="form-input" type="text" id="main-all-search" placeholder="🔍 제품명 검색..." style="max-width:280px;" oninput="renderMainAllList()">
+        </div>
+        <div id="main-all-selected" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;min-height:36px;"></div>
+        <div id="main-all-list" style="max-height:300px;overflow-y:auto;border:1px solid var(--border);border-radius:4px;padding:8px;"></div>
+        <div class="btn-group">
+          <button class="btn btn-primary" onclick="saveMainPage()">저장</button>
+        </div>
       </div>
     </div>
 
@@ -505,6 +538,14 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <label class="toggle"><input type="checkbox" id="edit-visible" checked><span class="toggle-slider"></span></label>
       <span class="toggle-label">진열함 (끄면 사이트에 안 보임)</span>
     </div>
+    <div class="toggle-wrap" style="margin-bottom:14px;">
+      <label class="toggle"><input type="checkbox" id="edit-featured"><span class="toggle-slider"></span></label>
+      <span class="toggle-label">메인 전체제품에 표시</span>
+    </div>
+    <div class="toggle-wrap" style="margin-bottom:14px;">
+      <label class="toggle"><input type="checkbox" id="edit-isnew"><span class="toggle-slider"></span></label>
+      <span class="toggle-label">신제품 섹션에 표시</span>
+    </div>
     <div class="form-group">
       <label class="form-label">관련 제품 선택 <span style="font-weight:300;font-size:12px;color:var(--text-faint);">(상세페이지 하단에 표시, 최대 6개)</span></label>
       <input class="form-input" type="text" id="related-search" placeholder="제품명으로 검색..." oninput="filterRelatedList()" style="margin-bottom:8px;">
@@ -549,10 +590,109 @@ function refreshPage(p){
   if(p==='banner') loadBannerForm();
   if(p==='popup') loadPopupForm();
   if(p==='company') loadCompanyForm();
-  if(p==='catalogue') loadCatalogueForm();
+  if(p==='mainpage') renderMainPageSettings();
 }
 
-// ── GitHub 연동 ──
+// ── 메인 페이지 설정 ──
+function renderMainPageSettings(){
+  renderMainNewList();
+  renderMainAllList();
+  renderMainNewSelected();
+  renderMainAllSelected();
+}
+
+function renderMainNewList(){
+  const prods = get(SK.products)||[];
+  const q = document.getElementById('main-new-search').value.toLowerCase();
+  const selected = get('yedo_main_new')||[];
+  const list = document.getElementById('main-new-list');
+  const filtered = q ? prods.filter(p=>(p.name||'').toLowerCase().includes(q)) : prods;
+  list.innerHTML = filtered.map((p,i)=>{
+    const realIdx = prods.indexOf(p);
+    const checked = selected.includes(p.name);
+    return `<label style="display:flex;align-items:center;gap:8px;padding:7px 4px;cursor:pointer;border-bottom:1px solid var(--border);font-size:13px;">
+      <input type="checkbox" value="${p.name}" ${checked?'checked':''} onchange="toggleMainNew(this)" style="width:15px;height:15px;accent-color:var(--teal);flex-shrink:0;">
+      ${p.image?`<img src="${p.image}" style="width:36px;height:36px;object-fit:contain;border-radius:3px;background:#fff;flex-shrink:0;">`:'<div style="width:36px;height:36px;background:var(--bg);border-radius:3px;flex-shrink:0;"></div>'}
+      <span style="flex:1;">${p.name}</span>
+      <span style="font-size:11px;color:var(--teal);">${p.category||''}</span>
+    </label>`;
+  }).join('');
+}
+
+function toggleMainNew(cb){
+  let selected = get('yedo_main_new')||[];
+  if(cb.checked){ if(!selected.includes(cb.value)) selected.push(cb.value); }
+  else { selected = selected.filter(n=>n!==cb.value); }
+  set('yedo_main_new', selected);
+  renderMainNewSelected();
+}
+
+function renderMainNewSelected(){
+  const selected = get('yedo_main_new')||[];
+  const el = document.getElementById('main-new-selected');
+  if(!selected.length){ el.innerHTML='<span style="font-size:12px;color:var(--text-faint);">선택된 제품 없음</span>'; return; }
+  el.innerHTML = selected.map((name,i)=>`
+    <span style="display:inline-flex;align-items:center;gap:4px;background:var(--teal-pale);border:1px solid var(--teal-dim);border-radius:20px;padding:4px 10px;font-size:12px;color:var(--teal);">
+      ${i+1}. ${name.length>15?name.slice(0,15)+'...':name}
+      <button onclick="removeMainNew('${name.replace(/'/g,"\\'")}\')" style="background:none;border:none;cursor:pointer;color:var(--teal);font-size:14px;padding:0;line-height:1;">✕</button>
+    </span>`).join('');
+}
+
+function removeMainNew(name){
+  let selected = get('yedo_main_new')||[];
+  set('yedo_main_new', selected.filter(n=>n!==name));
+  renderMainNewList();
+  renderMainNewSelected();
+}
+
+function renderMainAllList(){
+  const prods = get(SK.products)||[];
+  const q = document.getElementById('main-all-search').value.toLowerCase();
+  const selected = get('yedo_main_all')||[];
+  const list = document.getElementById('main-all-list');
+  const filtered = q ? prods.filter(p=>(p.name||'').toLowerCase().includes(q)) : prods;
+  list.innerHTML = filtered.map((p)=>{
+    const checked = selected.includes(p.name);
+    return `<label style="display:flex;align-items:center;gap:8px;padding:7px 4px;cursor:pointer;border-bottom:1px solid var(--border);font-size:13px;">
+      <input type="checkbox" value="${p.name}" ${checked?'checked':''} onchange="toggleMainAll(this)" style="width:15px;height:15px;accent-color:var(--teal);flex-shrink:0;">
+      ${p.image?`<img src="${p.image}" style="width:36px;height:36px;object-fit:contain;border-radius:3px;background:#fff;flex-shrink:0;">`:'<div style="width:36px;height:36px;background:var(--bg);border-radius:3px;flex-shrink:0;"></div>'}
+      <span style="flex:1;">${p.name}</span>
+      <span style="font-size:11px;color:var(--teal);">${p.category||''}</span>
+    </label>`;
+  }).join('');
+}
+
+function toggleMainAll(cb){
+  let selected = get('yedo_main_all')||[];
+  if(cb.checked){ if(!selected.includes(cb.value)) selected.push(cb.value); }
+  else { selected = selected.filter(n=>n!==cb.value); }
+  set('yedo_main_all', selected);
+  renderMainAllSelected();
+}
+
+function renderMainAllSelected(){
+  const selected = get('yedo_main_all')||[];
+  const el = document.getElementById('main-all-selected');
+  if(!selected.length){ el.innerHTML='<span style="font-size:12px;color:var(--text-faint);">선택된 제품 없음 (자동)</span>'; return; }
+  el.innerHTML = selected.map((name,i)=>`
+    <span style="display:inline-flex;align-items:center;gap:4px;background:var(--teal-pale);border:1px solid var(--teal-dim);border-radius:20px;padding:4px 10px;font-size:12px;color:var(--teal);">
+      ${i+1}. ${name.length>15?name.slice(0,15)+'...':name}
+      <button onclick="removeMainAll('${name.replace(/'/g,"\\'")}\')" style="background:none;border:none;cursor:pointer;color:var(--teal);font-size:14px;padding:0;line-height:1;">✕</button>
+    </span>`).join('');
+}
+
+function removeMainAll(name){
+  let selected = get('yedo_main_all')||[];
+  set('yedo_main_all', selected.filter(n=>n!==name));
+  renderMainAllList();
+  renderMainAllSelected();
+}
+
+function saveMainPage(){
+  toast('메인 페이지 설정이 저장되었습니다. GitHub에 저장 버튼을 눌러주세요!');
+}
+
+
 const GH_OWNER = 'nul0001111-boop';
 const GH_REPO  = 'yedo-lighting';
 const GH_FILE  = 'yedo-data.json';
@@ -726,6 +866,8 @@ function openAddProduct(){
   document.getElementById('edit-idx').value='-1';
   ['name','category','subcategory','image','images','detail-images','desc','specs','badge'].forEach(f=>document.getElementById('edit-'+f).value='');
   document.getElementById('edit-visible').checked=true;
+  document.getElementById('edit-featured').checked=false;
+  document.getElementById('edit-isnew').checked=false;
   document.getElementById('edit-img-preview').style.display='none';
   populateCatDatalist();
   document.getElementById('edit-overlay').classList.add('on');
@@ -746,6 +888,8 @@ function openEditProduct(idx){
   document.getElementById('edit-specs').value=p.specs||'';
   document.getElementById('edit-badge').value=p.badge||'';
   document.getElementById('edit-visible').checked=p.visible!==false;
+  document.getElementById('edit-featured').checked=p.featured===true;
+  document.getElementById('edit-isnew').checked=p.isnew===true;
   previewEditImg();
   populateCatDatalist();
   renderRelatedProdList(idx, p.related_products||[]);
@@ -794,7 +938,7 @@ function saveProduct(){
   const name=document.getElementById('edit-name').value.trim();
   if(!name){toast('제품명을 입력하세요.',false);return;}
   const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
-  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,related_products:related};
+  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
   const prods=get(SK.products)||[];
   const idx=parseInt(document.getElementById('edit-idx').value);
   if(idx>=0) prods[idx]=prod; else prods.push(prod);
