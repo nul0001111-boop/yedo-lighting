@@ -519,8 +519,11 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
 
 <script>
 const SK={products:'yedo_products',gallery:'yedo_gallery',banner:'yedo_banner',popup:'yedo_popup',company:'yedo_company'};
-const get=k=>{try{return JSON.parse(localStorage.getItem(k))||null;}catch{return null;}};
-const set=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+
+// ── 메모리 기반 데이터 스토어 (localStorage 안 씀) ──
+let _store = {};
+const get = k => _store[k] !== undefined ? _store[k] : null;
+const set = (k, v) => { _store[k] = v; };
 
 function toast(msg,ok=true){
   const el=document.getElementById('toast');
@@ -559,6 +562,7 @@ function saveGHToken(){
   const t = document.getElementById('gh-token').value.trim();
   if(!t){toast('토큰을 입력하세요.',false);return;}
   localStorage.setItem('yedo_gh_token', t);
+  _store['yedo_gh_token'] = t;
   document.getElementById('gh-token').value='';
   document.getElementById('gh-token-status').textContent='✅ 저장됨';
   document.getElementById('gh-token-status').style.color='var(--teal)';
@@ -574,7 +578,7 @@ function loadGHTokenStatus(){
 
 async function saveToGitHub(){
   const status = document.getElementById('save-status');
-  const token = localStorage.getItem('yedo_gh_token');
+  const token = _store['yedo_gh_token'] || localStorage.getItem('yedo_gh_token');
   if(!token){
     toast('먼저 GitHub 토큰을 설정하세요!', false);
     status.textContent='⚠️ 토큰 없음';
@@ -583,15 +587,10 @@ async function saveToGitHub(){
 
   // 모든 yedo 데이터 수집
   const allData = {};
-  const savedAt = Date.now();
-  for(let i=0; i<localStorage.length; i++){
-    const k = localStorage.key(i);
-    if(k && k.startsWith('yedo') && k !== 'yedo_gh_token'){
-      try{ allData[k] = JSON.parse(localStorage.getItem(k)); }
-      catch{ allData[k] = localStorage.getItem(k); }
-    }
-  }
-  allData['yedo_saved_at'] = savedAt;
+  Object.keys(_store).forEach(k => {
+    if(k !== 'yedo_gh_token') allData[k] = _store[k];
+  });
+  allData['yedo_saved_at'] = Date.now();
 
   const jsonContent = JSON.stringify(allData, null, 2);
   const encoded = btoa(unescape(encodeURIComponent(jsonContent)));
@@ -628,8 +627,6 @@ async function saveToGitHub(){
       status.style.color = 'var(--teal)';
       status.textContent = '✅ GitHub 저장 완료! 1~2분 후 사이트에 반영됩니다.';
       toast('GitHub에 저장 완료! 사이트가 곧 업데이트됩니다 🎉');
-      localStorage.setItem('yedo_saved_at', savedAt.toString());
-      localStorage.setItem('yedo_last_saved', savedAt.toString());
     } else {
       const err = await putRes.json();
       status.style.color = 'var(--danger)';
@@ -824,8 +821,8 @@ function getCatOrder(){
   const prods=get(SK.products)||[];
   const saved=get('yedo_cat_order')||[];
   const existing=[...new Set(prods.map(p=>p.category).filter(Boolean))];
-  // saved 전부 유지(빈 카테고리 포함) + 새 제품 카테고리 추가
-  const ordered=[...saved, ...existing.filter(c=>!saved.includes(c))];
+  // 중복 없이 saved 순서 유지 + 새 카테고리 추가
+  const ordered=[...new Set([...saved, ...existing])];
   return ordered;
 }
 
@@ -1232,29 +1229,25 @@ function exportProducts(){
   a.download='yedo_products.json'; a.click(); toast('내보내기 완료.');
 }
 
+
 function clearAllProducts(){
   if(!confirm('전체 제품을 삭제할까요? 되돌릴 수 없습니다.')) return;
-  localStorage.removeItem(SK.products); updateDashboard(); toast('전체 제품이 삭제되었습니다.');
+  set(SK.products, []); updateDashboard(); toast('전체 제품이 삭제되었습니다.');
 }
 
-// 시작 시 yedo-data.json → localStorage 동기화 (타임스탬프 비교)
+// 시작 시 yedo-data.json → _store 로드
 (async function(){
   try{
     const r = await fetch('yedo-data.json?v='+Date.now());
     if(r.ok){
       const data = await r.json();
-      const remoteSavedAt = data['yedo_saved_at'] || 0;
-      const localSavedAt = parseInt(localStorage.getItem('yedo_saved_at') || '0');
-      // 원격이 더 최신일 때만 동기화 (같으면 유지)
-      if(remoteSavedAt > localSavedAt){
-        Object.keys(data).forEach(k=>{
-          if(k !== 'yedo_gh_token'){
-            localStorage.setItem(k, JSON.stringify(data[k]));
-          }
-        });
-      }
+      Object.keys(data).forEach(k=>{
+        if(k !== 'yedo_gh_token') _store[k] = data[k];
+      });
     }
-  }catch(e){}
+  }catch(e){ console.error('yedo-data.json 로드 실패:', e); }
+  // 토큰은 localStorage에서만 읽음
+  _store['yedo_gh_token'] = localStorage.getItem('yedo_gh_token') || '';
   updateDashboard();
   loadGHTokenStatus();
   renderProductList();
