@@ -1,4 +1,5 @@
 {
+  "yedo_last_saved": 1776837499052,
   "yedo_products": [
     {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
@@ -60,7 +61,7 @@
     },
     {
       "name": "KC. 직사각매입등 LED 디밍형",
-      "category": "LED 매입등",
+      "category": "M시리즈",
       "subcategory": "사각매입등",
       "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "images": [],
@@ -295,7 +296,7 @@
     },
     {
       "name": "KC. 직사각매입등 LED20W",
-      "category": "LED 매입등",
+      "category": "M시리즈",
       "subcategory": "사각매입등",
       "image": "https://ydl.co.kr/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
       "images": [],
@@ -312,7 +313,9 @@
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 240 X 110 X H21\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~100mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "related_products": [
+        0
+      ]
     },
     {
       "name": "KS. 마그네틱 SMPS 150W / 250W (DC48V)",
@@ -9987,5 +9990,28 @@
       "related_products": []
     }
   ],
-  "yedo_saved_at": 1776837499052
+  "yedo_recent": [
+    {
+      "idx": 9,
+      "name": "T22 직부등 전용 전원마감",
+      "image": "https://ydl.co.kr/web/product/medium/202603/44aee6afab50bf0d2ec604c72b549445.jpg",
+      "category": "T시리즈",
+      "time": 1776837530270
+    },
+    {
+      "idx": 3,
+      "name": "TS-LINE 22 레일등 LED",
+      "image": "https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
+      "category": "",
+      "time": 1776837526925
+    },
+    {
+      "idx": 10,
+      "name": "TS-LINE 60 레일등 LED",
+      "image": "https://ydl.co.kr/web/product/medium/202601/82f3e659dc576747c19f80eb23a11ae9.jpg",
+      "category": "T시리즈",
+      "time": 1776837524568
+    }
+  ],
+  "yedo_saved_at": 1776837567427
 }
