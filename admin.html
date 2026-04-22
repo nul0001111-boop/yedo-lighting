@@ -178,10 +178,19 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <div class="page-title">제품 관리</div>
       <div class="page-sub">제품을 추가, 수정, 삭제할 수 있습니다.</div>
       <div class="card">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
-          <input class="form-input" type="text" id="prod-filter" placeholder="🔍 제품명 검색..." style="max-width:280px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+          <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+            <input class="form-input" type="text" id="prod-filter" placeholder="🔍 제품명 검색..." style="max-width:220px;">
+            <select class="form-select" id="prod-cat-filter" style="max-width:180px;" onchange="renderProductList(document.getElementById('prod-filter').value)">
+              <option value="">전체 카테고리</option>
+            </select>
+            <label style="font-size:13px;color:var(--text-dim);display:flex;align-items:center;gap:4px;cursor:pointer;">
+              <input type="checkbox" id="prod-order-mode" onchange="toggleOrderMode()"> 순서 조정 모드
+            </label>
+          </div>
           <button class="btn btn-primary" onclick="openAddProduct()">+ 제품 추가</button>
         </div>
+        <div id="prod-count" style="font-size:12px;color:var(--text-faint);margin-bottom:10px;"></div>
         <div class="product-list" id="product-list"></div>
         <div id="prod-empty" style="display:none;text-align:center;padding:40px;color:var(--text-faint);font-size:14px;">등록된 제품이 없습니다.</div>
       </div>
@@ -544,7 +553,7 @@ function refreshPage(p){
 const GH_OWNER = 'nul0001111-boop';
 const GH_REPO  = 'yedo-lighting';
 const GH_FILE  = 'yedo-data.json';
-const GH_BRANCH= 'main';
+const GH_BRANCH= 'master';
 
 function saveGHToken(){
   const t = document.getElementById('gh-token').value.trim();
@@ -647,25 +656,68 @@ function updateDashboard(){
   document.getElementById('stat-banner').textContent=(banner&&banner.active)?'ON':'OFF';
 }
 
+let orderMode = false;
+
+function toggleOrderMode(){
+  orderMode = document.getElementById('prod-order-mode').checked;
+  renderProductList(document.getElementById('prod-filter').value);
+}
+
+function populateCatFilter(){
+  const prods = get(SK.products)||[];
+  const cats = [...new Set(prods.map(p=>p.category).filter(Boolean))].sort();
+  const sel = document.getElementById('prod-cat-filter');
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">전체 카테고리</option>' + cats.map(c=>`<option value="${c}"${c===cur?' selected':''}>${c}</option>`).join('');
+}
+
+function moveProduct(idx, dir){
+  const prods = get(SK.products)||[];
+  const newIdx = idx + dir;
+  if(newIdx < 0 || newIdx >= prods.length) return;
+  [prods[idx], prods[newIdx]] = [prods[newIdx], prods[idx]];
+  set(SK.products, prods);
+  renderProductList(document.getElementById('prod-filter').value);
+}
+
 function renderProductList(filter=''){
   const prods=get(SK.products)||[];
   const list=document.getElementById('product-list');
   const empty=document.getElementById('prod-empty');
   const f=filter.toLowerCase();
-  const filtered=f?prods.filter(p=>(p.name||'').toLowerCase().includes(f)||(p.category||'').toLowerCase().includes(f)):prods;
+  const catF = document.getElementById('prod-cat-filter')?.value || '';
+  
+  let filtered = prods.map((p,i)=>({...p, _idx:i}));
+  if(f) filtered = filtered.filter(p=>(p.name||'').toLowerCase().includes(f)||(p.category||'').toLowerCase().includes(f));
+  if(catF) filtered = filtered.filter(p=>p.category===catF);
+  
+  document.getElementById('prod-count').textContent = `${filtered.length}개 표시 / 전체 ${prods.length}개`;
+  
   if(!filtered.length){list.innerHTML='';empty.style.display='';return;}
   empty.style.display='none';
-  list.innerHTML=filtered.map(p=>{
-    const idx=prods.indexOf(p);
-    return `<div class="product-list-item">
+  
+  list.innerHTML=filtered.map((p,i)=>{
+    const idx=p._idx;
+    const orderBtns = orderMode ? `
+      <button class="order-btn" onclick="moveProduct(${idx},-1)" ${idx===0?'disabled':''}>↑</button>
+      <button class="order-btn" onclick="moveProduct(${idx},1)" ${idx===prods.length-1?'disabled':''}>↓</button>` : '';
+    return `<div class="product-list-item" style="margin-bottom:6px;">
       ${p.image?`<img class="prod-thumb" src="${p.image}" alt="" onerror="this.style.display='none'">`:`<div class="prod-thumb-ph">💡</div>`}
-      <div class="prod-info"><div class="prod-name">${p.name}</div><span class="prod-cat-badge">${p.category||'미분류'}</span>${p.visible===false?'<span style="font-size:11px;color:#e74c3c;background:#fdecea;padding:2px 8px;border-radius:10px;margin-left:4px;">진열안함</span>':''}</div>
+      <div class="prod-info">
+        <div class="prod-name">${p.name}</div>
+        <span class="prod-cat-badge">${p.category||'미분류'}</span>
+        ${p.subcategory?`<span style="font-size:11px;color:var(--text-faint);margin-left:4px;">${p.subcategory}</span>`:''}
+        ${p.visible===false?'<span style="font-size:11px;color:#e74c3c;background:#fdecea;padding:2px 8px;border-radius:10px;margin-left:4px;">진열안함</span>':''}
+      </div>
       <div class="prod-actions">
+        ${orderBtns}
         <button class="btn btn-secondary btn-sm" onclick="openEditProduct(${idx})">수정</button>
         <button class="btn btn-danger btn-sm" onclick="deleteProduct(${idx})">삭제</button>
       </div>
     </div>`;
   }).join('');
+  
+  populateCatFilter();
 }
 
 document.getElementById('prod-filter').addEventListener('input',e=>renderProductList(e.target.value));
