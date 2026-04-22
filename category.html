@@ -47,8 +47,8 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .cat-wrap{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 200px);}
 /* SIDEBAR */
 .sidebar{border-right:1px solid var(--border);padding:28px 0;position:sticky;top:148px;height:calc(100vh - 148px);overflow-y:auto;}
-.sidebar-section-title{font-size:18px;font-weight:700;color:var(--text);padding:0 24px 12px;border-bottom:1px solid var(--border);margin-bottom:8px;}
-.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:17px;color:var(--text-dim);padding:10px 24px;cursor:pointer;background:none;border:none;border-left:3px solid transparent;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
+.sidebar-section-title{font-size:22px;font-weight:700;color:var(--text);padding:0 24px 12px 27px;border-bottom:1px solid var(--border);margin-bottom:8px;}
+.sidebar-cat{display:flex;align-items:center;justify-content:space-between;font-size:19px;color:var(--text-dim);padding:10px 24px;cursor:pointer;background:none;border:none;border-left:3px solid transparent;font-family:inherit;width:100%;text-align:left;transition:color 0.2s,background 0.2s;}
 .sidebar-cat:hover{color:var(--teal);background:var(--teal-pale);}
 .sidebar-cat.active{color:var(--teal);border-left-color:var(--teal);background:var(--teal-pale);font-weight:500;}
 .sidebar-count{font-size:11px;color:var(--text-faint);}
@@ -188,6 +188,11 @@ function renderTopBar(){
   });
 }
 
+function formatCatName(c){
+  if(c==='마그네틱 트랙 시스템') return '마그네틱<br>트랙 시스템';
+  return c;
+}
+
 function renderSidebar(){
   const title = document.getElementById('sidebar-title');
   const sb = document.getElementById('sidebar-cats');
@@ -201,7 +206,7 @@ function renderSidebar(){
     const cats = getCats().filter(c=>c!=='전체');
     sb.innerHTML = cats.map(c=>{
       const cnt = allProds.filter(p=>p.category===c).length;
-      return `<button class="sidebar-cat" data-cat="${c}">${c}<span class="sidebar-count">(${cnt})</span></button>`;
+      return `<button class="sidebar-cat" data-cat="${c}">${formatCatName(c)}<span class="sidebar-count">(${cnt})</span></button>`;
     }).join('');
   } else {
     title.textContent = activeCat;
@@ -213,7 +218,7 @@ function renderSidebar(){
     let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체<span class="sidebar-count">(${total})</span></button>`;
     subs.forEach(s=>{
       const cnt = allProds.filter(p=>p.category===activeCat&&p.subcategory===s).length;
-      html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}<span class="sidebar-count">(${cnt})</span></button>`;
+      html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
     });
     sb.innerHTML = html;
   }
@@ -276,6 +281,9 @@ function updateUI(){
   if(searchQuery){
     titleText = '검색 결과';
     bcText = '검색: ' + searchQuery;
+  } else if(activeSubCat){
+    titleText = activeSubCat;
+    bcText = activeCat;
   } else {
     titleText = activeCat==='전체' ? '전체 제품' : activeCat;
     bcText = activeCat==='전체' ? '전체 제품' : activeCat;
@@ -312,6 +320,7 @@ function selectSubCat(sub){
   searchQuery = '';
   document.getElementById('nav-search').value='';
   history.replaceState(null,'',`category.html?cat=${encodeURIComponent(activeCat)}&sub=${encodeURIComponent(sub)}`);
+  window.scrollTo({top:0, behavior:'smooth'});
   updateUI();
 }
 
