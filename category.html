@@ -28,7 +28,7 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .nav-contact{font-size:14px;font-weight:500;color:#fff;background:var(--teal);padding:8px 20px;border-radius:3px;text-decoration:none;transition:background 0.2s;}
 .nav-contact:hover{background:var(--teal-dark);}
 /* TOP CAT BAR */
-.top-cat-bar{border-bottom:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;}
+.top-cat-bar{border-bottom:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 48px;position:relative;z-index:400;height:48px;}
 .top-cat-bar::-webkit-scrollbar{display:none;}
 .top-cat-inner{display:inline-flex;}
 .top-cat-btn{font-size:17px;color:var(--text-dim);background:none;border:none;padding:14px 18px;cursor:pointer;font-family:inherit;border-bottom:2px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap;}
@@ -134,6 +134,7 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
   <div class="content">
     <div class="content-header">
       <h1 class="content-title" id="content-title">전체 제품</h1>
+      <p id="content-sub-title" style="font-size:14px;color:var(--text-faint);margin-top:4px;display:none;"></p>
       <p id="content-notice" style="display:none;font-size:15px;font-weight:500;color:var(--text);margin-top:8px;"></p>
       <span class="content-count" id="content-count"></span>
     </div>
@@ -197,36 +198,33 @@ function renderSidebar(){
   const title = document.getElementById('sidebar-title');
   const sb = document.getElementById('sidebar-cats');
   const labelText = document.getElementById('sidebar-label-text');
+  const labelWrap = document.getElementById('sidebar-label-wrap');
   if(searchQuery){
     title.textContent='검색 결과';
-    labelText.textContent='검색';
+    labelWrap.style.display='none';
     sb.innerHTML='';
     return;
   }
+  labelWrap.style.display='none'; // 레이블 숨김
   if(activeCat==='전체'){
     title.textContent='전체 제품';
-    labelText.textContent='카테고리';
     const cats = getCats().filter(c=>c!=='전체');
     sb.innerHTML = cats.map(c=>{
-      const cnt = allProds.filter(p=>p.category===c).length;
       return `<button class="sidebar-cat" data-cat="${c}">${c}</button>`;
     }).join('');
   } else {
     title.textContent = activeCat;
-    labelText.textContent='카테고리';
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
-    const total = allProds.filter(p=>p.category===activeCat).length;
-    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체</button>`;
-    subs.forEach(s=>{
-      html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
-    });
+    let html = subs.map(s=>{
+      return `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
+    }).join('');
     // 다른 카테고리
     const otherCats = getCats().filter(c=>c!=='전체'&&c!==activeCat);
     if(otherCats.length){
-      html += `<div style="height:1px;background:var(--border);margin:16px 48px 16px;"></div>`;
-      html += `<div style="display:flex;align-items:center;justify-content:space-between;padding:0 48px 12px;"><span style="font-size:14px;font-weight:500;color:var(--text);">다른 카테고리</span></div>`;
+      html += `<div style="height:1px;background:var(--border);margin:16px 48px;"></div>`;
+      html += `<div style="padding:0 48px 12px;font-size:14px;font-weight:500;color:var(--text);">다른 카테고리</div>`;
       html += otherCats.map(c=>`<button class="sidebar-cat" data-cat="${c}">${c}</button>`).join('');
     }
     sb.innerHTML = html;
@@ -235,8 +233,8 @@ function renderSidebar(){
     btn.addEventListener('click', ()=>{
       const cat = btn.dataset.cat;
       const sub = btn.dataset.sub;
+      window.scrollTo({top:0, behavior:'smooth'});
       if(sub !== undefined && sub !== '') selectSubCat(sub);
-      else if(sub === '') { activeSubCat=''; updateUI(); }
       else selectCat(cat);
     });
   });
@@ -297,10 +295,18 @@ function updateUI(){
   }
   document.getElementById('content-title').textContent = titleText;
   document.getElementById('bc-text').textContent = bcText;
-  // 카테고리별 안내 메시지
-  const noticeMap = {
-    '레일 및 부품': '부품은 각 레일 카테고리 내에서 확인 가능합니다.',
-  };
+
+  // 서브카테고리 표시
+  const subEl = document.getElementById('content-sub-title');
+  if(activeSubCat && !searchQuery){
+    subEl.textContent = activeCat + ' › ' + activeSubCat;
+    subEl.style.display = 'block';
+    document.getElementById('content-title').textContent = activeSubCat;
+  } else {
+    subEl.style.display = 'none';
+  }
+
+  const noticeMap = {'레일 및 부품': '부품은 각 레일 카테고리 내에서 확인 가능합니다.'};
   const notice = document.getElementById('content-notice');
   const msg = noticeMap[activeCat];
   if(msg && !searchQuery){ notice.textContent=msg; notice.style.display='block'; }
