@@ -1070,7 +1070,7 @@ document.getElementById('contact-form').addEventListener('submit',async function
 
 (async function(){
   await loadYedoData();
-  allProds = get(SK.products) || [];
+  allProds = (get(SK.products) || []).filter(p=>p.visible!==false);
   filtered = [...allProds];
   initPopup(); initBanner(); initCompany();
   buildCatBar(); buildCatImgGrid(); renderNewScroll(); applyFilter(); renderGallery();

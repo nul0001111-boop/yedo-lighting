@@ -337,7 +337,7 @@ document.getElementById('load-btn').addEventListener('click', ()=>{
 if(searchQuery) document.getElementById('nav-search').value = searchQuery;
 (async function(){
   await loadYedoData();
-  allProds = getProds();
+  allProds = getProds().filter(p=>p.visible!==false);
   updateUI();
 })();
 </script>

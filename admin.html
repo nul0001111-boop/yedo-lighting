@@ -492,6 +492,10 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <label class="form-label">배지 (NEW / BEST / 추천)</label>
       <input class="form-input" type="text" id="edit-badge" placeholder="NEW">
     </div>
+    <div class="toggle-wrap" style="margin-bottom:14px;">
+      <label class="toggle"><input type="checkbox" id="edit-visible" checked><span class="toggle-slider"></span></label>
+      <span class="toggle-label">진열함 (끄면 사이트에 안 보임)</span>
+    </div>
     <div class="form-group">
       <label class="form-label">관련 제품 선택 <span style="font-weight:300;font-size:12px;color:var(--text-faint);">(상세페이지 하단에 표시, 최대 6개)</span></label>
       <input class="form-input" type="text" id="related-search" placeholder="제품명으로 검색..." oninput="filterRelatedList()" style="margin-bottom:8px;">
@@ -540,7 +544,7 @@ function refreshPage(p){
 const GH_OWNER = 'nul0001111-boop';
 const GH_REPO  = 'yedo-lighting';
 const GH_FILE  = 'yedo-data.json';
-const GH_BRANCH= 'main';
+const GH_BRANCH= 'master';
 
 function saveGHToken(){
   const t = document.getElementById('gh-token').value.trim();
@@ -593,7 +597,7 @@ async function saveToGitHub(){
     };
 
     let sha = null;
-    const getRes = await fetch(apiBase, { headers });
+    const getRes = await fetch(apiBase + '?ref=' + GH_BRANCH + '&t=' + Date.now(), { headers });
     if(getRes.ok){
       const getJson = await getRes.json();
       sha = getJson.sha;
@@ -653,7 +657,7 @@ function renderProductList(filter=''){
     const idx=prods.indexOf(p);
     return `<div class="product-list-item">
       ${p.image?`<img class="prod-thumb" src="${p.image}" alt="" onerror="this.style.display='none'">`:`<div class="prod-thumb-ph">💡</div>`}
-      <div class="prod-info"><div class="prod-name">${p.name}</div><span class="prod-cat-badge">${p.category||'미분류'}</span></div>
+      <div class="prod-info"><div class="prod-name">${p.name}</div><span class="prod-cat-badge">${p.category||'미분류'}</span>${p.visible===false?'<span style="font-size:11px;color:#e74c3c;background:#fdecea;padding:2px 8px;border-radius:10px;margin-left:4px;">진열안함</span>':''}</div>
       <div class="prod-actions">
         <button class="btn btn-secondary btn-sm" onclick="openEditProduct(${idx})">수정</button>
         <button class="btn btn-danger btn-sm" onclick="deleteProduct(${idx})">삭제</button>
@@ -668,6 +672,7 @@ function openAddProduct(){
   document.getElementById('edit-title').textContent='제품 추가';
   document.getElementById('edit-idx').value='-1';
   ['name','category','subcategory','image','images','detail-images','desc','specs','badge'].forEach(f=>document.getElementById('edit-'+f).value='');
+  document.getElementById('edit-visible').checked=true;
   document.getElementById('edit-img-preview').style.display='none';
   populateCatDatalist();
   document.getElementById('edit-overlay').classList.add('on');
@@ -687,6 +692,7 @@ function openEditProduct(idx){
   document.getElementById('edit-desc').value=p.description||'';
   document.getElementById('edit-specs').value=p.specs||'';
   document.getElementById('edit-badge').value=p.badge||'';
+  document.getElementById('edit-visible').checked=p.visible!==false;
   previewEditImg();
   populateCatDatalist();
   renderRelatedProdList(idx, p.related_products||[]);
@@ -735,7 +741,7 @@ function saveProduct(){
   const name=document.getElementById('edit-name').value.trim();
   if(!name){toast('제품명을 입력하세요.',false);return;}
   const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
-  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),related_products:related};
+  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,related_products:related};
   const prods=get(SK.products)||[];
   const idx=parseInt(document.getElementById('edit-idx').value);
   if(idx>=0) prods[idx]=prod; else prods.push(prod);
