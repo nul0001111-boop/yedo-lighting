@@ -188,8 +188,8 @@ function renderTopBar(){
   });
 }
 
-function formatCatName(c){
-  if(c==='마그네틱 트랙 시스템') return '마그네틱<br>트랙 시스템';
+function formatCatName(c, twoLine=false){
+  if(c==='마그네틱 트랙 시스템' && twoLine) return '마그네틱<br>트랙 시스템';
   return c;
 }
 
@@ -205,19 +205,16 @@ function renderSidebar(){
     title.textContent='카테고리';
     const cats = getCats().filter(c=>c!=='전체');
     sb.innerHTML = cats.map(c=>{
-      const cnt = allProds.filter(p=>p.category===c).length;
-      return `<button class="sidebar-cat" data-cat="${c}">${formatCatName(c)}<span class="sidebar-count">(${cnt})</span></button>`;
+      return `<button class="sidebar-cat" data-cat="${c}">${formatCatName(c)}</button>`;
     }).join('');
   } else {
-    title.textContent = activeCat;
-    // 제품에서 + admin 별도 저장 서브카테고리 합치기
+    title.innerHTML = formatCatName(activeCat, true);
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     const total = allProds.filter(p=>p.category===activeCat).length;
-    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체<span class="sidebar-count">(${total})</span></button>`;
+    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체</button>`;
     subs.forEach(s=>{
-      const cnt = allProds.filter(p=>p.category===activeCat&&p.subcategory===s).length;
       html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
     });
     sb.innerHTML = html;
