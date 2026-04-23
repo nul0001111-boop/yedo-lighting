@@ -848,7 +848,7 @@ function buildCatBar(){
     const fromProds=[...new Set(allProds.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=get('yedo_subcats_'+c)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
-    const dropdown=subs.length?`<div class="cat-dropdown">${
+    const dropdown=c==='NEW PRODUCT'?'':subs.length?`<div class="cat-dropdown">${
       subs.map(s=>`<button class="cat-dropdown-item" onclick="event.stopPropagation();location.href='category.html?cat=${encodeURIComponent(c)}&sub=${encodeURIComponent(s)}'">${s}</button>`).join('')
     }</div>`:'';
     return `<div class="cat-item"><button class="cat-btn${c===activeCat?' active':''}" onclick="location.href='category.html?cat=${encodeURIComponent(c)}'">${c}</button>${dropdown}</div>`;
