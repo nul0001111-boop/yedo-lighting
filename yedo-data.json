@@ -20,7 +20,12 @@
     "투광기",
     "램프",
     "레일 및 부품",
-    "배선기구"
+    "배선기구",
+    "LED 매입등",
+    "스포트 라이트",
+    "악세사리",
+    "기타",
+    "홈조명(방등)"
   ],
   "yedo_subcats_레일 및 부품": [
     "KC. 레일",
@@ -2317,7 +2322,7 @@
     },
     {
       "name": "로싸 벽등",
-      "category": "벽등",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202305/e122294b46f56c69d4bcc03d29edb361.jpg",
       "images": [],
@@ -3796,7 +3801,7 @@
     },
     {
       "name": "KS.원 벽등 LED 5W",
-      "category": "벽등",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/0300b9f2603d021fda3fedc8eb8e7cb8.jpg",
       "images": [],
@@ -3814,7 +3819,7 @@
     },
     {
       "name": "KS.사각 벽등 LED 5W",
-      "category": "벽등",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/12d66927e1beae44e7b27e3465af5d16.jpg",
       "images": [],
@@ -3832,7 +3837,7 @@
     },
     {
       "name": "*생활방수제품* KS.YQ 벽등 LED 5W",
-      "category": "벽등",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/ef9a11c2e415064fdf5ec1bd1e5e9ab5.jpg",
       "images": [],
@@ -10057,5 +10062,5 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1776838740681
+  "yedo_saved_at": 1776921310856
 }
