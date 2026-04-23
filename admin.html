@@ -523,7 +523,11 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <textarea class="form-textarea" id="edit-detail-images" placeholder="https://상세이미지1.jpg&#10;https://상세이미지2.jpg" style="min-height:80px;"></textarea>
     </div>
     <div class="form-group">
-      <label class="form-label">제품 설명</label>
+      <label class="form-label">카드 간략설명 <span style="font-size:11px;color:var(--text-faint);">(카테고리 페이지 카드에 표시)</span></label>
+      <input class="form-input" type="text" id="edit-short-desc" placeholder="색상: WHITE / 소비전력: 20W 등 짧은 설명">
+    </div>
+    <div class="form-group">
+      <label class="form-label">제품 설명 <span style="font-size:11px;color:var(--text-faint);">(상세페이지에 표시)</span></label>
       <textarea class="form-textarea" id="edit-desc" placeholder="제품 설명을 입력하세요"></textarea>
     </div>
     <div class="form-group">
@@ -884,6 +888,7 @@ function openEditProduct(idx){
   document.getElementById('edit-image').value=p.image||'';
   document.getElementById('edit-images').value=(p.images||[]).join('\n');
   document.getElementById('edit-detail-images').value=(p.detail_images||[]).join('\n');
+  document.getElementById('edit-short-desc').value=p.short_desc||'';
   document.getElementById('edit-desc').value=p.description||'';
   document.getElementById('edit-specs').value=p.specs||'';
   document.getElementById('edit-badge').value=p.badge||'';
@@ -938,7 +943,7 @@ function saveProduct(){
   const name=document.getElementById('edit-name').value.trim();
   if(!name){toast('제품명을 입력하세요.',false);return;}
   const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
-  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
+  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
   const prods=get(SK.products)||[];
   const idx=parseInt(document.getElementById('edit-idx').value);
   if(idx>=0) prods[idx]=prod; else prods.push(prod);

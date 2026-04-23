@@ -74,7 +74,8 @@ nav{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;
 .badge-best{background:#e74c3c;color:#fff;}
 .prod-info{padding:14px 16px 18px;}
 .prod-cat{font-size:11px;color:var(--teal);letter-spacing:0.07em;margin-bottom:5px;text-transform:uppercase;}
-.prod-name{font-size:20px;font-weight:500;color:var(--text);line-height:1.4;}
+.prod-name{font-size:18px;font-weight:500;color:var(--text);line-height:1.4;}
+.prod-desc{font-size:12px;color:var(--text-faint);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .empty-state{grid-column:1/-1;padding:80px 0;text-align:center;color:var(--text-faint);}
 .load-wrap{text-align:center;margin-top:40px;}
 .load-btn{font-size:14px;color:var(--teal);border:1px solid var(--teal);background:none;padding:12px 40px;border-radius:3px;cursor:pointer;font-family:inherit;transition:all 0.2s;}
@@ -260,6 +261,7 @@ function renderProducts(){
       <div class="prod-info">
         <div class="prod-cat">${p.category||''}${p.subcategory?' · '+p.subcategory:''}</div>
         <div class="prod-name">${p.name}</div>
+        ${(p.short_desc||p.description)?`<div class="prod-desc">${p.short_desc||p.description}</div>`:''}
       </div>
     </a>`;
   }).join('');
