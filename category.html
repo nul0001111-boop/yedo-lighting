@@ -190,7 +190,7 @@ function renderTopBar(){
     const fromProds=[...new Set(allProds.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+c)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
-    const dropdown=subs.length?`<div class="top-cat-dropdown">${subs.map(s=>`<button class="top-cat-dropdown-item" onclick="event.stopPropagation();activeCat='${c}';selectSubCat('${s}')">${s}</button>`).join('')}</div>`:'';
+    const dropdown=c==='NEW PRODUCT'?'':subs.length?`<div class="top-cat-dropdown">${subs.map(s=>`<button class="top-cat-dropdown-item" onclick="event.stopPropagation();activeCat='${c}';selectSubCat('${s}')">${s}</button>`).join('')}</div>`:'';
     return `<div class="top-cat-item"><button class="top-cat-btn${c===curActive?' active':''}" data-cat="${c}">${c}</button>${dropdown}</div>`;
   }).join('');
   document.querySelectorAll('.top-cat-btn').forEach(btn=>{
