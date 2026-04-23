@@ -227,15 +227,16 @@ function renderSidebar(){
       html += `<button class="sidebar-cat${activeSubCat===c?' active':''}" data-cat="NEW PRODUCT" data-sub="${c}">${c}</button>`;
     });
     sb.innerHTML = html;
+  } else {
+    title.innerHTML = formatCatName(activeCat, true);
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
-    const total = allProds.filter(p=>p.category===activeCat).length;
-    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체</button>`;
+    let html2 = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체</button>`;
     subs.forEach(s=>{
-      html += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
+      html2 += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
     });
-    sb.innerHTML = html;
+    sb.innerHTML = html2;
   }
   sb.querySelectorAll('.sidebar-cat').forEach(btn=>{
     btn.addEventListener('click', ()=>{
