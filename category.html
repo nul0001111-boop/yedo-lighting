@@ -153,7 +153,16 @@ function getVal(k){
   if(_yedoData&&_yedoData[k]!==undefined) return _yedoData[k];
   try{const v=localStorage.getItem(k);return v?JSON.parse(v):null;}catch{return null;}
 }
-function getProds(){return getVal(SK)||[];}
+function getProds(){
+  const prods = getVal(SK)||[];
+  // categories 배열 지원
+  return prods.map(p=>{
+    if(!p.categories || !p.categories.length){
+      p.categories = p.category ? [p.category] : [];
+    }
+    return p;
+  });
+}
 let allProds=[];
 
 // ── 상태 ──
@@ -234,10 +243,11 @@ function renderProducts(){
   let filtered;
   if(searchQuery){
     const q = searchQuery.toLowerCase();
-    filtered = allProds.filter(p=>(p.name||'').toLowerCase().includes(q));
+    filtered = allProds.filter(p=>(p.name||'').toLowerCase().includes(q)||(p.categories||[]).some(c=>c.toLowerCase().includes(q)));
   } else {
     filtered = allProds.filter(p=>{
-      const mc = activeCat==='전체' || p.category===activeCat;
+      const cats = p.categories && p.categories.length ? p.categories : [p.category];
+      const mc = activeCat==='전체' || cats.includes(activeCat);
       const ms = !activeSubCat || p.subcategory===activeSubCat;
       return mc && ms;
     });

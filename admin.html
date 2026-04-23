@@ -499,9 +499,10 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
         <input class="form-input" type="text" id="edit-name" placeholder="제품명">
       </div>
       <div class="form-group">
-        <label class="form-label">카테고리 *</label>
-        <input class="form-input" type="text" id="edit-category" placeholder="예: 레일등, 매입등, 마그네틱" list="cat-list">
-        <datalist id="cat-list"></datalist>
+        <label class="form-label">카테고리 * <span style="font-size:11px;color:var(--text-faint);">(중복 선택 가능)</span></label>
+        <div id="edit-category-wrap" style="border:1px solid var(--border);border-radius:4px;padding:8px;max-height:180px;overflow-y:auto;background:var(--bg2);">
+        </div>
+        <input type="hidden" id="edit-category">
       </div>
     </div>
     <div class="form-group">
@@ -696,6 +697,21 @@ function saveMainPage(){
   toast('메인 페이지 설정이 저장되었습니다. GitHub에 저장 버튼을 눌러주세요!');
 }
 
+function renderCatCheckboxes(selectedCats=[]){
+  const cats = get('yedo_cat_order') || [...new Set((get(SK.products)||[]).map(p=>p.category).filter(Boolean))];
+  const wrap = document.getElementById('edit-category-wrap');
+  if(!wrap) return;
+  wrap.innerHTML = cats.map(c=>`
+    <label style="display:flex;align-items:center;gap:6px;padding:4px 6px;cursor:pointer;font-size:13px;border-radius:3px;" onmouseover="this.style.background='var(--teal-pale)'" onmouseout="this.style.background=''">
+      <input type="checkbox" value="${c}" ${selectedCats.includes(c)?'checked':''} onchange="updateCatSelection()" style="accent-color:var(--teal);">
+      ${c}
+    </label>`).join('');
+}
+
+function updateCatSelection(){
+  const checked = [...document.querySelectorAll('#edit-category-wrap input:checked')].map(cb=>cb.value);
+  document.getElementById('edit-category').value = checked.join(',');
+}
 
 const GH_OWNER = 'nul0001111-boop';
 const GH_REPO  = 'yedo-lighting';
@@ -868,11 +884,12 @@ document.getElementById('prod-filter').addEventListener('input',e=>renderProduct
 function openAddProduct(){
   document.getElementById('edit-title').textContent='제품 추가';
   document.getElementById('edit-idx').value='-1';
-  ['name','category','subcategory','image','images','detail-images','desc','specs','badge'].forEach(f=>document.getElementById('edit-'+f).value='');
+  ['name','category','subcategory','image','images','detail-images','desc','specs','badge','short-desc'].forEach(f=>document.getElementById('edit-'+f).value='');
   document.getElementById('edit-visible').checked=true;
   document.getElementById('edit-featured').checked=false;
   document.getElementById('edit-isnew').checked=false;
   document.getElementById('edit-img-preview').style.display='none';
+  renderCatCheckboxes([]);
   populateCatDatalist();
   document.getElementById('edit-overlay').classList.add('on');
 }
@@ -890,6 +907,9 @@ function openEditProduct(idx){
   document.getElementById('edit-detail-images').value=(p.detail_images||[]).join('\n');
   document.getElementById('edit-short-desc').value=p.short_desc||'';
   document.getElementById('edit-desc').value=p.description||'';
+  const selectedCats = Array.isArray(p.categories) ? p.categories : (p.category ? p.category.split(',').map(c=>c.trim()) : []);
+  renderCatCheckboxes(selectedCats);
+  document.getElementById('edit-category').value = selectedCats.join(',');
   document.getElementById('edit-specs').value=p.specs||'';
   document.getElementById('edit-badge').value=p.badge||'';
   document.getElementById('edit-visible').checked=p.visible!==false;
@@ -943,7 +963,9 @@ function saveProduct(){
   const name=document.getElementById('edit-name').value.trim();
   if(!name){toast('제품명을 입력하세요.',false);return;}
   const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
-  const prod={name,category:document.getElementById('edit-category').value.trim(),subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
+  const catValue = document.getElementById('edit-category').value.trim();
+  const categories = catValue ? catValue.split(',').map(c=>c.trim()).filter(Boolean) : [];
+  const prod={name,category:categories[0]||'',categories:categories,subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
   const prods=get(SK.products)||[];
   const idx=parseInt(document.getElementById('edit-idx').value);
   if(idx>=0) prods[idx]=prod; else prods.push(prod);
