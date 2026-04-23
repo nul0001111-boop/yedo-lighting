@@ -217,8 +217,16 @@ function renderSidebar(){
     sb.innerHTML = cats.map(c=>{
       return `<button class="sidebar-cat" data-cat="${c}">${formatCatName(c)}</button>`;
     }).join('');
-  } else {
+  } else if(activeCat==='NEW PRODUCT'){
     title.innerHTML = formatCatName(activeCat, true);
+    // NEW PRODUCT에 속한 제품들의 대분류 목록
+    const newProds = allProds.filter(p=>(p.categories||[p.category]).includes('NEW PRODUCT'));
+    const mainCats = [...new Set(newProds.flatMap(p=>p.categories||[p.category]).filter(c=>c&&c!=='NEW PRODUCT'))];
+    let html = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="NEW PRODUCT" data-sub="">전체</button>`;
+    mainCats.forEach(c=>{
+      html += `<button class="sidebar-cat${activeSubCat===c?' active':''}" data-cat="NEW PRODUCT" data-sub="${c}">${c}</button>`;
+    });
+    sb.innerHTML = html;
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
@@ -248,7 +256,9 @@ function renderProducts(){
     filtered = allProds.filter(p=>{
       const cats = p.categories && p.categories.length ? p.categories : [p.category];
       const mc = activeCat==='전체' || cats.includes(activeCat);
-      const ms = !activeSubCat || p.subcategory===activeSubCat;
+      const ms = activeCat==='NEW PRODUCT' && activeSubCat 
+        ? cats.includes(activeSubCat)
+        : !activeSubCat || p.subcategory===activeSubCat;
       return mc && ms;
     });
   }
