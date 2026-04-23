@@ -14,18 +14,13 @@
     "MR 매입등",
     "멀티등기구",
     "직부등",
-    "홍조명(방등)",
-    "스포트라이트",
+    "홈조명(방등)",
+    "스포트 라이트",
     "팬던트",
     "투광기",
     "램프",
     "레일 및 부품",
-    "배선기구",
-    "LED 매입등",
-    "스포트 라이트",
-    "악세사리",
-    "기타",
-    "홈조명(방등)"
+    "배선기구"
   ],
   "yedo_subcats_레일 및 부품": [
     "KC. 레일",
@@ -43,7 +38,11 @@
   "yedo_products": [
     {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
-      "category": "LED 매입등",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202603/de5cb41d76191533e048d5f54af298d2.jpg",
       "images": [],
@@ -55,11 +54,16 @@
         "https://ydl.co.kr/web/upload/NNEditor/20260401/0b96020b6ae4b8fca709be1f6b816d00.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 15W / LED 10W\n색상: WHITE\n전체 사이즈: ∅105XH90 (mm) / ∅85XH68 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 / ∅75\n색온도: 4000K",
-      "badge": "",
+      "badge": "NEW",
       "visible": true,
-      "related_products": []
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        13
+      ]
     },
     {
       "name": "T22 직부등 전용 전원마감",
@@ -80,7 +84,11 @@
     },
     {
       "name": "TS-LINE 60 레일등 LED",
-      "category": "T시리즈",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
       "subcategory": "레일형",
       "image": "https://ydl.co.kr/web/product/medium/202601/82f3e659dc576747c19f80eb23a11ae9.jpg",
       "images": [],
@@ -93,16 +101,23 @@
         "https://ydl.co.kr/web/upload/NNEditor/20260203/cf9aae07475232c1bb38d43a4f99a269.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 60W / 45W / 30W / 15W\n색상: WHITE\n전체 사이즈: 1200/900/600/300 X 60 X H52\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
+      "featured": true,
+      "isnew": true,
       "related_products": []
     },
     {
       "name": "KC. 직사각매입등 LED 디밍형",
-      "category": "LED 매입등",
-      "subcategory": "사각매입등",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "M시리즈"
+      ],
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "images": [],
       "detail_images": [
@@ -114,11 +129,16 @@
         "https://ydl.co.kr/web/upload/NNEditor/20260130/b7a224e9ef8ed872f2016edee54f68b6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 15W / LED 10W\n색상: WHITE\n전체 사이즈: 220 X 90 X H26 / 150 X 65 X H26\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75mm / ∅50mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
+      "badge": "NEW",
       "visible": true,
-      "related_products": []
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        15
+      ]
     },
     {
       "name": "TS-LINE 22 레일등 LED",
@@ -178,7 +198,7 @@
     },
     {
       "name": "KS. 3\" 센서매입등 LED 10W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202510/f8b8ff51b5ebb897c4a90dd7fd283e9a.jpg",
       "images": [],
@@ -279,8 +299,8 @@
     },
     {
       "name": "KS. M60 라인 매입등",
-      "category": "LED 매입등",
-      "subcategory": "라인매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
       "images": [],
       "detail_images": [
@@ -300,7 +320,7 @@
     },
     {
       "name": "KS. 클랙슨 매입등 (집중형) LED",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/8d4dae485cd9797a015c3fbdef381add.jpg",
       "images": [],
@@ -336,8 +356,8 @@
     },
     {
       "name": "KC. 직사각매입등 LED20W",
-      "category": "LED 매입등",
-      "subcategory": "사각매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
       "images": [],
       "detail_images": [
@@ -432,7 +452,7 @@
     },
     {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202603/de5cb41d76191533e048d5f54af298d2.jpg",
       "images": [],
@@ -490,8 +510,8 @@
     },
     {
       "name": "KC. 직사각매입등 LED 디밍형",
-      "category": "LED 매입등",
-      "subcategory": "사각매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "images": [],
       "detail_images": [
@@ -567,7 +587,7 @@
     },
     {
       "name": "KS. 3\" 센서매입등 LED 10W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202510/f8b8ff51b5ebb897c4a90dd7fd283e9a.jpg",
       "images": [],
@@ -668,8 +688,8 @@
     },
     {
       "name": "KS. M60 라인 매입등",
-      "category": "LED 매입등",
-      "subcategory": "라인매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
       "images": [],
       "detail_images": [
@@ -689,7 +709,7 @@
     },
     {
       "name": "KS. 클랙슨 매입등 (집중형) LED",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/8d4dae485cd9797a015c3fbdef381add.jpg",
       "images": [],
@@ -725,8 +745,8 @@
     },
     {
       "name": "KC. 직사각매입등 LED20W",
-      "category": "LED 매입등",
-      "subcategory": "사각매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
       "images": [],
       "detail_images": [
@@ -894,7 +914,7 @@
     },
     {
       "name": "KC. (3) 글레어 매입등(움푹) 7W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/89e5b81cc87657115f5864bbce2f52f5.jpg",
       "images": [],
@@ -999,7 +1019,7 @@
     },
     {
       "name": "KS. (3) COB 공회전 매입등",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202507/134bde483b616eb85c8157c26838ef7a.jpg",
       "images": [],
@@ -1018,7 +1038,7 @@
     },
     {
       "name": "KS. (3) UFO 직회전 매입등",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e3f1faea757fc93f8c33b72c208f6a47.jpg",
       "images": [],
@@ -1069,7 +1089,7 @@
     },
     {
       "name": "KS. (6) 방습매입등 LED 15W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/be05bab3704a7c120f706637f7e12701.jpg",
       "images": [],
@@ -1085,7 +1105,7 @@
     },
     {
       "name": "KS. (4) 방습매입등 LED 7W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/4b9d4a228942880bc406973f7303601b.jpg",
       "images": [],
@@ -1101,7 +1121,7 @@
     },
     {
       "name": "KS. (3) 방습매입등 LED 5W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/9df6ddf6737ece7492847c9e2e95378c.jpg",
       "images": [],
@@ -1117,7 +1137,7 @@
     },
     {
       "name": "KS. 글레어 매입등(움푹)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202410/7995d7f640c78f92e97d5781ad44e764.jpg",
       "images": [],
@@ -1136,7 +1156,7 @@
     },
     {
       "name": "KS. (6) 글레어 매입등(움푹) 20W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/634d1aab6444cef6b285856ad558efdb.jpg",
       "images": [],
@@ -1224,7 +1244,7 @@
     },
     {
       "name": "KS. 3인치 스틱매입등 LED 8W 블랙",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202408/6fd8354e7dd0109c2dd67b3b416b05b3.jpg",
       "images": [],
@@ -1240,7 +1260,7 @@
     },
     {
       "name": "KS. (3) 스틱매입등 LED 8W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/760be6e8a43764a18dd8387dc41879e6.jpg",
       "images": [],
@@ -1657,7 +1677,7 @@
     },
     {
       "name": "LED 전용 디머 스위치 800W",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7f68c87e89046276502ad16cdff2f940.jpg",
       "images": [],
@@ -1674,7 +1694,7 @@
     },
     {
       "name": "LED 전용 디머 스위치 400W",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/71f5c953e082fb4e7ca04c03cbc6897b.jpg",
       "images": [],
@@ -1723,7 +1743,7 @@
     },
     {
       "name": "KS. (2) 글레어 매입등(움푹) 6W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/962e526565d638f953c84596b4cfa35b.jpg",
       "images": [],
@@ -1755,7 +1775,7 @@
     },
     {
       "name": "KS. (3) 직회전 매입등 확산형/COB 8W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/aa9c5e8b2aef33cb2421718bf11a8884.jpg",
       "images": [],
@@ -1788,7 +1808,7 @@
     },
     {
       "name": "KS. (2) 직회전 매입등 확산형/COB 6W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/577e377ffe878805aa3ec627eb2ef49e.jpg",
       "images": [],
@@ -1805,7 +1825,7 @@
     },
     {
       "name": "KS. 6인치 캐스팅 매입등 LED 20W 흑색",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202403/a7e5327d6bc960b2bde1fa00a6676aa9.png",
       "images": [],
@@ -1854,8 +1874,8 @@
     },
     {
       "name": "KS. M33라인 매입등 300 LED 8W",
-      "category": "LED 매입등",
-      "subcategory": "라인매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/5cce10b371fa90067c2187ea08521df8.jpg",
       "images": [],
       "detail_images": [
@@ -1871,8 +1891,8 @@
     },
     {
       "name": "KS. M33라인 매입등 600 LED 15W",
-      "category": "LED 매입등",
-      "subcategory": "라인매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/a4453de552dbc02ed50a89ae0baf5f1d.jpg",
       "images": [],
       "detail_images": [
@@ -1888,8 +1908,8 @@
     },
     {
       "name": "KS. M33라인 매입등 900 LED 24W",
-      "category": "LED 매입등",
-      "subcategory": "라인매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7ccc40149bcf3e4623fa5fc4ec479d01.jpg",
       "images": [],
       "detail_images": [
@@ -1905,8 +1925,8 @@
     },
     {
       "name": "KS. M33라인 매입등 1200 LED 30W",
-      "category": "LED 매입등",
-      "subcategory": "라인매입등",
+      "category": "매입등",
+      "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/21e93910a671c91bc870f8f718deada4.jpg",
       "images": [],
       "detail_images": [
@@ -1938,7 +1958,7 @@
     },
     {
       "name": "KS. (4) 글레어 매입등(움푹) 10W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/f916ef32175061bd7bfb9bbfe620bde5.jpg",
       "images": [],
@@ -1954,7 +1974,7 @@
     },
     {
       "name": "KS. (3) 글레어 매입등(움푹) 7W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/1ad4e145b5d3bfb869638b0b354a00af.jpg",
       "images": [],
@@ -2205,7 +2225,7 @@
     },
     {
       "name": "KS. (4) 직회전 매입등 집중형/COB 12W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/26d8cafae80778531929c816bf9557d3.jpg",
       "images": [],
@@ -2290,7 +2310,7 @@
     },
     {
       "name": "SQF COB40W 레일 (COB110S)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/e4aa1a92942250e30d9984904d8091f7.jpg",
       "images": [],
@@ -2613,7 +2633,7 @@
     },
     {
       "name": "KS. (3) 직회전 매입등 집중형/COB 8W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/44111027c43591cacd2d56d040bfc1a4.jpg",
       "images": [],
@@ -2645,7 +2665,7 @@
     },
     {
       "name": "KS. (2) 직회전 매입등 집중형/COB 6W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/bedc7da25923fcbe04acbe7ee8cda407.jpg",
       "images": [],
@@ -2662,7 +2682,7 @@
     },
     {
       "name": "(4) 프리매입 COB 8W (COB401A)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e258f9ea513ca95a470247f9b60445a3.jpg",
       "images": [],
@@ -2678,7 +2698,7 @@
     },
     {
       "name": "KC. (8) S매입등 LED 30W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/9695b4323b70aaa859e3fd690eff00d1.jpg",
       "images": [],
@@ -2694,7 +2714,7 @@
     },
     {
       "name": "KC. (7) S매입등 LED 25W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/aba3035386a855a558a4622fcf2229ab.jpg",
       "images": [],
@@ -2710,7 +2730,7 @@
     },
     {
       "name": "KC. (6) S매입등 LED 15W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/118950bd723d0dfee6808ec3eaf9a708.jpg",
       "images": [],
@@ -2726,7 +2746,7 @@
     },
     {
       "name": "KC. (5) S매입등 LED 12W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e7b7ae72442bea75654cdb5c9334363a.jpg",
       "images": [],
@@ -2742,7 +2762,7 @@
     },
     {
       "name": "KC. (4) S매입등 LED 10W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/cffda1a64442e2e47e14fe3b4d4d0145.jpg",
       "images": [],
@@ -2758,7 +2778,7 @@
     },
     {
       "name": "KC. (3) S매입등 LED 6W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/d95c244113ef5a653d5d0fdf2b196360.jpg",
       "images": [],
@@ -3240,7 +3260,7 @@
     },
     {
       "name": "프리매입 (Y-401A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/16211bf59bfa20cd09f39846bdf26842.jpg",
       "images": [],
@@ -3256,7 +3276,7 @@
     },
     {
       "name": "4인치 공회전 (Y-400A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202411/26136821726b88dfda981ff84c0a63aa.jpg",
       "images": [],
@@ -3272,7 +3292,7 @@
     },
     {
       "name": "사각 분리 직매입 (Y-312B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/76ada6f17ca98c4efdb6b981e37e9353.jpg",
       "images": [],
@@ -3288,7 +3308,7 @@
     },
     {
       "name": "원형 분리 직매입 (Y-312A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/aaf158d3030029d8a1cf09d090d024ff.jpg",
       "images": [],
@@ -3320,7 +3340,7 @@
     },
     {
       "name": "이중회전원형 - 360도 회전 (Y-301B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/a081b645c3de4067ea1d2b509f08a820.jpg",
       "images": [],
@@ -3336,7 +3356,7 @@
     },
     {
       "name": "3인치 직회전 캐스팅 (Y-321A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/7bc4c1da853225ba276111097723bf09.jpg",
       "images": [],
@@ -3352,7 +3372,7 @@
     },
     {
       "name": "3인치 방공직회전 (Y-320B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/6987c7c613847b9e78a49f5172e08280.jpg",
       "images": [],
@@ -3368,7 +3388,7 @@
     },
     {
       "name": "3인치 띠직회전 (Y-320A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/a457401e8623aeb2ffa1f01763d3fb38.jpg",
       "images": [],
@@ -3384,7 +3404,7 @@
     },
     {
       "name": "3인치 공회전 (Y-300A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/e9b75c9189e10bc42dae6dec2141f663.jpg",
       "images": [],
@@ -3416,7 +3436,7 @@
     },
     {
       "name": "2인치 직회전 캐스팅 (Y-221A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/c3a48ab513fef67556121cd04d3d5294.jpg",
       "images": [],
@@ -3433,7 +3453,7 @@
     },
     {
       "name": "2인치 직회전 캐스팅 (Y-221F)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/033b5695ed66b7d87e1d16f7c4107a41.jpg",
       "images": [],
@@ -3449,7 +3469,7 @@
     },
     {
       "name": "2인치 직각회전 캐스팅 (Y-221C)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/2ba87996aae9e3d651ed924ffe9a16c2.jpg",
       "images": [],
@@ -3465,7 +3485,7 @@
     },
     {
       "name": "2인치 띠직회전 캐스팅 (Y-221B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/2fa54276b700fb0cf2f4b537ad8f5ed2.jpg",
       "images": [],
@@ -3481,7 +3501,7 @@
     },
     {
       "name": "2인치 직각회전 프레스 (Y-220C)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/c3e2907c9628d6753c15ec104f04fb5f.jpg",
       "images": [],
@@ -3497,7 +3517,7 @@
     },
     {
       "name": "2인치 직매입 캐스팅 (Y-211B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/da351460332b5e0514dedae2c802cec6.jpg",
       "images": [],
@@ -3513,7 +3533,7 @@
     },
     {
       "name": "원ㆍ사각 직회전 캐스팅 (Y-221D)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/65da23b31a94ac28b382e5e1daaf9f0d.jpg",
       "images": [],
@@ -3529,7 +3549,7 @@
     },
     {
       "name": "2인치 띠직회전 프레스 (Y-220B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/be869236537a548ddee29bf8d1311d24.jpg",
       "images": [],
@@ -3545,7 +3565,7 @@
     },
     {
       "name": "2인치 직캐스팅 (Y-211A)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202303/c3b166ad10b2a919fb7df1334546efbd.jpg",
       "images": [],
@@ -3593,7 +3613,7 @@
     },
     {
       "name": "(3) 직회전 COB 8W (COB321A)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/09cb7279be9c63318276c5e24758c0c4.jpg",
       "images": [],
@@ -3641,7 +3661,7 @@
     },
     {
       "name": "[COB] 2211 LED 5W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/d5cf5d16e5ef7a1a6731fe32edb0916d.jpg",
       "images": [],
@@ -3657,7 +3677,7 @@
     },
     {
       "name": "2 직회전 2211 LED 8W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/f332a46f4dec04aa3fc87c4fb9f7aceb.jpg",
       "images": [],
@@ -3673,7 +3693,7 @@
     },
     {
       "name": "(2) 가구매입 2131 LED 5W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/b2778fdafe17f5e7f30f8b783ad3560c.jpg",
       "images": [],
@@ -3689,7 +3709,7 @@
     },
     {
       "name": "원형 엣지 센서등 LED20W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/894ce9bc8e05c262d363f6ad34bb36f3.jpg",
       "images": [],
@@ -3705,7 +3725,7 @@
     },
     {
       "name": "사각 엣지 센서등 LED 20W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/2607a7986447cf5c28ddfe23548a507e.jpg",
       "images": [],
@@ -3753,7 +3773,7 @@
     },
     {
       "name": "스트롱앙카 3/8 (3부)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/ec9bcb0079c1a8da919a8bfdee3373f0.jpg",
       "images": [],
@@ -3769,7 +3789,7 @@
     },
     {
       "name": "MR16 소켓",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/21026ce581c3fad8bfcce3dedd12ee93.jpg",
       "images": [],
@@ -3785,7 +3805,7 @@
     },
     {
       "name": "MR16 COB  5W (GU5.3)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/c859544f6288f3ff4cf723e4d69ad1fa.jpg",
       "images": [],
@@ -3999,7 +4019,7 @@
     },
     {
       "name": "PAR30 LED15W (확산형)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/50a338d798836dafa38a66a9d0475d03.jpg",
       "images": [],
@@ -4178,7 +4198,7 @@
     },
     {
       "name": "KC. 8인치 매입등 LED 30W (P-301)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202301/c54d470fc673305486b0179b00fb6310.jpg",
       "images": [],
@@ -4625,7 +4645,7 @@
     },
     {
       "name": "KS. T-LINE 70 레일등 1200(60W) (삼성칩)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/0db0008b704a4f59f92c441b2a5870b7.jpg",
       "images": [],
@@ -4641,7 +4661,7 @@
     },
     {
       "name": "KS. T-LINE 70 레일등 1200(60W) (삼성칩)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/003dffa72fa86940a0bb33bffe4c0fc2.jpg",
       "images": [],
@@ -4897,7 +4917,7 @@
     },
     {
       "name": "KC. 시스템 방등 LED 50W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202102/fbf9e4a0b9b9340f7a72a143a0c42b6c.png",
       "images": [],
@@ -5088,7 +5108,7 @@
     },
     {
       "name": "레이스웨이 레일 커버 WH,BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202312/b137492bf58ff781b24d7245f093a4c3.jpg",
       "images": [],
@@ -5136,7 +5156,7 @@
     },
     {
       "name": "GU10 원통스포트 레일 검정(BK)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202009/5729ba036ff03b4e938260ee04b61bcf.jpg",
       "images": [],
@@ -5200,7 +5220,7 @@
     },
     {
       "name": "KC. 6인치 매입등 LED 15W (P-201)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202008/0f86a05d214aa791ce83359536729efe.jpg",
       "images": [],
@@ -5328,7 +5348,7 @@
     },
     {
       "name": "KS.8인치 캐스팅 LED35W 매입등 주백색(4000K)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/282726b30cf6945ef3df748d4b2d5e91.jpg",
       "images": [],
@@ -5344,7 +5364,7 @@
     },
     {
       "name": "KS.6인치 캐스팅 LED20W 매입등 주백색(4000K)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/4102696f5284864f2d460c7abcbbf9e2.jpg",
       "images": [],
@@ -5360,7 +5380,7 @@
     },
     {
       "name": "KS.4인치 캐스팅 LED10W 매입등 주백색(4000K)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/a9bf52ea9730a8b4b656e337b616184a.jpg",
       "images": [],
@@ -5504,7 +5524,7 @@
     },
     {
       "name": "GU10 자유봉 소켓 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200115/500ac32eb07cf6d6db122cf09d4b3ece.jpg",
       "images": [],
@@ -5552,7 +5572,7 @@
     },
     {
       "name": "레일 후렌지 (소)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/859cddcdba34a67f6fd76132be5cf27e.jpg",
       "images": [],
@@ -5568,7 +5588,7 @@
     },
     {
       "name": "180 갓등 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/36862a6e2dda29efa1a58571b8aed51c.jpg",
       "images": [],
@@ -5584,7 +5604,7 @@
     },
     {
       "name": "카르코 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20191212/e9d6f2015ab6495ec23e198c4d9d916d.png",
       "images": [],
@@ -5600,7 +5620,7 @@
     },
     {
       "name": "카르코 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20191212/ea33a6339a8188a0c0b0762f15687aae.png",
       "images": [],
@@ -5680,7 +5700,7 @@
     },
     {
       "name": "레일 후렌지 (중)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/ed4e6e3073575bfea7d6672020fb42e5.jpg",
       "images": [],
@@ -5696,7 +5716,7 @@
     },
     {
       "name": "고효율 (4) LED 10W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/c57ccbf0beb5faa1260dcd5b3f1f709c.jpg",
       "images": [],
@@ -5922,7 +5942,7 @@
     },
     {
       "name": "고효율 (8) LED 30W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/dbb5fa13de8a83c96187fda7e4d7a361.jpg",
       "images": [],
@@ -6018,7 +6038,7 @@
     },
     {
       "name": "KC. LED MR16 램프용 컨버터 20W (소켓)",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/c69380a3a3f409926f5b8742200608b1.jpg",
       "images": [],
@@ -6034,7 +6054,7 @@
     },
     {
       "name": "KC. LED MR16 램프용 컨버터 20W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201906/a39de5dff8d953861d45335de9a900ca.jpg",
       "images": [],
@@ -6142,7 +6162,7 @@
     },
     {
       "name": "자유봉 소켓 레일_로즈골드(RG)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201901/78f28f7b85d0799a4619f3f2ad6ef301.jpg",
       "images": [],
@@ -6174,7 +6194,7 @@
     },
     {
       "name": "자유봉 소켓 직부_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201811/16bbb0d40ef5ad5c8f95466702c921ad.jpg",
       "images": [],
@@ -6208,7 +6228,7 @@
     },
     {
       "name": "자유봉 소켓 레일_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201811/26720dc9a18960ffc2ee1691b83e5ac4.jpg",
       "images": [],
@@ -6355,7 +6375,7 @@
     },
     {
       "name": "6인치 EL 매입등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201809/3fa1f6af3a4e01115120ee56818b35a6.jpg",
       "images": [],
@@ -6371,7 +6391,7 @@
     },
     {
       "name": "KC. LED MR16 램프용 컨버터 8W (소켓)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201808/d5017be1f01b7e2cd743a3b2abcc9026.jpg",
       "images": [],
@@ -6451,7 +6471,7 @@
     },
     {
       "name": "110스포트 COB30W 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201807/386_shop1_15329963589998.jpg",
       "images": [],
@@ -6499,7 +6519,7 @@
     },
     {
       "name": "2인치 직매입 COB 8W (COB211B)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7958d5f9253597b47c8a6814d363b27e.jpg",
       "images": [],
@@ -6515,7 +6535,7 @@
     },
     {
       "name": "3인치 직회전 COB 7W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201807/382_shop1_15329288059711.jpg",
       "images": [],
@@ -6531,7 +6551,7 @@
     },
     {
       "name": "4인치 프리매입 COB 8W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201807/381_shop1_15329286472679.jpg",
       "images": [],
@@ -6547,7 +6567,7 @@
     },
     {
       "name": "C60 COB 8W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/d42cdab8476c5250daaad7c619507792.jpg",
       "images": [],
@@ -6579,7 +6599,7 @@
     },
     {
       "name": "양날브라켓 (3부)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/42b887dc5994e84ddb9551a6268d54ff.jpg",
       "images": [],
@@ -6595,7 +6615,7 @@
     },
     {
       "name": "육각너트 3/8 (3부)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7aa43e43735f6190826c34f6dae020cb.jpg",
       "images": [],
@@ -6611,7 +6631,7 @@
     },
     {
       "name": "드롭인앙카 3/8 (3부)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b6263fcd3c5fb2978cd5ae22dd5a1f7a.jpg",
       "images": [],
@@ -6627,7 +6647,7 @@
     },
     {
       "name": "3부 전산볼트 (1M/2M/3M)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/729157a2ee8e6b50331d44d332b26125.jpg",
       "images": [],
@@ -6707,7 +6727,7 @@
     },
     {
       "name": "KS. LED MR16 램프용 컨버터",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/c1fe6c51d233c2beb523445aac4794b0.jpg",
       "images": [],
@@ -6723,7 +6743,7 @@
     },
     {
       "name": "KS. LED MR16 램프용 컨버터(소켓용)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/93bec215418b160424671a31eebfb292.jpg",
       "images": [],
@@ -6787,7 +6807,7 @@
     },
     {
       "name": "고효율 (6) LED15W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/676188f999eb69fe89c3354d7e0e2a51.jpg",
       "images": [],
@@ -6820,7 +6840,7 @@
     },
     {
       "name": "KS. Q-PAR30 LED15W (렌즈형)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/1eb627c32ea57cd0698ec08712bc61d1.jpg",
       "images": [],
@@ -6838,7 +6858,7 @@
     },
     {
       "name": "KS. Q-PAR30 LED15W (확산형)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/780013edc766c04ffd1d5a8fd3da3fe0.jpg",
       "images": [],
@@ -7119,7 +7139,7 @@
     },
     {
       "name": "(6) AC타입 LED 15W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/3c4b17c975703e840b16ad3d1a3aec2d.jpg",
       "images": [],
@@ -7263,7 +7283,7 @@
     },
     {
       "name": "6인치 LED140 매입등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201809/d350e68fb70423b5dd82f9b88a52e5ba.jpg",
       "images": [],
@@ -7279,7 +7299,7 @@
     },
     {
       "name": "KS 벌브 LED 8W (A60)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/c930ea96c1096a50632f39bd3f5abc49.jpg",
       "images": [],
@@ -7433,7 +7453,7 @@
     },
     {
       "name": "(6) 다운라이트 LED 15W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/2d048442cd6938a89e137018318a8803.jpg",
       "images": [],
@@ -7530,7 +7550,7 @@
     },
     {
       "name": "KS. (3) 캐스팅 매입등 LED 7W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/5184b332656fab37d159a9d4c61c4915.jpg",
       "images": [],
@@ -7546,7 +7566,7 @@
     },
     {
       "name": "LED HIGH BAR 하이바",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201602/305_shop1_304550.jpg",
       "images": [],
@@ -7562,7 +7582,7 @@
     },
     {
       "name": "LED ONE BAR 원바",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201602/304_shop1_687315.jpg",
       "images": [],
@@ -7578,7 +7598,7 @@
     },
     {
       "name": "LED OTTUGI 오뚜기",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201602/303_shop1_738967.jpg",
       "images": [],
@@ -7594,7 +7614,7 @@
     },
     {
       "name": "LED TRANS 트랜스",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201602/302_shop1_305413.jpg",
       "images": [],
@@ -7642,7 +7662,7 @@
     },
     {
       "name": "SQM LED25W_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/297_shop1_209116.jpg",
       "images": [],
@@ -7658,7 +7678,7 @@
     },
     {
       "name": "Y-411A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/292_shop1_569428.jpg",
       "images": [],
@@ -7674,7 +7694,7 @@
     },
     {
       "name": "Y-412A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/291_shop1_436893.jpg",
       "images": [],
@@ -7690,7 +7710,7 @@
     },
     {
       "name": "Y-403A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/290_shop1_601712.jpg",
       "images": [],
@@ -7706,7 +7726,7 @@
     },
     {
       "name": "Y-441A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/289_shop1_967901.jpg",
       "images": [],
@@ -7722,7 +7742,7 @@
     },
     {
       "name": "Y-401B",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/288_shop1_167240.jpg",
       "images": [],
@@ -7738,7 +7758,7 @@
     },
     {
       "name": "Y-400A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/287_shop1_183531.jpg",
       "images": [],
@@ -7754,7 +7774,7 @@
     },
     {
       "name": "Y-400A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/285_shop1_279299.jpg",
       "images": [],
@@ -7770,7 +7790,7 @@
     },
     {
       "name": "Y-330B",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/282_shop1_988756.jpg",
       "images": [],
@@ -7786,7 +7806,7 @@
     },
     {
       "name": "Y-412A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/278_shop1_562666.jpg",
       "images": [],
@@ -7818,7 +7838,7 @@
     },
     {
       "name": "Y-320C",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/268_shop1_343083.jpg",
       "images": [],
@@ -7834,7 +7854,7 @@
     },
     {
       "name": "Y-320B",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/265_shop1_999148.jpg",
       "images": [],
@@ -7850,7 +7870,7 @@
     },
     {
       "name": "Y-320B",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/264_shop1_773322.jpg",
       "images": [],
@@ -7866,7 +7886,7 @@
     },
     {
       "name": "Y-320B",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/263_shop1_544429.jpg",
       "images": [],
@@ -7882,7 +7902,7 @@
     },
     {
       "name": "Y-310A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/261_shop1_574348.jpg",
       "images": [],
@@ -7914,7 +7934,7 @@
     },
     {
       "name": "Y-221D",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/257_shop1_366422.jpg",
       "images": [],
@@ -7930,7 +7950,7 @@
     },
     {
       "name": "Y-221D",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/256_shop1_182125.jpg",
       "images": [],
@@ -7946,7 +7966,7 @@
     },
     {
       "name": "Y-221D",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/255_shop1_982114.jpg",
       "images": [],
@@ -7962,7 +7982,7 @@
     },
     {
       "name": "Y-221C",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/251_shop1_892183.jpg",
       "images": [],
@@ -7978,7 +7998,7 @@
     },
     {
       "name": "4.5인치 방습등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/243_shop1_273315.jpg",
       "images": [],
@@ -7994,7 +8014,7 @@
     },
     {
       "name": "4인치 방습등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/242_shop1_223642.jpg",
       "images": [],
@@ -8202,7 +8222,7 @@
     },
     {
       "name": "PAR 30 레일_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/222_shop1_165915.jpg",
       "images": [],
@@ -8234,7 +8254,7 @@
     },
     {
       "name": "PAR 30 직부_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/220_shop1_132606.jpg",
       "images": [],
@@ -8266,7 +8286,7 @@
     },
     {
       "name": "LED PAR30 레일_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/218_shop1_426970.jpg",
       "images": [],
@@ -8282,7 +8302,7 @@
     },
     {
       "name": "LED PAR30 레일_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/217_shop1_760003.jpg",
       "images": [],
@@ -8298,7 +8318,7 @@
     },
     {
       "name": "LED PAR30 직부_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/216_shop1_653793.jpg",
       "images": [],
@@ -8314,7 +8334,7 @@
     },
     {
       "name": "LED PAR30 직부_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/215_shop1_511032.jpg",
       "images": [],
@@ -8330,7 +8350,7 @@
     },
     {
       "name": "민PAR30 원통 / 원통 대(大) 레일_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201811/c9878107215ccaa5989db8c150de41a7.jpg",
       "images": [],
@@ -8362,7 +8382,7 @@
     },
     {
       "name": "민PAR30 원통 / 원통 대(大) 직부_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201811/632a69d1cac486e1b0b3ba7bab557a18.jpg",
       "images": [],
@@ -8394,7 +8414,7 @@
     },
     {
       "name": "나팔 레일_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/210_shop1_852509.jpg",
       "images": [],
@@ -8410,7 +8430,7 @@
     },
     {
       "name": "나팔 레일_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/209_shop1_766609.jpg",
       "images": [],
@@ -8426,7 +8446,7 @@
     },
     {
       "name": "나팔 직부_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/208_shop1_821652.jpg",
       "images": [],
@@ -8442,7 +8462,7 @@
     },
     {
       "name": "나팔 직부_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/207_shop1_940563.jpg",
       "images": [],
@@ -8458,7 +8478,7 @@
     },
     {
       "name": "렌즈 레일_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/206_shop1_572158.jpg",
       "images": [],
@@ -8474,7 +8494,7 @@
     },
     {
       "name": "렌즈 레일_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/205_shop1_826375.jpg",
       "images": [],
@@ -8490,7 +8510,7 @@
     },
     {
       "name": "렌즈 직부_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/204_shop1_290281.jpg",
       "images": [],
@@ -8506,7 +8526,7 @@
     },
     {
       "name": "렌즈 직부_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/203_shop1_969431.jpg",
       "images": [],
@@ -8522,7 +8542,7 @@
     },
     {
       "name": "렌즈 매입_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/202_shop1_989833.jpg",
       "images": [],
@@ -8538,7 +8558,7 @@
     },
     {
       "name": "렌즈 매입_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/201_shop1_222617.jpg",
       "images": [],
@@ -8586,7 +8606,7 @@
     },
     {
       "name": "팔각 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/198_shop1_146976.jpg",
       "images": [],
@@ -8602,7 +8622,7 @@
     },
     {
       "name": "팔각 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/197_shop1_649162.jpg",
       "images": [],
@@ -8618,7 +8638,7 @@
     },
     {
       "name": "정사각 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/196_shop1_908853.jpg",
       "images": [],
@@ -8634,7 +8654,7 @@
     },
     {
       "name": "정사각 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/195_shop1_982023.jpg",
       "images": [],
@@ -8650,7 +8670,7 @@
     },
     {
       "name": "뿔 자바라 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200602/c201fd0f4eae63d4b464c2ae5d547f6a.jpg",
       "images": [],
@@ -8666,7 +8686,7 @@
     },
     {
       "name": "뿔 자바라 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200602/69702c0cc5e05e7e297c6793925150ba.jpg",
       "images": [],
@@ -8682,7 +8702,7 @@
     },
     {
       "name": "꼬깔 자바라 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200602/32090e926ebf727f304a58c931ed59ae.jpg",
       "images": [],
@@ -8698,7 +8718,7 @@
     },
     {
       "name": "꼬깔 자바라 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200602/8a447f1aefb1d6b01f674f0bc56f516c.jpg",
       "images": [],
@@ -8714,7 +8734,7 @@
     },
     {
       "name": "앵글 자바라 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200602/c56aeb174831c277dbb33fd3ab182da5.jpg",
       "images": [],
@@ -8730,7 +8750,7 @@
     },
     {
       "name": "앵글 자바라 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200602/9f8546f98734738a0773eb98761294f8.jpg",
       "images": [],
@@ -8746,7 +8766,7 @@
     },
     {
       "name": "3발 자바라 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200528/a70cda64bbf82f9ebc87c8c476fe0ca8.jpg",
       "images": [],
@@ -8762,7 +8782,7 @@
     },
     {
       "name": "3발 자바라 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/20200528/4a965cf85a09995ac567cd0226187c7a.jpg",
       "images": [],
@@ -8810,7 +8830,7 @@
     },
     {
       "name": "앵글 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/184_shop1_577169.jpg",
       "images": [],
@@ -8826,7 +8846,7 @@
     },
     {
       "name": "앵글 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/183_shop1_297886.jpg",
       "images": [],
@@ -8842,7 +8862,7 @@
     },
     {
       "name": "뿔 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/182_shop1_455122.jpg",
       "images": [],
@@ -8858,7 +8878,7 @@
     },
     {
       "name": "뿔 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/181_shop1_408607.jpg",
       "images": [],
@@ -8874,7 +8894,7 @@
     },
     {
       "name": "꼬깔 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/180_shop1_907219.jpg",
       "images": [],
@@ -8890,7 +8910,7 @@
     },
     {
       "name": "꼬깔 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/179_shop1_472520.jpg",
       "images": [],
@@ -8906,7 +8926,7 @@
     },
     {
       "name": "12발 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/178_shop1_915460.jpg",
       "images": [],
@@ -8922,7 +8942,7 @@
     },
     {
       "name": "12발 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/177_shop1_241527.jpg",
       "images": [],
@@ -8938,7 +8958,7 @@
     },
     {
       "name": "3발 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/176_shop1_612551.jpg",
       "images": [],
@@ -8954,7 +8974,7 @@
     },
     {
       "name": "3발 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/175_shop1_531397.jpg",
       "images": [],
@@ -9018,7 +9038,7 @@
     },
     {
       "name": "Y-221A",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/164_shop1_728282.jpg",
       "images": [],
@@ -9066,7 +9086,7 @@
     },
     {
       "name": "ㄱ,ㅡ자 조절용 파이프",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/73064dbb76cb1309b5235a7be4248430.jpg",
       "images": [],
@@ -9082,7 +9102,7 @@
     },
     {
       "name": "걸고리",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/8912cd1bd1e3bca063a19b796011e04f.jpg",
       "images": [],
@@ -9098,7 +9118,7 @@
     },
     {
       "name": "LED 센서모듈",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/111_shop1_929816.jpg",
       "images": [],
@@ -9114,7 +9134,7 @@
     },
     {
       "name": "일반센서모듈",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/110_shop1_240739.jpg",
       "images": [],
@@ -9130,7 +9150,7 @@
     },
     {
       "name": "MR16 램프용 컨버터",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/108_shop1_501235.jpg",
       "images": [],
@@ -9146,7 +9166,7 @@
     },
     {
       "name": "할로겐 전자식 안정기(인증용)",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/106_shop1_403498.jpg",
       "images": [],
@@ -9162,7 +9182,7 @@
     },
     {
       "name": "할로겐 전자식 안정기(소켓용)",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/105_shop1_979090.jpg",
       "images": [],
@@ -9178,7 +9198,7 @@
     },
     {
       "name": "할로겐 전자식 안정기",
-      "category": "악세사리",
+      "category": "배선기구",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/104_shop1_458783.jpg",
       "images": [],
@@ -9354,7 +9374,7 @@
     },
     {
       "name": "4.5인치 EL",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/85_shop1_752217.jpg",
       "images": [],
@@ -9370,7 +9390,7 @@
     },
     {
       "name": "4인치 유리카바(EL)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/73_shop1_607207.jpg",
       "images": [],
@@ -9386,7 +9406,7 @@
     },
     {
       "name": "6인치 유리카바(PL,EL)_BK",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/71_shop1_264733.jpg",
       "images": [],
@@ -9402,7 +9422,7 @@
     },
     {
       "name": "6인치 유리카바(EL)",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/69_shop1_768769.jpg",
       "images": [],
@@ -9466,7 +9486,7 @@
     },
     {
       "name": "멀티 CDM-T 전용3등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/57_shop1_934545.jpg",
       "images": [],
@@ -9482,7 +9502,7 @@
     },
     {
       "name": "멀티 CDM-T 전용2등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/56_shop1_663235.jpg",
       "images": [],
@@ -9498,7 +9518,7 @@
     },
     {
       "name": "멀티 CDM-T 전용1등",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/55_shop1_531046.jpg",
       "images": [],
@@ -9562,7 +9582,7 @@
     },
     {
       "name": "PAR-30 3등 스틸",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/51_shop1_177209.jpg",
       "images": [],
@@ -9578,7 +9598,7 @@
     },
     {
       "name": "PAR-30 2등 스틸",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/50_shop1_647835.jpg",
       "images": [],
@@ -9594,7 +9614,7 @@
     },
     {
       "name": "PAR-30 1등 스틸(스프링타입)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/49_shop1_391169.jpg",
       "images": [],
@@ -9610,7 +9630,7 @@
     },
     {
       "name": "KS. (4) 캐스팅 매입등 LED 10W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/7f152a5e5d1cfa45c91035976cb54678.jpg",
       "images": [],
@@ -9626,7 +9646,7 @@
     },
     {
       "name": "KS.PAR30 LED18W LAMP(확산형)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/ec59a341416a25c817a173c12bb14563.jpg",
       "images": [],
@@ -9658,7 +9678,7 @@
     },
     {
       "name": "KS.PAR30 LED15W LAMP(렌즈형)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/c05dd65f5e2848b8fe7b7dadeb9a00b3.jpg",
       "images": [],
@@ -9674,7 +9694,7 @@
     },
     {
       "name": "KS.PAR30 LED15W LAMP(확산형)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/837401fa78af415e1ee9cfeaddf8663a.jpg",
       "images": [],
@@ -9690,7 +9710,7 @@
     },
     {
       "name": "KS.캔들램프 LED5W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202302/4c2b24765a1bd6cfe2ff4d0aa4457a83.jpg",
       "images": [],
@@ -9706,7 +9726,7 @@
     },
     {
       "name": "KS. 벌브 LED 12W (A70)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/6a8e078f2b9c209aa0520adc8ff2a9d0.jpg",
       "images": [],
@@ -9738,7 +9758,7 @@
     },
     {
       "name": "110 스포트 레일 LED25W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/39_shop1_571874.jpg",
       "images": [],
@@ -9754,7 +9774,7 @@
     },
     {
       "name": "110 스포트 직부 LED25W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/38_shop1_238753.jpg",
       "images": [],
@@ -9770,7 +9790,7 @@
     },
     {
       "name": "LED 썬스포트 5W 레일",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/37_shop1_406022.jpg",
       "images": [],
@@ -9786,7 +9806,7 @@
     },
     {
       "name": "LED 썬스포트 5W 직부",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/36_shop1_473461.jpg",
       "images": [],
@@ -9866,7 +9886,7 @@
     },
     {
       "name": "SQM LED25W_WH",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201601/31_shop1_873072.jpg",
       "images": [],
@@ -9916,7 +9936,7 @@
     },
     {
       "name": "LED트윈등 LED30W 폴더형(직부)",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201602/23_shop1_545077.jpg",
       "images": [],
@@ -9932,7 +9952,7 @@
     },
     {
       "name": "LED트윈등 LED30W 레일형",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201602/22_shop1_927204.jpg",
       "images": [],
@@ -9948,7 +9968,7 @@
     },
     {
       "name": "KC. 6인치 프레스 매입등 LED 15W",
-      "category": "기타",
+      "category": "",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/21_shop1_853536.jpg",
       "images": [],
@@ -9964,7 +9984,7 @@
     },
     {
       "name": "KS. (8) 캐스팅 매입등 LED 35W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/1326f81a2f9a2b34ddf10123c2982b7d.jpg",
       "images": [],
@@ -9980,7 +10000,7 @@
     },
     {
       "name": "KS. (7) 캐스팅 매입등 LED 31W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/30038b3e4f006b58a8ea4464f05c8777.jpg",
       "images": [],
@@ -9996,7 +10016,7 @@
     },
     {
       "name": "KS. (6) 캐스팅 매입등 LED 20W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/ba96661046d6e185e6c7aa79a5f26e5a.jpg",
       "images": [],
@@ -10012,7 +10032,7 @@
     },
     {
       "name": "KS. (5) 캐스팅 매입등 LED 15W",
-      "category": "LED 매입등",
+      "category": "매입등",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/a35153e2d327825ab511b3cab84e4c2e.jpg",
       "images": [],
@@ -10062,5 +10082,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1776921364441
+  "yedo_saved_at": 1776935281567,
+  "yedo_subcats_LED 매입등": []
 }
