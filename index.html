@@ -24,7 +24,7 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
 
 /* ── NAV ── */
 nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid var(--border);}
-.nav-top{display:flex;justify-content:space-between;align-items:center;padding:0 100px;height:88px;gap:20px;}
+.nav-top{display:flex;justify-content:space-between;align-items:center;padding:0 80px;height:88px;gap:20px;}
 .nav-logo{font-family:'Barlow Condensed',sans-serif;font-size:54px;font-weight:700;letter-spacing:0.06em;color:var(--text);text-decoration:none;flex-shrink:0;line-height:1;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
 .nav-logo span{color:var(--teal);}
 .nav-logo small{display:block;font-family:'Noto Sans KR',sans-serif;font-size:14px;font-weight:300;letter-spacing:0.18em;color:var(--text-faint);margin-top:1px;transform:scaleY(1.176);transform-origin:left center;}
@@ -41,7 +41,7 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 .nav-contact:hover{background:var(--teal-dark);}
 
 /* ── CATEGORY BAR ── */
-.cat-bar{border-top:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 100px;position:relative;z-index:400;}
+.cat-bar{border-top:1px solid var(--border);background:#fff;overflow:visible;white-space:nowrap;padding:0 80px;position:relative;z-index:400;}
 .cat-bar::-webkit-scrollbar{display:none;}
 .cat-item{position:relative;display:inline-block;}
 .cat-dropdown{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:6px;box-shadow:0 4px 20px rgba(0,0,0,0.12);padding:6px 0;min-width:140px;z-index:9999;}
@@ -105,14 +105,14 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 
 /* ── NEW PRODUCTS SCROLL ── */
 .new-section{padding:60px 0 40px;}
-.sec-header-pad{padding:0 100px;display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px;}
+.sec-header-pad{padding:0 80px;display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px;}
 .eyebrow{font-size:11px;letter-spacing:0.16em;color:var(--teal);text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:8px;}
 .eyebrow::before{content:'';width:18px;height:1.5px;background:var(--teal);}
 .sec-title{font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:0.04em;color:var(--text);}
 .see-all{font-size:15px;color:var(--teal);text-decoration:none;display:flex;align-items:center;gap:4px;transition:gap 0.2s;}
 .see-all:hover{gap:8px;}
 .new-scroll-wrap{position:relative;}
-.new-scroll{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding:0 100px 20px;}
+.new-scroll{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding:0 80px 20px;}
 
 .new-scroll::-webkit-scrollbar{display:none;}
 .new-card{background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;transition:box-shadow 0.25s,border-color 0.25s,transform 0.2s;}
@@ -129,7 +129,7 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 .new-card-name{font-size:20px;font-weight:500;color:var(--text);line-height:1.4;}
 
 /* ── CATEGORY IMAGE CARDS ── */
-.cat-cards-section{padding:60px 100px;background:var(--bg2);border-top:1px solid var(--border);}
+.cat-cards-section{padding:60px 80px;background:var(--bg2);border-top:1px solid var(--border);}
 .cat-img-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px;}
 .cat-img-card{border-radius:6px;overflow:hidden;cursor:pointer;position:relative;aspect-ratio:4/3;max-height:200px;background:var(--bg3);border:1px solid var(--border);transition:transform 0.25s,box-shadow 0.25s;}
 .cat-img-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,0.1);}
@@ -140,7 +140,7 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 .cat-img-card-ko{font-size:13px;font-weight:500;color:#fff;}
 
 /* ── ALL PRODUCTS ── */
-.products-section{padding:64px 100px 80px;background:#fff;scroll-margin-top:160px;}
+.products-section{padding:64px 80px 80px;background:#fff;scroll-margin-top:160px;}
 .product-toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px;}
 .product-search-inner{position:relative;max-width:320px;flex:1;}
 .product-search-inner input{width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;outline:none;transition:border-color 0.2s;}
