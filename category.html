@@ -171,6 +171,7 @@ const params = new URLSearchParams(location.search);
 let activeCat = params.get('cat') || '전체';
 let activeSubCat = params.get('sub') || '';
 let activeSubSubCat = params.get('subsub') || '';
+let searchQuery = params.get('q') || '';
 let visible = 20;
 
 // ── 카테고리 목록 (저장된 순서 반영) ──

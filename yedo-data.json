@@ -1126,81 +1126,116 @@
     {
       "name": "KC. 마그네틱 레일 매입형 기역자",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "매입형",
       "image": "https://ydl.co.kr/web/product/medium/202412/81a69200a540b4d7d377f2bbbef5ee98.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA7A4EC9E85EAB8B0EC97ADEC9E90-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 매입형 T자",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "매입형",
       "image": "https://ydl.co.kr/web/product/medium/202412/476a1278c0a538eb8246a82f7c25422a.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D-tEC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 매입형 십자",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "매입형",
       "image": "https://ydl.co.kr/web/product/medium/202412/2f4d80a7600297238be33e0fa8dec2a6.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA7A4EC9E85-EC8BADEC9E90-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 매입형 수직",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "매입형",
       "image": "https://ydl.co.kr/web/product/medium/202412/add010cf4f0e20b6db11fff255e760a5.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA7A4EC9E85-EC8898ECA781-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 매입형 옆마구리",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "매입형",
       "image": "https://ydl.co.kr/web/product/medium/202412/91b6fe7480cd32e04b3064e0b3951da2.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240819/EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85ED9895-EC9886EBA788EAB5ACEBA6AC_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1236,99 +1271,141 @@
       "related_products": []
     },
     {
-      "name": "KC. 마그네틱 레일 일반형 1M",
+      "name": "KC. 마그네틱 레일 일반형",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "일반형",
       "image": "https://ydl.co.kr/web/product/medium/202603/7d8aa54a07c4639fc37c2721d4fea70e.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK\n전체 사이즈: (1M) 26X51",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 일반 기역자",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "일반형",
       "image": "https://ydl.co.kr/web/product/medium/202412/f6a34c53b06a33c8904668f778d9e2f7.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EAB8B0EC96B5EC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 일반 T자",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "일반형",
       "image": "https://ydl.co.kr/web/product/medium/202412/cc84e04b577a37cf2c92e544baf07231.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895ED8BB0EC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 일반 십자",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "일반형",
       "image": "https://ydl.co.kr/web/product/medium/202412/a03dbdd8b1b2ebec70984329f04c6a9b.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EC8BADE38588_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 일반 수직",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "일반형",
       "image": "https://ydl.co.kr/web/product/medium/202412/02b800efece9f5172a6a748ee848d897.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EC8898ECA781_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 일반 옆마구리",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "일반형",
       "image": "https://ydl.co.kr/web/product/medium/202412/4ff1585bf6c20299e258d0a7a890d657.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240819/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895-EC9886EBA788EAB5ACEBA6AC_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9891,6 +9968,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777009357913,
+  "yedo_saved_at": 1777009989722,
   "yedo_subcats_LED 매입등": []
 }
