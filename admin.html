@@ -538,8 +538,13 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <textarea class="form-textarea" id="edit-specs" placeholder="전압: 220V / 60Hz&#10;소비전력: 20W&#10;색온도: 3000K"></textarea>
     </div>
     <div class="form-group">
-      <label class="form-label">배지 (NEW / BEST / 추천)</label>
-      <input class="form-input" type="text" id="edit-badge" placeholder="NEW">
+      <label class="form-label">배지</label>
+      <select class="form-select" id="edit-badge">
+        <option value="">없음</option>
+        <option value="NEW">NEW</option>
+        <option value="BEST">BEST</option>
+        <option value="NEW/BEST">NEW + BEST</option>
+      </select>
     </div>
     <div class="toggle-wrap" style="margin-bottom:14px;">
       <label class="toggle"><input type="checkbox" id="edit-visible" checked><span class="toggle-slider"></span></label>
