@@ -62,7 +62,7 @@
       "featured": true,
       "isnew": true,
       "related_products": [
-        13
+        14
       ]
     },
     {
@@ -301,7 +301,11 @@
     },
     {
       "name": "KS. T-LINE(티라인) 레일등 디밍 LED",
-      "category": "T시리즈",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
       "subcategory": "레일형",
       "image": "https://ydl.co.kr/web/product/medium/202508/421eabb26b8bfdad5132476bd1765089.jpg",
       "images": [],
@@ -317,11 +321,20 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250908/bb914b5c5eb29450a59f93ba8a2d608d.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE, BLACK",
       "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
       "specs": "정격 전력: LED 20W /15W / 10W / 5W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "featured": false,
+      "isnew": true,
+      "related_products": [
+        9,
+        348,
+        349,
+        350,
+        351
+      ]
     },
     {
       "name": "너트형 레일 고정 지지대",
@@ -371,8 +384,12 @@
     },
     {
       "name": "KS. M60 라인 매입등",
-      "category": "매입등",
-      "subcategory": "",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "M시리즈"
+      ],
+      "subcategory": "라인매입등",
       "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
       "images": [],
       "detail_images": [
@@ -384,15 +401,22 @@
         "https://ydl.co.kr/web/upload/NNEditor/20251209/e3b6eb29c6fbcef162908219035d7f95.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: 15W / 30W / 45W / 60W\n색상: WHITE\n전체 사이즈: 60 X H45 X D300/600/900/1200\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 50X290 / 50X590 / 50X890 / 50X1190\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
+      "featured": true,
+      "isnew": true,
       "related_products": []
     },
     {
       "name": "KS. 클랙슨 매입등 (집중형) LED",
-      "category": "매입등",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/8d4dae485cd9797a015c3fbdef381add.jpg",
       "images": [],
@@ -403,11 +427,16 @@
         "https://ydl.co.kr/web/upload/NNEditor/20260224/0c2bab40d8a530a6bdc216c07879be6b.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 6W / LED 10W / LED 15W\n색상: WHITE\n전체 사이즈: ∅62XH50 (mm) / ∅85XH68 (mm) / ∅105XH90 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55  / ∅75 / ∅95\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
+      "badge": "BEST",
       "visible": true,
-      "related_products": []
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        0
+      ]
     },
     {
       "name": "KS. 아이스 원형 센서등 LED15W",
@@ -502,23 +531,6 @@
       "related_products": []
     },
     {
-      "name": "T22 직부등 전용 전원마감",
-      "category": "T시리즈",
-      "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202603/44aee6afab50bf0d2ec604c72b549445.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260306/210ed9e720845593226ef73f3a5ade17.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260306/e353e60d5a0189bb89827df5edcf42a4.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "너트형 레이스웨이 레일 고정 지지대",
       "category": "레일 및 부품",
       "subcategory": "",
@@ -537,30 +549,6 @@
       "related_products": []
     },
     {
-      "name": "KS. T-LINE(티라인) 레일등 디밍 LED",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202508/421eabb26b8bfdad5132476bd1765089.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250818/f9088f22bf9fb439ec2a47d07a2ca859.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250819/633e37db2e2b49884f02f1120f01c54e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250908/a7cb1c412f848b854c87c40e393182fc.gif",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/75358c1bb839e95a07d3ce09e8419241.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/f86f8e88d2302a2e1c7ca19f60b18924.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250120/39074f30e0b588113e8287aa91e90c7d.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250818/a9a479f8e3b887efd38cae16858ab6bf.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250818/c06d7908ca0f69c0aaf2e1b36d6c3ffd.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250908/bb914b5c5eb29450a59f93ba8a2d608d.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 20W /15W / 10W / 5W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "너트형 레일 고정 지지대",
       "category": "레일 및 부품",
       "subcategory": "",
@@ -574,27 +562,6 @@
       ],
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 50 x 38 x H46",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. M60 라인 매입등",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/1db02390e18906644b6ab38afdf74d3d.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250728/eb5ec3b2c8af748f6162241063916d0b.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251209/d46b9b6d6053ac225836c5313ce29af4.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/f49c55eebcd4426b8e64c25ff3a4053e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/99d3b25f1f703911ee031981879f2b84.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251209/e3b6eb29c6fbcef162908219035d7f95.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 15W / 30W / 45W / 60W\n색상: WHITE\n전체 사이즈: 60 X H45 X D300/600/900/1200\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 50X290 / 50X590 / 50X890 / 50X1190\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -9934,6 +9901,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1776991770206,
+  "yedo_saved_at": 1777007561361,
   "yedo_subcats_LED 매입등": []
 }
