@@ -104,7 +104,7 @@
       "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 60W / 45W / 30W / 15W\n색상: WHITE\n전체 사이즈: 1200/900/600/300 X 60 X H52\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
-      "badge": "NEW, BEST",
+      "badge": "NEW/BEST",
       "visible": true,
       "featured": true,
       "isnew": true,
@@ -9934,6 +9934,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1776936182568,
+  "yedo_saved_at": 1776991770206,
   "yedo_subcats_LED 매입등": []
 }
