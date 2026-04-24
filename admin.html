@@ -513,6 +513,10 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       <datalist id="subcat-list"></datalist>
     </div>
     <div class="form-group">
+      <label class="form-label">세부카테고리 (선택) <span style="font-size:11px;color:var(--text-faint);">서브카테고리 안의 분류 예: 매입형, 일반형</span></label>
+      <input class="form-input" type="text" id="edit-subsubcategory" placeholder="예: 매입형, 일반형">
+    </div>
+    <div class="form-group">
       <label class="form-label">메인 이미지 URL</label>
       <input class="form-input" type="text" id="edit-image" placeholder="https://file.cafe24cos.com/..." oninput="previewEditImg()">
       <img class="img-preview" id="edit-img-preview">
@@ -922,7 +926,7 @@ document.getElementById('prod-filter').addEventListener('input',e=>renderProduct
 function openAddProduct(){
   document.getElementById('edit-title').textContent='제품 추가';
   document.getElementById('edit-idx').value='-1';
-  ['name','category','subcategory','image','images','detail-images','desc','specs','badge','short-desc'].forEach(f=>document.getElementById('edit-'+f).value='');
+  ['name','category','subcategory','subsubcategory','image','images','detail-images','desc','specs','badge','short-desc'].forEach(f=>document.getElementById('edit-'+f).value='');
   document.getElementById('edit-visible').checked=true;
   document.getElementById('edit-featured').checked=false;
   document.getElementById('edit-isnew').checked=false;
@@ -940,6 +944,7 @@ function openEditProduct(idx){
   document.getElementById('edit-name').value=p.name||'';
   document.getElementById('edit-category').value=p.category||'';
   document.getElementById('edit-subcategory').value=p.subcategory||'';
+  document.getElementById('edit-subsubcategory').value=p.subsubcategory||'';
   document.getElementById('edit-image').value=p.image||'';
   document.getElementById('edit-images').value=(p.images||[]).join('\n');
   document.getElementById('edit-detail-images').value=(p.detail_images||[]).join('\n');
@@ -1003,7 +1008,7 @@ function saveProduct(){
   const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
   const catValue = document.getElementById('edit-category').value.trim();
   const categories = catValue ? catValue.split(',').map(c=>c.trim()).filter(Boolean) : [];
-  const prod={name,category:categories[0]||'',categories:categories,subcategory:document.getElementById('edit-subcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
+  const prod={name,category:categories[0]||'',categories:categories,subcategory:document.getElementById('edit-subcategory').value.trim(),subsubcategory:document.getElementById('edit-subsubcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
   const prods=get(SK.products)||[];
   const idx=parseInt(document.getElementById('edit-idx').value);
   if(idx>=0) prods[idx]=prod; else prods.push(prod);

@@ -2,7 +2,6 @@
   "yedo_subcats_T시리즈": [
     "레일형",
     "직부형",
-    "매입형",
     "간접등 T5"
   ],
   "yedo_cat_order": [
@@ -66,23 +65,6 @@
       ]
     },
     {
-      "name": "T22 직부등 전용 전원마감",
-      "category": "T시리즈",
-      "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202603/44aee6afab50bf0d2ec604c72b549445.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260306/210ed9e720845593226ef73f3a5ade17.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260306/e353e60d5a0189bb89827df5edcf42a4.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "TS-LINE 60 레일등 LED",
       "category": "NEW PRODUCT",
       "categories": [
@@ -105,6 +87,175 @@
       "description": "",
       "specs": "정격 전력: LED 60W / 45W / 30W / 15W\n색상: WHITE\n전체 사이즈: 1200/900/600/300 X 60 X H52\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "NEW/BEST",
+      "visible": true,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
+      "name": "TS-LINE 22 레일등 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/c4577d2b26389856c7d0041b140672ab.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/0e9b91f53e68611540467dc09e4d2e5e.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/97adf97422cf537fc41aedd42a393c3c.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251222/7a052132d438fe671bf8be8039c9f19b.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
+      "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "NEW",
+      "visible": true,
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        353,
+        354,
+        355,
+        356
+      ]
+    },
+    {
+      "name": "KS. T-LINE(티라인) 레일등 고효율 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202511/c8fbc10cbe428ec39ab217c645fe338a.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/fa9aeb7e072d61242f2428bea8a3cc1a.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/75358c1bb839e95a07d3ce09e8419241.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/f86f8e88d2302a2e1c7ca19f60b18924.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/0af379031db7aa27e2fbbef736ccc4d8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/ae07881f113546cd35157fdbfcfb2af9.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/be6acc3214eba8d1ab4a47795090607c.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/609c89ef64a929493fd374a576375c02.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
+      "specs": "정격 전력: LED 20W / 15W / 10W / 5W\n색상: WHITE\n전체 사이즈: 1200/900/600/300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 5700K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. T-LINE(티라인) 레일등 디밍 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202508/421eabb26b8bfdad5132476bd1765089.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250818/f9088f22bf9fb439ec2a47d07a2ca859.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250819/633e37db2e2b49884f02f1120f01c54e.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250908/a7cb1c412f848b854c87c40e393182fc.gif",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/75358c1bb839e95a07d3ce09e8419241.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/f86f8e88d2302a2e1c7ca19f60b18924.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250120/39074f30e0b588113e8287aa91e90c7d.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250818/a9a479f8e3b887efd38cae16858ab6bf.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250818/c06d7908ca0f69c0aaf2e1b36d6c3ffd.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250908/bb914b5c5eb29450a59f93ba8a2d608d.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
+      "specs": "정격 전력: LED 20W /15W / 10W / 5W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": true,
+      "related_products": [
+        9,
+        348,
+        349,
+        350,
+        351
+      ]
+    },
+    {
+      "name": "엣지레일등 홀더세트",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202508/ca2f6eac4238889e5776b1912de223e5.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/25efe7be05d8134f4bab0f5442a782d7.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/c950ab35b01f871afab8422d514b6619.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/93b1f7764109f7ee2d2821ca7d965b62.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/875ca99ed7c6678f6a6c457bb2b3e566.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 30W / 15W / 10W / 6W\n색상: WHITE\n전체 사이즈: Ø194/Ø142/Ø108/Ø78 X H35\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "BEST",
+      "visible": true,
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        96
+      ]
+    },
+    {
+      "name": "KC. (6) 엣지 원형 레일 LED 15W",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202504/2c6554a2252c84297cea6f1d70ea0354.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231019/copy-1697697487-6EC9DB8ECB998EC97A3ECA780EC9B90ED9895EBA088EC9DBC-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 142XH35\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. M60 라인 매입등",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "M시리즈"
+      ],
+      "subcategory": "라인매입등",
+      "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250725/1db02390e18906644b6ab38afdf74d3d.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250728/eb5ec3b2c8af748f6162241063916d0b.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251209/d46b9b6d6053ac225836c5313ce29af4.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250725/f49c55eebcd4426b8e64c25ff3a4053e.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250725/99d3b25f1f703911ee031981879f2b84.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251209/e3b6eb29c6fbcef162908219035d7f95.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: 15W / 30W / 45W / 60W\n색상: WHITE\n전체 사이즈: 60 X H45 X D300/600/900/1200\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 50X290 / 50X590 / 50X890 / 50X1190\n색온도: 6500K / 4000K",
+      "badge": "NEW",
       "visible": true,
       "featured": true,
       "isnew": true,
@@ -168,37 +319,6 @@
       "isnew": true,
       "related_products": [
         3
-      ]
-    },
-    {
-      "name": "TS-LINE 22 레일등 LED",
-      "category": "NEW PRODUCT",
-      "categories": [
-        "NEW PRODUCT",
-        "T시리즈"
-      ],
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/c4577d2b26389856c7d0041b140672ab.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/0e9b91f53e68611540467dc09e4d2e5e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/97adf97422cf537fc41aedd42a393c3c.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251222/7a052132d438fe671bf8be8039c9f19b.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "색상 : WHITE, BLACK",
-      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "NEW",
-      "visible": true,
-      "featured": true,
-      "isnew": true,
-      "related_products": [
-        353,
-        354,
-        355,
-        356
       ]
     },
     {
@@ -271,72 +391,6 @@
       "related_products": []
     },
     {
-      "name": "KS. T-LINE(티라인) 레일등 고효율 LED",
-      "category": "NEW PRODUCT",
-      "categories": [
-        "NEW PRODUCT",
-        "T시리즈"
-      ],
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202511/c8fbc10cbe428ec39ab217c645fe338a.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/fa9aeb7e072d61242f2428bea8a3cc1a.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/75358c1bb839e95a07d3ce09e8419241.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/f86f8e88d2302a2e1c7ca19f60b18924.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/0af379031db7aa27e2fbbef736ccc4d8.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/ae07881f113546cd35157fdbfcfb2af9.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/be6acc3214eba8d1ab4a47795090607c.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/609c89ef64a929493fd374a576375c02.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "색상 : WHITE",
-      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 20W / 15W / 10W / 5W\n색상: WHITE\n전체 사이즈: 1200/900/600/300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 5700K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "featured": false,
-      "isnew": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. T-LINE(티라인) 레일등 디밍 LED",
-      "category": "NEW PRODUCT",
-      "categories": [
-        "NEW PRODUCT",
-        "T시리즈"
-      ],
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202508/421eabb26b8bfdad5132476bd1765089.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250818/f9088f22bf9fb439ec2a47d07a2ca859.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250819/633e37db2e2b49884f02f1120f01c54e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250908/a7cb1c412f848b854c87c40e393182fc.gif",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/75358c1bb839e95a07d3ce09e8419241.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250221/f86f8e88d2302a2e1c7ca19f60b18924.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250120/39074f30e0b588113e8287aa91e90c7d.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250818/a9a479f8e3b887efd38cae16858ab6bf.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250818/c06d7908ca0f69c0aaf2e1b36d6c3ffd.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250908/bb914b5c5eb29450a59f93ba8a2d608d.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "색상 : WHITE, BLACK",
-      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 20W /15W / 10W / 5W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "featured": false,
-      "isnew": true,
-      "related_products": [
-        9,
-        348,
-        349,
-        350,
-        351
-      ]
-    },
-    {
       "name": "너트형 레일 고정 지지대",
       "category": "레일 및 부품",
       "subcategory": "",
@@ -352,62 +406,6 @@
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 50 x 38 x H46",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "엣지레일등 홀더세트",
-      "category": "NEW PRODUCT",
-      "categories": [
-        "NEW PRODUCT",
-        "T시리즈"
-      ],
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202508/ca2f6eac4238889e5776b1912de223e5.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/25efe7be05d8134f4bab0f5442a782d7.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/c950ab35b01f871afab8422d514b6619.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/93b1f7764109f7ee2d2821ca7d965b62.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/875ca99ed7c6678f6a6c457bb2b3e566.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "색상 : WHITE",
-      "description": "",
-      "specs": "정격 전력: LED 30W / 15W / 10W / 6W\n색상: WHITE\n전체 사이즈: Ø194/Ø142/Ø108/Ø78 X H35\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "BEST",
-      "visible": true,
-      "featured": true,
-      "isnew": true,
-      "related_products": [
-        96
-      ]
-    },
-    {
-      "name": "KS. M60 라인 매입등",
-      "category": "NEW PRODUCT",
-      "categories": [
-        "NEW PRODUCT",
-        "M시리즈"
-      ],
-      "subcategory": "라인매입등",
-      "image": "https://ydl.co.kr/web/product/medium/202507/0db5a8bd6a93032dc7675d24beac3fdf.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/1db02390e18906644b6ab38afdf74d3d.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250728/eb5ec3b2c8af748f6162241063916d0b.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251209/d46b9b6d6053ac225836c5313ce29af4.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/f49c55eebcd4426b8e64c25ff3a4053e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/99d3b25f1f703911ee031981879f2b84.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251209/e3b6eb29c6fbcef162908219035d7f95.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "색상 : WHITE",
-      "description": "",
-      "specs": "정격 전력: 15W / 30W / 45W / 60W\n색상: WHITE\n전체 사이즈: 60 X H45 X D300/600/900/1200\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 50X290 / 50X590 / 50X890 / 50X1190\n색온도: 6500K / 4000K",
-      "badge": "",
-      "visible": true,
-      "featured": true,
-      "isnew": true,
       "related_products": []
     },
     {
@@ -456,40 +454,77 @@
       "related_products": []
     },
     {
-      "name": "KS. 마그네틱 SMPS 150W / 250W (DC48V)",
+      "name": "KC. 마그네틱 레일 시스템",
       "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 안정기",
-      "image": "https://ydl.co.kr/web/product/medium/202506/967b965015ddd29ed9b5544bb1838208.jpg",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202502/2ece4912db1ce8b5de7b61b36909ac4b.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250618/22bd930ed3528c9c3002b097ff12c191.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250618/71b5c750fd36e4b9151100a10123ea9c.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250618/73b441e7dda8856bfabf7e822ef5b316.jpg",
-        "https://i.postimg.cc/6q51Dm14/1-04.jpg",
-        "https://i.postimg.cc/yYDLccqK/1-05.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250618/ab9fde72cf604e03e8d6a64873d47c98.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250212/6e2d938c376e19a8a82c128d38ff80ea.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250212/c6bbb0763aa554ef83d69f4403203340.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250212/b2657e3d39be78f788e688f362eb7575.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260202/12d2997b6bb713f07c35eac7191dada3.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260202/be4557ed1d283230b6e57af2e9b96872.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250724/370ca83109601cc7359315d5a38d747a.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250212/4db837ece4636e284abc493c4858865d.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: 150W / 250W\n색상: BLACK\n전체 사이즈: 267(L) X 21 X H43\n설치 방식: RAIL\n정격 전압: 입력 : AC220V / 출력 : DC48V",
+      "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
       "related_products": []
     },
     {
-      "name": "KS. 아이스 원형 직부등 LED15W",
-      "category": "직부등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202507/517b857e9f2d4386c0ef119b5a2ba824.jpg",
+      "name": "마그네틱 라인(확산) (41V)",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 조명",
+      "image": "https://ydl.co.kr/web/product/medium/202505/f83162ee9006e04e1318b16e950372b6.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/d62c8bcbbbd529bb39f43aee9dc7b5ef.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/3a672a14165d5df81b22200e883feca6.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/6101eb557721bb66d6af9c095b1a4bea.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250514/dcbf9c8efd5266660fe880d6ce4f9aad.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250619/aedbcec3816ce884618d58c409d5044c.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅245XH55\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H25\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "마그네틱 멀티(집중) (41V)",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 조명",
+      "image": "https://ydl.co.kr/web/product/medium/202505/4b49966f153d20508c1d757c4ac22e9a.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250626/a91b102bd8d16ad9e9a330ee474c0cac.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250514/494989fc031a1d937b63eb7fbe207e6d.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "마그네틱 폴드(집중) (41V)",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 조명",
+      "image": "https://ydl.co.kr/web/product/medium/202505/bb4a4bfc629ca78b6627bc7d0569abda.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250515/0244e0db727f8feeec2fb73c5104b30b.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250515/27664cc9466eed701281a320fe3b93bb.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -513,19 +548,19 @@
       "related_products": []
     },
     {
-      "name": "마그네틱 폴드(집중) (41V)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 조명",
-      "image": "https://ydl.co.kr/web/product/medium/202505/bb4a4bfc629ca78b6627bc7d0569abda.jpg",
+      "name": "KS. 아이스 원형 직부등 LED15W",
+      "category": "직부등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202507/517b857e9f2d4386c0ef119b5a2ba824.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250515/0244e0db727f8feeec2fb73c5104b30b.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250515/27664cc9466eed701281a320fe3b93bb.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250723/d62c8bcbbbd529bb39f43aee9dc7b5ef.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250723/3a672a14165d5df81b22200e883feca6.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250723/6101eb557721bb66d6af9c095b1a4bea.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅245XH55\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -618,78 +653,6 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅245XH55\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "마그네틱 원통 (41V)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 조명",
-      "image": "https://ydl.co.kr/web/product/medium/202505/386621d7131b7a0f420974290e7804e5.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250515/6153935b3b72aebb17e3a103b33af6d2.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250515/e843920ceecd981c12489f68bb9a0539.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 7W / 12W / 20W\n색상: BLACK\n전체 사이즈: 소 : Ø35 / 중 : Ø45 / 대  : Ø55\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "마그네틱 폴드(집중) (41V)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 조명",
-      "image": "https://ydl.co.kr/web/product/medium/202505/bb4a4bfc629ca78b6627bc7d0569abda.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250515/0244e0db727f8feeec2fb73c5104b30b.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250515/27664cc9466eed701281a320fe3b93bb.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "마그네틱 멀티(집중) (41V)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 조명",
-      "image": "https://ydl.co.kr/web/product/medium/202505/4b49966f153d20508c1d757c4ac22e9a.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250626/a91b102bd8d16ad9e9a330ee474c0cac.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250514/494989fc031a1d937b63eb7fbe207e6d.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "마그네틱 라인(확산) (41V)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 조명",
-      "image": "https://ydl.co.kr/web/product/medium/202505/f83162ee9006e04e1318b16e950372b6.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250514/dcbf9c8efd5266660fe880d6ce4f9aad.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250619/aedbcec3816ce884618d58c409d5044c.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H25\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -810,28 +773,6 @@
       ],
       "description": "8인치 매입등 대체용 등기구",
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 마그네틱 레일 시스템",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202502/2ece4912db1ce8b5de7b61b36909ac4b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250212/6e2d938c376e19a8a82c128d38ff80ea.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250212/c6bbb0763aa554ef83d69f4403203340.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250212/b2657e3d39be78f788e688f362eb7575.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260202/12d2997b6bb713f07c35eac7191dada3.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260202/be4557ed1d283230b6e57af2e9b96872.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250724/370ca83109601cc7359315d5a38d747a.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250212/4db837ece4636e284abc493c4858865d.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -992,7 +933,10 @@
     {
       "name": "KS. T5 3색 1200 LED 20W",
       "category": "T시리즈",
-      "subcategory": "직부형",
+      "categories": [
+        "T시리즈"
+      ],
+      "subcategory": "간접등 T5",
       "image": "https://ydl.co.kr/web/product/medium/202412/262184168f5206381c43576597b33bfe.jpg",
       "images": [],
       "detail_images": [
@@ -1001,16 +945,22 @@
         "https://ydl.co.kr/web/upload/NNEditor/20251209/877d642ae7c7e0a5a7dc7f4b5d99d9db.jpg",
         "https://ydl.co.kr/web/upload/NNEditor/20250307/1cba4dd5eeee2678d1affe2d8937e866.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 1192X23XH35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. T5 3색 900 LED 15W",
       "category": "T시리즈",
-      "subcategory": "직부형",
+      "categories": [
+        "T시리즈"
+      ],
+      "subcategory": "간접등 T5",
       "image": "https://ydl.co.kr/web/product/medium/202412/5038ca9929d3bd0e4c2c112c30d30f38.jpg",
       "images": [],
       "detail_images": [
@@ -1019,16 +969,22 @@
         "https://ydl.co.kr/web/upload/NNEditor/20251209/4c80e0c7b072308291d3026740ec238a.jpg",
         "https://ydl.co.kr/web/upload/NNEditor/20250307/00abb91bcd283a088c90b3cff0f09237.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 892X23XH35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. T5 3색 600 LED 10W",
       "category": "T시리즈",
-      "subcategory": "직부형",
+      "categories": [
+        "T시리즈"
+      ],
+      "subcategory": "간접등 T5",
       "image": "https://ydl.co.kr/web/product/medium/202412/de929907a32859eee029af733eb49b9d.jpg",
       "images": [],
       "detail_images": [
@@ -1037,16 +993,22 @@
         "https://ydl.co.kr/web/upload/NNEditor/20251209/062f6c5c6a204bbd2adee5802e4daa45.jpg",
         "https://ydl.co.kr/web/upload/NNEditor/20250307/d98db4e9febafe8063d7ba09efbd6ccd.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: 592X23XH35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. T5 3색 300 LED 5W",
       "category": "T시리즈",
-      "subcategory": "직부형",
+      "categories": [
+        "T시리즈"
+      ],
+      "subcategory": "간접등 T5",
       "image": "https://ydl.co.kr/web/product/medium/202412/b7fb6de3db6760dcea3d94127bed5580.jpg",
       "images": [],
       "detail_images": [
@@ -1055,10 +1017,13 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250307/1133eb7bc4620e8ff1d2d89bc2a60a06.jpg",
         "https://ydl.co.kr/web/upload/NNEditor/20250307/ab83ba17b66ca46e9e88c35186add463.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 292X23H35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1143,6 +1108,38 @@
       "related_products": []
     },
     {
+      "name": "KC. 마그네틱 레일 매입형 ( 1M / 2M / 3M )",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202603/b9f3906b0db86352cb07d8528c77f62d.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85ED9895_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK\n전체 사이즈: 1M / 2M / 3M (26.3X44.2)",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 매입형 기역자",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/81a69200a540b4d7d377f2bbbef5ee98.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA7A4EC9E85EAB8B0EC97ADEC9E90-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "KC. 마그네틱 레일 매입형 T자",
       "category": "마그네틱 트랙 시스템",
       "subcategory": "마그네틱 레일",
@@ -1207,22 +1204,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 마그네틱 레일 매입형 기역자",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/81a69200a540b4d7d377f2bbbef5ee98.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA7A4EC9E85EAB8B0EC97ADEC9E90-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 마그네틱 레일 매입형 3M",
       "category": "마그네틱 트랙 시스템",
       "subcategory": "마그네틱 레일",
@@ -1255,17 +1236,129 @@
       "related_products": []
     },
     {
-      "name": "KC. 마그네틱 레일 매입형 ( 1M / 2M / 3M )",
+      "name": "KC. 마그네틱 레일 일반형 1M",
       "category": "마그네틱 트랙 시스템",
       "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202603/b9f3906b0db86352cb07d8528c77f62d.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202603/7d8aa54a07c4639fc37c2721d4fea70e.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85ED9895_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "색상: BLACK\n전체 사이즈: 1M / 2M / 3M (26.3X44.2)",
+      "specs": "색상: BLACK\n전체 사이즈: (1M) 26X51",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 일반 기역자",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/f6a34c53b06a33c8904668f778d9e2f7.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EAB8B0EC96B5EC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 일반 T자",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/cc84e04b577a37cf2c92e544baf07231.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895ED8BB0EC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 일반 십자",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/a03dbdd8b1b2ebec70984329f04c6a9b.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EC8BADE38588_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 일반 수직",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/02b800efece9f5172a6a748ee848d897.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EC8898ECA781_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 일반 옆마구리",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/4ff1585bf6c20299e258d0a7a890d657.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240819/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895-EC9886EBA788EAB5ACEBA6AC_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 공통 전원 1CH (2선)",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/bb9c099691ae305dd2667af5a918a974.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240801/1CH282EC84A029EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 마그네틱 레일 공통 전원 2CH (4선)",
+      "category": "마그네틱 트랙 시스템",
+      "subcategory": "마그네틱 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/bdf836a29057ccb6cca462f6a8c478e6.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240801/2CH284EC84A029EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -1319,22 +1412,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 마그네틱 레일 공통 전원 1CH (2선)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/bb9c099691ae305dd2667af5a918a974.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240801/1CH282EC84A029EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 마그네틱 레일 공통 일자연결선",
       "category": "마그네틱 트랙 시스템",
       "subcategory": "마그네틱 레일",
@@ -1351,22 +1428,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 마그네틱 레일 공통 전원 2CH (4선)",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/bdf836a29057ccb6cca462f6a8c478e6.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240801/2CH284EC84A029EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 마그네틱 레일 공통 연결 브라켓 70",
       "category": "마그네틱 트랙 시스템",
       "subcategory": "마그네틱 레일",
@@ -1374,86 +1435,6 @@
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EC97B0EAB2B0EBB88CEB9DBCECBC9370-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 마그네틱 레일 일반 십자",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/a03dbdd8b1b2ebec70984329f04c6a9b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EC8BADE38588_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 마그네틱 레일 일반 T자",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/cc84e04b577a37cf2c92e544baf07231.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895ED8BB0EC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 마그네틱 레일 일반 수직",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/02b800efece9f5172a6a748ee848d897.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EC8898ECA781_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 마그네틱 레일 일반 기역자",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/f6a34c53b06a33c8904668f778d9e2f7.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240726/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895EAB8B0EC96B5EC9E90_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 마그네틱 레일 일반 옆마구리",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/4ff1585bf6c20299e258d0a7a890d657.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240819/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895-EC9886EBA788EAB5ACEBA6AC_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
@@ -1692,60 +1673,12 @@
       "related_products": []
     },
     {
-      "name": "KS. M33라인 매입등 300 LED 8W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/5cce10b371fa90067c2187ea08521df8.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250725/d94127d7cf95a42a7a2096518bfd6604.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250828/8a93a628b853f98eb21f2d4f57191ad6.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 8W\n색상: WHITE\n전체 사이즈: 300X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X294\n색온도: 5700K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. M33라인 매입등 600 LED 15W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/a4453de552dbc02ed50a89ae0baf5f1d.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250828/df0e070d6b97c6868a9c59a11abeffd9.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250828/583dbf2d89e67ad3190a05ca9514131b.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 600X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X594\n색온도: 5700K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. M33라인 매입등 900 LED 24W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/7ccc40149bcf3e4623fa5fc4ec479d01.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250828/fe57b8ce2d46d7a8364616f09c8173a8.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250828/66227036ebbaca408438c157f02feed0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 24W\n색상: WHITE\n전체 사이즈: 900X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X894\n색온도: 5700K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS. M33라인 매입등 1200 LED 30W",
-      "category": "매입등",
-      "subcategory": "",
+      "category": "M시리즈",
+      "categories": [
+        "M시리즈"
+      ],
+      "subcategory": "라인매입등",
       "image": "https://ydl.co.kr/web/product/medium/202412/21e93910a671c91bc870f8f718deada4.jpg",
       "images": [],
       "detail_images": [
@@ -1753,26 +1686,82 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250828/7f2976e50a365718ce69d0fedcba7d66.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 1200X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X1194\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "KC. (6) 엣지 원형 레일 LED 15W",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202504/2c6554a2252c84297cea6f1d70ea0354.jpg",
+      "name": "KS. M33라인 매입등 900 LED 24W",
+      "category": "M시리즈",
+      "categories": [
+        "M시리즈"
+      ],
+      "subcategory": "라인매입등",
+      "image": "https://ydl.co.kr/web/product/medium/202412/7ccc40149bcf3e4623fa5fc4ec479d01.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231019/copy-1697697487-6EC9DB8ECB998EC97A3ECA780EC9B90ED9895EBA088EC9DBC-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250828/fe57b8ce2d46d7a8364616f09c8173a8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250828/66227036ebbaca408438c157f02feed0.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "색상 : WHITE",
       "description": "",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 142XH35\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 24W\n색상: WHITE\n전체 사이즈: 900X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X894\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. M33라인 매입등 600 LED 15W",
+      "category": "M시리즈",
+      "categories": [
+        "M시리즈"
+      ],
+      "subcategory": "라인매입등",
+      "image": "https://ydl.co.kr/web/product/medium/202412/a4453de552dbc02ed50a89ae0baf5f1d.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250828/df0e070d6b97c6868a9c59a11abeffd9.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250828/583dbf2d89e67ad3190a05ca9514131b.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 600X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X594\n색온도: 5700K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. M33라인 매입등 300 LED 8W",
+      "category": "M시리즈",
+      "categories": [
+        "M시리즈"
+      ],
+      "subcategory": "라인매입등",
+      "image": "https://ydl.co.kr/web/product/medium/202412/5cce10b371fa90067c2187ea08521df8.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250725/d94127d7cf95a42a7a2096518bfd6604.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250828/8a93a628b853f98eb21f2d4f57191ad6.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 8W\n색상: WHITE\n전체 사이즈: 300X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X294\n색온도: 5700K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1890,25 +1879,6 @@
       "related_products": []
     },
     {
-      "name": "KC.TS-LINE(티에스라인) LED 24W 레일등",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/c8f964f93d6c43498a3bb7f7a9e90df9.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260331/4cd8f8e12291c9345e117bf621444c6a.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260331/d824ae1ed453e25ec7bd987eee5140e2.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20190313/10%EA%B0%9C_shop1_134833.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260331/7a7fa15f74188424c861c8b0ccfe0015.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260331/2e20d51ed76e580188403dbac05dafe4.jpg"
-      ],
-      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 24W\n색상: WHITE / BLACK\n전체 사이즈: 900X33XH42\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC.TS-LINE(티에스라인) LED 30W 레일등",
       "category": "T시리즈",
       "subcategory": "레일형",
@@ -1923,6 +1893,25 @@
       ],
       "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
       "specs": "정격 전력: LED 30W\n색상: WHITE / BLACK\n전체 사이즈: 1200X33XH42\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC.TS-LINE(티에스라인) LED 24W 레일등",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/c8f964f93d6c43498a3bb7f7a9e90df9.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260331/4cd8f8e12291c9345e117bf621444c6a.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260331/d824ae1ed453e25ec7bd987eee5140e2.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20190313/10%EA%B0%9C_shop1_134833.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260331/7a7fa15f74188424c861c8b0ccfe0015.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260331/2e20d51ed76e580188403dbac05dafe4.jpg"
+      ],
+      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
+      "specs": "정격 전력: LED 24W\n색상: WHITE / BLACK\n전체 사이즈: 900X33XH42\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -2123,6 +2112,23 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 300X22XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T22 직부등 전용 전원마감",
+      "category": "T시리즈",
+      "subcategory": "직부형",
+      "image": "https://ydl.co.kr/web/product/medium/202603/44aee6afab50bf0d2ec604c72b549445.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260306/210ed9e720845593226ef73f3a5ade17.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260306/e353e60d5a0189bb89827df5edcf42a4.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4313,6 +4319,38 @@
       "related_products": []
     },
     {
+      "name": "KC. 루버 레일등 1200(LED 60W)",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/83f68cb29b2a16771814ea86e08eadcf.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230222/EBA3A8EBB284EBA088EC9DBCEB93B11200.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 60W\n색상: WHITE / BLACK\n전체 사이즈: 1200X33XH129\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 루버 레일등 900(LED 45W)",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/e8a7d6bb74e8b8d607dae8d92babad61.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230222/EBA3A8EBB284EBA088EC9DBCEB93B1900.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 45W\n색상: WHITE / BLACK\n전체 사이즈: 900X33XH129\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "KC. 루버 레일등 600(LED 30W)",
       "category": "T시리즈",
       "subcategory": "레일형",
@@ -4340,38 +4378,6 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE / BLACK\n전체 사이즈: 300X33XH129\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 루버 레일등 900(LED 45W)",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/e8a7d6bb74e8b8d607dae8d92babad61.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230222/EBA3A8EBB284EBA088EC9DBCEB93B1900.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 45W\n색상: WHITE / BLACK\n전체 사이즈: 900X33XH129\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 루버 레일등 1200(LED 60W)",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/83f68cb29b2a16771814ea86e08eadcf.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230222/EBA3A8EBB284EBA088EC9DBCEB93B11200.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 60W\n색상: WHITE / BLACK\n전체 사이즈: 1200X33XH129\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4431,17 +4437,17 @@
       "related_products": []
     },
     {
-      "name": "KS. T-LINE 70 레일등 600(LED 30W)",
+      "name": "KS. T-LINE 70 레일등 1200(LED 60W)",
       "category": "T시리즈",
       "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/431d9c284942d557a013628e98cad68c.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/14b8f0acbd05fa832b0a1ffe6bba71d0.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/621bacfd4d1108586d58a06dafc1a5ef.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/fb5853af4225d06995a5844cd20f45a4.jpg"
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/49b98046f5699ff74170dbf0d4121d1e.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/ddd42f1fc5f686b0de1ffbee8c9868d9.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 600X70XH57.5\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 60W\n색상: WHITE\n전체 사이즈: 1200X70XH57.5\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4458,6 +4464,22 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 45W\n색상: WHITE\n전체 사이즈: 900X70XH57.5\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. T-LINE 70 레일등 600(LED 30W)",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/431d9c284942d557a013628e98cad68c.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/621bacfd4d1108586d58a06dafc1a5ef.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/fb5853af4225d06995a5844cd20f45a4.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 600X70XH57.5\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4703,38 +4725,6 @@
       "related_products": []
     },
     {
-      "name": "T33 직부등 전용 전원마감",
-      "category": "T시리즈",
-      "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202302/4a6db9e3021b11a3f65ac2d82eb4287b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230222/t33-ECA084EC9B90EBA788EAB090.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. T-LINE 70 레일등 1200(LED 60W)",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/14b8f0acbd05fa832b0a1ffe6bba71d0.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/49b98046f5699ff74170dbf0d4121d1e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/ddd42f1fc5f686b0de1ffbee8c9868d9.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 60W\n색상: WHITE\n전체 사이즈: 1200X70XH57.5\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 시스템 방등 LED 50W",
       "category": "",
       "subcategory": "",
@@ -4751,40 +4741,21 @@
       "related_products": []
     },
     {
-      "name": "KS.고효율. T33 직부등 300 LED 5W",
+      "name": "KS.고효율. T33 직부등 1200 LED 20W",
       "category": "T시리즈",
       "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/0d58cb80c0802782996f36dfb3f36881.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/7abb09cdb8b8415dbfc4254c5cc6eb46.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/2928d328272148d206e1282196388581.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/cc0a1dbbd58476f4128bde9b02e6f500.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/f1a954cd5501c403a33fae95ea6ca4c7.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/00fec855316a08ef7aa7f1ff946becb9.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/d73fd24c10651345f8e4fc610c62cb87.jpg"
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/b75e4f7cd8c0477c1c0055b151aef0cd.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/bb7b03a0b977f443f42b77532a39d418.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/ec9135cc401a38101569ffc409a725f1.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/1371fc3b8803bfaf00ebe860fa6a772f.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/2f1b6c8fc2b49e837395f5a147041120.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/c7e2313781693c7ed2b1fda47fd06910.jpg"
       ],
       "description": "티라인 직부형 제품으로 별도의 연결부속 없이 끊김없는 라인조명 시공이 가능한 것이 특징입니다.",
-      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 300X33X38H\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS.고효율. T33 직부등 600 LED 10W",
-      "category": "T시리즈",
-      "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/80001bb6b96580e46e00eafe1474aec4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/0447ca2f92800c4f3e2ef6114b720045.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/0583a1125566d0c6738037f48fc999ea.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/2b631437392fea88597c49c399282ad4.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/d670a16f534f5e83db00f6a3ef87ff97.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/83eadb11c0b0fd1e8812782e756e116a.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/64235d86adba21c2660c9a007a6d86ac.jpg"
-      ],
-      "description": "티라인 직부형 제품으로 별도의 연결부속 없이 끊김없는 라인조명 시공이 가능한 것이 특징입니다.",
-      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: 600X33XH38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 1200X33XH38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4810,21 +4781,56 @@
       "related_products": []
     },
     {
-      "name": "KS.고효율. T33 직부등 1200 LED 20W",
+      "name": "KS.고효율. T33 직부등 600 LED 10W",
       "category": "T시리즈",
       "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/7abb09cdb8b8415dbfc4254c5cc6eb46.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/80001bb6b96580e46e00eafe1474aec4.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/b75e4f7cd8c0477c1c0055b151aef0cd.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/bb7b03a0b977f443f42b77532a39d418.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/ec9135cc401a38101569ffc409a725f1.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/1371fc3b8803bfaf00ebe860fa6a772f.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/2f1b6c8fc2b49e837395f5a147041120.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250701/c7e2313781693c7ed2b1fda47fd06910.jpg"
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/0447ca2f92800c4f3e2ef6114b720045.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/0583a1125566d0c6738037f48fc999ea.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/2b631437392fea88597c49c399282ad4.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/d670a16f534f5e83db00f6a3ef87ff97.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/83eadb11c0b0fd1e8812782e756e116a.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/64235d86adba21c2660c9a007a6d86ac.jpg"
       ],
       "description": "티라인 직부형 제품으로 별도의 연결부속 없이 끊김없는 라인조명 시공이 가능한 것이 특징입니다.",
-      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 1200X33XH38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: 600X33XH38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS.고효율. T33 직부등 300 LED 5W",
+      "category": "T시리즈",
+      "subcategory": "직부형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/0d58cb80c0802782996f36dfb3f36881.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/2928d328272148d206e1282196388581.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/cc0a1dbbd58476f4128bde9b02e6f500.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/f1a954cd5501c403a33fae95ea6ca4c7.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/00fec855316a08ef7aa7f1ff946becb9.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250701/d73fd24c10651345f8e4fc610c62cb87.jpg"
+      ],
+      "description": "티라인 직부형 제품으로 별도의 연결부속 없이 끊김없는 라인조명 시공이 가능한 것이 특징입니다.",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 300X33X38H\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T33 직부등 전용 전원마감",
+      "category": "T시리즈",
+      "subcategory": "직부형",
+      "image": "https://ydl.co.kr/web/product/medium/202302/4a6db9e3021b11a3f65ac2d82eb4287b.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230222/t33-ECA084EC9B90EBA788EAB090.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5694,33 +5700,19 @@
       "related_products": []
     },
     {
-      "name": "KC. T5 LED 5W 300 (2핀)",
+      "name": "KC. T5 LED 18W 1200 (2핀)",
       "category": "T시리즈",
       "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/ace3b4f9bdef3592df7a20b898483f38.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/023d1b2766534dde921f7f3e5ba6c3f8.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/bf7fce3f6d4a2c513032345676de7f2a.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/aad7c987b5c1389e275f0443eeaa7953.jpg"
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/9b3ebc8f082dda49d57e39bd6ad674f3.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/9ae6bd692eebc89aedadde2670d653ef.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/97e3c1b28f5b88b9b166f18d5eb64952.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/ab0eee6c27792b1d514a16bc45968174.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 332X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. T5 LED 9W 600 (2핀)",
-      "category": "T시리즈",
-      "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/a14870fa78c5a357af8ac9aa7845c7c1.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/35bca21ad669d981d9f4183f232e81c1.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/d60d09c86ff6c0afbbb3e1018c2dd6f0.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 9W\n색상: WHITE\n전체 사이즈: 593X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 18W\n색상: WHITE\n전체 사이즈: 1192X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5742,19 +5734,33 @@
       "related_products": []
     },
     {
-      "name": "KC. T5 LED 18W 1200 (2핀)",
+      "name": "KC. T5 LED 9W 600 (2핀)",
       "category": "T시리즈",
       "subcategory": "직부형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/023d1b2766534dde921f7f3e5ba6c3f8.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/a14870fa78c5a357af8ac9aa7845c7c1.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/9b3ebc8f082dda49d57e39bd6ad674f3.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/9ae6bd692eebc89aedadde2670d653ef.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/97e3c1b28f5b88b9b166f18d5eb64952.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/ab0eee6c27792b1d514a16bc45968174.jpg"
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/35bca21ad669d981d9f4183f232e81c1.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/d60d09c86ff6c0afbbb3e1018c2dd6f0.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 18W\n색상: WHITE\n전체 사이즈: 1192X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 9W\n색상: WHITE\n전체 사이즈: 593X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. T5 LED 5W 300 (2핀)",
+      "category": "T시리즈",
+      "subcategory": "직부형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/ace3b4f9bdef3592df7a20b898483f38.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/bf7fce3f6d4a2c513032345676de7f2a.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/aad7c987b5c1389e275f0443eeaa7953.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 332X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5888,39 +5894,20 @@
       "related_products": []
     },
     {
-      "name": "KS. T-LINE(티라인) LED 5W 레일등",
+      "name": "KS. T-LINE(티라인) LED 20W 레일등",
       "category": "T시리즈",
       "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/b125393e18a8321f0c4fe3f3c71e38c9.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/57ce729e61b75955329023a59b1464aa.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/2caba5854e1ddff067eecc70f144495e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/2c5f7457b7faea710d84513e7fccf7ba.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250120/39074f30e0b588113e8287aa91e90c7d.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/d91457a81ac3c7a6ba5e195198f7a103.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/c08cbdad6c90d3ef06ab665fafe2df43.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/eb884516b46953d02e7818f8f4aaa0d0.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250120/ffd24cee14139c9c6587ddcb3ce94180.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 5W\n색상: WHITE / BLACK\n전체 사이즈: 300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. T-LINE(티라인) LED 10W 레일등",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/109ac4efb3f2e1510f9a0c53be4630eb.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/5722d4dfb383e7c9dce816e29c12c3f9.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/1489a1f784bee7b3d91ff7fdb938719e.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/e9f6085e92f42510a586000f028e2927.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/c25ba1350a8acf38967e3b1b6b7bd4aa.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 10W\n색상: WHITE / BLACK\n전체 사이즈: 600X30XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: 1200X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5945,20 +5932,39 @@
       "related_products": []
     },
     {
-      "name": "KS. T-LINE(티라인) LED 20W 레일등",
+      "name": "KS. T-LINE(티라인) LED 10W 레일등",
       "category": "T시리즈",
       "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/8fa8fe539d2148444472e6f0da009462.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/109ac4efb3f2e1510f9a0c53be4630eb.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/d91457a81ac3c7a6ba5e195198f7a103.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/c08cbdad6c90d3ef06ab665fafe2df43.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260107/eb884516b46953d02e7818f8f4aaa0d0.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250120/ffd24cee14139c9c6587ddcb3ce94180.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/5722d4dfb383e7c9dce816e29c12c3f9.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/1489a1f784bee7b3d91ff7fdb938719e.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/e9f6085e92f42510a586000f028e2927.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/c25ba1350a8acf38967e3b1b6b7bd4aa.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: 1200X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 10W\n색상: WHITE / BLACK\n전체 사이즈: 600X30XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. T-LINE(티라인) LED 5W 레일등",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/b125393e18a8321f0c4fe3f3c71e38c9.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/57ce729e61b75955329023a59b1464aa.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/2caba5854e1ddff067eecc70f144495e.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260107/2c5f7457b7faea710d84513e7fccf7ba.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250120/39074f30e0b588113e8287aa91e90c7d.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
+      "specs": "정격 전력: LED 5W\n색상: WHITE / BLACK\n전체 사이즈: 300X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -6401,6 +6407,22 @@
       "related_products": []
     },
     {
+      "name": "T8 레일등 1200 LED 20W (WH, BK)",
+      "category": "T시리즈",
+      "subcategory": "레일형",
+      "image": "https://ydl.co.kr/web/product/medium/202412/6648079b7cd3200fed9a321af655aef4.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/a9e3a9f0d96adde7f0f919fc7e727755.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250221/d168c7fa62305d2c9900b7b6908f054d.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: 1270X38XH57\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "T8 레일등 600 LED 10W (WH, BK)",
       "category": "T시리즈",
       "subcategory": "레일형",
@@ -6524,22 +6546,6 @@
       ],
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅50XH55\n정격 전압: AC220V, 60HZ\n색온도: 5700K / 4000K / 2700K\n소켓규격: GU10",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T8 레일등 1200 LED 20W (WH, BK)",
-      "category": "T시리즈",
-      "subcategory": "레일형",
-      "image": "https://ydl.co.kr/web/product/medium/202412/6648079b7cd3200fed9a321af655aef4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/a9e3a9f0d96adde7f0f919fc7e727755.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250221/d168c7fa62305d2c9900b7b6908f054d.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: 1270X38XH57\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -9176,22 +9182,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 마그네틱 레일 일반형 1M",
-      "category": "마그네틱 트랙 시스템",
-      "subcategory": "마그네틱 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202603/7d8aa54a07c4639fc37c2721d4fea70e.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA788EAB7B8EB84A4ED8BB1EB85B8ECB69CED9895_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: BLACK\n전체 사이즈: (1M) 26X51",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "4.5인치 EL",
       "category": "",
       "subcategory": "",
@@ -9901,6 +9891,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777007561361,
+  "yedo_saved_at": 1777009357913,
   "yedo_subcats_LED 매입등": []
 }

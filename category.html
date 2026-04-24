@@ -170,7 +170,7 @@ let allProds=[];
 const params = new URLSearchParams(location.search);
 let activeCat = params.get('cat') || '전체';
 let activeSubCat = params.get('sub') || '';
-let searchQuery = params.get('q') || '';
+let activeSubSubCat = params.get('subsub') || '';
 let visible = 20;
 
 // ── 카테고리 목록 (저장된 순서 반영) ──
@@ -232,9 +232,17 @@ function renderSidebar(){
     const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
-    let html2 = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="">전체</button>`;
+    let html2 = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="" data-subsub="">전체</button>`;
     subs.forEach(s=>{
-      html2 += `<button class="sidebar-cat${activeSubCat===s?' active':''}" data-cat="${activeCat}" data-sub="${s}">${s}</button>`;
+      html2 += `<button class="sidebar-cat${activeSubCat===s&&!activeSubSubCat?' active':''}" data-cat="${activeCat}" data-sub="${s}" data-subsub="">${s}</button>`;
+      // 서브서브카테고리
+      if(activeSubCat===s){
+        const subsubProds = allProds.filter(p=>p.category===activeCat&&p.subcategory===s&&p.subsubcategory);
+        const subsubs = [...new Set(subsubProds.map(p=>p.subsubcategory))];
+        subsubs.forEach(ss=>{
+          html2 += `<button class="sidebar-cat${activeSubSubCat===ss?' active':''}" data-cat="${activeCat}" data-sub="${s}" data-subsub="${ss}" style="padding-left:80px;font-size:14px;color:var(--text-faint);">└ ${ss}</button>`;
+        });
+      }
     });
     sb.innerHTML = html2;
   }
@@ -242,7 +250,10 @@ function renderSidebar(){
     btn.addEventListener('click', ()=>{
       const cat = btn.dataset.cat;
       const sub = btn.dataset.sub||'';
-      if(sub) selectSubCat(sub);
+      const subsub = btn.dataset.subsub||'';
+      window.scrollTo({top:0, behavior:'smooth'});
+      if(subsub){ selectSubSubCat(sub, subsub); }
+      else if(sub){ selectSubCat(sub); }
       else selectCat(cat);
     });
   });
@@ -260,7 +271,8 @@ function renderProducts(){
       const ms = activeCat==='NEW PRODUCT' && activeSubCat 
         ? cats.includes(activeSubCat)
         : !activeSubCat || p.subcategory===activeSubCat;
-      return mc && ms;
+      const mss = !activeSubSubCat || p.subsubcategory===activeSubSubCat;
+      return mc && ms && mss;
     });
   }
 
@@ -339,10 +351,22 @@ function selectCat(cat){
 
 function selectSubCat(sub){
   activeSubCat = sub;
+  activeSubSubCat = '';
   visible = 20;
   searchQuery = '';
   document.getElementById('nav-search').value='';
   history.replaceState(null,'',`category.html?cat=${encodeURIComponent(activeCat)}&sub=${encodeURIComponent(sub)}`);
+  window.scrollTo({top:0, behavior:'smooth'});
+  updateUI();
+}
+
+function selectSubSubCat(sub, subsub){
+  activeSubCat = sub;
+  activeSubSubCat = subsub;
+  visible = 20;
+  searchQuery = '';
+  document.getElementById('nav-search').value='';
+  history.replaceState(null,'',`category.html?cat=${encodeURIComponent(activeCat)}&sub=${encodeURIComponent(sub)}&subsub=${encodeURIComponent(subsub)}`);
   window.scrollTo({top:0, behavior:'smooth'});
   updateUI();
 }
