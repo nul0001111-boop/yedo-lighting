@@ -322,9 +322,103 @@
       ]
     },
     {
+      "name": "KC. 레일 ( 1M / 2M / 3M )",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC.레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202602/5f4f891ae2d41aa09ee1406582490e77.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260226/3433c4f2a86fd77c3bc705d0384f813b.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (33X17.5)",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 레이스웨이 레일 ( 1M / 2M / 3M )",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC.레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202603/fce08d3f9818c7461771c1b7f333c2a5.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260227/8aeef686bfe54839d340a11e87d4d8cc.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (33X33)",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 광폭 레이스웨이 레일 ( 1M / 2M / 3M )",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC.광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202603/ff1362982c40e975c2537ffb4131b083.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260309/52e167528f28b086a30a91b28142b430.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (70X40)",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 포-트랙 (4-TRACK) ( 1M / 2M / 3M )",
+      "category": "레일 및 부품",
+      "subcategory": "KC. 포트랙 레일",
+      "image": "https://ydl.co.kr/web/product/medium/202412/a641e7226e1f6dfef2649643a9ebd92d.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250310/062c385ae06955dc83623f318a2a8663.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250310/f1fb1c8a1c31a2344abf4a6f26698403.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택 및 플러그 설치 방법_shop1_140634.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (32.5X33.5)\n설치 방식: RAIL",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "너트형 레이스웨이 레일 고정 지지대",
       "category": "레일 및 부품",
-      "subcategory": "",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/730ebd2fac644db613934cd994514360.jpg",
       "images": [],
       "detail_images": [
@@ -333,10 +427,14 @@
         "https://ydl.co.kr/web/upload/NNEditor/20251231/b1dda3cb124946642d84f57f4ef00daf.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 40 x 37 x H66",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4309,22 +4407,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 레일 ( 1M / 2M / 3M )",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202602/5f4f891ae2d41aa09ee1406582490e77.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260226/3433c4f2a86fd77c3bc705d0384f813b.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (33X17.5)",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 레일 2M",
       "category": "레일 및 부품",
       "subcategory": "",
@@ -5519,22 +5601,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 광폭 레이스웨이 레일 ( 1M / 2M / 3M )",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202603/ff1362982c40e975c2537ffb4131b083.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260309/52e167528f28b086a30a91b28142b430.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (70X40)",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 광폭 레이스웨이 레일 2M",
       "category": "레일 및 부품",
       "subcategory": "",
@@ -6370,22 +6436,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 레이스웨이 레일 ( 1M / 2M / 3M )",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202603/fce08d3f9818c7461771c1b7f333c2a5.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260227/8aeef686bfe54839d340a11e87d4d8cc.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (33X33)",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "6인치 EL 매입등",
       "category": "",
       "subcategory": "",
@@ -6872,24 +6922,6 @@
       "specs": "색상: WHITE/ BLACK\n전체 사이즈: (2M) 32.5X33.5\n설치 방식: RAIL",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "KC. 포-트랙 (4-TRACK) ( 1M / 2M / 3M )",
-      "category": "레일 및 부품",
-      "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/a641e7226e1f6dfef2649643a9ebd92d.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250310/062c385ae06955dc83623f318a2a8663.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250310/f1fb1c8a1c31a2344abf4a6f26698403.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택 및 플러그 설치 방법_shop1_140634.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (32.5X33.5)\n설치 방식: RAIL",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -10142,6 +10174,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777253560477,
+  "yedo_saved_at": 1777264997731,
   "yedo_subcats_LED 매입등": []
 }

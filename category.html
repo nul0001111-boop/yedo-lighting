@@ -284,8 +284,8 @@ function renderProducts(){
   const grid = document.getElementById('product-grid');
   const slice = filtered.slice(0, visible);
 
-  if(!slice.length || (activeCat==='레일 및 부품' && !activeSubCat)){
-    grid.innerHTML=`<div class="empty-state"><p>${activeCat==='레일 및 부품' && !activeSubCat ? '왼쪽에서 서브카테고리를 선택해주세요.' : '제품이 없습니다.'}</p></div>`;
+  if(!slice.length){
+    grid.innerHTML=`<div class="empty-state"><p>제품이 없습니다.</p></div>`;
     document.getElementById('load-wrap').style.display='none';
     return;
   }
