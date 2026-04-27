@@ -7167,6 +7167,31 @@
       "related_products": []
     },
     {
+      "name": "KC. 포-트랙 +자 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/11bb5de21e273a55327e81310ac4cb96.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-2BEC9E90-EC97B0EAB2B0_20171114_shop1_122205.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/ECBBA4EB84A5ED84B020EC84A0ED839D.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
       "name": "KC. 포-트랙 레일 고정 지지대 (4-TRACK)",
       "category": "레일 및 부품",
       "categories": [
@@ -9544,31 +9569,6 @@
       "related_products": []
     },
     {
-      "name": "KC. 포-트랙 +자 연결",
-      "category": "레일 및 부품",
-      "categories": [
-        "레일 및 부품"
-      ],
-      "subcategory": "KC. 포트랙 레일",
-      "subsubcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/11bb5de21e273a55327e81310ac4cb96.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-2BEC9E90-EC97B0EAB2B0_20171114_shop1_122205.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/ECBBA4EB84A5ED84B020EC84A0ED839D.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "",
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "subcat_only": true,
-      "featured": false,
-      "isnew": false,
-      "related_products": []
-    },
-    {
       "name": "일자 연결",
       "category": "레일 및 부품",
       "categories": [
@@ -10517,6 +10517,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777268802407,
+  "yedo_saved_at": 1777268923054,
   "yedo_subcats_LED 매입등": []
 }
