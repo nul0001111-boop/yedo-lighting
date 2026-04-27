@@ -677,7 +677,8 @@
         "NEW PRODUCT",
         "스포트 라이트"
       ],
-      "subcategory": "",
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/447cab0d50743fd982c72963600545c3.jpg",
       "images": [],
       "detail_images": [
@@ -692,6 +693,7 @@
       "specs": "정격 전력: COB 8W\n색상: WHITE, BLACK\n전체 사이즈: 95XH125 (mm)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K, 3000K",
       "badge": "NEW",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": []
@@ -954,7 +956,11 @@
     {
       "name": "KS. G-COB 직부 10W / 20W",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e88d134a54048e16e5e593d0fd87546a.jpg",
       "images": [],
       "detail_images": [
@@ -964,11 +970,19 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250418/6fb3f9f12c048347cca92a97e3e8df56.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "8인치 매입등 대체용 등기구",
       "specs": "정격 전력: LED 10W / 20W\n색상: WHITE / BLACK\n전체 사이즈: 50X128.5XH185 / 66X157XH210\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        118,
+        119,
+        120
+      ]
     },
     {
       "name": "KC. (3) 글레어 매입등(움푹) 7W",
@@ -2589,50 +2603,85 @@
     {
       "name": "KS. G COB 30W 레일스포트",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/45fe99ddf37289fd9911761bc390ef61.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED30W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 77X182XH235\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        119,
+        120
+      ]
     },
     {
       "name": "KS. G COB 20W 레일스포트",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/f3cf39ecfc228ece7958e9dd32988b03.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED20W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 20W\n색상: WHITE / BLACK\n전체 사이즈: 66X157XH215\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        38,
+        118,
+        120
+      ]
     },
     {
       "name": "KS. G COB 10W 레일스포트",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/6cb177cebef0adcb34df034821dbb2ca.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED10W_.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 10w\n색상: WHITE / BLACK\n전체 사이즈: 50X128.5XH200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        38,
+        118,
+        119
+      ]
     },
     {
       "name": "원통 파이프 레일 50cm",
@@ -6755,17 +6804,25 @@
     {
       "name": "원통스포트 COB30W 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/033ec1c6b76a5b0125e16889d0e49ac1.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20180731/20180730_ydl_EC9B90ED86B5EC8AA4ED8FACED8AB8_skill_900.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 105X110XH165\n설치 방식: RAIL\n정격 전압: AC220V / 60HZ\n색온도: 2700K / 4000K / 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -10629,6 +10686,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777270305361,
+  "yedo_saved_at": 1777275192134,
   "yedo_subcats_LED 매입등": []
 }
