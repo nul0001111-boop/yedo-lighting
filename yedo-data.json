@@ -2686,33 +2686,53 @@
     {
       "name": "원통 파이프 레일 50cm",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b4f774f1eee36c1221491a3856a1bd8f.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231031/ED8C8C30EAB3B5EC9DB4ECA491ED948CEB9FACEAB7B850-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH625\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        122
+      ]
     },
     {
       "name": "원통 파이프 레일 30cm",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/4525f107aa7943a67532534b687f3939.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231031/ED8C8C30EBA088EC9DBC30EC84BCECB998.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH425\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        121
+      ]
     },
     {
       "name": "원통 PAR30 이중플러그 레일",
@@ -5983,17 +6003,25 @@
     {
       "name": "이중원통 스포트 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b16c41c60a2b6db27a6c64a632b869f6.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20191212/copy-1576138332-EC9DB4ECA491EC9B90ED86B5-EBA088EC9DBC.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 125X115XH180\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6575,18 +6603,31 @@
     {
       "name": "원통 대(大) 레일_로즈골드(RG)",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/f0be4bf2cd9f58493ff9bfcf2bd509e8.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220824/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_RG_20181119_shop1_145424.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "기존의 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
       "specs": "색상: ROSEGOLD\n전체 사이즈: 156X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        357,
+        358,
+        359,
+        360
+      ]
     },
     {
       "name": "자유봉 소켓 레일_BK",
@@ -6724,66 +6765,117 @@
     {
       "name": "원통 대(大) 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b4c182aba9440782ae4348903a3b52d8.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_WH_20181122_shop1_143429.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "* 기존 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        349,
+        358,
+        359,
+        360
+      ]
     },
     {
       "name": "원통 대(大) 직부",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/268ddf6a4d9204ccb580e074937eec57.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-ECA781EBB680_WH_20181122_shop1_144209.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "* 기존 [민 PAR30 원통 직부]와 [원통 대(大) 직부]는 동일 제품입니다.",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH150\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        357,
+        359,
+        360,
+        362
+      ]
     },
     {
       "name": "원통 소(小) 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/101475dbd2209d4db04d3bb05027cf33.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220825/EC9B90ED86B520EC868C20EBA088EC9DBC.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 95X105XH150\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        357,
+        358,
+        360
+      ]
     },
     {
       "name": "원통 소(小) 직부",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/f79e7208b22a473caca5ed3111fe9487.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220825/EC9B90ED86B520EC868C20ECA781EBB680.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 95X105XH110\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        349,
+        357,
+        358,
+        359
+      ]
     },
     {
       "name": "SQF COB40W 레일",
@@ -10686,6 +10778,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777275192134,
+  "yedo_saved_at": 1777277777756,
   "yedo_subcats_LED 매입등": []
 }
