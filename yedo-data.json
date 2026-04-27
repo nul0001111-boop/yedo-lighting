@@ -1361,183 +1361,155 @@
     {
       "name": "MR16 LAMP LED5W",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "MR16 램프 (할로겐)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/fcfb0d88ef1831c203cd10189da9a631.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250703/b99d266226fddf43a20822175b77a977.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅49XH45\n정격 전압: DC 12V / LED\n색온도: 6500K / 4000K / 3000K\n소켓규격: GU5.3",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "PAR20 램프 LED8W 렌즈형",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED PAR20 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/9077e1295460b283cf8e73836634f979.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR20-EB9EA8ED9484-LED-8W-EBA08CECA688ED9895.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 8W\n전체 사이즈: ∅63X84.5\n색온도: 6500K / 4000K / 2700K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "S-PAR30 LED15W (렌즈형)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프, LED PAR30 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/479ec91155f13f7b5ea075e646029d5e.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30EBA08CECA688_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "S-PAR30 LED15W (확산형)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프, LED PAR30 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/bc6347d205c1dee9e6e1ab6f7400e1d9.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30ED9995EC82B0_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "T-PAR30 LED15W (집중형)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프, LED PAR30 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/aa6f83d2edff05149565d5c8f2537d0a.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR30-LED-15W-ECA791ECA491ED9895.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 15W\n전체 사이즈: ∅90XH79\n색온도: 4000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "인찌구 LED 5W (G45)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/699320e3ad3c3d1beaa331f8d59c5fb7.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830533-G45-EC9DB8ECB08CEAB5AC-LED5W.jpg",
         "http://elphos.cafe24.com/web/upload/NNEditor/20160222/-01-01_shop1_192359.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅45XH77\n색온도: 6500K\n소켓규격: E26",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T-벌브 LED12W (A60)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/c4655781df3fcb4c9c29b86f0cb69334.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-12E38589.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 12W\n전체 사이즈: ∅60XH116\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "벌브 LED8W (A60)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f3b99c38e48c8c56ae18df73137d5af3.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-8W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 8W\n전체 사이즈: ∅60XH103\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T140 LED50W(E39)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/440c63c6118e4e39d2be0d6c432abfa4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T140-LED50E38589.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 50W\n전체 사이즈: ∅138XH238\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T120 LED40W(E39)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/e4eb0afcf035b5b6963dce2cf04b117f.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T120-LED40W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 40W\n전체 사이즈: ∅118XH211\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T100 LED30W(E26)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f36de45acc9413527cbea8e1d1cad938.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T100-LED30w.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 30W\n전체 사이즈: ∅100XH164\n색온도: 6500K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "인찌구 LED 4W (G45)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/d07b356698364c6eae8ceb375e3697bd.jpg",
       "images": [],
       "detail_images": [
@@ -1546,42 +1518,182 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20170622/copy(1498097940)-100EAB09C.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 4W\n전체 사이즈: ∅45XH73\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T-벌브 LED12W (A60)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/c4655781df3fcb4c9c29b86f0cb69334.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-12E38589.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 12W\n전체 사이즈: ∅60XH116\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "벌브 LED8W (A60)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f3b99c38e48c8c56ae18df73137d5af3.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-8W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 8W\n전체 사이즈: ∅60XH103\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T140 LED50W(E39)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/440c63c6118e4e39d2be0d6c432abfa4.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T140-LED50E38589.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 50W\n전체 사이즈: ∅138XH238\n색온도: 6500K\n소켓규격: E39",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T120 LED40W(E39)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/e4eb0afcf035b5b6963dce2cf04b117f.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T120-LED40W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 40W\n전체 사이즈: ∅118XH211\n색온도: 6500K\n소켓규격: E39",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T100 LED30W(E26)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f36de45acc9413527cbea8e1d1cad938.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T100-LED30w.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 30W\n전체 사이즈: ∅100XH164\n색온도: 6500K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "평원 GU10 LAMP LED 5W",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "MR16 램프 (할로겐)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7ad278b675361c4806891ef4c154292b.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830993-ED8F89EC9B90-GU10-EB9EA8ED9484-5W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH90\n색온도: 6500K / 3000K\n소켓규격: GU10",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "MR16 GU10 LAMP COB 5W",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "MR16 램프 (할로겐)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/7f1e4284b1795dd4adc7edccf622f580.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240507/MR16_GOB-5W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅50XH55\n정격 전압: AC220V, 60HZ\n색온도: 5700K / 4000K / 2700K\n소켓규격: GU10",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -10517,6 +10629,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777268923054,
+  "yedo_saved_at": 1777270305361,
   "yedo_subcats_LED 매입등": []
 }
