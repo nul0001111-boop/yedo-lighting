@@ -230,7 +230,7 @@ function renderSidebar(){
     sb.innerHTML = html;
   } else {
     title.innerHTML = formatCatName(activeCat, true);
-    const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).map(p=>p.subcategory))];
+    const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).flatMap(p=>p.subcategory.split(',').map(s=>s.trim())))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     let html2 = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="" data-subsub="">전체</button>`;
@@ -269,10 +269,11 @@ function renderProducts(){
   } else {
     filtered = allProds.filter(p=>{
       const cats = p.categories && p.categories.length ? p.categories : [p.category];
+      const subcats = p.subcategory ? p.subcategory.split(',').map(s=>s.trim()) : [];
       const mc = activeCat==='전체' || cats.includes(activeCat);
       const ms = activeCat==='NEW PRODUCT' && activeSubCat 
         ? cats.includes(activeSubCat)
-        : !activeSubCat || p.subcategory===activeSubCat;
+        : !activeSubCat || subcats.includes(activeSubCat);
       const mss = !activeSubSubCat || p.subsubcategory===activeSubSubCat;
       // 서브카테고리 전용 제품은 전체에서 숨김
       const subcatOnlyOk = !p.subcat_only || activeSubCat;
