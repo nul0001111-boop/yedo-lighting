@@ -366,6 +366,34 @@
       "related_products": []
     },
     {
+      "name": "KS. 클랙슨 매입등 (집중형) LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202511/8d4dae485cd9797a015c3fbdef381add.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260224/7c1363e12d6d422e5a546e9746052e5b.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250415/80ba7f90607fafdaff4ba58209ed78b8.jpg",
+        "https://elphos.cafe24.com/web/upload/NNEditor/20250415/cb28bbb6e554ad646c734907d590178f.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20260224/0c2bab40d8a530a6bdc216c07879be6b.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 6W / LED 10W / LED 15W\n색상: WHITE\n전체 사이즈: ∅62XH50 (mm) / ∅85XH68 (mm) / ∅105XH90 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55  / ∅75 / ∅95\n색온도: 6500K / 4000K / 3000K",
+      "badge": "BEST",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        0
+      ]
+    },
+    {
       "name": "KS. 3\" 센서매입등 LED 10W",
       "category": "NEW PRODUCT",
       "categories": [
@@ -407,34 +435,6 @@
       "badge": "",
       "visible": true,
       "related_products": []
-    },
-    {
-      "name": "KS. 클랙슨 매입등 (집중형) LED",
-      "category": "NEW PRODUCT",
-      "categories": [
-        "NEW PRODUCT",
-        "매입등"
-      ],
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202511/8d4dae485cd9797a015c3fbdef381add.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260224/7c1363e12d6d422e5a546e9746052e5b.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250415/80ba7f90607fafdaff4ba58209ed78b8.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250415/cb28bbb6e554ad646c734907d590178f.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20260224/0c2bab40d8a530a6bdc216c07879be6b.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "색상 : WHITE",
-      "description": "",
-      "specs": "정격 전력: LED 6W / LED 10W / LED 15W\n색상: WHITE\n전체 사이즈: ∅62XH50 (mm) / ∅85XH68 (mm) / ∅105XH90 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55  / ∅75 / ∅95\n색온도: 6500K / 4000K / 3000K",
-      "badge": "BEST",
-      "visible": true,
-      "featured": false,
-      "isnew": false,
-      "related_products": [
-        0
-      ]
     },
     {
       "name": "KS. 아이스 원형 센서등 LED15W",
@@ -566,59 +566,6 @@
       "related_products": []
     },
     {
-      "name": "너트형 레이스웨이 레일 고정 지지대",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202511/730ebd2fac644db613934cd994514360.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/17aa7aa75ce5a841c5324250521003f8.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/9ae1a61df789e27586c02cc0bfe69e88.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/b1dda3cb124946642d84f57f4ef00daf.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 40 x 37 x H66",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "너트형 레일 고정 지지대",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202508/1ff51fc7664c84defa97bd386bd36fdd.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250825/11fceb7a94862626bcd10dd8c319b54d.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/b10caf466ddb5e9a5ff71593cff2f806.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/a657452bc04e264b9b75c55c36b15dac.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 50 x 38 x H46",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. 아이스 원형 센서등 LED15W",
-      "category": "직부등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202507/3427eb6d79ec8f78327410290ffa3510.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/854083ce29d7fddf5cdda38ff4231025.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/a12f4f52e671c3774781770d907727d9.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅245XH55\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS. 마그네틱 SMPS 150W / 250W (DC48V)",
       "category": "마그네틱 트랙 시스템",
       "subcategory": "마그네틱 안정기",
@@ -635,42 +582,6 @@
       ],
       "description": "",
       "specs": "정격 전력: 150W / 250W\n색상: BLACK\n전체 사이즈: 267(L) X 21 X H43\n설치 방식: RAIL\n정격 전압: 입력 : AC220V / 출력 : DC48V",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. 아이스 원형 직부등 LED15W",
-      "category": "직부등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202507/517b857e9f2d4386c0ef119b5a2ba824.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/d62c8bcbbbd529bb39f43aee9dc7b5ef.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/3a672a14165d5df81b22200e883feca6.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250723/6101eb557721bb66d6af9c095b1a4bea.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅245XH55\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "에디슨 볼구 LED 클래식 (G80 / G95)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/8e07379bb005d6838ed221f3b7e991d6.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250425/56adbe9aa79cd6e0d75d7ef5bc4a4ac7.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250425/0710bb6cfe125c45856dffc1af660066.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 3W\n전체 사이즈: ∅80XH117 / ∅95XH128\n색온도: 1800K\n소켓규격: E26",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -731,18 +642,25 @@
     },
     {
       "name": "C60 COB 8W (COBC60)",
-      "category": "멀티등기구",
+      "category": "매입등",
+      "categories": [
+        "매입등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/7d2f1d54093ec7b7a6906ced8bb0dc50.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250217/c34c05d9c868758aa89ec50e729064a6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: 59XH40\n정격 전압: 220V / 60HZ\n색온도: 5700K / 2700K",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -896,6 +814,23 @@
       "related_products": []
     },
     {
+      "name": "KS. (3) 스틱매입등 LED 8W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/760be6e8a43764a18dd8387dc41879e6.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250109/de7a5a9d8f06cd68e605fc50775fc9d3.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250109/534094e6b23840cdac5dea8fe6f59f4f.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 8W\n색상: WHITE / BLACK\n조사각: 50~60\n전체 사이즈: ∅86XH80\n설치 방식: DOWN LIGHT\n타공 사이즈: ∅75 mm\n색온도: 6500K / 3000K / 4000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "KS. 글레어 매입등(움푹)",
       "category": "매입등",
       "subcategory": "",
@@ -1027,6 +962,54 @@
       "related_products": []
     },
     {
+      "name": "KS. (4) 글레어 매입등(움푹) 10W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202512/f916ef32175061bd7bfb9bbfe620bde5.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231017/4EC9DB8ECB998EAB880EBA088EC96B4EBA7A4EC9E85-EC9888EB8F84-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅105XH55\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. (3) 글레어 매입등(움푹) 7W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202512/1ad4e145b5d3bfb869638b0b354a00af.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231017/3EC9DB8ECB998EAB880EBA088EC96B4EBA7A4EC9E85-EC9888EB8F84-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅90XH45\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. (2) 글레어 매입등(움푹) 6W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202512/962e526565d638f953c84596b4cfa35b.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240403/EAB880EBA088EC96B4EBA7A4EC9E85EB93B12EC9DB8ECB998-EC9888EB8F84-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: ∅61XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~55 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "KS. 3인치 스틱매입등 LED 8W 블랙",
       "category": "매입등",
       "subcategory": "",
@@ -1043,84 +1026,293 @@
       "related_products": []
     },
     {
-      "name": "KS. (3) 스틱매입등 LED 8W",
-      "category": "매입등",
+      "name": "MR16 LAMP LED5W",
+      "category": "램프",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/760be6e8a43764a18dd8387dc41879e6.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202502/fcfb0d88ef1831c203cd10189da9a631.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250109/de7a5a9d8f06cd68e605fc50775fc9d3.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20250109/534094e6b23840cdac5dea8fe6f59f4f.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250703/b99d266226fddf43a20822175b77a977.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 8W\n색상: WHITE / BLACK\n조사각: 50~60\n전체 사이즈: ∅86XH80\n설치 방식: DOWN LIGHT\n타공 사이즈: ∅75 mm\n색온도: 6500K / 3000K / 4000K",
+      "specs": "정격 전력: 5W\n전체 사이즈: ∅49XH45\n정격 전압: DC 12V / LED\n색온도: 6500K / 4000K / 3000K\n소켓규격: GU5.3",
       "badge": "",
       "visible": true,
       "related_products": []
     },
     {
-      "name": "KS. LED 미니 콘벌브 7W E26",
+      "name": "PAR20 램프 LED8W 렌즈형",
       "category": "램프",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202505/f9d42ff7ac395eca8d6a4e16cdcf5e17.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202506/9077e1295460b283cf8e73836634f979.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240820/EBAFB8EB8B88ECBD98EBB28CEBB88CLED-E26-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR20-EB9EA8ED9484-LED-8W-EBA08CECA688ED9895.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: 7W\n전체 사이즈: ∅29XH76\n색온도: 4000K / 3000K\n소켓규격: E26",
+      "specs": "정격 전력: 8W\n전체 사이즈: ∅63X84.5\n색온도: 6500K / 4000K / 2700K\n소켓규격: E26",
       "badge": "",
       "visible": true,
       "related_products": []
     },
     {
-      "name": "KS. LED 미니 콘벌브 4.2W E17",
+      "name": "S-PAR30 LED15W (렌즈형)",
       "category": "램프",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202505/e0a1600327dc4429b6d5e9afb4d0e31f.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202505/479ec91155f13f7b5ea075e646029d5e.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240820/EBAFB8EB8B88ECBD98EBB28CEBB88CLED-E17-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30EBA08CECA688_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: 4.2W\n전체 사이즈: ∅18XH63\n색온도: 4000K / 3000K\n소켓규격: E17",
+      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
       "related_products": []
     },
     {
-      "name": "KS. LED 미니 콘벌브 4.2W E14",
+      "name": "S-PAR30 LED15W (확산형)",
       "category": "램프",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202505/ecc933210e5e940b4642828ab3818725.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202505/bc6347d205c1dee9e6e1ab6f7400e1d9.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240820/EBAFB8EB8B88ECBD98EBB28CEBB88CLED-E14-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30ED9995EC82B0_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: 4.2W\n전체 사이즈: ∅18XH63\n색온도: 4000K / 3000K\n소켓규격: E14",
+      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T-PAR30 LED15W (집중형)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/aa6f83d2edff05149565d5c8f2537d0a.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR30-LED-15W-ECA791ECA491ED9895.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 15W\n전체 사이즈: ∅90XH79\n색온도: 4000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "인찌구 LED 5W (G45)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202505/699320e3ad3c3d1beaa331f8d59c5fb7.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830533-G45-EC9DB8ECB08CEAB5AC-LED5W.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20160222/-01-01_shop1_192359.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 5W\n전체 사이즈: ∅45XH77\n색온도: 6500K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T-벌브 LED12W (A60)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/c4655781df3fcb4c9c29b86f0cb69334.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-12E38589.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 12W\n전체 사이즈: ∅60XH116\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "벌브 LED8W (A60)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f3b99c38e48c8c56ae18df73137d5af3.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-8W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 8W\n전체 사이즈: ∅60XH103\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T140 LED50W(E39)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/440c63c6118e4e39d2be0d6c432abfa4.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T140-LED50E38589.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 50W\n전체 사이즈: ∅138XH238\n색온도: 6500K\n소켓규격: E39",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T120 LED40W(E39)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/e4eb0afcf035b5b6963dce2cf04b117f.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T120-LED40W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 40W\n전체 사이즈: ∅118XH211\n색온도: 6500K\n소켓규격: E39",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T100 LED30W(E26)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f36de45acc9413527cbea8e1d1cad938.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T100-LED30w.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 30W\n전체 사이즈: ∅100XH164\n색온도: 6500K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "인찌구 LED 4W (G45)",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/d07b356698364c6eae8ceb375e3697bd.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9DB8ECB08CEAB5ACLED4W.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20170622/copy(1498097920)-ECA3BCEAB491ECA084EAB5AC20EAB5ACEBB384EBB295.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20170622/copy(1498097940)-100EAB09C.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 4W\n전체 사이즈: ∅45XH73\n색온도: 6500K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "평원 GU10 LAMP LED 5W",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/7ad278b675361c4806891ef4c154292b.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830993-ED8F89EC9B90-GU10-EB9EA8ED9484-5W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 5W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH90\n색온도: 6500K / 3000K\n소켓규격: GU10",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "MR16 GU10 LAMP COB 5W",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/7f1e4284b1795dd4adc7edccf622f580.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240507/MR16_GOB-5W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: 5W\n전체 사이즈: ∅50XH55\n정격 전압: AC220V, 60HZ\n색온도: 5700K / 4000K / 2700K\n소켓규격: GU10",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "G95 볼구 LED12W",
+      "category": "램프",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/33f9224e6b9536666be1c0b01126f7e0.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830474-G95-EBB3BCEAB5AC-LED-12W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 12W\n전체 사이즈: 95XH125\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "에디슨 볼구 LED 클래식 (G80 / G95)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/8e07379bb005d6838ed221f3b7e991d6.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250425/56adbe9aa79cd6e0d75d7ef5bc4a4ac7.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250425/0710bb6cfe125c45856dffc1af660066.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 3W\n전체 사이즈: ∅80XH117 / ∅95XH128\n색온도: 1800K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 매입형 ( 1M / 2M / 3M )",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "매입형",
       "image": "https://ydl.co.kr/web/product/medium/202603/b9f3906b0db86352cb07d8528c77f62d.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85ED9895_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK\n전체 사이즈: 1M / 2M / 3M (26.3X44.2)",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1411,113 +1603,162 @@
     {
       "name": "KC. 마그네틱 레일 공통 전원 1CH (2선)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/bb9c099691ae305dd2667af5a918a974.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/1CH282EC84A029EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 공통 전원 2CH (4선)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/bdf836a29057ccb6cca462f6a8c478e6.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/2CH284EC84A029EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 공통 60자바라연결선 (기역자 연결선)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/7bcad3502be507fd326ec86d498f4113.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/copy-1722485899-60EC9E90EBB094EB9DBCEC97B0EAB2B0EC84A0-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 공통 마그네틱 T자 연결선A",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/7fa8fa658db5d25286560ded4161d1fd.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/tEC9E90EC97B0EAB2B0EC84A0a-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 공통 십자 연결선A",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/08de1252c5596dee0e3ed8126d066092.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EC8BADEC9E90EC97B0EAB2B0EC84A0aEBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 공통 일자연결선",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/d6c5115f2024ba4e71fe038703b7314e.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EC9DBCEC9E90EC97B0EAB2B0EC84A0-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 마그네틱 레일 공통 연결 브라켓 70",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 레일",
+      "subsubcategory": "공통부속",
       "image": "https://ydl.co.kr/web/product/medium/202412/852b2b4dde7e822479d6028954900141.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240801/EC97B0EAB2B0EBB88CEB9DBCECBC9370-EBA788EAB7B8EB84A4ED8BB1EBA7A4EC9E85EBB680EC868D_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1587,54 +1828,6 @@
       "related_products": []
     },
     {
-      "name": "S-PAR30 LED15W (렌즈형)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202505/479ec91155f13f7b5ea075e646029d5e.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30EBA08CECA688_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "S-PAR30 LED15W (확산형)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202505/bc6347d205c1dee9e6e1ab6f7400e1d9.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30ED9995EC82B0_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. (2) 글레어 매입등(움푹) 6W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202512/962e526565d638f953c84596b4cfa35b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240403/EAB880EBA088EC96B4EBA7A4EC9E85EB93B12EC9DB8ECB998-EC9888EB8F84-EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: ∅61XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~55 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS. 3인치 직회전 매입등 확산형/COB 8W 흑색",
       "category": "MR 매입등",
       "subcategory": "",
@@ -1648,6 +1841,39 @@
       "specs": "",
       "badge": "",
       "visible": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. (4) 직회전 매입등 집중형/COB 12W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/26d8cafae80778531929c816bf9557d3.jpg",
+      "images": [],
+      "detail_images": [
+        "https://elphos.cafe24.com/web/upload/NNEditor/20230605/EC9888EB8F84_4EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-COB-ED9994EC9DB4ED8AB8-EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20241226/fd6d7bd81b687ad0a0c5e14924fb69d0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 12W\n색상: WHITE / BLACK\n전체 사이즈: ∅120XH60\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. (3) 직회전 매입등 집중형/COB 8W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/44111027c43591cacd2d56d040bfc1a4.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230329/EC9888EB8F84_3EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-COB-ED9994EC9DB4ED8AB8-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH42\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
       "related_products": []
     },
     {
@@ -1681,6 +1907,23 @@
       "specs": "",
       "badge": "",
       "visible": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. (2) 직회전 매입등 집중형/COB 6W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/bedc7da25923fcbe04acbe7ee8cda407.jpg",
+      "images": [],
+      "detail_images": [
+        "https://elphos.cafe24.com/web/upload/NNEditor/20230323/EC9888EB8F84_2EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-ED9994EC9DB4ED8AB8-COB-EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20241226/fb1dd67f722a1aabb45d4be5634ece4b.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 6W\n색상: WHITE / BLACK\n전체 사이즈: ∅68XH37\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
       "related_products": []
     },
     {
@@ -1842,56 +2085,6 @@
       "related_products": []
     },
     {
-      "name": "KS. (4) 글레어 매입등(움푹) 10W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202512/f916ef32175061bd7bfb9bbfe620bde5.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231017/4EC9DB8ECB998EAB880EBA088EC96B4EBA7A4EC9E85-EC9888EB8F84-EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅105XH55\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. (3) 글레어 매입등(움푹) 7W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202512/1ad4e145b5d3bfb869638b0b354a00af.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231017/3EC9DB8ECB998EAB880EBA088EC96B4EBA7A4EC9E85-EC9888EB8F84-EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅90XH45\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "에디슨 볼구 LED 3W(G80)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/204a7c2b44af7ce6dfd158e70877050d.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231016/copy-1697443368-EC9790EB9494EC8AA8EC9DBCEBB098EBB3BCEAB5ACG80_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171114/20개_shop1_152125.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 3W\n전체 사이즈: ∅80XH122\n색온도: 2300K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 자바라 연결",
       "category": "레일 및 부품",
       "subcategory": "",
@@ -2030,6 +2223,54 @@
       "related_products": []
     },
     {
+      "name": "KS. G COB 30W 레일스포트",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/45fe99ddf37289fd9911761bc390ef61.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED30W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 77X182XH235\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. G COB 20W 레일스포트",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/f3cf39ecfc228ece7958e9dd32988b03.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED20W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 20W\n색상: WHITE / BLACK\n전체 사이즈: 66X157XH215\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. G COB 10W 레일스포트",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/6cb177cebef0adcb34df034821dbb2ca.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED10W_.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 10w\n색상: WHITE / BLACK\n전체 사이즈: 50X128.5XH200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "원통 파이프 레일 50cm",
       "category": "스포트 라이트",
       "subcategory": "",
@@ -2106,23 +2347,6 @@
       "specs": "",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "KS. (4) 직회전 매입등 집중형/COB 12W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/26d8cafae80778531929c816bf9557d3.jpg",
-      "images": [],
-      "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230605/EC9888EB8F84_4EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-COB-ED9994EC9DB4ED8AB8-EC8381EC84B8.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20241226/fd6d7bd81b687ad0a0c5e14924fb69d0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 12W\n색상: WHITE / BLACK\n전체 사이즈: ∅120XH60\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -2534,22 +2758,6 @@
       "related_products": []
     },
     {
-      "name": "KS. (3) 직회전 매입등 집중형/COB 8W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/44111027c43591cacd2d56d040bfc1a4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230329/EC9888EB8F84_3EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-COB-ED9994EC9DB4ED8AB8-EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH42\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS. 2인치 직회전 매입등 집중형/COB 6W 블랙",
       "category": "MR 매입등",
       "subcategory": "",
@@ -2563,39 +2771,6 @@
       "specs": "",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "KS. (2) 직회전 매입등 집중형/COB 6W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/bedc7da25923fcbe04acbe7ee8cda407.jpg",
-      "images": [],
-      "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230323/EC9888EB8F84_2EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-ED9994EC9DB4ED8AB8-COB-EC8381EC84B8.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20241226/fb1dd67f722a1aabb45d4be5634ece4b.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 6W\n색상: WHITE / BLACK\n전체 사이즈: ∅68XH37\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "(4) 프리매입 COB 8W (COB401A)",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/e258f9ea513ca95a470247f9b60445a3.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251230/e2491c3a7181fe71d9625d013d53718c.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅129XH78\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅110~115 mm\n색온도: 5700K / 4000k / 2700K",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -2690,6 +2865,22 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: ∅112XH22\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "(4) 프리매입 COB 8W (COB401A)",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/e258f9ea513ca95a470247f9b60445a3.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20251230/e2491c3a7181fe71d9625d013d53718c.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅129XH78\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅110~115 mm\n색온도: 5700K / 4000k / 2700K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -3792,17 +3983,17 @@
       "related_products": []
     },
     {
-      "name": "KC. 시스템 거실3등 LED 150W",
+      "name": "KC. 시스템 거실등 LED 50W",
       "category": "홈조명(방등)",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/78b59ffed067599a207022986035e5c9.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/820a0987450e8d11f0c66c4379f02584.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240507/EAB1B0EC8BA43EB93B1.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20240507/EAB1B0EC8BA41EB93B1.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 150W\n색상: WHITE\n전체 사이즈: 650X1080XH75\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "specs": "정격 전력: LED 50W\n색상: WHITE\n전체 사이즈: 650X350XH75\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -3824,17 +4015,49 @@
       "related_products": []
     },
     {
-      "name": "KC. 시스템 거실등 LED 50W",
+      "name": "KC. 시스템 거실3등 LED 150W",
       "category": "홈조명(방등)",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/820a0987450e8d11f0c66c4379f02584.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/78b59ffed067599a207022986035e5c9.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240507/EAB1B0EC8BA41EB93B1.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20240507/EAB1B0EC8BA43EB93B1.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "정격 전력: LED 50W\n색상: WHITE\n전체 사이즈: 650X350XH75\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "specs": "정격 전력: LED 150W\n색상: WHITE\n전체 사이즈: 650X1080XH75\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "거실등 거치대 100W용",
+      "category": "홈조명(방등)",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202302/f907a4fd83105f260e54692bd5cb6513.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB1B0EC8BA4EB93B1EAB1B0ECB998EB8C80100.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "거실등 거치대 150W용",
+      "category": "홈조명(방등)",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202302/f907a4fd83105f260e54692bd5cb6513.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677812957-EAB1B0EC8BA4EB93B1150w.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -3872,54 +4095,6 @@
       "related_products": []
     },
     {
-      "name": "거실등 거치대 150W용",
-      "category": "홈조명(방등)",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202302/f907a4fd83105f260e54692bd5cb6513.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677812957-EAB1B0EC8BA4EB93B1150w.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "거실등 거치대 100W용",
-      "category": "홈조명(방등)",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202302/f907a4fd83105f260e54692bd5cb6513.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB1B0EC8BA4EB93B1EAB1B0ECB998EB8C80100.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "인찌구 LED 5W (G45)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202505/699320e3ad3c3d1beaa331f8d59c5fb7.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830533-G45-EC9DB8ECB08CEAB5AC-LED5W.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20160222/-01-01_shop1_192359.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 5W\n전체 사이즈: ∅45XH77\n색온도: 6500K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "PAR30 LED15W (확산형)",
       "category": "",
       "subcategory": "",
@@ -3936,74 +4111,38 @@
       "related_products": []
     },
     {
-      "name": "T-PAR30 LED15W (집중형)",
+      "name": "에디슨 볼구 LED 3W(G80)",
       "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/aa6f83d2edff05149565d5c8f2537d0a.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR30-LED-15W-ECA791ECA491ED9895.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      "categories": [
+        "램프"
       ],
-      "description": "",
-      "specs": "정격 전력: 15W\n전체 사이즈: ∅90XH79\n색온도: 4000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T-벌브 LED12W (A60)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/c4655781df3fcb4c9c29b86f0cb69334.jpg",
+      "subcategory": "에디슨",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/204a7c2b44af7ce6dfd158e70877050d.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-12E38589.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 12W\n전체 사이즈: ∅60XH116\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "벌브 LED8W (A60)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f3b99c38e48c8c56ae18df73137d5af3.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-8W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 8W\n전체 사이즈: ∅60XH103\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "에디슨 볼구 LED눈꽃 2W(G125)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/cad7789a16a9e362b197be07efc98528.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230711/copy-1689064764-EB8888EABD83G125.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20231016/copy-1697443368-EC9790EB9494EC8AA8EC9DBCEBB098EBB3BCEAB5ACG80_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "http://elphos.cafe24.com/web/upload/NNEditor/20171114/20개_shop1_152125.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 2W\n전체 사이즈: ∅125XH162\n색온도: 2300K\n소켓규격: E26",
+      "specs": "정격 전력: 3W\n전체 사이즈: ∅80XH122\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 볼구 LED은하수 2W(G125)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/3303e30bb6a96ae409c9f26c5203f640.jpg",
       "images": [],
       "detail_images": [
@@ -4011,74 +4150,129 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171114/20개_shop1_152125.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 2W\n전체 사이즈: ∅125XH162\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "에디슨 볼구 LED안개 2W(G95)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/93648073a43106fd85b24a9c3a2fc90a.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB3BCEAB5AC-LED-EC9588EAB09C-2W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 2W\n전체 사이즈: ∅95XH137\n색온도: 2300K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 볼구 LED은하수 2W(G95)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/e2508c901f0c06dd035dd7c51711b99c.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB3BCEAB5AC-LEDEC9D80ED9598EC8898-2w-G95.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 2W\n전체 사이즈: ∅95XH137\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 벌브 LED은하수 2W(ST64)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/9b3b3ba92870028242518200e202c0b6.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB28CEBB88C-LED-EC9D80ED9598EC8898-2W-ST64.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 2W\n전체 사이즈: ∅64XH140\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 벌브 LED은하수 2W(A60)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/c75ceac5fb6dd39e862ee5de444425f3.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB28CEBB88C-LED-EC9D80ED9598EC8898-2W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 2W\n전체 사이즈: ∅60XH106\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "에디슨 볼구 LED눈꽃 2W(G125)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/cad7789a16a9e362b197be07efc98528.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230711/copy-1689064764-EB8888EABD83G125.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171114/20개_shop1_152125.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 2W\n전체 사이즈: ∅125XH162\n색온도: 2300K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "에디슨 볼구 LED안개 2W(G95)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/93648073a43106fd85b24a9c3a2fc90a.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB3BCEAB5AC-LED-EC9588EAB09C-2W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 2W\n전체 사이즈: ∅95XH137\n색온도: 2300K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4206,22 +4400,6 @@
       ],
       "description": "",
       "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "(3) 슬림직부 6W 백색 (무타공)",
-      "category": "직부등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/255faa29aa537dc7472acdc0db87d050.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230126/EC8AACEBA6BCECA781EBB6803EC9DB8ECB998ED9994EC9DB4ED8AB8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "3인치 매입등 대체용 무타공 등기구",
-      "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: 112XH22\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4594,54 +4772,6 @@
       "related_products": []
     },
     {
-      "name": "T램프 T140 LED50W(E39)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/440c63c6118e4e39d2be0d6c432abfa4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T140-LED50E38589.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 50W\n전체 사이즈: ∅138XH238\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T120 LED40W(E39)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/e4eb0afcf035b5b6963dce2cf04b117f.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T120-LED40W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 40W\n전체 사이즈: ∅118XH211\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T100 LED30W(E26)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f36de45acc9413527cbea8e1d1cad938.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T100-LED30w.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 30W\n전체 사이즈: ∅100XH164\n색온도: 6500K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. TS33 직부등 1200 LED 30W",
       "category": "T시리즈",
       "subcategory": "직부형",
@@ -4724,17 +4854,24 @@
     {
       "name": "광폭투광기 50W (방수IP66)",
       "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/0963bc81345549a3fcfb1493cb490233.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB491ED8FADED88ACEAB491EAB8B050wEBB894EB9E99.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
-      "description": "8인치 매입등 대체용 무타공 등기구",
+      "short_desc": "",
+      "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 300XH173\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4745,38 +4882,6 @@
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB491ED8FADED88ACEAB491EAB8B050w.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "8인치 매입등 대체용 무타공 등기구",
-      "specs": "",
-      "badge": "",
-      "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "(4) 슬림직부 10W 백색 (무타공)",
-      "category": "직부등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/d19baa2a2f28d73b90ea079861aa630b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250109/4EC9DB8ECB998EC8AACEBA6BCECA781EBB680-01.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "8인치 매입등 대체용 무타공 등기구",
-      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: 142XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "6인치 슬림직부 15W 검정 (무타공)",
-      "category": "직부등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202302/11f3330278dd09b73e90e7ff95575d99.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20220214/copy-1644818186-EC8AACEBA6BCECA781EBB680-6EC9DB8ECB998-EBB894EB9E99-EC8381EC84B828YD29.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "8인치 매입등 대체용 무타공 등기구",
@@ -4799,6 +4904,54 @@
       "specs": "정격 전력: LED 15W\n색상: WHITE / BLACK\n전체 사이즈: 176XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "(4) 슬림직부 10W 백색 (무타공)",
+      "category": "직부등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/d19baa2a2f28d73b90ea079861aa630b.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250109/4EC9DB8ECB998EC8AACEBA6BCECA781EBB680-01.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "8인치 매입등 대체용 무타공 등기구",
+      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: 142XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "(3) 슬림직부 6W 백색 (무타공)",
+      "category": "직부등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/255faa29aa537dc7472acdc0db87d050.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230126/EC8AACEBA6BCECA781EBB6803EC9DB8ECB998ED9994EC9DB4ED8AB8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "3인치 매입등 대체용 무타공 등기구",
+      "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: 112XH22\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "6인치 슬림직부 15W 검정 (무타공)",
+      "category": "직부등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202302/11f3330278dd09b73e90e7ff95575d99.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20220214/copy-1644818186-EC8AACEBA6BCECA781EBB680-6EC9DB8ECB998-EBB894EB9E99-EC8381EC84B828YD29.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "8인치 매입등 대체용 무타공 등기구",
+      "specs": "",
+      "badge": "",
+      "visible": false,
       "related_products": []
     },
     {
@@ -5041,6 +5194,22 @@
       "related_products": []
     },
     {
+      "name": "GU10 자유봉 소켓 레일",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/791ec3c2094b522a4497dc679f31c461.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20200115/GU10-%EC%9E%90%EC%9C%A0%EB%B4%89-%EC%86%8C%EC%BC%93-%EB%A0%88%EC%9D%BC_shop1_133816.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n조사각: 90˚\n전체 사이즈: H155\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / GU10",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "GU10 원통스포트 레일",
       "category": "스포트 라이트",
       "subcategory": "",
@@ -5075,33 +5244,47 @@
     {
       "name": "에디슨 볼구 레일형 3W(G95)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/51f7d49f8fd3a8557ac74334894dc894.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB3BCEAB5AC-ED95B8EB93A4ED9895-3W-28G9529.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n색상: WHITE / BLACK\n전체 사이즈: ∅95XH157\n색온도: 2300K\n소켓규격: RAIL",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 벌브 레일형 3W(A60)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/a85c57293cdca5f06062f3e6e3cbdcb3.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9790EB9494EC8AA8-EBB28CEBB88C-EBA088EC9DBCED989528A6029.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n색상: WHITE / BLACK\n전체 사이즈: ∅60XH126\n색온도: 2300K\n소켓규격: RAIL",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -5148,22 +5331,6 @@
       ],
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 50X74XH62",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "PAR20 램프 LED8W 렌즈형",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/9077e1295460b283cf8e73836634f979.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR20-EB9EA8ED9484-LED-8W-EBA08CECA688ED9895.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 8W\n전체 사이즈: ∅63X84.5\n색온도: 6500K / 4000K / 2700K\n소켓규격: E26",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5299,17 +5466,24 @@
     {
       "name": "에디슨 인찌구 3W(G45)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/d9964d3f29cfcfc8c097d70e0337d03c.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230711/EC9790EB9494EC8AA8-EC9DB8ECB08CEAB5AC3W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅45XH79\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -5393,38 +5567,6 @@
       "related_products": []
     },
     {
-      "name": "평원 GU10 LAMP LED 5W",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/7ad278b675361c4806891ef4c154292b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830993-ED8F89EC9B90-GU10-EB9EA8ED9484-5W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 5W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH90\n색온도: 6500K / 3000K\n소켓규격: GU10",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "GU10 자유봉 소켓 레일",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/791ec3c2094b522a4497dc679f31c461.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20200115/GU10-%EC%9E%90%EC%9C%A0%EB%B4%89-%EC%86%8C%EC%BC%93-%EB%A0%88%EC%9D%BC_shop1_133816.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n조사각: 90˚\n전체 사이즈: H155\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / GU10",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "GU10 자유봉 소켓 직부",
       "category": "",
       "subcategory": "",
@@ -5441,22 +5583,6 @@
       "related_products": []
     },
     {
-      "name": "PAR20 원통 직부",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/0bc6d03e9ae81219c32b119285f9ba4f.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR20-EC9B90ED86B5-ECA781EBB680.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: ∅65X100XH170\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "PAR20 원통 레일",
       "category": "스포트 라이트",
       "subcategory": "",
@@ -5468,6 +5594,22 @@
       ],
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: ∅65X100XH200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "PAR20 원통 직부",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/0bc6d03e9ae81219c32b119285f9ba4f.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR20-EC9B90ED86B5-ECA781EBB680.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: ∅65X100XH170\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5617,6 +5759,38 @@
       "related_products": []
     },
     {
+      "name": "고효율 (8) LED 30W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/dbb5fa13de8a83c96187fda7e4d7a361.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA88EC9DB8ECB998.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: ∅220XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅200 mm\n색온도: 5700K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "고효율 (6) LED15W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/676188f999eb69fe89c3354d7e0e2a51.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA86EC9DB8ECB998.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅170XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 5700K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
       "name": "고효율 (4) LED 10W",
       "category": "매입등",
       "subcategory": "",
@@ -5729,54 +5903,6 @@
       "related_products": []
     },
     {
-      "name": "KS. G COB 30W 레일스포트",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/45fe99ddf37289fd9911761bc390ef61.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED30W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 77X182XH235\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. G COB 20W 레일스포트",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/f3cf39ecfc228ece7958e9dd32988b03.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED20W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 20W\n색상: WHITE / BLACK\n전체 사이즈: 66X157XH215\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KS. G COB 10W 레일스포트",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/6cb177cebef0adcb34df034821dbb2ca.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED10W_.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: COB 10w\n색상: WHITE / BLACK\n전체 사이즈: 50X128.5XH200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. T5 LED 18W 1200 (2핀)",
       "category": "T시리즈",
       "subcategory": "직부형",
@@ -5838,22 +5964,6 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 332X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "고효율 (8) LED 30W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/dbb5fa13de8a83c96187fda7e4d7a361.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA88EC9DB8ECB998.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: ∅220XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅200 mm\n색온도: 5700K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -6047,22 +6157,6 @@
       "related_products": []
     },
     {
-      "name": "원통 대(大) 레일_로즈골드(RG)",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/f0be4bf2cd9f58493ff9bfcf2bd509e8.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20220824/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_RG_20181119_shop1_145424.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "기존의 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
-      "specs": "색상: ROSEGOLD\n전체 사이즈: 156X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "자유봉 소켓 레일_로즈골드(RG)",
       "category": "",
       "subcategory": "",
@@ -6124,6 +6218,22 @@
       ],
       "description": "",
       "specs": "색상: WHITE / BLACK / ROSEGOLD\n조사각: 90˚\n전체 사이즈: H162\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL /  E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "원통 대(大) 레일_로즈골드(RG)",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/f0be4bf2cd9f58493ff9bfcf2bd509e8.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20220824/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_RG_20181119_shop1_145424.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "기존의 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
+      "specs": "색상: ROSEGOLD\n전체 사이즈: 156X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -6303,6 +6413,38 @@
       ],
       "description": "",
       "specs": "",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "원통 대(大) 레일",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/b4c182aba9440782ae4348903a3b52d8.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_WH_20181122_shop1_143429.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "* 기존 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "원통 대(大) 직부",
+      "category": "스포트 라이트",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/268ddf6a4d9204ccb580e074937eec57.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-ECA781EBB680_WH_20181122_shop1_144209.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "* 기존 [민 PAR30 원통 직부]와 [원통 대(大) 직부]는 동일 제품입니다.",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH150\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -6612,22 +6754,6 @@
       "related_products": []
     },
     {
-      "name": "MR16 GU10 LAMP COB 5W",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/7f1e4284b1795dd4adc7edccf622f580.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240507/MR16_GOB-5W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 5W\n전체 사이즈: ∅50XH55\n정격 전압: AC220V, 60HZ\n색온도: 5700K / 4000K / 2700K\n소켓규격: GU10",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS. LED MR16 램프용 컨버터",
       "category": "",
       "subcategory": "",
@@ -6655,70 +6781,6 @@
       ],
       "description": "",
       "specs": "",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "보안등 LED30W / 콘벌브",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/1849391a40f6628edc2630a8ddfbcd96.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EBB3B4EC9588EB93B1-LED30W-ECBD98EBB28CEBB88C.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 30W\n전체 사이즈: ∅73XH225\n색온도: 6500K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "보안등 LED40W / 콘벌브",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/3c4fda26ea45896a4ece43578d3657c6.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EBB3B4EC9588EB93B1-LED40W-ECBD98EBB28CEBB88C.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 40W\n전체 사이즈: ∅90XH225\n색온도: 6500K\n소켓규격: E26 / E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "보안등 LED50W / 콘벌브",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f507bf5bc6225a8953037e0f414495e9.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250530/b74c277b47e30ab9fc93b4923443f969.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 50W\n전체 사이즈: ∅88XH295\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "고효율 (6) LED15W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/676188f999eb69fe89c3354d7e0e2a51.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA86EC9DB8ECB998.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅170XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 5700K",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -6970,7 +7032,11 @@
     {
       "name": "KS. 에디슨 막대 LED 3W(T30)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/dc2488be60e12ecad7eb8b996a7356aa.jpg",
       "images": [],
       "detail_images": [
@@ -6979,16 +7045,23 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171114/메이_KS_벌브류_shop1_155155.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅30XH300\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 볼구 LED 3W (G125)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/8221f945c2de33f5c2d407dc95d1f2ff.jpg",
       "images": [],
       "detail_images": [
@@ -6997,16 +7070,23 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅125XH162\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 볼구 LED 2W 눈꽃(G95)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/c06f31ba410c9613593abef6322b7039.jpg",
       "images": [],
       "detail_images": [
@@ -7015,16 +7095,23 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 2W\n전체 사이즈: ∅95XH137\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 ST벌브 LED 2W 눈꽃(ST64)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/d5655933fd41eaaefe048493f2c953dd.jpg",
       "images": [],
       "detail_images": [
@@ -7033,10 +7120,13 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171114/에디슨_모델+MT64+M95+M125_shop1_151442.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 2W\n전체 사이즈: ∅65XH140\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -7218,27 +7308,13 @@
       "related_products": []
     },
     {
-      "name": "인찌구 LED 4W (G45)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/d07b356698364c6eae8ceb375e3697bd.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EC9DB8ECB08CEAB5ACLED4W.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20170622/copy(1498097920)-ECA3BCEAB491ECA084EAB5AC20EAB5ACEBB384EBB295.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20170622/copy(1498097940)-100EAB09C.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 4W\n전체 사이즈: ∅45XH73\n색온도: 6500K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "에디슨 촛대구 LED 3W (C35)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/4dcfa9ca4f6adc8c1a04fd4097f703a7.jpg",
       "images": [],
       "detail_images": [
@@ -7247,16 +7323,23 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20170622/EC9790EB9494EC8AA8_EBAAA8EB8DB82BQK-C35.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅35XH92\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 볼구 LED 3W (G95)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/e200674b91302981810401996a932159.jpg",
       "images": [],
       "detail_images": [
@@ -7264,16 +7347,23 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20170622/20EAB09C.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅95XH137\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 ST벌브 LED 3W (ST64)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/1d1598e80464453bfb4762de5235af76.jpg",
       "images": [],
       "detail_images": [
@@ -7282,16 +7372,23 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20170622/EC9790EB9494EC8AA8_EBAAA8EB8DB82BA602BST642BG95.jpg",
         "http://elphos.cafe24.com/web/upload/NNEditor/20170622/EB9EA8ED9484EC84A4EBAA85ED8E98EC9DB4ECA780-01-01.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅64XH140\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "에디슨 벌브 LED 3W (A60)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "에디슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/c40dfcc1ad69f45869632e446ec02ee7.jpg",
       "images": [],
       "detail_images": [
@@ -7299,10 +7396,82 @@
         "https://ydl.co.kr/web/upload/NNEditor/20260107/bd5d024fcac1875adecd584f961c12b7.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 3W\n전체 사이즈: ∅60XH106\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. LED 미니 콘벌브 4.2W E17",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "콘벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202505/e0a1600327dc4429b6d5e9afb4d0e31f.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240820/EBAFB8EB8B88ECBD98EBB28CEBB88CLED-E17-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 4.2W\n전체 사이즈: ∅18XH63\n색온도: 4000K / 3000K\n소켓규격: E17",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. LED 미니 콘벌브 4.2W E14",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "콘벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202505/ecc933210e5e940b4642828ab3818725.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240820/EBAFB8EB8B88ECBD98EBB28CEBB88CLED-E14-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 4.2W\n전체 사이즈: ∅18XH63\n색온도: 4000K / 3000K\n소켓규격: E14",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KS. LED 미니 콘벌브 7W E26",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "콘벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202505/f9d42ff7ac395eca8d6a4e16cdcf5e17.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240820/EBAFB8EB8B88ECBD98EBB28CEBB88CLED-E26-EC9888EB8F84EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 7W\n전체 사이즈: ∅29XH76\n색온도: 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -7448,22 +7617,6 @@
       "specs": "",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "KS. (3) 캐스팅 매입등 LED 7W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/5184b332656fab37d159a9d4c61c4915.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240401/EC9888EB8F84ECBA90EC8AA4ED8C85.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅100XH35\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -8267,22 +8420,6 @@
       "related_products": []
     },
     {
-      "name": "원통 대(大) 레일",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/b4c182aba9440782ae4348903a3b52d8.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_WH_20181122_shop1_143429.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "* 기존 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "민PAR30 원통 / 원통 대(大) 직부_BK",
       "category": "",
       "subcategory": "",
@@ -8296,22 +8433,6 @@
       "specs": "",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "원통 대(大) 직부",
-      "category": "스포트 라이트",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/268ddf6a4d9204ccb580e074937eec57.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-ECA781EBB680_WH_20181122_shop1_144209.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "* 기존 [민 PAR30 원통 직부]와 [원통 대(大) 직부]는 동일 제품입니다.",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH150\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -9515,22 +9636,6 @@
       "related_products": []
     },
     {
-      "name": "KS. (4) 캐스팅 매입등 LED 10W",
-      "category": "매입등",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202504/7f152a5e5d1cfa45c91035976cb54678.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230224/copy-1677221528-4EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B10224.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅120XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS.PAR30 LED18W LAMP(확산형)",
       "category": "",
       "subcategory": "",
@@ -9547,19 +9652,72 @@
       "related_products": []
     },
     {
-      "name": "MR16 LAMP LED5W",
+      "name": "보안등 LED50W / 콘벌브",
       "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202502/fcfb0d88ef1831c203cd10189da9a631.jpg",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "콘벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f507bf5bc6225a8953037e0f414495e9.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250703/b99d266226fddf43a20822175b77a977.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250530/b74c277b47e30ab9fc93b4923443f969.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 5W\n전체 사이즈: ∅49XH45\n정격 전압: DC 12V / LED\n색온도: 6500K / 4000K / 3000K\n소켓규격: GU5.3",
+      "specs": "정격 전력: 50W\n전체 사이즈: ∅88XH295\n색온도: 6500K\n소켓규격: E39",
       "badge": "",
       "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "보안등 LED40W / 콘벌브",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "콘벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/3c4fda26ea45896a4ece43578d3657c6.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EBB3B4EC9588EB93B1-LED40W-ECBD98EBB28CEBB88C.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 40W\n전체 사이즈: ∅90XH225\n색온도: 6500K\n소켓규격: E26 / E39",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "보안등 LED30W / 콘벌브",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "콘벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/1849391a40f6628edc2630a8ddfbcd96.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EBB3B4EC9588EB93B1-LED30W-ECBD98EBB28CEBB88C.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 30W\n전체 사이즈: ∅73XH225\n색온도: 6500K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9624,22 +9782,6 @@
       "specs": "정격 전력: 12W\n전체 사이즈: ∅70XH126\n색온도: 5700K / 2700K\n소켓규격: E26",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "G95 볼구 LED12W",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/33f9224e6b9536666be1c0b01126f7e0.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830474-G95-EBB3BCEAB5AC-LED-12W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: LED 12W\n전체 사이즈: 95XH125\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -9932,6 +10074,38 @@
       "badge": "",
       "visible": true,
       "related_products": []
+    },
+    {
+      "name": "KS. (4) 캐스팅 매입등 LED 10W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/7f152a5e5d1cfa45c91035976cb54678.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230224/copy-1677221528-4EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B10224.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅120XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. (3) 캐스팅 매입등 LED 7W",
+      "category": "매입등",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202504/5184b332656fab37d159a9d4c61c4915.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240401/EC9888EB8F84ECBA90EC8AA4ED8C85.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅100XH35\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
     }
   ],
   "yedo_subcats_M시리즈": [
@@ -9968,6 +10142,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777009989722,
+  "yedo_saved_at": 1777253560477,
   "yedo_subcats_LED 매입등": []
 }

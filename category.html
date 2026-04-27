@@ -235,7 +235,8 @@ function renderSidebar(){
     const subs=[...new Set([...fromSaved,...fromProds])];
     let html2 = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="" data-subsub="">전체</button>`;
     subs.forEach(s=>{
-      html2 += `<button class="sidebar-cat${activeSubCat===s&&!activeSubSubCat?' active':''}" data-cat="${activeCat}" data-sub="${s}" data-subsub="">${s}</button>`;
+      const isRail = activeCat==='레일 및 부품';
+      html2 += `<button class="sidebar-cat${activeSubCat===s&&!activeSubSubCat?' active':''}" data-cat="${activeCat}" data-sub="${s}" data-subsub=""${isRail?' style="font-size:15px;"':''}>${s}</button>`;
       // 서브서브카테고리
       if(activeSubCat===s){
         const subsubProds = allProds.filter(p=>p.category===activeCat&&p.subcategory===s&&p.subsubcategory);
@@ -273,7 +274,9 @@ function renderProducts(){
         ? cats.includes(activeSubCat)
         : !activeSubCat || p.subcategory===activeSubCat;
       const mss = !activeSubSubCat || p.subsubcategory===activeSubSubCat;
-      return mc && ms && mss;
+      // 서브카테고리 전용 제품은 전체에서 숨김
+      const subcatOnlyOk = !p.subcat_only || activeSubCat;
+      return mc && ms && mss && subcatOnlyOk;
     });
   }
 
@@ -281,8 +284,8 @@ function renderProducts(){
   const grid = document.getElementById('product-grid');
   const slice = filtered.slice(0, visible);
 
-  if(!slice.length){
-    grid.innerHTML='<div class="empty-state"><p>제품이 없습니다.</p></div>';
+  if(!slice.length || (activeCat==='레일 및 부품' && !activeSubCat)){
+    grid.innerHTML=`<div class="empty-state"><p>${activeCat==='레일 및 부품' && !activeSubCat ? '왼쪽에서 서브카테고리를 선택해주세요.' : '제품이 없습니다.'}</p></div>`;
     document.getElementById('load-wrap').style.display='none';
     return;
   }

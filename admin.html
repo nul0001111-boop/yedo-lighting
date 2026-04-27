@@ -551,6 +551,10 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
       </select>
     </div>
     <div class="toggle-wrap" style="margin-bottom:14px;">
+      <label class="toggle"><input type="checkbox" id="edit-subcat-only"><span class="toggle-slider"></span></label>
+      <span class="toggle-label">서브카테고리 전용 (전체 목록에서 숨김, 서브카테고리 클릭 시에만 표시)</span>
+    </div>
+    <div class="toggle-wrap" style="margin-bottom:14px;">
       <label class="toggle"><input type="checkbox" id="edit-visible" checked><span class="toggle-slider"></span></label>
       <span class="toggle-label">진열함 (끄면 사이트에 안 보임)</span>
     </div>
@@ -928,6 +932,7 @@ function openAddProduct(){
   document.getElementById('edit-idx').value='-1';
   ['name','category','subcategory','subsubcategory','image','images','detail-images','desc','specs','badge','short-desc'].forEach(f=>document.getElementById('edit-'+f).value='');
   document.getElementById('edit-visible').checked=true;
+  document.getElementById('edit-subcat-only').checked=false;
   document.getElementById('edit-featured').checked=false;
   document.getElementById('edit-isnew').checked=false;
   document.getElementById('edit-img-preview').style.display='none';
@@ -956,6 +961,7 @@ function openEditProduct(idx){
   document.getElementById('edit-specs').value=p.specs||'';
   document.getElementById('edit-badge').value=p.badge||'';
   document.getElementById('edit-visible').checked=p.visible!==false;
+  document.getElementById('edit-subcat-only').checked=p.subcat_only||false;
   document.getElementById('edit-featured').checked=p.featured===true;
   document.getElementById('edit-isnew').checked=p.isnew===true;
   previewEditImg();
@@ -1008,7 +1014,7 @@ function saveProduct(){
   const related=[...document.querySelectorAll('#related-prod-list input[type=checkbox]:checked')].map(cb=>parseInt(cb.value)).slice(0,6);
   const catValue = document.getElementById('edit-category').value.trim();
   const categories = catValue ? catValue.split(',').map(c=>c.trim()).filter(Boolean) : [];
-  const prod={name,category:categories[0]||'',categories:categories,subcategory:document.getElementById('edit-subcategory').value.trim(),subsubcategory:document.getElementById('edit-subsubcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
+  const prod={name,category:categories[0]||'',categories:categories,subcategory:document.getElementById('edit-subcategory').value.trim(),subsubcategory:document.getElementById('edit-subsubcategory').value.trim(),image:document.getElementById('edit-image').value.trim(),images:document.getElementById('edit-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),detail_images:document.getElementById('edit-detail-images').value.trim().split('\n').map(s=>s.trim()).filter(Boolean),short_desc:document.getElementById('edit-short-desc').value.trim(),description:document.getElementById('edit-desc').value.trim(),specs:document.getElementById('edit-specs').value.trim(),badge:document.getElementById('edit-badge').value.trim(),visible:document.getElementById('edit-visible').checked,subcat_only:document.getElementById('edit-subcat-only').checked,featured:document.getElementById('edit-featured').checked,isnew:document.getElementById('edit-isnew').checked,related_products:related};
   const prods=get(SK.products)||[];
   const idx=parseInt(document.getElementById('edit-idx').value);
   if(idx>=0) prods[idx]=prod; else prods.push(prod);
