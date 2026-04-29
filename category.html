@@ -188,7 +188,7 @@ function renderTopBar(){
   // 검색 중이면 전체 active
   const curActive = searchQuery ? '전체' : activeCat;
   document.getElementById('top-cat-inner').innerHTML = cats.map(c=>{
-    const fromProds=[...new Set(allProds.filter(p=>p.category===c&&p.subcategory).map(p=>p.subcategory))];
+    const fromProds=[...new Set(allProds.filter(p=>{const cats=p.categories&&p.categories.length?p.categories:[p.category];return cats.includes(c)&&p.subcategory;}).flatMap(p=>p.subcategory.split(',').map(s=>s.trim())))];
     const fromSaved=getVal('yedo_subcats_'+c)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     const dropdown=c==='NEW PRODUCT'?'':subs.length?`<div class="top-cat-dropdown">${subs.map(s=>`<button class="top-cat-dropdown-item" onclick="event.stopPropagation();activeCat='${c}';selectSubCat('${s}')">${s}</button>`).join('')}</div>`:'';
