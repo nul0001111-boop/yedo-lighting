@@ -1135,55 +1135,83 @@
     {
       "name": "KS. (6) 방습매입등 LED 15W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "방습",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/be05bab3704a7c120f706637f7e12701.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20241111/copy-1731303929-EBB0A9EC8AB5EBA7A4EC9E85EB93B1-04.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 165XH47\n설치 방식: DOWN LIGHT\n타공 사이즈: ∅145~150 mm\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (4) 방습매입등 LED 7W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "방습",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/4b9d4a228942880bc406973f7303601b.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20241115/EBB0A9EC8AB5EBA7A4EC9E85EB93B1-03.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: 120XH47\n설치 방식: DOWN LIGHT\n타공 사이즈: ∅100 mm\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) 방습매입등 LED 5W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "방습",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/9df6ddf6737ece7492847c9e2e95378c.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20241111/EBB0A9EC8AB5EBA7A4EC9E85EB93B1-02.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 100XH47\n설치 방식: DOWN LIGHT\n타공 사이즈: ∅75 mm\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) 스틱매입등 LED 8W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/760be6e8a43764a18dd8387dc41879e6.jpg",
       "images": [],
       "detail_images": [
@@ -1191,10 +1219,14 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250109/534094e6b23840cdac5dea8fe6f59f4f.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 8W\n색상: WHITE / BLACK\n조사각: 50~60\n전체 사이즈: ∅86XH80\n설치 방식: DOWN LIGHT\n타공 사이즈: ∅75 mm\n색온도: 6500K / 3000K / 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1219,17 +1251,25 @@
     {
       "name": "KS. (6) 글레어 매입등(움푹) 20W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "글레어",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/634d1aab6444cef6b285856ad558efdb.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20241022/ASDGQWETQ-01.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: ∅170XH55\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1331,49 +1371,73 @@
     {
       "name": "KS. (4) 글레어 매입등(움푹) 10W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "글레어",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/f916ef32175061bd7bfb9bbfe620bde5.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231017/4EC9DB8ECB998EAB880EBA088EC96B4EBA7A4EC9E85-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅105XH55\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) 글레어 매입등(움푹) 7W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "글레어",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/1ad4e145b5d3bfb869638b0b354a00af.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231017/3EC9DB8ECB998EAB880EBA088EC96B4EBA7A4EC9E85-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅90XH45\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (2) 글레어 매입등(움푹) 6W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "글레어",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202512/962e526565d638f953c84596b4cfa35b.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240403/EAB880EBA088EC96B4EBA7A4EC9E85EB93B12EC9DB8ECB998-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: ∅61XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~55 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -2325,7 +2389,11 @@
     {
       "name": "KS. (4) 직회전 매입등 집중형/COB 12W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/26d8cafae80778531929c816bf9557d3.jpg",
       "images": [],
       "detail_images": [
@@ -2333,32 +2401,48 @@
         "https://ydl.co.kr/web/upload/NNEditor/20241226/fd6d7bd81b687ad0a0c5e14924fb69d0.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 12W\n색상: WHITE / BLACK\n전체 사이즈: ∅120XH60\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) 직회전 매입등 집중형/COB 8W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/44111027c43591cacd2d56d040bfc1a4.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230329/EC9888EB8F84_3EC9DB8ECB998ECA781ED9A8CECA084EBA7A4EC9E85EB93B1-ECA791ECA491ED9895-COB-ED9994EC9DB4ED8AB8-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH42\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) 직회전 매입등 확산형/COB 8W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/aa9c5e8b2aef33cb2421718bf11a8884.jpg",
       "images": [],
       "detail_images": [
@@ -2366,10 +2450,14 @@
         "https://ydl.co.kr/web/upload/NNEditor/20241226/8d4566b711720129aa5d6f164e18d6aa.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH42\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -2391,7 +2479,11 @@
     {
       "name": "KS. (2) 직회전 매입등 집중형/COB 6W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/bedc7da25923fcbe04acbe7ee8cda407.jpg",
       "images": [],
       "detail_images": [
@@ -2399,16 +2491,24 @@
         "https://ydl.co.kr/web/upload/NNEditor/20241226/fb1dd67f722a1aabb45d4be5634ece4b.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 6W\n색상: WHITE / BLACK\n전체 사이즈: ∅68XH37\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (2) 직회전 매입등 확산형/COB 6W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/577e377ffe878805aa3ec627eb2ef49e.jpg",
       "images": [],
       "detail_images": [
@@ -2416,10 +2516,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20240307/copy-1709799748-2EC9DB8ECB998-ED9A8CECA084EBA7A4EC9E85-ED9995EC82B0ED9895-6W_BK_EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 6W\n색상: WHITE / BLACK\n전체 사이즈: ∅68XH37\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3213,113 +3317,169 @@
     {
       "name": "KC. (8) S매입등 LED 30W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/9695b4323b70aaa859e3fd690eff00d1.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250627/7caf6826d3c741746345d3428cd2d749.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: ∅228XH24\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅200 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. (7) S매입등 LED 25W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/aba3035386a855a558a4622fcf2229ab.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250627/85e09f4194667f4b144d89999722ba6c.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 25W\n색상: WHITE\n전체 사이즈: ∅200XH24\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅180 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. (6) S매입등 LED 15W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/118950bd723d0dfee6808ec3eaf9a708.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250627/ae057df5491505d722d85402cd2d2e2b.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅176XH24\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. (5) S매입등 LED 12W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e7b7ae72442bea75654cdb5c9334363a.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250627/b14cd1ba2c919ee622dcfdf54df1632c.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 12W\n색상: WHITE\n전체 사이즈: ∅153XH24\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅130 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. (4) S매입등 LED 10W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/cffda1a64442e2e47e14fe3b4d4d0145.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250627/e24eb6757f050e3e7d3e2127905e5ada.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅132XH24\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. (3) S매입등 LED 6W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/d95c244113ef5a653d5d0fdf2b196360.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250627/286332c5000d7ff45b3578309a247c92.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 6W\n색상: WHITE\n전체 사이즈: ∅112XH22\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "(4) 프리매입 COB 8W (COB401A)",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e258f9ea513ca95a470247f9b60445a3.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20251230/e2491c3a7181fe71d9625d013d53718c.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅129XH78\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅110~115 mm\n색온도: 5700K / 4000k / 2700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4144,17 +4304,25 @@
     {
       "name": "(3) 직회전 COB 8W (COB321A)",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/09cb7279be9c63318276c5e24758c0c4.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230302/321A-COB-8W_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH40.5\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85\n색온도: 5700K / 2700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4192,49 +4360,73 @@
     {
       "name": "[COB] 2211 LED 5W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/d5cf5d16e5ef7a1a6731fe32edb0916d.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230302/2211-LED-5W_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 5W\n색상: WHITE / BLACK\n전체 사이즈: ∅90X56XH25\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75 mm\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "2 직회전 2211 LED 8W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/f332a46f4dec04aa3fc87c4fb9f7aceb.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230302/2211LED8W_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 8W\n색상: WHITE / BLACK / CHROME\n전체 사이즈: ∅93XH38\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "(2) 가구매입 2131 LED 5W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/b2778fdafe17f5e7f30f8b783ad3560c.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230302/copy-1677714012-2131LED5W_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 5W\n색상: WHITE / GOLD / CHROME\n전체 사이즈: ∅72XH26\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅60 mm\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6159,49 +6351,73 @@
     {
       "name": "고효율 (8) LED 30W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "고효율",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/dbb5fa13de8a83c96187fda7e4d7a361.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA88EC9DB8ECB998.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: ∅220XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅200 mm\n색온도: 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "고효율 (6) LED15W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "고효율",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/676188f999eb69fe89c3354d7e0e2a51.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA86EC9DB8ECB998.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅170XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "고효율 (4) LED 10W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "고효율",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/c57ccbf0beb5faa1260dcd5b3f1f709c.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230223/EAB3A0ED9AA8EC9CA84EC9DB8ECB998.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅125XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -8011,17 +8227,25 @@
     {
       "name": "(6) 다운라이트 LED 15W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/2d048442cd6938a89e137018318a8803.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240819/6EC9DB8ECB998EB8BA4EC9AB4EB9DBCEC9DB4ED8AB8-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅175XH42\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -10669,55 +10893,83 @@
     {
       "name": "KS. (8) 캐스팅 매입등 LED 35W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "캐스팅",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/1326f81a2f9a2b34ddf10123c2982b7d.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230224/copy-1677221587-8EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B1-EC8898ECA095.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 35W\n색상: WHITE\n전체 사이즈: ∅220XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅200 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (7) 캐스팅 매입등 LED 31W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "캐스팅",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/30038b3e4f006b58a8ea4464f05c8777.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230224/7EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B10224-EC8898ECA095.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 31W\n색상: WHITE\n전체 사이즈: ∅200XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅180 mm\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (6) 캐스팅 매입등 LED 20W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "캐스팅",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/ba96661046d6e185e6c7aa79a5f26e5a.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230224/copy-1677221557-6EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B1-EC8898ECA095.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: ∅168XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (5) 캐스팅 매입등 LED 15W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "캐스팅",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/a35153e2d327825ab511b3cab84e4c2e.jpg",
       "images": [],
       "detail_images": [
@@ -10725,42 +10977,62 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20160213/-01_shop1_102844.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: ∅145XH45\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅130 mm\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (4) 캐스팅 매입등 LED 10W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "캐스팅",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/7f152a5e5d1cfa45c91035976cb54678.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230224/copy-1677221528-4EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B10224.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅120XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) 캐스팅 매입등 LED 7W",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "캐스팅",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/5184b332656fab37d159a9d4c61c4915.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240401/EC9888EB8F84ECBA90EC8AA4ED8C85.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅100XH35\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     }
   ],
@@ -10798,6 +11070,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777424401113,
+  "yedo_saved_at": 1777428207580,
   "yedo_subcats_LED 매입등": []
 }
