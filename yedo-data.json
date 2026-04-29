@@ -3274,10 +3274,7 @@
       "subcategory": "",
       "subsubcategory": "",
       "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442618/%EB%A9%94%EC%9D%B81_jbkrwg.png",
-      "images": [
-        "https://i.ibb.co/3yXkGWLs/2.jpg",
-        "https://i.ibb.co/B5RQ6TRH/3.jpg"
-      ],
+      "images": [],
       "detail_images": [
         "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442673/%EC%83%81%EC%84%B8_k1mpdj.jpg",
         "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442702/%EC%83%81%EC%84%B82_amkfzx.png"
@@ -11113,6 +11110,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777442833481,
+  "yedo_saved_at": 1777442858706,
   "yedo_subcats_LED 매입등": []
 }
