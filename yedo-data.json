@@ -3274,14 +3274,18 @@
       "subcategory": "",
       "subsubcategory": "",
       "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442618/%EB%A9%94%EC%9D%B81_jbkrwg.png",
-      "images": [],
+      "images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443011/%EB%A9%94%EC%9D%B82_g9gi9o.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443031/%EB%A9%94%EC%9D%B83_lfvaua.jpg"
+      ],
       "detail_images": [
         "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442673/%EC%83%81%EC%84%B8_k1mpdj.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442702/%EC%83%81%EC%84%B82_amkfzx.png"
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442702/%EC%83%81%EC%84%B82_amkfzx.png",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442918/%EC%83%81%EC%84%B83_calpcr.jpg"
       ],
       "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 244X170XH85\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 220X150\n색온도: 2700K / 5700K",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 190X125XH209\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 2700K / 5700K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -3292,17 +3296,25 @@
     {
       "name": "SQM COB 40W 매입 (COBSQM)",
       "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/482a843fb938f429b679759d94754777.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677820978-SQM-COB-40W-WHEBA7A4EC9E85WH-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 244X170XH85\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 220X150\n색온도: 2700K / 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11110,6 +11122,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777442858706,
+  "yedo_saved_at": 1777443065957,
   "yedo_subcats_LED 매입등": []
 }
