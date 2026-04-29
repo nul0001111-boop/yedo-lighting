@@ -3008,22 +3008,6 @@
       "related_products": []
     },
     {
-      "name": "SQF COB40W 레일, 직부 (BK)",
-      "category": "투광기",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202305/d5f6f487ae9f7d15882e9d1e654da081.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230526/SQF-COB-40W-EC9798ED8FACEC8AA4-EC82ACEBB3B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": false,
-      "related_products": []
-    },
-    {
       "name": "로싸 벽등",
       "category": "",
       "subcategory": "",
@@ -4536,6 +4520,22 @@
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/SQM-COB-40W-EBA7A4EC9E85bk-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "",
+      "badge": "",
+      "visible": false,
+      "related_products": []
+    },
+    {
+      "name": "SQF COB40W 레일, 직부 (BK)",
+      "category": "투광기",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202305/d5f6f487ae9f7d15882e9d1e654da081.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230526/SQF-COB-40W-EC9798ED8FACEC8AA4-EC82ACEBB3B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
@@ -11114,6 +11114,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777442317222,
+  "yedo_saved_at": 1777442329179,
   "yedo_subcats_LED 매입등": []
 }
