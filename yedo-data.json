@@ -42,7 +42,8 @@
         "NEW PRODUCT",
         "매입등"
       ],
-      "subcategory": "",
+      "subcategory": "클랙슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202603/de5cb41d76191533e048d5f54af298d2.jpg",
       "images": [],
       "detail_images": [
@@ -58,6 +59,7 @@
       "specs": "정격 전력: LED 15W / LED 10W\n색상: WHITE\n전체 사이즈: ∅105XH90 (mm) / ∅85XH68 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅95 / ∅75\n색온도: 4000K",
       "badge": "NEW",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": [
@@ -412,24 +414,257 @@
       "related_products": []
     },
     {
-      "name": "너트형 레이스웨이 레일 고정 지지대",
+      "name": "레일 ( 1M / 2M / 3M )",
+      "category": "레일 및 부품",
+      "subcategory": "일반레일(국산)",
+      "image": "https://ydl.co.kr/web/product/medium/202601/3fd076bda5dafb8aff3e5f9b7fee7469.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20260226/219e3068512445fe962d4b9fbbb982ce.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (33X17.5H)",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 전원&마감",
       "category": "레일 및 부품",
       "categories": [
         "레일 및 부품"
       ],
-      "subcategory": "KC. 레이스웨이 레일",
+      "subcategory": "일반레일(국산), KC. 레일",
       "subsubcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202511/730ebd2fac644db613934cd994514360.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202412/1757b11005de2550074f577bed81aab1.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/17aa7aa75ce5a841c5324250521003f8.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/9ae1a61df789e27586c02cc0bfe69e88.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251231/b1dda3cb124946642d84f57f4ef00daf.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20231205/EC9DBCEBB098ECA084EBA788.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 40 x 37 x H66",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 수평 회전 연결(ㅡ자,ㄱ자 회전형)",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/98136181f76ef7cfb10cc8f1cc638379.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231205/EC9888EB8F8429EC8898ED8F89ED9A8CECA084EC97B0EAB2B0EC8381EC84B8_01.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20230206/copy-1675672836-EC9888EB8F8429EC8898ED8F89ED9A8CECA084EC9B80ECA7A4-min.gif",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 수평 회전 전원 마감 (ㅡ자,ㄱ자 회전형)",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/feaa69034724b9a21ceb7a02daa83192.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231205/EC8898ED8F89ED9A8CECA084ECA084EC9B90.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20230206/copy-1675672696-EC9888EB8F8429EC8898ED8F89ED9A8CECA084EC9B80ECA7A4-min.gif",
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EC8898ED8F89ED9A8CECA084ECA084EC9B90ED9598EB8BA8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 접지형 레일플러그",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/fc93126f8513412f776f9c3eb8c66452.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20241113/1-02.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 이중플러그",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202503/3a7c66a68569d880a6481529f3b0ddcf.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250310/68ba208318e7182f8001b18f848ebef1.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 110XH52",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 자바라 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/c787397265547a890a17ecdd3640b3fd.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230925/YDEC9691EC8B9D-EC9E90EBB094EB9DBCEC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. ㅡ자 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/067877f8748502e2d271c59d40d82db2.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230222/E385A1EC9E90EC97B0EAB2B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. \"ㄱ\"자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/9a31d204657d570630dda23be2ac8b5a.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230222/E384B1EC9E90EC97B0EAB2B0EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. T자 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/1b1a33949ed2da5d9e42cba2227f9c6a.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230925/YDEC9691EC8B9D-TEC9E90EC97B0EAB2B0.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20160222/2-01-01_shop1_105213.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. +자 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/b0e00bfac4aa8144432a883d8cb195a8.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230925/YDEC9691EC8B9D-2BEC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
       "subcat_only": true,
@@ -444,7 +679,8 @@
         "NEW PRODUCT",
         "스포트 라이트"
       ],
-      "subcategory": "",
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/447cab0d50743fd982c72963600545c3.jpg",
       "images": [],
       "detail_images": [
@@ -459,6 +695,7 @@
       "specs": "정격 전력: COB 8W\n색상: WHITE, BLACK\n전체 사이즈: 95XH125 (mm)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K, 3000K",
       "badge": "NEW",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": []
@@ -470,7 +707,8 @@
         "NEW PRODUCT",
         "매입등"
       ],
-      "subcategory": "",
+      "subcategory": "클랙슨",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202511/8d4dae485cd9797a015c3fbdef381add.jpg",
       "images": [],
       "detail_images": [
@@ -485,6 +723,7 @@
       "specs": "정격 전력: LED 6W / LED 10W / LED 15W\n색상: WHITE\n전체 사이즈: ∅62XH50 (mm) / ∅85XH68 (mm) / ∅105XH90 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅55  / ∅75 / ∅95\n색온도: 6500K / 4000K / 3000K",
       "badge": "BEST",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": [
@@ -517,21 +756,55 @@
       "related_products": []
     },
     {
-      "name": "너트형 레일 고정 지지대",
+      "name": "KC. 레일 고정 지지대",
       "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202508/1ff51fc7664c84defa97bd386bd36fdd.jpg",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/15c2e4ac82058a91a1a5c5d78fc3284e.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250825/11fceb7a94862626bcd10dd8c319b54d.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/b10caf466ddb5e9a5ff71593cff2f806.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/a657452bc04e264b9b75c55c36b15dac.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/6654913fad9d69d80949ab65b5ffb9be.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/dbaadb059e0286903db439a19a20af53.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/e96dc69b0fc926081d14d67b0c39bedf.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 50 x 38 x H46",
+      "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 클립 지지대",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/032acb3686651286afcd377738b0b266.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/c839a272e15d982263fffc9e62554d49.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/baf86ac77f616e3200645c2ec40bd3d7.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/306c1fdf9405970e582992376d95e996.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -687,7 +960,11 @@
     {
       "name": "KS. G-COB 직부 10W / 20W",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e88d134a54048e16e5e593d0fd87546a.jpg",
       "images": [],
       "detail_images": [
@@ -697,11 +974,19 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250418/6fb3f9f12c048347cca92a97e3e8df56.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "8인치 매입등 대체용 등기구",
       "specs": "정격 전력: LED 10W / 20W\n색상: WHITE / BLACK\n전체 사이즈: 50X128.5XH185 / 66X157XH210\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        118,
+        119,
+        120
+      ]
     },
     {
       "name": "KC. (3) 글레어 매입등(움푹) 7W",
@@ -718,22 +1003,6 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅88XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 이중플러그",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202503/3a7c66a68569d880a6481529f3b0ddcf.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250310/68ba208318e7182f8001b18f848ebef1.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 110XH52",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -762,22 +1031,6 @@
       "related_products": []
     },
     {
-      "name": "이중 레일 플러그",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202502/1cb4c1723df72dd86a06d823294e5edd.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250217/7475d9213be7c1bdd573a8f1463cdfa2.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "엣지사각등 LED 20W / 슬림직부등",
       "category": "직부등",
       "subcategory": "",
@@ -796,7 +1049,11 @@
     {
       "name": "KS. (3) COB 공회전 매입등",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202507/134bde483b616eb85c8157c26838ef7a.jpg",
       "images": [],
       "detail_images": [
@@ -806,16 +1063,24 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250701/18f852bbae6af7ce666a0d9c26ee733d.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 7W\n색상: WHITE, BLACK\n조사각: 270˚ / 120˚\n전체 사이즈: ∅82XH75\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KS. (3) UFO 직회전 매입등",
       "category": "매입등",
-      "subcategory": "",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직회전",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202504/e3f1faea757fc93f8c33b72c208f6a47.jpg",
       "images": [],
       "detail_images": [
@@ -825,10 +1090,14 @@
         "https://ydl.co.kr/web/upload/NNEditor/20250220/50f57a7ec2579272475d4b0679a42be6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 7W\n색상: WHITE / BLACK\n조사각: 90˚\n전체 사이즈: ∅90XH35\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1126,183 +1395,155 @@
     {
       "name": "MR16 LAMP LED5W",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "MR16 램프 (할로겐)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/fcfb0d88ef1831c203cd10189da9a631.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250703/b99d266226fddf43a20822175b77a977.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅49XH45\n정격 전압: DC 12V / LED\n색온도: 6500K / 4000K / 3000K\n소켓규격: GU5.3",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "PAR20 램프 LED8W 렌즈형",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED PAR20 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/9077e1295460b283cf8e73836634f979.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR20-EB9EA8ED9484-LED-8W-EBA08CECA688ED9895.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 8W\n전체 사이즈: ∅63X84.5\n색온도: 6500K / 4000K / 2700K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "S-PAR30 LED15W (렌즈형)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프, LED PAR30 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/479ec91155f13f7b5ea075e646029d5e.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30EBA08CECA688_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "S-PAR30 LED15W (확산형)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프, LED PAR30 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/bc6347d205c1dee9e6e1ab6f7400e1d9.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240531/s-par30ED9995EC82B0_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "T-PAR30 LED15W (집중형)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프, LED PAR30 램프",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/aa6f83d2edff05149565d5c8f2537d0a.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/PAR30-LED-15W-ECA791ECA491ED9895.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 15W\n전체 사이즈: ∅90XH79\n색온도: 4000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "인찌구 LED 5W (G45)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202505/699320e3ad3c3d1beaa331f8d59c5fb7.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830533-G45-EC9DB8ECB08CEAB5AC-LED5W.jpg",
         "http://elphos.cafe24.com/web/upload/NNEditor/20160222/-01-01_shop1_192359.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅45XH77\n색온도: 6500K\n소켓규격: E26",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T-벌브 LED12W (A60)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/c4655781df3fcb4c9c29b86f0cb69334.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-12E38589.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 12W\n전체 사이즈: ∅60XH116\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "벌브 LED8W (A60)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f3b99c38e48c8c56ae18df73137d5af3.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-8W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 8W\n전체 사이즈: ∅60XH103\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T140 LED50W(E39)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/440c63c6118e4e39d2be0d6c432abfa4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T140-LED50E38589.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 50W\n전체 사이즈: ∅138XH238\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T120 LED40W(E39)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/e4eb0afcf035b5b6963dce2cf04b117f.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T120-LED40W.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 40W\n전체 사이즈: ∅118XH211\n색온도: 6500K\n소켓규격: E39",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "T램프 T100 LED30W(E26)",
-      "category": "램프",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202506/f36de45acc9413527cbea8e1d1cad938.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T100-LED30w.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "정격 전력: 30W\n전체 사이즈: ∅100XH164\n색온도: 6500K\n소켓규격: E26",
-      "badge": "",
-      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "인찌구 LED 4W (G45)",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/d07b356698364c6eae8ceb375e3697bd.jpg",
       "images": [],
       "detail_images": [
@@ -1311,42 +1552,182 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20170622/copy(1498097940)-100EAB09C.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 4W\n전체 사이즈: ∅45XH73\n색온도: 6500K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T-벌브 LED12W (A60)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/c4655781df3fcb4c9c29b86f0cb69334.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-12E38589.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 12W\n전체 사이즈: ∅60XH116\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "벌브 LED8W (A60)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED 벌브",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f3b99c38e48c8c56ae18df73137d5af3.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/A60-EBB28CEBB88C-LED-8W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 8W\n전체 사이즈: ∅60XH103\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T140 LED50W(E39)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/440c63c6118e4e39d2be0d6c432abfa4.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T140-LED50E38589.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 50W\n전체 사이즈: ∅138XH238\n색온도: 6500K\n소켓규격: E39",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T120 LED40W(E39)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/e4eb0afcf035b5b6963dce2cf04b117f.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T120-LED40W.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 40W\n전체 사이즈: ∅118XH211\n색온도: 6500K\n소켓규격: E39",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "T램프 T100 LED30W(E26)",
+      "category": "램프",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "LED T-램프",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202506/f36de45acc9413527cbea8e1d1cad938.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/TEB9EA8ED9484-T100-LED30w.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "정격 전력: 30W\n전체 사이즈: ∅100XH164\n색온도: 6500K\n소켓규격: E26",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "평원 GU10 LAMP LED 5W",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "MR16 램프 (할로겐)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7ad278b675361c4806891ef4c154292b.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677830993-ED8F89EC9B90-GU10-EB9EA8ED9484-5W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH90\n색온도: 6500K / 3000K\n소켓규격: GU10",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "MR16 GU10 LAMP COB 5W",
       "category": "램프",
-      "subcategory": "",
+      "categories": [
+        "램프"
+      ],
+      "subcategory": "MR16 램프 (할로겐)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202506/7f1e4284b1795dd4adc7edccf622f580.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20240507/MR16_GOB-5W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: 5W\n전체 사이즈: ∅50XH55\n정격 전압: AC220V, 60HZ\n색온도: 5700K / 4000K / 2700K\n소켓규격: GU10",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -2058,39 +2439,6 @@
       "related_products": []
     },
     {
-      "name": "레일하단 공통커버",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/bd4a3b72eae8dd42bf5fbd6dd0f698e1.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240228/EBA088EC9DBCED9598EB8BA8-EAB3B5ED86B5ECBBA4EBB284_EC8381EC84B8.png",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "포-트랙 자바라연결 (4-TRACK)",
-      "category": "레일 및 부품",
-      "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/e0200b539384d29688754a6d913668cf.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240227/copy-1708996927-ED8FAC-ED8AB8EB9E9920EC9E90EBB094EB9DBCEC97B0EAB2B0_EC8381EC84B81.PNG",
-        "https://ydl.co.kr/web/upload/NNEditor/20240227/copy-1708996938-ED8FAC-ED8AB8EB9E9920EC9E90EBB094EB9DBCEC97B0EAB2B0_EC8381EC84B82.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KS. M33라인 매입등 1200 LED 30W",
       "category": "M시리즈",
       "categories": [
@@ -2180,54 +2528,6 @@
       "visible": true,
       "featured": false,
       "isnew": false,
-      "related_products": []
-    },
-    {
-      "name": "KC. 자바라 연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/c787397265547a890a17ecdd3640b3fd.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230925/YDEC9691EC8B9D-EC9E90EBB094EB9DBCEC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. T자 연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/1b1a33949ed2da5d9e42cba2227f9c6a.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230925/YDEC9691EC8B9D-TEC9E90EC97B0EAB2B0.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20160222/2-01-01_shop1_105213.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. +자 연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/b0e00bfac4aa8144432a883d8cb195a8.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230925/YDEC9691EC8B9D-2BEC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -2323,81 +2623,136 @@
     {
       "name": "KS. G COB 30W 레일스포트",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/45fe99ddf37289fd9911761bc390ef61.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED30W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 77X182XH235\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        119,
+        120
+      ]
     },
     {
       "name": "KS. G COB 20W 레일스포트",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/f3cf39ecfc228ece7958e9dd32988b03.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED20W.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 20W\n색상: WHITE / BLACK\n전체 사이즈: 66X157XH215\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        38,
+        118,
+        120
+      ]
     },
     {
       "name": "KS. G COB 10W 레일스포트",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/6cb177cebef0adcb34df034821dbb2ca.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20210513/G-COB-EBA088EC9DBC-LED10W_.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 10w\n색상: WHITE / BLACK\n전체 사이즈: 50X128.5XH200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 3000K / 4000K / 5700K",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        38,
+        118,
+        119
+      ]
     },
     {
       "name": "원통 파이프 레일 50cm",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b4f774f1eee36c1221491a3856a1bd8f.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231031/ED8C8C30EAB3B5EC9DB4ECA491ED948CEB9FACEAB7B850-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH625\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        122
+      ]
     },
     {
       "name": "원통 파이프 레일 30cm",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/4525f107aa7943a67532534b687f3939.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231031/ED8C8C30EBA088EC9DBC30EC84BCECB998.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH425\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        121
+      ]
     },
     {
       "name": "원통 PAR30 이중플러그 레일",
@@ -2818,22 +3173,6 @@
       ],
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: 93X93XH43\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70 mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "이중 접지 레일 플러그",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202502/cf10efc5aaf2450ac4dd806799b070ca.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250224/39ddda5b82de8cc92dc734888bbb88e3.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 125XH50",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -4439,139 +4778,6 @@
       "related_products": []
     },
     {
-      "name": "KC. \"ㄱ\"자연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/9a31d204657d570630dda23be2ac8b5a.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230222/E384B1EC9E90EC97B0EAB2B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. ㅡ자 연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/067877f8748502e2d271c59d40d82db2.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230222/E385A1EC9E90EC97B0EAB2B0EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 전원&마감",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/1757b11005de2550074f577bed81aab1.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231205/EC9DBCEBB098ECA084EBA788.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "레일 플러그",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/e28f98e7a5dc07c4c60f78ddaff2053c.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20241113/EBA088EC9DBCED948CEB9FACEAB7B8-02.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 레일 고정 지지대",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/15c2e4ac82058a91a1a5c5d78fc3284e.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/6654913fad9d69d80949ab65b5ffb9be.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/dbaadb059e0286903db439a19a20af53.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/e96dc69b0fc926081d14d67b0c39bedf.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 수평 회전 연결(ㅡ자,ㄱ자 회전형)",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/98136181f76ef7cfb10cc8f1cc638379.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231205/EC9888EB8F8429EC8898ED8F89ED9A8CECA084EC97B0EAB2B0EC8381EC84B8_01.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20230206/copy-1675672836-EC9888EB8F8429EC8898ED8F89ED9A8CECA084EC9B80ECA7A4-min.gif",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 수평 회전 전원 마감 (ㅡ자,ㄱ자 회전형)",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/feaa69034724b9a21ceb7a02daa83192.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231205/EC8898ED8F89ED9A8CECA084ECA084EC9B90.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20230206/copy-1675672696-EC9888EB8F8429EC8898ED8F89ED9A8CECA084EC9B80ECA7A4-min.gif",
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EC8898ED8F89ED9A8CECA084ECA084EC9B90ED9598EB8BA8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 포-트랙 레일 고정 지지대 (4-TRACK)",
-      "category": "레일 및 부품",
-      "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/3e86702820ad0901a43f154b48fa5084.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230126/ED8FACED8AB8EB9E99EBA088EC9DBCEAB3A0ECA095ECA780ECA780EB8C80.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "KC. 주차장등 LED60W 직부 (T60)",
       "category": "홈조명(방등)",
       "subcategory": "",
@@ -4585,24 +4791,6 @@
       ],
       "description": "",
       "specs": "정격 전력: LED 60W\n색상: WHITE\n전체 사이즈: 1200X60XH40\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 클립 지지대",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/032acb3686651286afcd377738b0b266.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/c839a272e15d982263fffc9e62554d49.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/baf86ac77f616e3200645c2ec40bd3d7.jpg",
-        "https://ydl.co.kr/web/upload/NNEditor/20251118/306c1fdf9405970e582992376d95e996.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
       "related_products": []
@@ -5260,19 +5448,123 @@
       "related_products": []
     },
     {
-      "name": "KC. 광폭 레이스웨이 레일 커버",
+      "name": "KC. 광폭 레이스웨이 레일 전원&마감 WH,BK",
       "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202502/088bbe6998a8d665efd2f5d11f189c51.jpg",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/41d565183ce6e1570dff9564d4666ce9.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20250224/d55f64479c9c8c31e2527807fb052549.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADECA084EC9B90EBA788EAB090EC84B8ED8AB8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 69.4XH7 / 1M",
+      "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 광폭 레이스웨이 레일 ㅡ자 연결 WH,BK",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/8cfa65c386480b2f4e5054f14a870b9d.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADE385A1EC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 광폭 레이스웨이 레일 ㄱ자 연결 WH,BK",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/90099d26e51a0623d63734cd1e827c57.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADE384B1EC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 광폭 레이스웨이 레일 T자 연결 WH,BK",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/d166788178a4dcdbf7c5f4192f61fb7f.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADTEC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 광폭 레이스웨이 레일 +자 연결 WH,BK",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/7426d157a3342c194a1b1c50f8a43eb2.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FAD2BEC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -5404,97 +5696,49 @@
     {
       "name": "KC. 광폭 레이스웨이 레일 지지대(행거) WH,BK",
       "category": "레일 및 부품",
-      "subcategory": "",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b7a98107b1739de0cbbf50fc5de7dfe8.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20250819/3e582061d33c711974b21a11f3386319.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 50X74XH62",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "KC. 광폭 레이스웨이 레일 +자 연결 WH,BK",
+      "name": "KC. 광폭 레이스웨이 레일 커버",
       "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/7426d157a3342c194a1b1c50f8a43eb2.jpg",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 광폭 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202502/088bbe6998a8d665efd2f5d11f189c51.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FAD2BEC9E90EC97B0EAB2B0.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20250224/d55f64479c9c8c31e2527807fb052549.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 69.4XH7 / 1M",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 광폭 레이스웨이 레일 T자 연결 WH,BK",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/d166788178a4dcdbf7c5f4192f61fb7f.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADTEC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 광폭 레이스웨이 레일 ㄱ자 연결 WH,BK",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/90099d26e51a0623d63734cd1e827c57.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADE384B1EC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 광폭 레이스웨이 레일 ㅡ자 연결 WH,BK",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/8cfa65c386480b2f4e5054f14a870b9d.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADE385A1EC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 광폭 레이스웨이 레일 전원&마감 WH,BK",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/41d565183ce6e1570dff9564d4666ce9.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EAB491ED8FADECA084EC9B90EBA788EAB090EC84B8ED8AB8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -5779,33 +6023,121 @@
     {
       "name": "이중원통 스포트 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b16c41c60a2b6db27a6c64a632b869f6.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20191212/copy-1576138332-EC9DB4ECA491EC9B90ED86B5-EBA088EC9DBC.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 125X115XH180\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "레일 중간 전원연결",
+      "name": "KC. 레이스웨이 레일 전원&마감",
       "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/1d85d982ade7d4cd2726806ddd2d6230.jpg",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/3c25e57a808d154f38b9646de3a07b26.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20240514/ECA491EC9599ECA084EC9B90.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4ECA084EC9B90EBA788EAB090EC84B8ED8AB8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 레이스웨이 레일 -자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/8d21c8e6fa011ed3ea562bfacf9e04a9.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4E385A1EC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 레이스웨이 레일 ㄱ자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/810d3e38fedc8c62c0c7944bb51aea60.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4E384B1EC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 레이스웨이 레일 T자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/531e5e35efd5785eda1373e5ee5bcbff.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4TEC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6291,18 +6623,31 @@
     {
       "name": "원통 대(大) 레일_로즈골드(RG)",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/f0be4bf2cd9f58493ff9bfcf2bd509e8.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220824/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_RG_20181119_shop1_145424.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "기존의 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
       "specs": "색상: ROSEGOLD\n전체 사이즈: 156X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        357,
+        358,
+        359,
+        360
+      ]
     },
     {
       "name": "자유봉 소켓 레일_BK",
@@ -6324,7 +6669,11 @@
     {
       "name": "KC. 레이스웨이 레일 지지대(행거)",
       "category": "레일 및 부품",
-      "subcategory": "",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/aae7edd93f416cbbe75305014d5d8d45.jpg",
       "images": [],
       "detail_images": [
@@ -6333,74 +6682,40 @@
         "https://ydl.co.kr/web/upload/NNEditor/20251118/baf9d5c6f7add4cb19109d41476d392b.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "KC. 레이스웨이 레일 T자연결",
+      "name": "너트형 레이스웨이 레일 고정 지지대",
       "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/531e5e35efd5785eda1373e5ee5bcbff.jpg",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 레이스웨이 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202511/730ebd2fac644db613934cd994514360.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4TEC9E90EC97B0EAB2B0.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/17aa7aa75ce5a841c5324250521003f8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/9ae1a61df789e27586c02cc0bfe69e88.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251231/b1dda3cb124946642d84f57f4ef00daf.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 40 x 37 x H66",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 레이스웨이 레일 ㄱ자연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/810d3e38fedc8c62c0c7944bb51aea60.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4E384B1EC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 레이스웨이 레일 -자연결",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/8d21c8e6fa011ed3ea562bfacf9e04a9.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4E385A1EC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 레이스웨이 레일 전원&마감",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/3c25e57a808d154f38b9646de3a07b26.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EBA088EC9DB4EC8AA4ECA084EC9B90EBA788EAB090EC84B8ED8AB8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6470,66 +6785,117 @@
     {
       "name": "원통 대(大) 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/b4c182aba9440782ae4348903a3b52d8.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_WH_20181122_shop1_143429.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "* 기존 [민 PAR30 원통 레일]과 [원통 대(大) 레일]은 동일 제품입니다.",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH165\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        349,
+        358,
+        359,
+        360
+      ]
     },
     {
       "name": "원통 대(大) 직부",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/268ddf6a4d9204ccb580e074937eec57.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-ECA781EBB680_WH_20181122_shop1_144209.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "* 기존 [민 PAR30 원통 직부]와 [원통 대(大) 직부]는 동일 제품입니다.",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 140X105XH150\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        357,
+        359,
+        360,
+        362
+      ]
     },
     {
       "name": "원통 소(小) 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/101475dbd2209d4db04d3bb05027cf33.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220825/EC9B90ED86B520EC868C20EBA088EC9DBC.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 95X105XH150\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        357,
+        358,
+        360
+      ]
     },
     {
       "name": "원통 소(小) 직부",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "E26",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/f79e7208b22a473caca5ed3111fe9487.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20220825/EC9B90ED86B520EC868C20ECA781EBB680.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 95X105XH110\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
-      "related_products": []
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        349,
+        357,
+        358,
+        359
+      ]
     },
     {
       "name": "SQF COB40W 레일",
@@ -6550,17 +6916,25 @@
     {
       "name": "원통스포트 COB30W 레일",
       "category": "스포트 라이트",
-      "subcategory": "",
+      "categories": [
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/033ec1c6b76a5b0125e16889d0e49ac1.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20180731/20180730_ydl_EC9B90ED86B5EC8AA4ED8FACED8AB8_skill_900.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 105X110XH165\n설치 방식: RAIL\n정격 전압: AC220V / 60HZ\n색온도: 2700K / 4000K / 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6925,9 +7299,37 @@
       "related_products": []
     },
     {
+      "name": "KC. 포-트랙 전원&마감",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/02d9be70f779b3f159121def79ac4e2e.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-ECA084EC9B90EBA788EAB090_20171114_shop1_134700.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
       "name": "KC. 포-트랙 플러그",
       "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
       "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/dbe765d8d14d5862c60c91bdd67eca46.jpg",
       "images": [],
       "detail_images": [
@@ -6935,83 +7337,49 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택 및 플러그 설치 방법_shop1_140802.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "KC. 포-트랙 전원&마감",
+      "name": "포-트랙 자바라연결 (4-TRACK)",
       "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
       "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/02d9be70f779b3f159121def79ac4e2e.jpg",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/e0200b539384d29688754a6d913668cf.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-ECA084EC9B90EBA788EAB090_20171114_shop1_134700.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20240227/copy-1708996927-ED8FAC-ED8AB8EB9E9920EC9E90EBB094EB9DBCEC97B0EAB2B0_EC8381EC84B81.PNG",
+        "https://ydl.co.kr/web/upload/NNEditor/20240227/copy-1708996938-ED8FAC-ED8AB8EB9E9920EC9E90EBB094EB9DBCEC97B0EAB2B0_EC8381EC84B82.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 포-트랙 T자 연결",
-      "category": "레일 및 부품",
-      "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/e7a67b23acec7587ef3cc406969418bb.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-TEC9E90-EC97B0EAB2B0_20171114_shop1_134326.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택_shop1_134328.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "KC. 포-트랙 자바라연결",
-      "category": "레일 및 부품",
-      "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/9aef463c397e17afec1fc49ebc44e6ac.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99EC9E90EBB094EB9DBCEC97B0EAB2B0.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택_shop1_134013.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "KC. 포-트랙 ㄱ자연결",
-      "category": "레일 및 부품",
-      "subcategory": "KC. 포트랙 레일",
-      "image": "https://ydl.co.kr/web/product/medium/202412/a7b5f2d848258784f5f91ce02ba3c7b0.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-E384B1EC9E90EC97B0EAB2B0_20171114_shop1_133825.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택_shop1_133829.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 포-트랙 일자 연결",
       "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
       "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/e850b8af909a0e41a3b6cb1d73f62640.jpg",
       "images": [],
       "detail_images": [
@@ -7019,16 +7387,74 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택_shop1_133602.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 포-트랙 ㄱ자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/a7b5f2d848258784f5f91ce02ba3c7b0.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-E384B1EC9E90EC97B0EAB2B0_20171114_shop1_133825.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택_shop1_133829.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 포-트랙 T자 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/e7a67b23acec7587ef3cc406969418bb.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/ED8FACED8AB8EB9E99-TEC9E90-EC97B0EAB2B0_20171114_shop1_134326.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택_shop1_134328.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "KC. 포-트랙 +자 연결",
       "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
       "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/11bb5de21e273a55327e81310ac4cb96.jpg",
       "images": [],
       "detail_images": [
@@ -7036,10 +7462,38 @@
         "http://elphos.cafe24.com/web/upload/NNEditor/20171123/ECBBA4EB84A5ED84B020EC84A0ED839D.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 포-트랙 레일 고정 지지대 (4-TRACK)",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "KC. 포트랙 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/3e86702820ad0901a43f154b48fa5084.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230126/ED8FACED8AB8EB9E99EBA088EC9DBCEAB3A0ECA095ECA780ECA780EB8C80.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9124,19 +9578,99 @@
       "related_products": []
     },
     {
-      "name": "레일 ( 1M / 2M / 3M )",
+      "name": "레일 플러그",
       "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202601/3fd076bda5dafb8aff3e5f9b7fee7469.jpg",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/e28f98e7a5dc07c4c60f78ddaff2053c.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20260226/219e3068512445fe962d4b9fbbb982ce.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20241113/EBA088EC9DBCED948CEB9FACEAB7B8-02.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (33X17.5H)",
+      "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "이중 레일 플러그",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202502/1cb4c1723df72dd86a06d823294e5edd.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250217/7475d9213be7c1bdd573a8f1463cdfa2.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "이중 접지 레일 플러그",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202502/cf10efc5aaf2450ac4dd806799b070ca.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250224/39ddda5b82de8cc92dc734888bbb88e3.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 125XH50",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "레일 중간 전원연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/1d85d982ade7d4cd2726806ddd2d6230.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240514/ECA491EC9599ECA084EC9B90.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9268,115 +9802,221 @@
       "related_products": []
     },
     {
-      "name": "자바라연결",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/39cd42a6cc5ce9b130ac849aca690cc4.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EC9E90EBB094EB9DBCEC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "\"Y\"자연결",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/9ff7b75b8e41cb1b218701ec7bec9dcd.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/yEC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "십자연결",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/a694a5ca97f378ac314417861567ee70.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/2BEC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "\"ㄱ\"자연결",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/30fb4df246ae113a20ea7d91a5235976.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/E384B1EC9E90EC97B0EAB2B0.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "\"T\"자연결",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/645829ecd17171388b73cf0f49cdf24b.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/TEC9E90EC97B0EAB2B0-EBB3B5EAB5ACEB90A8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "일자 연결",
-      "category": "레일 및 부품",
-      "subcategory": "일반레일(국산)",
-      "image": "https://ydl.co.kr/web/product/medium/202412/0ee89e44dc4ec091bd3866037065a451.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20231206/EC9DBCEC9E90EC97B0EAB2B0.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20160218/2-01-01_shop1_182059.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "전원&마감",
       "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
       "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/cc537f9e87da1b17efeb5d85c7567f1b.jpg",
       "images": [],
       "detail_images": [
         "https://ydl.co.kr/web/upload/NNEditor/20231206/ECA084EC9B90EBA788EAB090.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "자바라연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/39cd42a6cc5ce9b130ac849aca690cc4.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EC9E90EBB094EB9DBCEC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "일자 연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/0ee89e44dc4ec091bd3866037065a451.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/EC9DBCEC9E90EC97B0EAB2B0.jpg",
+        "http://elphos.cafe24.com/web/upload/NNEditor/20160218/2-01-01_shop1_182059.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "\"ㄱ\"자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/30fb4df246ae113a20ea7d91a5235976.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/E384B1EC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "\"Y\"자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/9ff7b75b8e41cb1b218701ec7bec9dcd.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/yEC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "\"T\"자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/645829ecd17171388b73cf0f49cdf24b.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/TEC9E90EC97B0EAB2B0-EBB3B5EAB5ACEB90A8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "십자연결",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산)",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/a694a5ca97f378ac314417861567ee70.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20231206/2BEC9E90EC97B0EAB2B0.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "너트형 레일 고정 지지대",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202508/1ff51fc7664c84defa97bd386bd36fdd.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20250825/11fceb7a94862626bcd10dd8c319b54d.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/b10caf466ddb5e9a5ff71593cff2f806.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20251118/a657452bc04e264b9b75c55c36b15dac.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 50 x 38 x H46",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "레일하단 공통커버",
+      "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
+      "subcategory": "일반레일(국산), KC. 레일",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/bd4a3b72eae8dd42bf5fbd6dd0f698e1.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20240228/EBA088EC9DBCED9598EB8BA8-EAB3B5ED86B5ECBBA4EBB284_EC8381EC84B8.png",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK",
+      "badge": "",
+      "visible": true,
+      "subcat_only": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9393,22 +10033,6 @@
       "specs": "",
       "badge": "",
       "visible": false,
-      "related_products": []
-    },
-    {
-      "name": "KC. 접지형 레일플러그",
-      "category": "레일 및 부품",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/fc93126f8513412f776f9c3eb8c66452.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20241113/1-02.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK",
-      "badge": "",
-      "visible": true,
       "related_products": []
     },
     {
@@ -10174,6 +10798,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777266056238,
+  "yedo_saved_at": 1777424401113,
   "yedo_subcats_LED 매입등": []
 }

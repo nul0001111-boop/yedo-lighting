@@ -230,7 +230,7 @@ function renderSidebar(){
     sb.innerHTML = html;
   } else {
     title.innerHTML = formatCatName(activeCat, true);
-    const fromProds=[...new Set(allProds.filter(p=>p.category===activeCat&&p.subcategory).flatMap(p=>p.subcategory.split(',').map(s=>s.trim())))];
+    const fromProds=[...new Set(allProds.filter(p=>{const cats=p.categories&&p.categories.length?p.categories:[p.category];return cats.includes(activeCat)&&p.subcategory;}).flatMap(p=>p.subcategory.split(',').map(s=>s.trim())))];
     const fromSaved=getVal('yedo_subcats_'+activeCat)||[];
     const subs=[...new Set([...fromSaved,...fromProds])];
     let html2 = `<button class="sidebar-cat${!activeSubCat?' active':''}" data-cat="${activeCat}" data-sub="" data-subsub="">전체</button>`;
