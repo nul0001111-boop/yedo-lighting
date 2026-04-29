@@ -3282,6 +3282,73 @@
       "related_products": []
     },
     {
+      "name": "SQF COB 40W 레일 (COB110S)",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://i.ibb.co/ycgXyVKh/1.png",
+      "images": [
+        "https://i.ibb.co/3yXkGWLs/2.jpg",
+        "https://i.ibb.co/B5RQ6TRH/3.jpg"
+      ],
+      "detail_images": [
+        "https://i.ibb.co/0j3850R5/image.jpg",
+        "https://i.ibb.co/xSc3JtmC/2.png",
+        "https://i.ibb.co/DPXFc5C9/3.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "SQM COB 40W 매입 (COBSQM)",
+      "category": "투광기",
+      "subcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/482a843fb938f429b679759d94754777.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677820978-SQM-COB-40W-WHEBA7A4EC9E85WH-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 244X170XH85\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 220X150\n색온도: 2700K / 5700K",
+      "badge": "",
+      "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "광폭투광기 50W (방수IP66)",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/0963bc81345549a3fcfb1493cb490233.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB491ED8FADED88ACEAB491EAB8B050wEBB894EB9E99.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 300XH173\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
       "name": "KS 슬림투광기 LED30W WH",
       "category": "투광기",
       "subcategory": "",
@@ -4478,22 +4545,6 @@
       "related_products": []
     },
     {
-      "name": "SQM COB 40W 매입 (COBSQM)",
-      "category": "투광기",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/482a843fb938f429b679759d94754777.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677820978-SQM-COB-40W-WHEBA7A4EC9E85WH-EC8381EC84B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 244X170XH85\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 220X150\n색온도: 2700K / 5700K",
-      "badge": "",
-      "visible": true,
-      "related_products": []
-    },
-    {
       "name": "스트롱앙카 3/8 (3부)",
       "category": "",
       "subcategory": "",
@@ -5311,29 +5362,6 @@
       "specs": "정격 전력: LED 8W\n색상: WHITE / BLACK\n전체 사이즈: 300X33XH38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
-      "related_products": []
-    },
-    {
-      "name": "광폭투광기 50W (방수IP66)",
-      "category": "투광기",
-      "categories": [
-        "투광기"
-      ],
-      "subcategory": "",
-      "subsubcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/0963bc81345549a3fcfb1493cb490233.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB491ED8FADED88ACEAB491EAB8B050wEBB894EB9E99.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "",
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 300XH173\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
-      "badge": "",
-      "visible": true,
-      "featured": false,
-      "isnew": false,
       "related_products": []
     },
     {
@@ -11086,6 +11114,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777441392882,
+  "yedo_saved_at": 1777442317222,
   "yedo_subcats_LED 매입등": []
 }
