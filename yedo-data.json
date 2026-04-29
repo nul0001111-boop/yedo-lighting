@@ -6120,7 +6120,7 @@
       "name": "레일 후렌지 (소)",
       "category": "악세사리",
       "categories": [
-        "배선기구"
+        "악세사리"
       ],
       "subcategory": "",
       "subsubcategory": "",
@@ -6344,7 +6344,7 @@
       "name": "레일 후렌지 (중)",
       "category": "악세사리",
       "categories": [
-        "배선기구"
+        "악세사리"
       ],
       "subcategory": "",
       "subsubcategory": "",
@@ -11086,6 +11086,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777441340130,
+  "yedo_saved_at": 1777441392882,
   "yedo_subcats_LED 매입등": []
 }
