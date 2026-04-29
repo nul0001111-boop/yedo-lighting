@@ -6118,18 +6118,26 @@
     },
     {
       "name": "레일 후렌지 (소)",
-      "category": "",
+      "category": "배선기구",
+      "categories": [
+        "배선기구"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/859cddcdba34a67f6fd76132be5cf27e.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20191216/copy-1576474235-EBA088EC9DBCED9B84EBA08CECA780-EC868C-EC8381EC84B8ED8E98EC9DB4ECA780.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6334,18 +6342,26 @@
     },
     {
       "name": "레일 후렌지 (중)",
-      "category": "",
+      "category": "배선기구",
+      "categories": [
+        "배선기구"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/ed4e6e3073575bfea7d6672020fb42e5.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20191212/EBA088EC9DBCED9B84EBA08CECA780-ECA491-EC8381EC84B8ED8E98EC9DB4ECA780.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11070,6 +11086,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777428207580,
+  "yedo_saved_at": 1777441184780,
   "yedo_subcats_LED 매입등": []
 }
