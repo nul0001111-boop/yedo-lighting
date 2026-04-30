@@ -415,12 +415,13 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
 
     <!-- Slide 1 -->
     <div class="hero-slide" style="background:linear-gradient(135deg,#0a0a0a 0%,#1a2a28 50%,#0d1f1d 100%);">
-      <div class="hero-slide-bg" id="slide-bg-1"><img src="https://i.postimg.cc/DZrKM7H0/gwang-gobaeneo2-01.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+      <div class="hero-slide-bg" id="slide-bg-1"></div>
       <div class="hero-slide-content">
         <div class="hero-slide-tag">Since 1995 · 조명 전문 제조기업</div>
         <h1 class="hero-slide-title">빛으로<br><span>완성하는</span><br>공간의 가치</h1>
         <p class="hero-slide-sub">30년 이상 직접 설계하고 제조한 프리미엄 LED 조명. 레일등부터 마그네틱 트랙까지, 모든 공간에 최적화된 솔루션을 제공합니다.</p>
         <div style="display:flex;flex-wrap:wrap;gap:0;">
+          <!-- 슬라이드1 버튼 링크: href 값 수정 -->
           <a href="category.html?cat=전체" class="hero-slide-btn">제품 보기</a>
           <a href="#catalogue-anchor" class="hero-slide-btn-ghost">카탈로그 다운로드</a>
         </div>
@@ -434,7 +435,8 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
         <div class="hero-slide-tag">Featured Series · 마그네틱 트랙</div>
         <h1 class="hero-slide-title">자유로운<br><span>공간 설계</span><br>마그네틱 트랙</h1>
         <p class="hero-slide-sub">레일 위에서 자유롭게 이동·회전하는 마그네틱 방식. DC 48V / DC 41V 시스템으로 매입형과 일반형 모두 지원합니다.</p>
-        <a href="category.html?cat=마그네틱" class="hero-slide-btn">시리즈 보기</a>
+        <!-- 슬라이드2 버튼 링크: href 값 수정 -->
+        <a href="category.html?cat=마그네틱 트랙 시스템" class="hero-slide-btn">시리즈 보기</a>
       </div>
     </div>
 
@@ -445,6 +447,7 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
         <div class="hero-slide-tag">KC 안전인증 · 자체 제조</div>
         <h1 class="hero-slide-title">직접 만드는<br><span>믿을 수 있는</span><br>KC 인증 조명</h1>
         <p class="hero-slide-sub">모든 제품을 직접 설계하고 제조합니다. KC 안전 인증을 보유하여 품질과 안전을 동시에 보장합니다.</p>
+        <!-- 슬라이드3 버튼 링크: href 값 수정 -->
         <a href="category.html?cat=T시리즈" class="hero-slide-btn">제품 보기</a>
       </div>
     </div>
@@ -741,10 +744,12 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
 ======================================== */
 const CONFIG = {
   // 메인 배너 슬라이드 이미지 (비워두면 기본 배경)
-  slide1_image: 'https://res.cloudinary.com/dafx5aokq/image/upload/v1777526135/%EA%B4%91%EA%B3%A0%EB%B0%B0%EB%84%885-02_rptntu.jpg',   // 예: 'https://i.postimg.cc/xxx/image.jpg'
+  slide1_image: 'https://i.postimg.cc/DZrKM7H0/gwang-gobaeneo2-01.jpg',
+  slide1_link: 'https://nul0001111-boop.github.io/yedo-lighting/product.html?name=TS-LINE%2022%20%EB%A0%88%EC%9D%BC%EB%93%B1%20LED',  // 슬라이드1 클릭 링크: 예) 'category.html?cat=T시리즈'
   slide2_image: 'https://res.cloudinary.com/dafx5aokq/image/upload/v1777526227/%EA%B4%91%EA%B3%A0%EB%B0%B0%EB%84%8822-02_ceyjmx.jpg',
-  slide2_link: '',
-  slide3_image: '',
+  slide2_link: '',  // 슬라이드2 클릭 링크: 예) 'category.html?cat=마그네틱 트랙 시스템'
+  slide3_image: 'https://res.cloudinary.com/dafx5aokq/image/upload/v1777526135/%EA%B4%91%EA%B3%A0%EB%B0%B0%EB%84%885-02_rptntu.jpg',
+  slide3_link: '',  // 슬라이드3 클릭 링크: 예) 'category.html?cat=M시리즈'
 
   // 회사 소개 옆 이미지
   about_image: 'https://i.postimg.cc/8PxB5mY7/hoesajeongyeong.jpg',    // 예: 'https://i.postimg.cc/xxx/about.jpg'
