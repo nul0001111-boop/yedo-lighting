@@ -19,7 +19,7 @@
     "투광기",
     "램프",
     "레일 및 부품",
-    "배선기구"
+    "악세사리"
   ],
   "yedo_subcats_레일 및 부품": [
     "KC. 레일",
@@ -2338,7 +2338,7 @@
     },
     {
       "name": "LED 전용 디머 스위치 800W",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/7f68c87e89046276502ad16cdff2f940.jpg",
       "images": [],
@@ -2355,7 +2355,7 @@
     },
     {
       "name": "LED 전용 디머 스위치 400W",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/71f5c953e082fb4e7ca04c03cbc6897b.jpg",
       "images": [],
@@ -3008,22 +3008,6 @@
       "related_products": []
     },
     {
-      "name": "SQF COB40W 레일, 직부 (BK)",
-      "category": "투광기",
-      "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202305/d5f6f487ae9f7d15882e9d1e654da081.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230526/SQF-COB-40W-EC9798ED8FACEC8AA4-EC82ACEBB3B8.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "description": "",
-      "specs": "",
-      "badge": "",
-      "visible": false,
-      "related_products": []
-    },
-    {
       "name": "로싸 벽등",
       "category": "",
       "subcategory": "",
@@ -3279,6 +3263,81 @@
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: 93X93XH43\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "related_products": []
+    },
+    {
+      "name": "SQF COB 40W 레일 (COB110S)",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442618/%EB%A9%94%EC%9D%B81_jbkrwg.png",
+      "images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443011/%EB%A9%94%EC%9D%B82_g9gi9o.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443031/%EB%A9%94%EC%9D%B83_lfvaua.jpg"
+      ],
+      "detail_images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442673/%EC%83%81%EC%84%B8_k1mpdj.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442702/%EC%83%81%EC%84%B82_amkfzx.png",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442918/%EC%83%81%EC%84%B83_calpcr.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 190X125XH209\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 2700K / 5700K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "SQM COB 40W 매입 (COBSQM)",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/482a843fb938f429b679759d94754777.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677820978-SQM-COB-40W-WHEBA7A4EC9E85WH-EC8381EC84B8.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 244X170XH85\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 220X150\n색온도: 2700K / 5700K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "광폭투광기 50W (방수IP66)",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://ydl.co.kr/web/product/medium/202412/0963bc81345549a3fcfb1493cb490233.jpg",
+      "images": [],
+      "detail_images": [
+        "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB491ED8FADED88ACEAB491EAB8B050wEBB894EB9E99.jpg",
+        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+      ],
+      "short_desc": "",
+      "description": "",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 300XH173\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "badge": "",
+      "visible": true,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4478,19 +4537,19 @@
       "related_products": []
     },
     {
-      "name": "SQM COB 40W 매입 (COBSQM)",
+      "name": "SQF COB40W 레일, 직부 (BK)",
       "category": "투광기",
       "subcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/482a843fb938f429b679759d94754777.jpg",
+      "image": "https://ydl.co.kr/web/product/medium/202305/d5f6f487ae9f7d15882e9d1e654da081.jpg",
       "images": [],
       "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/copy-1677820978-SQM-COB-40W-WHEBA7A4EC9E85WH-EC8381EC84B8.jpg",
+        "https://ydl.co.kr/web/upload/NNEditor/20230526/SQF-COB-40W-EC9798ED8FACEC8AA4-EC82ACEBB3B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 244X170XH85\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 220X150\n색온도: 2700K / 5700K",
+      "specs": "",
       "badge": "",
-      "visible": true,
+      "visible": false,
       "related_products": []
     },
     {
@@ -4511,7 +4570,7 @@
     },
     {
       "name": "MR16 소켓",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/21026ce581c3fad8bfcce3dedd12ee93.jpg",
       "images": [],
@@ -5314,29 +5373,6 @@
       "related_products": []
     },
     {
-      "name": "광폭투광기 50W (방수IP66)",
-      "category": "투광기",
-      "categories": [
-        "투광기"
-      ],
-      "subcategory": "",
-      "subsubcategory": "",
-      "image": "https://ydl.co.kr/web/product/medium/202412/0963bc81345549a3fcfb1493cb490233.jpg",
-      "images": [],
-      "detail_images": [
-        "https://ydl.co.kr/web/upload/NNEditor/20230303/EAB491ED8FADED88ACEAB491EAB8B050wEBB894EB9E99.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
-      ],
-      "short_desc": "",
-      "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 300XH173\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
-      "badge": "",
-      "visible": true,
-      "featured": false,
-      "isnew": false,
-      "related_products": []
-    },
-    {
       "name": "광폭투광기 50W (방수IP66) - 백색",
       "category": "투광기",
       "subcategory": "",
@@ -6118,18 +6154,26 @@
     },
     {
       "name": "레일 후렌지 (소)",
-      "category": "",
+      "category": "악세사리",
+      "categories": [
+        "악세사리"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/859cddcdba34a67f6fd76132be5cf27e.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20191216/copy-1576474235-EBA088EC9DBCED9B84EBA08CECA780-EC868C-EC8381EC84B8ED8E98EC9DB4ECA780.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6334,18 +6378,26 @@
     },
     {
       "name": "레일 후렌지 (중)",
-      "category": "",
+      "category": "악세사리",
+      "categories": [
+        "악세사리"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202502/ed4e6e3073575bfea7d6672020fb42e5.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20191212/EBA088EC9DBCED9B84EBA08CECA780-ECA491-EC8381EC84B8ED8E98EC9DB4ECA780.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6664,7 +6716,7 @@
     },
     {
       "name": "KC. LED MR16 램프용 컨버터 20W (소켓)",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/c69380a3a3f409926f5b8742200608b1.jpg",
       "images": [],
@@ -9899,7 +9951,7 @@
     },
     {
       "name": "ㄱ,ㅡ자 조절용 파이프",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/73064dbb76cb1309b5235a7be4248430.jpg",
       "images": [],
@@ -9915,7 +9967,7 @@
     },
     {
       "name": "걸고리",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/202412/8912cd1bd1e3bca063a19b796011e04f.jpg",
       "images": [],
@@ -9963,7 +10015,7 @@
     },
     {
       "name": "MR16 램프용 컨버터",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/108_shop1_501235.jpg",
       "images": [],
@@ -9979,7 +10031,7 @@
     },
     {
       "name": "할로겐 전자식 안정기(인증용)",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/106_shop1_403498.jpg",
       "images": [],
@@ -9995,7 +10047,7 @@
     },
     {
       "name": "할로겐 전자식 안정기(소켓용)",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/105_shop1_979090.jpg",
       "images": [],
@@ -10011,7 +10063,7 @@
     },
     {
       "name": "할로겐 전자식 안정기",
-      "category": "배선기구",
+      "category": "악세사리",
       "subcategory": "",
       "image": "https://ydl.co.kr/web/product/medium/201512/104_shop1_458783.jpg",
       "images": [],
@@ -11070,6 +11122,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1777428207580,
+  "yedo_saved_at": 1777452498383,
   "yedo_subcats_LED 매입등": []
 }
