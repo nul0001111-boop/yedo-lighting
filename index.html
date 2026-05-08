@@ -547,6 +547,11 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
         <div class="modal-cat-tag" id="modal-cat"></div>
         <div class="modal-prod-name" id="modal-name"></div>
 
+        <!-- 탭 -->
+        <div class="modal-tabs">
+          <button class="modal-tab active" onclick="switchTab('spec')">상세 스펙</button>
+        </div>
+
         <!-- 스펙 -->
         <div class="modal-tab-content" id="tab-spec">
           <div class="modal-specs" id="modal-specs"></div>
@@ -901,16 +906,21 @@ function renderProds(){
 }
 
 /* ── MODAL ── */
-function switchTab(tab){ /* 탭 제거됨 */ }
+function switchTab(tab){
+  document.querySelectorAll('.modal-tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.modal-tab-content').forEach(t=>t.style.display='none');
+  document.querySelector(`.modal-tab[onclick="switchTab('${tab}')"]`).classList.add('active');
+  document.getElementById('tab-'+tab).style.display='block';
+}
 function openModal(idx){
   const p=allProds[idx]; if(!p) return;
   const img=document.getElementById('modal-img');
   img.src=p.image||''; img.style.display=p.image?'block':'none';
   document.getElementById('modal-cat').textContent=p.category||'';
   document.getElementById('modal-name').textContent=p.name||'';
+  document.getElementById('modal-desc').textContent=p.description||'';
   const specs=document.getElementById('modal-specs');
   const noSpec=document.getElementById('modal-no-spec');
-  document.getElementById('tab-spec').style.display='block';
   if(p.specs){
     specs.style.display='';
     noSpec.style.display='none';
@@ -920,6 +930,7 @@ function openModal(idx){
     }).join('');
   } else { specs.style.display='none'; noSpec.style.display=''; }
   document.getElementById('modal-detail-btn').onclick=()=>{ closeModal(); location.href=`product.html?name=${encodeURIComponent(p.name)}`; };
+  switchTab('spec');
   document.getElementById('modal-overlay').classList.add('on');
   document.body.style.overflow='hidden';
 }
