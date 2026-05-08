@@ -147,6 +147,7 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
         <p style="font-size:13px;color:var(--text-dim);margin-bottom:16px;">제품/카테고리 수정 후 이 버튼을 누르면 <strong>GitHub에 자동 저장</strong>되어 사이트에 바로 반영됩니다.</p>
         <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
           <button class="btn btn-primary" onclick="saveToGitHub()" style="font-size:15px;padding:12px 32px;">🚀 GitHub에 저장 (자동 반영)</button>
+          <button class="btn btn-secondary" onclick="convertImageUrls()" style="font-size:14px;padding:12px 24px;">🖼️ 이미지 URL 일괄 변환</button>
           <span id="save-status" style="font-size:13px;color:var(--text-dim);"></span>
         </div>
         <p style="font-size:11px;color:var(--text-faint);margin-top:10px;">* yedo-data.json 파일이 GitHub에 자동 업로드됩니다. git push 불필요!</p>
@@ -749,6 +750,27 @@ function loadGHTokenStatus(){
   const st = document.getElementById('gh-token-status');
   if(t){ st.textContent='✅ 토큰 설정됨'; st.style.color='var(--teal)'; }
   else { st.textContent='⚠️ 토큰 없음 — 아래에 입력하세요'; st.style.color='#e67e22'; }
+}
+
+function convertImageUrls(){
+  if(!confirm('모든 제품 이미지 URL을\nydl.co.kr → img.ydl.co.kr\n로 변환할까요?\n변환 후 GitHub에 저장 버튼을 눌러주세요!')) return;
+  const prods = get(SK.products)||[];
+  let count = 0;
+  const convert = url => {
+    if(!url) return url;
+    return url.replace(/https?:\/\/ydl\.co\.kr\//g, 'https://img.ydl.co.kr/');
+  };
+  const converted = prods.map(p => {
+    const orig = JSON.stringify(p);
+    p.image = convert(p.image);
+    p.images = (p.images||[]).map(convert);
+    p.detail_images = (p.detail_images||[]).map(convert);
+    if(JSON.stringify(p) !== orig) count++;
+    return p;
+  });
+  set(SK.products, converted);
+  toast(`✅ ${count}개 제품 이미지 URL 변환 완료! GitHub에 저장 버튼을 눌러주세요.`);
+  renderProductList();
 }
 
 async function saveToGitHub(){
