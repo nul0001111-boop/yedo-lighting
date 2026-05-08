@@ -520,33 +520,6 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
   </div>
 </section>
 
-<!-- PRODUCT MODAL -->
-<div id="modal-overlay">
-  <div class="modal-box">
-    <button class="modal-close-btn" onclick="closeModal()">✕</button>
-    <div class="modal-layout">
-      <div class="modal-img-panel"><img id="modal-img" src="" alt=""></div>
-      <div class="modal-info-panel">
-        <div class="modal-cat-tag" id="modal-cat"></div>
-        <div class="modal-prod-name" id="modal-name"></div>
-
-        <!-- 스펙 -->
-        <div class="modal-tab-content" id="tab-spec">
-          <div class="modal-specs" id="modal-specs"></div>
-          <p class="modal-no-spec" id="modal-no-spec" style="display:none;font-size:13px;color:var(--text-faint);padding:16px 0;">등록된 스펙 정보가 없습니다.</p>
-        </div>
-
-        <div class="modal-divider"></div>
-        <p class="modal-inquiry-note">사양, 납기, 견적 문의는 아래 버튼을 이용해주세요.</p>
-        <div style="display:flex;gap:10px;">
-          <button class="modal-cta" style="flex:1;" onclick="closeModal();document.getElementById('contact').scrollIntoView({behavior:'smooth'})">📩 제품 문의하기</button>
-          <button class="modal-cta" id="modal-detail-btn" style="flex:1;background:#fff;color:var(--teal);border:1px solid var(--teal);" onclick="">상세 페이지 →</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- ALL PRODUCTS -->
 <section id="products" class="products-section">
   <div class="product-toolbar fi">
