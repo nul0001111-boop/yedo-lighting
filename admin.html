@@ -753,12 +753,14 @@ function loadGHTokenStatus(){
 }
 
 function convertImageUrls(){
-  if(!confirm('모든 제품 이미지 URL을\nydl.co.kr → img.ydl.co.kr\n로 변환할까요?\n변환 후 GitHub에 저장 버튼을 눌러주세요!')) return;
+  if(!confirm('모든 제품 이미지 URL을\nimg.ydl.co.kr → elphos.cafe24.com\n으로 변환할까요?\n변환 후 GitHub에 저장 버튼을 눌러주세요!')) return;
   const prods = get(SK.products)||[];
   let count = 0;
   const convert = url => {
     if(!url) return url;
-    return url.replace(/https?:\/\/ydl\.co\.kr\//g, 'https://img.ydl.co.kr/');
+    return url
+      .replace(/https?:\/\/img\.ydl\.co\.kr\//g, 'https://elphos.cafe24.com/')
+      .replace(/https?:\/\/ydl\.co\.kr\//g, 'https://elphos.cafe24.com/');
   };
   const converted = prods.map(p => {
     const orig = JSON.stringify(p);
