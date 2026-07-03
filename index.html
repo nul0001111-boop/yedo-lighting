@@ -104,6 +104,8 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 .stat-label{font-size:14px;color:var(--text-dim);letter-spacing:0.03em;}
 
 /* ── NEW PRODUCTS SCROLL ── */
+.mob-new-header{display:none;}
+.mob-new-footer{display:none;}
 .new-section{padding:60px 0 40px;}
 .sec-header-pad{padding:0 80px;display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px;}
 .eyebrow{font-size:11px;letter-spacing:0.16em;color:var(--teal);text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:8px;}
@@ -275,7 +277,7 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 
 /* ── FOOTER ── */
 footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
-.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px;}
+.footer-top{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px;}
 .footer-brand{}
 .footer-logo{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:0.12em;color:#fff;margin-bottom:8px;}
 .footer-logo span{color:var(--teal);}
@@ -290,8 +292,8 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
 .footer-admin-link:hover{color:var(--teal);}
 
 /* FOOTER COMPANY INFO */
-.footer-company{border-top:1px solid rgba(255,255,255,0.07);padding:32px 0;display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;}
-.footer-company-left{display:flex;flex-direction:column;gap:16px;flex:1;min-width:300px;}
+.footer-company{border-top:1px solid rgba(255,255,255,0.07);padding:32px 0;display:flex;justify-content:flex-start;gap:80px;flex-wrap:wrap;}
+.footer-company-left{display:flex;flex-direction:column;gap:16px;flex:0 0 700px;min-width:300px;}
 .footer-company-logo{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;letter-spacing:0.06em;color:#fff;transform:scaleY(0.85);transform-origin:left center;display:inline-block;}
 .footer-company-logo span{color:var(--teal);}
 .footer-company-info{display:flex;flex-direction:column;gap:5px;}
@@ -311,8 +313,54 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
 .fi.vis{opacity:1;transform:translateY(0);}
 
 /* ── MOBILE NAV ── */
+.mob-nav-bar{display:none;}
 .mobile-menu-btn{display:none;background:none;border:none;cursor:pointer;padding:4px;flex-direction:column;gap:5px;}
 .mobile-menu-btn span{display:block;width:22px;height:1.5px;background:var(--text);transition:all 0.3s;}
+.mob-search-btn{display:none;background:none;border:none;cursor:pointer;padding:6px;color:var(--text);align-items:center;justify-content:center;}
+
+/* ── MOBILE MENU ── */
+.mob-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:500;}
+.mob-overlay.open{display:block;}
+/* 드로어 컨테이너 - overflow hidden으로 패널 슬라이드 */
+.mob-drawer{position:fixed;top:0;right:-100%;width:min(320px,85vw);height:100%;background:#fff;z-index:501;transition:right 0.3s ease;display:flex;flex-direction:column;overflow:hidden;}
+.mob-drawer.open{right:0;}
+/* 공통 헤더 */
+.mob-drawer-head{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid var(--border);flex-shrink:0;min-height:56px;}
+.mob-drawer-head-title{font-size:15px;font-weight:500;color:var(--text);}
+.mob-drawer-close{background:none;border:none;cursor:pointer;font-size:22px;color:var(--text-dim);padding:4px;line-height:1;}
+.mob-back-btn{background:none;border:none;cursor:pointer;font-size:15px;color:var(--text);padding:4px;display:flex;align-items:center;gap:6px;font-family:inherit;}
+/* 패널 래퍼 */
+.mob-panels{display:flex;width:200%;flex:1;transition:transform 0.28s ease;overflow:hidden;}
+.mob-panels.show-sub{transform:translateX(-50%);}
+.mob-panel{width:50%;overflow-y:auto;flex-shrink:0;}
+/* 대분류 패널 */
+.mob-cat-btn{display:flex;justify-content:space-between;align-items:center;width:100%;padding:16px 20px;font-size:16px;font-weight:400;color:var(--text);background:none;border:none;border-bottom:1px solid var(--border);cursor:pointer;font-family:inherit;text-align:left;transition:background 0.15s;}
+.mob-cat-btn:active{background:var(--bg2);}
+.mob-cat-arrow{font-size:18px;color:var(--text-faint);}
+/* 소분류 패널 */
+.mob-sub-header{padding:14px 20px;font-size:13px;color:var(--text-faint);background:var(--bg2);border-bottom:1px solid var(--border);}
+.mob-sub-btn{display:flex;align-items:center;width:100%;padding:15px 20px;font-size:15px;color:var(--text);background:none;border:none;border-bottom:1px solid var(--border);cursor:pointer;font-family:inherit;text-align:left;transition:background 0.15s;}
+.mob-sub-btn:active{background:var(--bg2);}
+.mob-sub-btn.all{font-weight:500;color:var(--teal);}
+/* 하단 연락처 */
+.mob-nav-links{padding:8px 0;}
+.mob-nav-links a{display:block;padding:16px 24px;font-size:16px;color:var(--text);text-decoration:none;border-bottom:1px solid var(--border);transition:color 0.2s;}
+.mob-nav-links a:hover{color:var(--teal);}
+.mob-sub-list{display:none;background:var(--bg2);}
+.mob-sub-list.open{display:block;}
+.mob-sub-btn{display:block;width:100%;padding:13px 20px 13px 32px;font-size:14px;color:var(--text-dim);background:none;border:none;border-bottom:1px solid var(--border);cursor:pointer;font-family:inherit;text-align:left;text-decoration:none;transition:color 0.15s;}
+.mob-sub-btn.all{color:var(--teal);font-weight:500;}
+.mob-cat-toggle.open .mob-cat-arrow{transform:rotate(90deg);}
+.mob-drawer-footer{padding:16px 20px;border-top:1px solid var(--border);flex-shrink:0;}
+.mob-drawer-tel{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:var(--text);text-decoration:none;margin-bottom:10px;}
+.mob-drawer-cta{display:block;text-align:center;background:var(--teal);color:#fff;padding:11px;border-radius:4px;text-decoration:none;font-size:14px;font-weight:500;}
+/* 모바일 검색 오버레이 */
+.mob-search-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:600;align-items:flex-start;padding-top:80px;}
+.mob-search-overlay.open{display:flex;}
+.mob-search-box{background:#fff;width:90%;max-width:400px;margin:0 auto;border-radius:8px;padding:16px;box-shadow:0 8px 32px rgba(0,0,0,0.2);}
+.mob-search-input{width:100%;border:1px solid var(--border);border-radius:6px;padding:10px 14px;font-size:16px;font-family:inherit;outline:none;}
+.mob-search-input:focus{border-color:var(--teal);}
+.mob-search-close{display:block;margin-top:10px;text-align:center;color:var(--text-faint);font-size:13px;background:none;border:none;cursor:pointer;font-family:inherit;}
 
 /* ── RESPONSIVE ── */
 @media(max-width:1100px){
@@ -324,37 +372,96 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
   .product-grid{grid-template-columns:repeat(2,1fr);}
 }
 @media(max-width:768px){
-  .nav-top{padding:0 20px;height:56px;}
+  .nav-top{padding:0 16px;height:56px;}
   .nav-links,.nav-center{display:none;}
   .mobile-menu-btn{display:flex;}
-  .cat-bar{padding:0 20px;}
-  .hero-slider{height:380px;}
-  .hero-slide{height:380px;}
-  .hero-slide-content{padding:0 40px;}
+  .mob-search-btn{display:flex;}
+  /* 전화번호/문의 숨김 */
+  .nav-top>div>span{display:none!important;}
+  .nav-contact{display:none;}
+  /* 카테고리 바 모바일 숨김 */
+  .cat-bar{display:none;}
+  /* 모바일 nav 링크 */
+  .mob-nav-bar{display:flex;align-items:center;gap:0;margin-left:auto;}
+  .mob-nav-link{font-size:13px;color:var(--text-dim);text-decoration:none;padding:6px 10px;white-space:nowrap;}
+  .mob-nav-link.products{font-weight:500;color:var(--teal);background:none;border:none;cursor:pointer;font-family:inherit;}
+  .hero-slider{height:100svh;}
+  .hero-slide{height:100svh;}
+  .hero-slide-content{padding:0 24px;}
+  .hero-slide-tag{font-size:10px;padding:4px 10px;}
+  .hero-slide-sub{font-size:14px;line-height:1.7;margin-bottom:20px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+  .hero-slide-btn{padding:10px 20px;font-size:14px;}
+  .hero-slide-btn-ghost{padding:10px 16px;font-size:12px;margin-left:6px;}
+  .hero-prev,.hero-next{width:36px;height:36px;font-size:16px;}
   .hero-visual-right{display:none;}
-  .stats-bar{grid-template-columns:repeat(2,1fr);}
-  .sec-header-pad{padding:0 20px;}
-  .new-scroll{grid-template-columns:repeat(2,1fr);padding:0 20px 16px;}
-  .cat-cards-section{padding:48px 20px;}
+  .stats-bar{display:flex;border-bottom:1px solid var(--border);}
+  .stat-item{flex:1;padding:14px 4px;border-right:1px solid var(--border);text-align:center;}
+  .stat-num{font-size:20px!important;height:auto;margin-bottom:2px;}
+  .stat-label{font-size:10px;white-space:nowrap;}
+  .sec-header-pad{padding:0 16px;}
+  /* 신제품 헤더 모바일 */
+  .new-section{padding:0;}
+  .mob-new-header{display:block;}
+  .sec-header-pad{display:none;}
+  /* 신제품 슬라이드 */
+  .new-scroll{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;gap:0;padding:0;}
+  .new-scroll::-webkit-scrollbar{display:none;}
+  .new-scroll{padding:0 10vw;}
+  .new-card{flex:0 0 80vw;scroll-snap-align:center;border-radius:6px;border:none;box-shadow:0 2px 12px rgba(0,0,0,0.08);}
+  .new-card-img{aspect-ratio:1;}
+  .new-card-name{font-size:17px;}
+  /* 전체보기 버튼 */
+  .mob-new-footer{display:flex;}
+  .cat-cards-section{padding:40px 16px;}
   .cat-img-grid{grid-template-columns:repeat(3,1fr);}
-  .products-section{padding:48px 20px 60px;}
-  .about-section{grid-template-columns:1fr;padding:48px 20px;gap:36px;}
+  .products-section{padding:40px 16px 60px;}
+  .product-toolbar{justify-content:center;text-align:center;flex-direction:column;align-items:center;}
+  .product-toolbar .eyebrow{justify-content:center;}
+  .prod-name{font-size:14px;}
+  .prod-cat{font-size:8px;}
+  .about-section{grid-template-columns:1fr;padding:40px 16px;gap:28px;}
   .about-visual-side{display:none;}
-  .gallery-section{padding:48px 20px;}
+  .gallery-section{padding:40px 16px;}
   .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto;}
   .gallery-item:first-child{grid-row:auto;grid-column:1/3;}
-  .catalogue-section{padding:56px 20px;}
-  .cat-sec-inner{grid-template-columns:1fr;gap:36px;}
-  .contact-section{grid-template-columns:1fr;padding:48px 20px;gap:40px;}
+  .catalogue-section{padding:48px 16px;}
+  .cat-sec-inner{grid-template-columns:1fr;gap:28px;}
+  .contact-section{grid-template-columns:1fr;padding:40px 16px;gap:32px;}
   .footer-top{grid-template-columns:1fr 1fr;padding:0;}
-  footer{padding:40px 20px 24px;}
+  footer{padding:36px 16px 24px;}
+  .modal-box{width:95vw;max-height:90vh;overflow-y:auto;}
   .modal-layout{grid-template-columns:1fr;}
   .modal-img-panel{border-radius:8px 8px 0 0;min-height:200px;}
 }
 @media(max-width:480px){
-  .cat-img-grid{grid-template-columns:repeat(2,1fr);}
+  .nav-logo{font-size:22px;}
+  .cat-bar{padding:0 12px;}
+  .cat-btn{font-size:14px;padding:0 10px;}
+  .hero-slider{height:100svh;}
+  .hero-slide{height:100svh;}
+  .hero-slide-content{padding:0 16px;}
+  .hero-slide-title{font-size:clamp(36px,9vw,52px);}
+  .hero-slide-sub{display:none;}
+  .hero-slide-btn-ghost{display:none;}
+  .stats-bar{display:flex;}
+  .stat-item{flex:1;padding:12px 2px;}
+  .stat-num{font-size:18px!important;}
+  .stat-label{font-size:9px;white-space:nowrap;}
+  .stat-num{font-size:28px!important;}
+  .stat-label{font-size:11px;}
+  .new-scroll{display:flex;gap:0;padding:0;}
+  .new-scroll{padding:0 10vw;}
+  .new-card{flex:0 0 80vw;scroll-snap-align:center;}
+  .cat-img-grid{grid-template-columns:repeat(2,1fr);gap:10px;}
   .product-grid{grid-template-columns:repeat(2,1fr);gap:10px;}
+  .prod-img-wrap{aspect-ratio:1;max-height:120px;}
   .con-2col{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:1fr;}
+  .gallery-item:first-child{grid-column:auto;}
+  .footer-top{grid-template-columns:1fr;}
+  footer{padding:28px 16px 80px;}
+  /* 플로팅 버튼 모바일 여백 */
+  #recent-float-btn{bottom:70px!important;}
 }
 </style>
 </head>
@@ -399,15 +506,47 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
         031-977-1585
       </span>
       <a href="#contact" class="nav-contact">문의하기</a>
+      <button class="mob-search-btn" id="mob-search-btn" aria-label="검색">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      </button>
       <button class="mobile-menu-btn" id="mob-btn"><span></span><span></span><span></span></button>
     </div>
   </div>
+
   <div class="cat-bar">
     <div class="cat-bar-inner" id="cat-bar-inner">
       <button class="cat-btn" data-cat="전체">전체</button>
     </div>
   </div>
 </nav>
+
+<!-- MOBILE DRAWER -->
+<div class="mob-overlay" id="mob-overlay" onclick="closeMobMenu()"></div>
+<div class="mob-drawer" id="mob-drawer">
+  <div class="mob-drawer-head" id="mob-drawer-head">
+    <a href="index.html" class="nav-logo" style="font-size:22px;line-height:1;"><span>YEDO</span> LIGHTING<small>예도전기조명</small></a>
+    <button class="mob-drawer-close" onclick="closeMobMenu()">✕</button>
+  </div>
+  <div class="mob-panels" id="mob-panels">
+    <div class="mob-panel" id="mob-panel-main"></div>
+    <div class="mob-panel" id="mob-panel-sub"></div>
+  </div>
+  <div class="mob-drawer-footer">
+    <a href="tel:031-977-1585" class="mob-drawer-tel">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="var(--teal)"/></svg>
+      031-977-1585
+    </a>
+    <a href="index.html#contact" class="mob-drawer-cta" onclick="closeMobMenu()">문의하기</a>
+  </div>
+</div>
+
+<!-- MOBILE SEARCH OVERLAY -->
+<div class="mob-search-overlay" id="mob-search-overlay" onclick="closeMobSearch(event)">
+  <div class="mob-search-box" onclick="event.stopPropagation()">
+    <input class="mob-search-input" id="mob-search-input" type="text" placeholder="제품명으로 검색...">
+    <button class="mob-search-close" onclick="closeMobSearch()">닫기</button>
+  </div>
+</div>
 
 <!-- HERO SLIDER -->
 <section class="hero-slider" id="hero-slider">
@@ -468,12 +607,22 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
 
 <!-- NEW PRODUCTS -->
 <section class="new-section fi">
+  <!-- 모바일 헤더 -->
+  <div class="mob-new-header" style="padding:40px 16px 16px;text-align:center;">
+    <div style="font-size:11px;letter-spacing:0.14em;color:var(--teal);margin-bottom:8px;">예도전기조명의 새로운 제품을 지금 만나보세요</div>
+    <div style="font-family:'Noto Sans KR',sans-serif;font-size:32px;font-weight:700;letter-spacing:-0.02em;color:var(--text);line-height:1;">NEW PRODUCTS</div>
+  </div>
+  <!-- PC 헤더 -->
   <div class="sec-header-pad">
     <div><div class="eyebrow">New Products</div><h2 class="sec-title">신제품</h2></div>
     <a href="#products" class="see-all" onclick="setCat('전체')">전체 보기 →</a>
   </div>
   <div class="new-scroll-wrap">
     <div class="new-scroll" id="new-scroll"></div>
+  </div>
+  <!-- 모바일 전체보기 -->
+  <div class="mob-new-footer" style="padding:12px 16px;justify-content:flex-end;">
+    <a href="category.html" style="font-size:14px;color:var(--teal);text-decoration:none;display:flex;align-items:center;gap:4px;">전체 보기 →</a>
   </div>
 </section>
 
@@ -576,10 +725,10 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
       <div class="cat-sec-eyebrow">Catalogue</div>
       <h2 class="catalogue-dl-title">예도전기조명 / <span style="color:var(--teal);">카탈로그</span></h2>
       <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
-        <span class="catalogue-dl-sub"><span id="cat-update-date">2026년 / <span style="color:#e8a020;">VOL.25</span></span></span>
+        <span class="catalogue-dl-sub"><span id="cat-update-date">2026년 / <span style="color:#e8a020;">VOL.26</span></span></span>
       </div>
       <div style="flex:1;display:flex;align-items:center;">
-        <a href="https://drive.usercontent.google.com/download?id=1Ag_btwSr1Z4WFQHKcKBAaGVdmY_TLWGK&export=download&authuser=0" class="catalogue-dl-btn" id="cat-download-btn" target="_blank">카탈로그 다운로드</a>
+        <a href="https://drive.usercontent.google.com/download?id=1AF7R_Y_Cdosyl9PZTbExXBaS_yU2vYKs&export=download&authuser=0" class="catalogue-dl-btn" id="cat-download-btn" target="_blank">카탈로그 다운로드</a>
       </div>
     </div>
     <div class="catalogue-dl-right">
@@ -662,7 +811,7 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
       <div class="footer-company-logo"><span>YEDO</span> LIGHTING</div>
       <div class="footer-company-info">
         <p class="footer-info-section-title">기본정보</p>
-        <p><strong>상호명</strong> (주)예도전기조명 &nbsp;<strong>대표자명</strong> 이항주 대표</p>
+        <p><strong>상호명</strong> (주)예도전기조명 &nbsp;<strong>대표자명</strong> 이향주, 김희선</p>
         <p><strong>사업장 주소</strong> 10257 경기도 고양시 일산동구 장진천길 6 (설문동) 예도전기</p>
         <p><strong>대표 전화</strong> 031-977-1585 &nbsp;<strong>사업자 등록번호</strong> 128-86-05331</p>
       </div>
@@ -680,8 +829,8 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
         </div>
         <div class="footer-cs-col">
           <p class="footer-cs-title">SNS</p>
-          <p class="footer-cs-val">instagram</p>
-          <p class="footer-cs-val">kakao</p>
+          <a class="footer-cs-val" href="https://www.instagram.com/yedo_s2" target="_blank" style="text-decoration:none;color:inherit;display:block;">instagram</a>
+          <a class="footer-cs-val" href="https://pf.kakao.com/_LFwMn/chat" target="_blank" style="text-decoration:none;color:inherit;display:block;margin-top:6px;">kakao</a>
         </div>
       </div>
     </div>
@@ -711,7 +860,7 @@ const CONFIG = {
   about_image: 'https://i.postimg.cc/8PxB5mY7/hoesajeongyeong.jpg',    // 예: 'https://i.postimg.cc/xxx/about.jpg'
 
   // 카탈로그 표지 이미지
-  catalogue_image: 'https://i.ibb.co/SXXrzv9g/vol-25-01.png',
+  catalogue_image: 'https://res.cloudinary.com/dafx5aokq/image/upload/v1783041765/2026-01_ergjm4.png',
   // 라이프스타일 이미지 3장
   lifestyle_1: 'https://i.postimg.cc/bvpnDC9T/laipeuseutailjjog-01.jpg',
   lifestyle_2: 'https://i.postimg.cc/sX0GLVd0/laipeuseutailjjog-03.jpg',
@@ -805,6 +954,7 @@ function buildCatBar(){
   const ordered=saved.length?[...saved,...existing.filter(c=>!saved.includes(c))]:existing;
   const cats=['전체',...ordered];
   const inner=document.getElementById('cat-bar-inner');
+  if(!inner) return;
   inner.innerHTML=cats.map(c=>{
     const fromProds=[...new Set(allProds.filter(p=>{const cats=p.categories&&p.categories.length?p.categories:[p.category];return cats.includes(c)&&p.subcategory;}).flatMap(p=>p.subcategory.split(',').map(s=>s.trim())))];
     const fromSaved=c==='NEW PRODUCT'?[]:get('yedo_subcats_'+c)||[];
@@ -857,6 +1007,19 @@ function renderNewScroll(){
     </div>`;
   }).join('');
 }
+
+// ── 신제품 자동슬라이드 (모바일) ──
+function initNewScrollAuto(){
+  const el=document.getElementById('new-scroll');
+  if(!el) return;
+  let timer=setInterval(()=>{
+    const w=el.offsetWidth;
+    const max=el.scrollWidth-w;
+    if(el.scrollLeft>=max-2) el.scrollTo({left:0,behavior:'smooth'});
+    else el.scrollBy({left:w,behavior:'smooth'});
+  },5000);
+}
+if(window.innerWidth<=768) setTimeout(initNewScrollAuto, 500);
 
 /* ── FILTER ── */
 function applyFilter(){
@@ -1056,7 +1219,7 @@ document.getElementById('contact-form').addEventListener('submit',async function
 <div id="float-btns" style="position:fixed;right:0;bottom:60px;z-index:999;display:flex;flex-direction:column;gap:0;align-items:center;">
 
   <!-- 카카오톡 상담 -->
-  <a href="https://pf.kakao.com/_LFwMn" target="_blank"
+  <a href="https://pf.kakao.com/_LFwMn/chat" target="_blank"
     style="width:68px;height:68px;background:#FEE500;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-decoration:none;border-radius:10px 0 0 0;"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 6C11.373 6 6 10.477 6 16c0 3.632 2.13 6.812 5.347 8.666-.213.77-.77 2.795-.882 3.228-.138.535.196.527.413.384.17-.113 2.692-1.83 3.789-2.576.757.107 1.536.164 2.333.164 6.627 0 12-4.477 12-10S24.627 6 18 6z" fill="#3C1E1E"/></svg>
     <span style="font-size:10px;font-weight:700;color:#3C1E1E;font-family:sans-serif;line-height:1;">상담</span>
   </a>
@@ -1133,6 +1296,107 @@ document.addEventListener('click',e=>{
 });
 
 renderRecentPanel();
+
+// ── 모바일 메뉴 ──
+function getMobCats(){
+  const saved=get('yedo_cat_order')||[];
+  const existing=[...new Set(allProds.map(p=>p.category).filter(Boolean))];
+  const ordered=saved.length?[...saved,...existing.filter(c=>!saved.includes(c))]:existing;
+  return['전체',...ordered];
+}
+function getMobSubs(cat){
+  const fromProds=[...new Set(allProds.filter(p=>{
+    const cs=p.categories&&p.categories.length?p.categories:[p.category];
+    return cs.includes(cat)&&p.subcategory;
+  }).flatMap(p=>p.subcategory.split(',').map(s=>s.trim())))];
+  const fromSaved=get('yedo_subcats_'+cat)||[];
+  return[...new Set([...fromSaved,...fromProds])];
+}
+
+function buildMobMain(){
+  const cats=getMobCats();
+  const panel=document.getElementById('mob-panel-main');
+  // 상단 메뉴 링크
+  const topLinks=`
+    <a class="mob-cat-btn" href="index.html#about" onclick="closeMobMenu()" style="text-decoration:none;">회사소개<span class="mob-cat-arrow"></span></a>
+    <div class="mob-cat-btn" onclick="mobShowCats()" style="cursor:pointer;">제품<span class="mob-cat-arrow">›</span></div>
+    <a class="mob-cat-btn" href="index.html#catalogue-anchor" onclick="closeMobMenu()" style="text-decoration:none;">카탈로그<span class="mob-cat-arrow"></span></a>
+    <a class="mob-cat-btn" href="index.html#contact" onclick="closeMobMenu()" style="text-decoration:none;">문의<span class="mob-cat-arrow"></span></a>`;
+  panel.innerHTML=topLinks;
+  // 헤더 초기화
+  document.getElementById('mob-drawer-head').innerHTML=`
+    <a href="index.html" class="nav-logo" style="font-size:22px;line-height:1;"><span>YEDO</span> LIGHTING<small>예도전기조명</small></a>
+    <button class="mob-drawer-close" onclick="closeMobMenu()">✕</button>`;
+  document.getElementById('mob-panels').classList.remove('show-sub');
+}
+
+function mobShowCats(){
+  const cats=getMobCats();
+  const panel=document.getElementById('mob-panel-sub');
+  panel.innerHTML=cats.map(c=>{
+    const subs=(c!=='전체'&&c!=='NEW PRODUCT')?getMobSubs(c):[];
+    const hasSub=subs.length>0;
+    if(!hasSub){
+      return `<a class="mob-cat-btn" href="category.html?cat=${encodeURIComponent(c)}" onclick="closeMobMenu()" style="text-decoration:none;">${c}<span class="mob-cat-arrow"></span></a>`;
+    }
+    return `<div class="mob-cat-item">
+      <div class="mob-cat-btn mob-cat-toggle" onclick="mobToggleSub(this,'${c.replace(/'/g,"\'")}')">
+        ${c}<span class="mob-cat-arrow">›</span>
+      </div>
+      <div class="mob-sub-list" id="msub_${c.replace(/\s/g,'_')}">
+        <a class="mob-sub-btn all" href="category.html?cat=${encodeURIComponent(c)}" onclick="closeMobMenu()">전체 ${c}</a>
+        ${subs.map(s=>`<a class="mob-sub-btn" href="category.html?cat=${encodeURIComponent(c)}&sub=${encodeURIComponent(s)}" onclick="closeMobMenu()">${s}</a>`).join('')}
+      </div>
+    </div>`;
+  }).join('');
+  document.getElementById('mob-drawer-head').innerHTML=`
+    <button class="mob-back-btn" onclick="buildMobMain()">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      제품
+    </button>
+    <button class="mob-drawer-close" onclick="closeMobMenu()">✕</button>`;
+  document.getElementById('mob-panels').classList.add('show-sub');
+}
+
+function mobToggleSub(btn, cat){
+  const id='msub_'+cat.replace(/\s/g,'_');
+  const sub=document.getElementById(id);
+  const isOpen=sub.classList.contains('open');
+  document.querySelectorAll('.mob-sub-list.open').forEach(el=>el.classList.remove('open'));
+  document.querySelectorAll('.mob-cat-toggle.open').forEach(el=>el.classList.remove('open'));
+  if(!isOpen){sub.classList.add('open');btn.classList.add('open');}
+}
+
+document.getElementById('mob-btn').addEventListener('click', function(){
+  buildMobMain();
+  document.getElementById('mob-drawer').classList.add('open');
+  document.getElementById('mob-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+});
+function closeMobMenu(){
+  document.getElementById('mob-drawer').classList.remove('open');
+  document.getElementById('mob-overlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+// ── 모바일 검색 ──
+const mobSearchBtn=document.getElementById('mob-search-btn');
+if(mobSearchBtn) mobSearchBtn.addEventListener('click',function(){
+  document.getElementById('mob-search-overlay').classList.add('open');
+  setTimeout(()=>document.getElementById('mob-search-input').focus(),100);
+});
+function closeMobSearch(e){
+  if(!e||e.target===document.getElementById('mob-search-overlay')||e.type==='click'&&!e.target.closest('.mob-search-box')){
+    document.getElementById('mob-search-overlay').classList.remove('open');
+  }
+}
+document.getElementById('mob-search-input')&&document.getElementById('mob-search-input').addEventListener('keydown',function(e){
+  if(e.key==='Enter'){
+    const q=this.value.trim();
+    if(q){ closeMobSearch(); location.href='category.html?search='+encodeURIComponent(q); }
+  }
+});
+
 </script>
 
 </body>
