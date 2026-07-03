@@ -54,10 +54,10 @@ nav{position:sticky;top:0;z-index:300;background:#fff;border-bottom:1px solid va
 .cat-btn.active{color:var(--teal);border-bottom-color:var(--teal);font-weight:500;}
 
 /* ── POPUP ── */
-#popup-overlay{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.55);align-items:center;justify-content:center;}
+#popup-overlay{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.55);align-items:flex-start;justify-content:flex-start;padding:80px 0 0 40px;}
 #popup-overlay.on{display:flex;}
-.popup-box{background:#fff;border-radius:8px;max-width:480px;width:92%;position:relative;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,0.2);}
-.popup-img-wrap img{width:100%;max-height:240px;object-fit:cover;display:block;}
+.popup-box{background:#fff;border-radius:8px;max-width:400px;width:92%;position:relative;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,0.2);cursor:pointer;}
+.popup-img-wrap img{width:100%;display:block;}
 .popup-body{padding:28px 28px 22px;}
 .popup-title{font-size:17px;font-weight:700;margin-bottom:8px;}
 .popup-text{font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:20px;}
@@ -469,16 +469,11 @@ footer{background:#111;color:rgba(255,255,255,0.4);padding:48px 48px 32px;}
 
 <!-- POPUP -->
 <div id="popup-overlay">
-  <div class="popup-box">
-    <button class="popup-x" onclick="closePopup()">✕</button>
-    <div id="popup-img-wrap"></div>
-    <div class="popup-body">
-      <div class="popup-title" id="popup-title"></div>
-      <div class="popup-text" id="popup-text"></div>
-      <div class="popup-foot">
-        <button class="popup-dismiss" onclick="closePopup(true)">오늘 하루 보지 않기</button>
-        <button class="popup-cta-btn" id="popup-cta-btn">자세히 보기</button>
-      </div>
+  <div class="popup-box" onclick="location.href='#catalogue-anchor';closePopup()">
+    <button class="popup-x" onclick="event.stopPropagation();closePopup()" style="position:absolute;top:8px;right:8px;z-index:10;background:rgba(0,0,0,0.5);color:#fff;border:none;border-radius:50%;width:28px;height:28px;font-size:14px;cursor:pointer;line-height:28px;text-align:center;padding:0;">✕</button>
+    <img src="popup.jpg" style="width:100%;display:block;" alt="카탈로그">
+    <div style="text-align:center;padding:10px 0 6px;">
+      <button class="popup-dismiss" onclick="event.stopPropagation();closePopup(true)" style="font-size:12px;color:#888;background:none;border:none;cursor:pointer;font-family:inherit;">오늘 하루 보지 않기</button>
     </div>
   </div>
 </div>
@@ -904,10 +899,19 @@ function initPopup(){
   document.getElementById('popup-overlay').classList.add('on');
 }
 function closePopup(dismiss=false){
+  if(dismiss) localStorage.setItem('popup_catalogue_v26','1');
   document.getElementById('popup-overlay').classList.remove('on');
   if(dismiss) localStorage.setItem('yedo_popup_hide',new Date().toDateString());
 }
 document.getElementById('popup-overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closePopup(false);});
+
+// 카탈로그 팝업 자동 실행
+(function(){
+  const dismissed=localStorage.getItem('popup_catalogue_v26');
+  if(!dismissed){
+    document.getElementById('popup-overlay').classList.add('on');
+  }
+})();
 
 /* ── NOTICE BAR ── */
 function initBanner(){
