@@ -107,6 +107,7 @@
         "T시리즈"
       ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202601/82f3e659dc576747c19f80eb23a11ae9.jpg",
       "images": [],
       "detail_images": [
@@ -123,6 +124,7 @@
       "specs": "정격 전력: LED 60W / 45W / 30W / 15W\n색상: WHITE\n전체 사이즈: 1200/900/600/300 X 60 X H52\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "NEW/BEST",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": []
@@ -11121,6 +11123,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1784176383033,
+  "yedo_saved_at": 1784176539634,
   "yedo_subcats_LED 매입등": []
 }
