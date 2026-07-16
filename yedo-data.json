@@ -11052,6 +11052,39 @@
       "featured": false,
       "isnew": false,
       "related_products": []
+    },
+    {
+      "name": "KC. S-COB 원통형 레일",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "스포트 라이트"
+      ],
+      "subcategory": "스포트 라이트, LED",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1784175469/%EB%8C%80%ED%91%9C-01_gt7csf.jpg",
+      "images": [],
+      "detail_images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784175081/1-01_plgsro.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784175068/1-05_cqgkiy.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174985/1-03_htbfxu.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174981/1-02_b0p4bp.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174982/1-04_lgnvo2.jpg"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "",
+      "specs": "정격 전력: 10W / 20W / 30W\n색상: WHITE, BLACK\n전체 사이즈: 52.5 X H117 / 60 X H195 / 78 X H200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 5700K, 4000K, 3000K",
+      "badge": "NEW",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        38,
+        118,
+        119,
+        120
+      ]
     }
   ],
   "yedo_subcats_M시리즈": [
@@ -11088,6 +11121,6 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1782868645846,
+  "yedo_saved_at": 1784175704101,
   "yedo_subcats_LED 매입등": []
 }
