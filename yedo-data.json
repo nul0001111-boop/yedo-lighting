@@ -36,6 +36,40 @@
   "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
+      "name": "T33 (롱) 직부등",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "직부형",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1784515722/%EB%A9%94%EC%9D%B8-01_cq9llg.jpg",
+      "images": [],
+      "detail_images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784513135/1-01_kskni8.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174985/1-03_htbfxu.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174981/1-02_b0p4bp.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784513134/1-04_pfy9uo.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 2400/2100/1800/1500 X 33 X H38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 4000K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        264,
+        265,
+        266,
+        267,
+        274,
+        275
+      ]
+    },
+    {
       "name": "KC. S-COB 원통형 레일",
       "category": "NEW PRODUCT",
       "categories": [
@@ -11123,7 +11157,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1784180332369,
+  "yedo_saved_at": 1784521314582,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. S-COB 원통형 레일",
