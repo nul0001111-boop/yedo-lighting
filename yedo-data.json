@@ -36,6 +36,34 @@
   "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
+      "name": "KS. 미니멀티 폴드매입등 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "미니멀티",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1784785894/%EB%8C%80%ED%91%9C-01_tdiozv.jpg",
+      "images": [],
+      "detail_images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784785755/1-01_bsye8a.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784785763/1-05_bwvfs4.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174981/1-02_b0p4bp.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174985/1-03_htbfxu.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784785755/1-04_ewe1l7.jpg"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "",
+      "specs": "정격 전력: LED 10W / LED 20W / LED 30W\n색상: WHITE, BLACK\n전체 사이즈: 162X55XH33 / 294X55XH33 / 425X55XH33\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 155X45 / 285X45 / 420X45\n색온도: 4000K",
+      "badge": "NEW/BEST",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
       "name": "KC. 노출매입등 LED 8W",
       "category": "NEW PRODUCT",
       "categories": [
@@ -11184,13 +11212,13 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1784774579715,
+  "yedo_saved_at": 1784786101762,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
+    "KS. 미니멀티 폴드매입등 LED",
     "KC. 노출매입등 LED 8W",
     "T33 (롱) 직부등",
     "KC. S-COB 원통형 레일",
-    "KS. 클랙슨 매입등 (확산형) LED",
-    "TS-LINE 60 레일등 LED"
+    "KS. 클랙슨 매입등 (확산형) LED"
   ]
 }
