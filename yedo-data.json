@@ -10059,17 +10059,26 @@
     {
       "name": "ㄱ,ㅡ자 조절용 파이프",
       "category": "악세사리",
+      "categories": [
+        "악세사리"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/73064dbb76cb1309b5235a7be4248430.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230306/E384B12CE385A1EC9E90-ECA1B0ECA088EC9AA9-ED8C8CEC9DB4ED9484.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1785730714/%EC%A1%B0%EC%A0%88%EC%9A%A9_%ED%8C%8C%EC%9D%B4%ED%94%84_%EC%82%AC%EC%9D%B4%EC%A6%88-01_llevlj.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11213,7 +11222,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785717712442,
+  "yedo_saved_at": 1785730775976,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
