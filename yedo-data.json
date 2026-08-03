@@ -11185,6 +11185,29 @@
       "featured": false,
       "isnew": false,
       "related_products": []
+    },
+    {
+      "name": "KC. 일자등 LED 30W 직부",
+      "category": "홈조명(방등)",
+      "categories": [
+        "홈조명(방등)"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1785739515/%EB%8C%80%ED%91%9C-01_uznmzy.jpg",
+      "images": [],
+      "detail_images": [
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1785739515/1-01_dtvjep.jpg"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 30W\n색상: WHITE \n전체 사이즈: 550X58XH50\n설치 방식: CELING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
     }
   ],
   "yedo_subcats_M시리즈": [
@@ -11221,7 +11244,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785731339807,
+  "yedo_saved_at": 1785739552761,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
