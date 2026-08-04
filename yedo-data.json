@@ -7560,33 +7560,49 @@
     {
       "name": "앤티크 220 갓등 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/2aeebc19031b8ed10668e3cbc995c83e.jpg",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1785832164/1_5-02_qqym8g.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/EC95A4ED8BB0ED81AC-220-EAB093EB93B1-EBA088EC9DBC-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8-EC82ACEBB3B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK / BRONZE / WALNUT\n전체 사이즈: 220XH1000(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "앤티크 220 갓등 직부",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/abfc585f82c59956b1984ab4e582de58.jpg",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1785832162/1_5-01_kugpcu.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/EC95A4ED8BB0ED81AC-220-EAB093EB93B1-ECA781EBB680-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK / BRONZE / WALNUT\n전체 사이즈: 220XH1000(MAX)\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11249,7 +11265,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785831565829,
+  "yedo_saved_at": 1785832218153,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
