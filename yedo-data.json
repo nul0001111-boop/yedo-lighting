@@ -92,7 +92,7 @@
       "related_products": []
     },
     {
-      "name": "T33 (롱) 직부등",
+      "name": "KS. T33 (롱) 직부등",
       "category": "NEW PRODUCT",
       "categories": [
         "NEW PRODUCT",
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "name": "TS-LINE 60 레일등 LED",
+      "name": "KC. TS-LINE 60 레일등 LED",
       "category": "NEW PRODUCT",
       "categories": [
         "NEW PRODUCT",
@@ -220,13 +220,14 @@
       "related_products": []
     },
     {
-      "name": "TS-LINE 22 레일등 LED",
+      "name": "KC. TS-LINE 22 레일등 LED",
       "category": "NEW PRODUCT",
       "categories": [
         "NEW PRODUCT",
         "T시리즈"
       ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
       "images": [],
       "detail_images": [
@@ -241,6 +242,7 @@
       "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "NEW",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": [
@@ -11244,7 +11246,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785739552761,
+  "yedo_saved_at": 1785829278886,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
