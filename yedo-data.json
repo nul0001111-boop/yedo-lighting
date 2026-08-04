@@ -859,12 +859,12 @@
     },
     {
       "name": "KS. 3\" 센서매입등 LED 10W",
-      "category": "NEW PRODUCT",
+      "category": "매입등",
       "categories": [
-        "NEW PRODUCT",
         "매입등"
       ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202510/f8b8ff51b5ebb897c4a90dd7fd283e9a.jpg",
       "images": [],
       "detail_images": [
@@ -878,6 +878,7 @@
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅85XH58 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75\n색온도: 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": true,
       "related_products": []
@@ -11246,7 +11247,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785829278886,
+  "yedo_saved_at": 1785829394555,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
