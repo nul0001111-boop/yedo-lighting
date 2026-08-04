@@ -2724,7 +2724,8 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/7ccc40149bcf3e4623fa5fc4ec479d01.jpg",
+      "subsubcategory": "",
+      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1785831532/1_5-18_jurnik.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/fe57b8ce2d46d7a8364616f09c8173a8.jpg",
@@ -2736,6 +2737,7 @@
       "specs": "정격 전력: LED 24W\n색상: WHITE\n전체 사이즈: 900X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X894\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -11247,7 +11249,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785830595450,
+  "yedo_saved_at": 1785831565829,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
