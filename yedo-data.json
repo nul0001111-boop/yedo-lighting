@@ -2701,10 +2701,11 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/21e93910a671c91bc870f8f718deada4.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/73dc9d6f07f6edba501cbcd3fb71019e.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079883/1-01_vlpdot.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/7f2976e50a365718ce69d0fedcba7d66.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2713,6 +2714,7 @@
       "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 1200X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X1194\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -2728,7 +2730,7 @@
       "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1785831532/1_5-18_jurnik.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/fe57b8ce2d46d7a8364616f09c8173a8.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079873/1-02_h7slj8.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/66227036ebbaca408438c157f02feed0.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2749,10 +2751,11 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/a4453de552dbc02ed50a89ae0baf5f1d.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/df0e070d6b97c6868a9c59a11abeffd9.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079873/1-03_j0elfd.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/583dbf2d89e67ad3190a05ca9514131b.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2761,6 +2764,7 @@
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 600X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X594\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -2772,10 +2776,11 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/5cce10b371fa90067c2187ea08521df8.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250725/d94127d7cf95a42a7a2096518bfd6604.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079873/1-04_zp2mfs.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/8a93a628b853f98eb21f2d4f57191ad6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2784,6 +2789,7 @@
       "specs": "정격 전력: LED 8W\n색상: WHITE\n전체 사이즈: 300X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X294\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -11265,7 +11271,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1785990328310,
+  "yedo_saved_at": 1786080015899,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
