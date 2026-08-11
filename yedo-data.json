@@ -134,7 +134,7 @@
       ],
       "subcategory": "LED",
       "subsubcategory": "",
-      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1784175469/%EB%8C%80%ED%91%9C-01_gt7csf.jpg",
+      "image": "https://i.ibb.co/60D6VBq4/01.jpg",
       "images": [],
       "detail_images": [
         "https://res.cloudinary.com/dafx5aokq/image/upload/v1784176031/1-01_gmvcwd.jpg",
@@ -144,7 +144,7 @@
         "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174982/1-04_lgnvo2.jpg"
       ],
       "short_desc": "색상 : WHITE, BLACK",
-      "description": "",
+      "description": "https://i.ibb.co/5Zsj7Gp/1-01.jpg\nhttps://i.ibb.co/KxRksL3Q/1-05.jpg\nhttps://i.ibb.co/k2zMQ5X7/1-02.jpg\nhttps://i.ibb.co/pv85tWWM/1-03.jpg\nhttps://i.ibb.co/ZRy4qw4y/1-04.jpg",
       "specs": "정격 전력: 10W / 20W / 30W\n색상: WHITE, BLACK\n전체 사이즈: 52.5 X H117 / 60 X H195 / 78 X H200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 5700K, 4000K, 3000K",
       "badge": "NEW",
       "visible": true,
@@ -11271,7 +11271,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1786080015899,
+  "yedo_saved_at": 1786425557423,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
