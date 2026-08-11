@@ -3151,18 +3151,26 @@
     },
     {
       "name": "SQF COB40W 레일 (COB110S)",
-      "category": "",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/e4aa1a92942250e30d9984904d8091f7.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230526/SQF-COB-40W-ED9994EC9DB4ED8AB8EC9798ED8FACEC8AA4-EC82ACEBB3B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 40W\n색상: WHITE / BLACK\n전체 사이즈: 190X125XH209\n설치 방식: RAIL\n정격 전압: AC220V / 60HZ\n색온도: 2700K / 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3431,21 +3439,20 @@
       ],
       "subcategory": "",
       "subsubcategory": "",
-      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442618/%EB%A9%94%EC%9D%B81_jbkrwg.png",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A9%94%EC%9D%B81.jpg?raw=true",
       "images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443011/%EB%A9%94%EC%9D%B82_g9gi9o.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443031/%EB%A9%94%EC%9D%B83_lfvaua.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A9%94%EC%9D%B82.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A9%94%EC%9D%B83.jpg?raw=true"
       ],
       "detail_images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442673/%EC%83%81%EC%84%B8_k1mpdj.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442702/%EC%83%81%EC%84%B82_amkfzx.png",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442918/%EC%83%81%EC%84%B83_calpcr.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%81%EC%84%B8%60.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%81%EC%84%B82.png?raw=true"
       ],
       "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 190X125XH209\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 2700K / 5700K",
       "badge": "",
-      "visible": true,
+      "visible": false,
       "subcat_only": false,
       "featured": false,
       "isnew": false,
@@ -11269,7 +11276,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1786429499574,
+  "yedo_saved_at": 1786430944209,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
