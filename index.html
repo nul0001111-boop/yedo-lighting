@@ -907,12 +907,12 @@ function closePopup(dismiss=false){
 document.getElementById('popup-overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closePopup(false);});
 
 // 카탈로그 팝업 자동 실행
-(function(){
-  const dismissed=localStorage.getItem('popup_catalogue_v26');
-  if(!dismissed){
-    document.getElementById('popup-overlay').classList.add('on');
-  }
-})();
+//(function(){
+  //const dismissed=localStorage.getItem('popup_catalogue_v26');
+  //if(!dismissed){
+  //  document.getElementById('popup-overlay').classList.add('on');
+  //}
+//})();
 
 /* ── NOTICE BAR ── */
 function initBanner(){
