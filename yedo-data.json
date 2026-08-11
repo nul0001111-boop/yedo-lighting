@@ -100,13 +100,13 @@
       ],
       "subcategory": "직부형",
       "subsubcategory": "",
-      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1784515722/%EB%A9%94%EC%9D%B8-01_cq9llg.jpg",
+      "image": "https://i.ibb.co/dJmw8MzD/01.jpg",
       "images": [],
       "detail_images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784596118/1-01_rag5y9.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174985/1-03_htbfxu.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174981/1-02_b0p4bp.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784513134/1-04_pfy9uo.jpg"
+        "https://i.ibb.co/cSw2ZHGg/1-01.jpg",
+        "https://i.ibb.co/2TV9Kqh/1-02.jpg",
+        "https://i.ibb.co/YrP3RVp/1-03.jpg",
+        "https://i.ibb.co/ynHhgDsw/1-04.jpg"
       ],
       "short_desc": "색상 : WHITE",
       "description": "",
@@ -137,14 +137,14 @@
       "image": "https://i.ibb.co/60D6VBq4/01.jpg",
       "images": [],
       "detail_images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784176031/1-01_gmvcwd.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784176031/1-05_itdtmf.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174985/1-03_htbfxu.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174981/1-02_b0p4bp.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1784174982/1-04_lgnvo2.jpg"
+        "https://i.ibb.co/5Zsj7Gp/1-01.jpg",
+        "https://i.ibb.co/KxRksL3Q/1-05.jpg",
+        "https://i.ibb.co/k2zMQ5X7/1-02.jpg",
+        "https://i.ibb.co/pv85tWWM/1-03.jpg",
+        "https://i.ibb.co/ZRy4qw4y/1-04.jpg"
       ],
       "short_desc": "색상 : WHITE, BLACK",
-      "description": "https://i.ibb.co/5Zsj7Gp/1-01.jpg\nhttps://i.ibb.co/KxRksL3Q/1-05.jpg\nhttps://i.ibb.co/k2zMQ5X7/1-02.jpg\nhttps://i.ibb.co/pv85tWWM/1-03.jpg\nhttps://i.ibb.co/ZRy4qw4y/1-04.jpg",
+      "description": "",
       "specs": "정격 전력: 10W / 20W / 30W\n색상: WHITE, BLACK\n전체 사이즈: 52.5 X H117 / 60 X H195 / 78 X H200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 5700K, 4000K, 3000K",
       "badge": "NEW",
       "visible": true,
@@ -11271,7 +11271,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1786425557423,
+  "yedo_saved_at": 1786425694818,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
