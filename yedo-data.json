@@ -36,6 +36,33 @@
   "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
+      "name": "KC. 새턴매입등 LED 5W",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%8C%80%ED%91%9C-01.jpg?raw=true",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%88%ED%84%B41.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%88%ED%84%B43.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: ∅68XH32 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~55\n색온도: 6500K, 4000K, 3000K",
+      "badge": "NEW",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
       "name": "KS. 미니멀티 폴드매입등 LED",
       "category": "NEW PRODUCT",
       "categories": [
@@ -11284,7 +11311,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1787188444967,
+  "yedo_saved_at": 1788758415857,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KS. 미니멀티 폴드매입등 LED",
