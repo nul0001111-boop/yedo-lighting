@@ -1096,10 +1096,9 @@
       "image": "https://elphos.cafe24.com/web/product/medium/202505/386621d7131b7a0f420974290e7804e5.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250515/6153935b3b72aebb17e3a103b33af6d2.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250515/e843920ceecd981c12489f68bb9a0539.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%9B%90%ED%86%B5-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%9B%90%ED%86%B5-02.jpg?raw=true"
       ],
       "short_desc": "",
       "description": "",
@@ -11343,7 +11342,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1789350945878,
+  "yedo_saved_at": 1789351529240,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. 새턴매입등 LED 5W",
