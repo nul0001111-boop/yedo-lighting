@@ -1018,10 +1018,9 @@
       "image": "https://elphos.cafe24.com/web/product/medium/202505/f83162ee9006e04e1318b16e950372b6.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/dcbf9c8efd5266660fe880d6ce4f9aad.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250619/aedbcec3816ce884618d58c409d5044c.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%99%95%EC%82%B0-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%99%95%EC%82%B0-04.jpg?raw=true"
       ],
       "short_desc": "",
       "description": "",
@@ -1044,10 +1043,9 @@
       "image": "https://elphos.cafe24.com/web/product/medium/202505/4b49966f153d20508c1d757c4ac22e9a.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250626/a91b102bd8d16ad9e9a330ee474c0cac.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/494989fc031a1d937b63eb7fbe207e6d.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%A7%91%EC%A4%91-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%A7%91%EC%A4%91-04.jpg?raw=true"
       ],
       "short_desc": "",
       "description": "",
@@ -11341,7 +11339,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1789351917104,
+  "yedo_saved_at": 1789352783547,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. 새턴매입등 LED 5W",
