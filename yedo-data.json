@@ -1010,7 +1010,11 @@
     {
       "name": "마그네틱 라인(확산) (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/f83162ee9006e04e1318b16e950372b6.jpg",
       "images": [],
       "detail_images": [
@@ -1019,16 +1023,24 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H25\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H25\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "마그네틱 멀티(집중) (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/4b49966f153d20508c1d757c4ac22e9a.jpg",
       "images": [],
       "detail_images": [
@@ -1037,16 +1049,24 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "마그네틱 폴드(집중) (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/bb4a4bfc629ca78b6627bc7d0569abda.jpg",
       "images": [],
       "detail_images": [
@@ -1055,16 +1075,24 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "마그네틱 원통 (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/386621d7131b7a0f420974290e7804e5.jpg",
       "images": [],
       "detail_images": [
@@ -1073,10 +1101,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 7W / 12W / 20W\n색상: BLACK\n전체 사이즈: 소 : Ø35 / 중 : Ø45 / 대  : Ø55\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 7W / 12W / 20W\n색상: BLACK\n전체 사이즈: 소 : Ø35 / 중 : Ø45 / 대  : Ø55\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11311,7 +11343,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1788759235525,
+  "yedo_saved_at": 1789350945878,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. 새턴매입등 LED 5W",
