@@ -36,6 +36,35 @@
   "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
+      "name": "KC. TS-LINE 22 직하레일등 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "레일형",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/ts22%EC%A7%81%ED%95%98%EB%A9%94%EC%9D%B8-01.jpg?raw=true",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-05.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-06.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-04.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "",
+      "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 4000K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
       "name": "KC. 새턴매입등 LED 5W",
       "category": "NEW PRODUCT",
       "categories": [
@@ -11339,7 +11368,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1789352783547,
+  "yedo_saved_at": 1789445912282,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. 새턴매입등 LED 5W",
