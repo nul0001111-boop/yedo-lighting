@@ -7615,35 +7615,51 @@
       "related_products": []
     },
     {
-      "name": "T8 레일등 1200 LED 20W (WH, BK)",
+      "name": "KC. T8 레일등 1200 LED 20W (WH, BK)",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/6648079b7cd3200fed9a321af655aef4.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/a9e3a9f0d96adde7f0f919fc7e727755.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d168c7fa62305d2c9900b7b6908f054d.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: 1270X38XH57\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "T8 레일등 600 LED 10W (WH, BK)",
+      "name": "KC. T8 레일등 600 LED 10W (WH, BK)",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/c0a1d24a1accc2b2301c1cdac6fe97c1.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d2dc1d50b7a98646c36dbf9f5413d399.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d8d812014bc386cb0f4c8e6c8e8c7f9b.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE / BLACK\n전체 사이즈: 715X38XH57\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11418,7 +11434,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792549539699,
+  "yedo_saved_at": 1792549573346,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
