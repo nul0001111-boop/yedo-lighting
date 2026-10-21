@@ -4157,17 +4157,25 @@
     {
       "name": "(3) 공회전 (Y-300A)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/484e9b6040bbfa868d0a7be32d8c277b.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/3%EC%9D%B8%EC%B9%98%EA%B3%B5%ED%9A%8C%EC%A0%84%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-300AED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK / GOLD\n전체 사이즈: ∅105XH57\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85 mm",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: ∅105XH57\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11482,7 +11490,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792561654543,
+  "yedo_saved_at": 1792561985152,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
