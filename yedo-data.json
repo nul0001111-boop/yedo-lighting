@@ -1329,33 +1329,49 @@
     {
       "name": "(8) 엣지 직부등 LED 30W",
       "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/397e75cfa3d03851f3cae6e1d8877a68.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20241112/1-04.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%97%A3%EC%A7%80%EC%A7%81%EB%B6%80%EB%93%B1-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "8인치 매입등 대체용 등기구",
-      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 230XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 230XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "(6) 엣지 직부등 LED 15W",
       "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/dbf25e7e180be7efb214919a73adb441.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20241112/1-01.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%97%A3%EC%A7%80%EC%A7%81%EB%B6%80%EB%93%B1-02.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "6인치 매입등 대체용 등기구",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 178XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 178XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4877,8 +4893,10 @@
     },
     {
       "name": "원형 엣지 센서등 LED20W",
-      "category": "",
-      "categories": [],
+      "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
       "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/894ce9bc8e05c262d363f6ad34bb36f3.jpg",
@@ -4899,18 +4917,26 @@
     },
     {
       "name": "사각 엣지 센서등 LED 20W",
-      "category": "",
+      "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/2607a7986447cf5c28ddfe23548a507e.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230206/EC9888EB8F8429-8EC9DB8ECB998-EC8AACEBA6BC-EC84BCEC849C-EC97A3ECA780-EC82ACEAB081ECA781EBB680-20wEC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220X220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11594,7 +11620,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792565181302,
+  "yedo_saved_at": 1792565824584,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
