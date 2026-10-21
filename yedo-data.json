@@ -10803,17 +10803,25 @@
     {
       "name": "PAR-30 2등 신형/스틸(피스타입)",
       "category": "멀티등기구",
+      "categories": [
+        "멀티등기구"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/d476365956266b05dff2178b230cbe4d.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/PAR30-2EAB5ACEC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 360X195\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 330X165 mm",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 355X195\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 330X165 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11458,7 +11466,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792559543268,
+  "yedo_saved_at": 1792560726105,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
