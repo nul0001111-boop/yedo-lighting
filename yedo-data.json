@@ -8327,9 +8327,10 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 2W\n전체 사이즈: ∅65XH140\n색온도: 2300K\n소켓규격: E26",
+      "specs": "정격 전력: 2W\n전체 사이즈: ∅64XH140\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -11636,7 +11637,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792568454717,
+  "yedo_saved_at": 1792568484599,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
