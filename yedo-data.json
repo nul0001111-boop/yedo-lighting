@@ -6428,17 +6428,25 @@
     {
       "name": "쿠스 갓등 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/60c71221b1e52ffdadf56da3d810db2c.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20200131/%EC%BF%A0%EC%8A%A4-%EB%A0%88%EC%9D%BC(%EC%98%88%EB%8F%84)_shop1_164615.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: BLAKC\n전체 사이즈: 270XH1000(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: BLACK\n전체 사이즈: 270XH1000(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11570,7 +11578,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792564302352,
+  "yedo_saved_at": 1792564440588,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
