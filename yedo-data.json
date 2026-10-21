@@ -2787,23 +2787,23 @@
       "related_products": []
     },
     {
-      "name": "KS. M33라인 매입등 1200 LED 30W",
+      "name": "KS. M33 라인매입등 LED",
       "category": "M시리즈",
       "categories": [
         "M시리즈"
       ],
       "subcategory": "라인매입등",
       "subsubcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/21e93910a671c91bc870f8f718deada4.jpg",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/M33%EB%A9%94%EC%9D%B8-03.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079883/1-01_vlpdot.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/7f2976e50a365718ce69d0fedcba7d66.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/M33%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/M33%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-04.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "색상 : WHITE",
       "description": "",
-      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 1200X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X1194\n색온도: 5700K / 4000K / 3000K",
+      "specs": "정격 전력: 30W, 24W, 15W, 8W\n색상: WHITE\n전체 사이즈: 35 X H30 X D300/600/900/1200\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X1194 / 28X894 / 28X594 / 28X294\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -2830,7 +2830,7 @@
       "description": "",
       "specs": "정격 전력: LED 24W\n색상: WHITE\n전체 사이즈: 900X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X894\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
-      "visible": true,
+      "visible": false,
       "subcat_only": false,
       "featured": false,
       "isnew": false,
@@ -2855,7 +2855,7 @@
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 600X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X594\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
-      "visible": true,
+      "visible": false,
       "subcat_only": false,
       "featured": false,
       "isnew": false,
@@ -2880,7 +2880,7 @@
       "description": "",
       "specs": "정격 전력: LED 8W\n색상: WHITE\n전체 사이즈: 300X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X294\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
-      "visible": true,
+      "visible": false,
       "subcat_only": false,
       "featured": false,
       "isnew": false,
@@ -11434,7 +11434,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792550595571,
+  "yedo_saved_at": 1792557273173,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
