@@ -3892,7 +3892,11 @@
     {
       "name": "카르코 직부 / 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/55cbcd658e5e278efd80168bde5c8fd6.jpg",
       "images": [],
       "detail_images": [
@@ -3900,10 +3904,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250225/0582aa57e45e8d10810a04b3fc3eef30.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250225/229ec04fc1784b1d91c63ae00df669cc.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK /. GREY\n전체 사이즈: 247XH240 / H800(MAX)\n설치 방식: CEILING / RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: WHITE / BLACK / GREY\n전체 사이즈: 247XH240 / H800(MAX)\n설치 방식: CEILING / RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11578,7 +11586,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792564440588,
+  "yedo_saved_at": 1792564512998,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
