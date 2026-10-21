@@ -8182,18 +8182,26 @@
     },
     {
       "name": "(6) AC타입 LED 15W",
-      "category": "",
-      "subcategory": "",
+      "category": "매입등",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/3c4b17c975703e840b16ad3d1a3aec2d.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20171013/copy-1507885856-6EC9DB8ECB99820EBA7A4EC9E85EB93B120EGA.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE / BLACK\n전체 사이즈: ∅175XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -8574,7 +8582,7 @@
       "related_products": []
     },
     {
-      "name": "(6) 다운라이트 LED 15W",
+      "name": "KC. (6) 다운라이트 LED 15W",
       "category": "매입등",
       "categories": [
         "매입등"
@@ -11434,7 +11442,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792558901239,
+  "yedo_saved_at": 1792559041636,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
