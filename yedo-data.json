@@ -3624,9 +3624,13 @@
       "related_products": []
     },
     {
-      "name": "KS 슬림투광기 LED30W WH",
+      "name": "KS 슬림투광기 LED30W",
       "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/ef84220668ae5b39020bdf003f43f678.jpg",
       "images": [],
       "detail_images": [
@@ -3634,10 +3638,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20241226/3cd05dc0e54fc077585a351367a005e6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 195XH145\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11586,7 +11594,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792564512998,
+  "yedo_saved_at": 1792564541621,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
