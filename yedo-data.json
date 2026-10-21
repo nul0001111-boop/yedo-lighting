@@ -7043,7 +7043,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n정격 전압: 60HZ / 출력 DC 12V\n사용가능 램프: LED MR16 LAMP, MR16 20W",
+      "specs": "색상: WHITE\n정격 전압: 60HZ / 출력 DC 12V\n사용가능 램프: LED MR16 LAMP, MR16 20W",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -11434,7 +11434,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792549573346,
+  "yedo_saved_at": 1792549665467,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
