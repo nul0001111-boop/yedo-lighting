@@ -4388,18 +4388,26 @@
     },
     {
       "name": "원형 분리 직매입 (Y-312A)",
-      "category": "",
+      "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202303/aaf158d3030029d8a1cf09d090d024ff.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-312-EC9B90ED9895ED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "",
       "badge": "",
-      "visible": false,
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -7608,18 +7616,26 @@
     },
     {
       "name": "2인치 직매입 COB 8W (COB211B)",
-      "category": "",
-      "subcategory": "",
+      "category": "매입등",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/7958d5f9253597b47c8a6814d363b27e.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20180730/20180730_ydl_COB211B_skill_900.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅82XH41\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75\n색온도: 5700K / 2700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11506,7 +11522,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792562597879,
+  "yedo_saved_at": 1792562675097,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
