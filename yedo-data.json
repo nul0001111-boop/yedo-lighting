@@ -1577,6 +1577,7 @@
         "T시리즈"
       ],
       "subcategory": "간접등 T5",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/b7fb6de3db6760dcea3d94127bed5580.jpg",
       "images": [],
       "detail_images": [
@@ -1587,9 +1588,10 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 292X23H35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 292X23XH35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -11408,7 +11410,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792549465744,
+  "yedo_saved_at": 1792549513837,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
