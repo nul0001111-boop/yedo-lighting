@@ -9531,17 +9531,25 @@
     {
       "name": "PAR 30 레일",
       "category": "스포트 라이트",
+      "categories": [
+        "스포트 라이트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/cf3608fa1be4caa8607ce2c400345b4a.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20160218/PAR30레일_WH-01_shop1_152534.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 130XH230\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 133XH230\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11620,7 +11628,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792565903176,
+  "yedo_saved_at": 1792566125862,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
