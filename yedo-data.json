@@ -1053,7 +1053,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H25\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
+      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H38\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -1078,7 +1078,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
+      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H38\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -1099,7 +1099,7 @@
       "detail_images": [
         "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%8F%B4%EB%8D%94-01.jpg?raw=true",
         "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
-        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%8F%B4%EB%8D%94-02.jpg?raw=true"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%A7%91%EC%A4%91%EC%88%98%EC%A0%95-04.jpg?raw=true"
       ],
       "short_desc": "",
       "description": "",
@@ -1257,19 +1257,27 @@
       "related_products": []
     },
     {
-      "name": "엣지사각등 LED 20W / 슬림직부등",
+      "name": "KS. 엣지사각등 LED 20W / 슬림직부등",
       "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202502/5708a6d9123347662136434187fa08da.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250217/1ce9ad1a058a8bec1ac6e449153f60a3.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "8인치 매입등 대체용 등기구",
-      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220X220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11628,7 +11636,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792566125862,
+  "yedo_saved_at": 1792567428105,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
