@@ -6900,17 +6900,25 @@
     {
       "name": "KC. T5 LED 9W 600 (2핀)",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "직부형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/a14870fa78c5a357af8ac9aa7845c7c1.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/35bca21ad669d981d9f4183f232e81c1.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d60d09c86ff6c0afbbb3e1018c2dd6f0.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: LED 9W\n색상: WHITE\n전체 사이즈: 593X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 9W\n색상: WHITE\n전체 사이즈: 592X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11400,7 +11408,7 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792549387612,
+  "yedo_saved_at": 1792549465744,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
     "KC. TS-LINE 22 직하레일등 LED",
