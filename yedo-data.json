@@ -36,6 +36,183 @@
   "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
+      "name": "KC. TS-LINE 22 직하레일등 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "레일형",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/ts22%EC%A7%81%ED%95%98%EB%A9%94%EC%9D%B8-01.jpg?raw=true",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-05.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-06.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/TS22%20%EC%A7%81%ED%95%98-04.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "",
+      "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 4000K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 새턴매입등 LED 5W",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%8C%80%ED%91%9C-01.jpg?raw=true",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%88%ED%84%B41.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%88%ED%84%B43.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: ∅68XH32 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~55\n색온도: 6500K, 4000K, 3000K",
+      "badge": "NEW",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. 미니멀티 폴드매입등 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "미니멀티",
+      "subsubcategory": "",
+      "image": "https://i.ibb.co/3yRnx5Cr/01.jpg",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%AF%B8%EB%8B%88%EB%A9%80%ED%8B%B0_1-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%AF%B8%EB%8B%88%EB%A9%80%ED%8B%B0_%EC%88%98%EC%A0%95-05.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%AF%B8%EB%8B%88%EB%A9%80%ED%8B%B0_%EC%88%98%EC%A0%95-06.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%AF%B8%EB%8B%88%EB%A9%80%ED%8B%B0_%EC%88%98%EC%A0%95-04.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "",
+      "specs": "정격 전력: LED 10W / LED 20W / LED 30W\n색상: WHITE, BLACK\n전체 사이즈: 162X55XH33 / 294X55XH33 / 425X55XH33\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 155X45 / 285X45 / 420X45\n색온도: 4000K",
+      "badge": "NEW/BEST",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
+      "name": "KC. 노출매입등 LED 8W",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
+      "image": "https://i.ibb.co/mrmzg9yF/01.jpg",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%85%B8%EC%B6%9C_1-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%85%B8%EC%B6%9C_%EC%88%98%EC%A0%95-04.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 8W\n색상: WHITE\n전체 사이즈: ∅60XH46 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅30~55\n색온도: 6500K, 4000K, 3000K",
+      "badge": "NEW",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": []
+    },
+    {
+      "name": "KS. T33 (롱) 직부등",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "T시리즈"
+      ],
+      "subcategory": "직부형",
+      "subsubcategory": "",
+      "image": "https://i.ibb.co/dJmw8MzD/01.jpg",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/T33_1-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/T33_1-04.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: 40W / 35W / 30W / 20W\n색상: WHITE\n전체 사이즈: 2400/2100/1800/1500 X 33 X H38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 4000K",
+      "badge": "NEW/BEST",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": [
+        265,
+        266,
+        267,
+        275,
+        276,
+        277
+      ]
+    },
+    {
+      "name": "KC. S-COB 원통형 레일",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "스포트 라이트"
+      ],
+      "subcategory": "LED",
+      "subsubcategory": "",
+      "image": "https://i.ibb.co/60D6VBq4/01.jpg",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/S-COB_1-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-05.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/S-COB_1-04.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE, BLACK",
+      "description": "",
+      "specs": "정격 전력: 10W / 20W / 30W\n색상: WHITE, BLACK\n전체 사이즈: 52.5 X H177 / 60 X H195 / 78 X H200\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 5700K, 4000K, 3000K",
+      "badge": "NEW",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        39,
+        119,
+        120,
+        121
+      ]
+    },
+    {
       "name": "KS. 클랙슨 매입등 (확산형) LED",
       "category": "NEW PRODUCT",
       "categories": [
@@ -44,7 +221,7 @@
       ],
       "subcategory": "클랙슨",
       "subsubcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202603/de5cb41d76191533e048d5f54af298d2.jpg",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%ED%81%B4%EB%9E%99%ED%99%95%EC%82%B0%EB%A9%94%EC%9D%B8-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20260331/4a6b1fd55a4a64b3cb1247c3d5831828.jpg",
@@ -67,19 +244,19 @@
       ]
     },
     {
-      "name": "TS-LINE 60 레일등 LED",
+      "name": "KC. TS-LINE 60 레일등 LED",
       "category": "NEW PRODUCT",
       "categories": [
         "NEW PRODUCT",
         "T시리즈"
       ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202601/82f3e659dc576747c19f80eb23a11ae9.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20260123/f7087775922bafde14ab7a1f0965b618.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20260123/355f412f479eadb629d23a640c0da3c9.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20260203/dfbb26f36ae2dc44067b3f8b4efae112.gif",
         "https://elphos.cafe24.com/web/upload/NNEditor/20260122/9dafc67ecfd963190055afd7db3d10a5.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20260122/9e3391efb291bc79a9cef25f680b3ab4.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20260203/cf9aae07475232c1bb38d43a4f99a269.jpg",
@@ -90,18 +267,20 @@
       "specs": "정격 전력: LED 60W / 45W / 30W / 15W\n색상: WHITE\n전체 사이즈: 1200/900/600/300 X 60 X H52\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "NEW/BEST",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": []
     },
     {
-      "name": "TS-LINE 22 레일등 LED",
+      "name": "KC. TS-LINE 22 레일등 LED",
       "category": "NEW PRODUCT",
       "categories": [
         "NEW PRODUCT",
         "T시리즈"
       ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202512/9adb929c168651117af60bec48631dfe.jpg",
       "images": [],
       "detail_images": [
@@ -116,6 +295,7 @@
       "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "NEW",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": [
@@ -271,6 +451,7 @@
         "M시리즈"
       ],
       "subcategory": "사각매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202601/dc0441927d4dfe364ca6a20935c9ba06.jpg",
       "images": [],
       "detail_images": [
@@ -285,8 +466,9 @@
       "short_desc": "색상 : WHITE",
       "description": "",
       "specs": "정격 전력: LED 15W / LED 10W\n색상: WHITE\n전체 사이즈: 220 X 90 X H26 / 150 X 65 X H26\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75mm / ∅50mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "NEW",
+      "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": [
@@ -301,6 +483,7 @@
         "M시리즈"
       ],
       "subcategory": "사각매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202507/833884eefd3e6f57292b775a31978326.jpg",
       "images": [],
       "detail_images": [
@@ -309,14 +492,15 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250415/80ba7f90607fafdaff4ba58209ed78b8.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250415/cb28bbb6e554ad646c734907d590178f.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250710/2a7b74c0353e1ddb7424b4bc8fdfe554.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250624/ec04a742669c51e10193bb9f3b0638da.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%A7%81%EC%82%AC%EA%B0%81%EB%A7%A4%EC%9E%85%EB%93%B120W_%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%88%98%EC%A0%95-04.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "색상 : WHITE",
       "description": "",
-      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 240 X 110 X H21\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~100mm\n색온도: 6500K / 4000K / 3000K",
-      "badge": "NEW",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 240 X 110 X H26\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅50~100mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": true,
       "isnew": true,
       "related_products": [
@@ -398,19 +582,24 @@
     {
       "name": "KC. 포-트랙 (4-TRACK) ( 1M / 2M / 3M )",
       "category": "레일 및 부품",
+      "categories": [
+        "레일 및 부품"
+      ],
       "subcategory": "KC. 포트랙 레일",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/a641e7226e1f6dfef2649643a9ebd92d.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%ED%8F%AC%ED%8A%B8%EB%9E%99%20%EB%A9%94%EC%9D%B8_%EC%B5%9C%EC%A2%85-01.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250310/062c385ae06955dc83623f318a2a8663.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250310/f1fb1c8a1c31a2344abf4a6f26698403.jpg",
-        "http://elphos.cafe24.com/web/upload/NNEditor/20171123/커넥터 선택 및 플러그 설치 방법_shop1_140634.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%ED%8F%AC%ED%8A%B8%EB%9E%99_%EC%83%81%EC%84%B8_%EC%B5%9C%EC%A2%85-01.jpg?raw=true"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (32.5X33.5)\n설치 방식: RAIL",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 1M / 2M / 3M (32.5X35.5)\n설치 방식: RAIL",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -732,12 +921,12 @@
     },
     {
       "name": "KS. 3\" 센서매입등 LED 10W",
-      "category": "NEW PRODUCT",
+      "category": "매입등",
       "categories": [
-        "NEW PRODUCT",
         "매입등"
       ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202510/f8b8ff51b5ebb897c4a90dd7fd283e9a.jpg",
       "images": [],
       "detail_images": [
@@ -751,6 +940,7 @@
       "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅85XH58 (mm)\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅75\n색온도: 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": true,
       "related_products": []
@@ -849,73 +1039,101 @@
     {
       "name": "마그네틱 라인(확산) (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/f83162ee9006e04e1318b16e950372b6.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/dcbf9c8efd5266660fe880d6ce4f9aad.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250619/aedbcec3816ce884618d58c409d5044c.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%99%95%EC%82%B0-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%99%95%EC%82%B0-04.jpg?raw=true"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H25\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 10W / 20W / 30W / 40W\n색상: BLACK\n전체 사이즈: 300 / 600 / 900 / 1200 X 22 X H38\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "마그네틱 멀티(집중) (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/4b49966f153d20508c1d757c4ac22e9a.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250626/a91b102bd8d16ad9e9a330ee474c0cac.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/494989fc031a1d937b63eb7fbe207e6d.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%A7%91%EC%A4%91-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%A7%91%EC%A4%91-04.jpg?raw=true"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 6W / 12W / 18W / 24W\n색상: BLACK\n전체 사이즈: 113 / 221 / 330 / 437 X 22 X H38\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "마그네틱 폴드(집중) (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/bb4a4bfc629ca78b6627bc7d0569abda.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250515/0244e0db727f8feeec2fb73c5104b30b.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250515/27664cc9466eed701281a320fe3b93bb.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%ED%8F%B4%EB%8D%94-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%A7%91%EC%A4%91%EC%88%98%EC%A0%95-04.jpg?raw=true"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 6W / 12W\n색상: BLACK\n전체 사이즈: 115 / 220 X 99 X H21\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "마그네틱 원통 (41V)",
       "category": "마그네틱 트랙 시스템",
+      "categories": [
+        "마그네틱 트랙 시스템"
+      ],
       "subcategory": "마그네틱 조명",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/386621d7131b7a0f420974290e7804e5.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250515/6153935b3b72aebb17e3a103b33af6d2.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250515/e843920ceecd981c12489f68bb9a0539.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250514/daee20ce4d63ab209bbbff8430886b39.jpg",
-        "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%9B%90%ED%86%B5-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A7%88%EA%B7%B8%EB%84%A4%ED%8B%B1%EC%9B%90%ED%86%B5-02.jpg?raw=true"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 7W / 12W / 20W\n색상: BLACK\n전체 사이즈: 소 : Ø35 / 중 : Ø45 / 대  : Ø55\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K",
+      "specs": "정격 전력: 7W / 12W / 20W\n색상: BLACK\n전체 사이즈: 소 : Ø35 / 중 : Ø45 / 대  : Ø55\n설치 방식: RAIL\n정격 전압: DC41V\n색온도: 4000K, 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -950,9 +1168,7 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250618/22bd930ed3528c9c3002b097ff12c191.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250618/71b5c750fd36e4b9151100a10123ea9c.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250618/73b441e7dda8856bfabf7e822ef5b316.jpg",
-        "https://i.postimg.cc/6q51Dm14/1-04.jpg",
-        "https://i.postimg.cc/yYDLccqK/1-05.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250618/ab9fde72cf604e03e8d6a64873d47c98.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/SMPS%20%EC%88%98%EC%A0%95-02.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
@@ -979,7 +1195,7 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250418/569b19af7e97b9769dce0c767736f9f5.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250418/3f060193282673b094b66821fbc4c7ad.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250418/a0d88ef5530e99e2dba8315b6e4e2482.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250418/6fb3f9f12c048347cca92a97e3e8df56.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1785717668/1-04_whczd1.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
@@ -1039,19 +1255,27 @@
       "related_products": []
     },
     {
-      "name": "엣지사각등 LED 20W / 슬림직부등",
+      "name": "KS. 엣지사각등 LED 20W / 슬림직부등",
       "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202502/5708a6d9123347662136434187fa08da.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250217/1ce9ad1a058a8bec1ac6e449153f60a3.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "8인치 매입등 대체용 등기구",
-      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220X220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1111,33 +1335,49 @@
     {
       "name": "(8) 엣지 직부등 LED 30W",
       "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/397e75cfa3d03851f3cae6e1d8877a68.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20241112/1-04.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%97%A3%EC%A7%80%EC%A7%81%EB%B6%80%EB%93%B1-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "8인치 매입등 대체용 등기구",
-      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 230XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 230XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "(6) 엣지 직부등 LED 15W",
       "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/dbf25e7e180be7efb214919a73adb441.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20241112/1-01.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%97%A3%EC%A7%80%EC%A7%81%EB%B6%80%EB%93%B1-02.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "6인치 매입등 대체용 등기구",
-      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 178XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 178XH24\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -1359,6 +1599,7 @@
         "T시리즈"
       ],
       "subcategory": "간접등 T5",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/b7fb6de3db6760dcea3d94127bed5580.jpg",
       "images": [],
       "detail_images": [
@@ -1369,9 +1610,10 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 292X23H35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 292X23XH35\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 5700K-3000K-4000K 순 변환",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -1528,7 +1770,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
+      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -1552,7 +1794,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 3000K\n소켓규격: E26",
+      "specs": "정격 전력: 15W\n전체 사이즈: ∅94XH95\n색온도: 6500K / 4000K / 3000K\n소켓규격: E26",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -1561,7 +1803,7 @@
       "related_products": []
     },
     {
-      "name": "T-PAR30 LED15W (집중형)",
+      "name": "T-PAR30 LED15W (렌즈형)",
       "category": "램프",
       "categories": [
         "램프"
@@ -1635,7 +1877,7 @@
       "related_products": []
     },
     {
-      "name": "T-벌브 LED12W (A60)",
+      "name": "벌브 LED12W (A60)",
       "category": "램프",
       "categories": [
         "램프"
@@ -2567,24 +2809,26 @@
       "related_products": []
     },
     {
-      "name": "KS. M33라인 매입등 1200 LED 30W",
+      "name": "KS. M33 라인매입등 LED",
       "category": "M시리즈",
       "categories": [
         "M시리즈"
       ],
       "subcategory": "라인매입등",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/21e93910a671c91bc870f8f718deada4.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/M33%EB%A9%94%EC%9D%B8-03.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/73dc9d6f07f6edba501cbcd3fb71019e.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/7f2976e50a365718ce69d0fedcba7d66.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/M33%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-01.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/M33%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-04.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "색상 : WHITE",
       "description": "",
-      "specs": "정격 전력: LED 30W\n색상: WHITE\n전체 사이즈: 1200X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X1194\n색온도: 5700K / 4000K / 3000K",
+      "specs": "정격 전력: 30W, 24W, 15W, 8W\n색상: WHITE\n전체 사이즈: 35 X H30 X D300/600/900/1200\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X1194 / 28X894 / 28X594 / 28X294\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -2596,10 +2840,11 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/7ccc40149bcf3e4623fa5fc4ec479d01.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/M33_2-18.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/fe57b8ce2d46d7a8364616f09c8173a8.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/M33900_1-02.jpg?raw=true",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/66227036ebbaca408438c157f02feed0.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2607,7 +2852,8 @@
       "description": "",
       "specs": "정격 전력: LED 24W\n색상: WHITE\n전체 사이즈: 900X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X894\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
-      "visible": true,
+      "visible": false,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -2619,10 +2865,11 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/a4453de552dbc02ed50a89ae0baf5f1d.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250828/df0e070d6b97c6868a9c59a11abeffd9.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079873/1-03_j0elfd.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/583dbf2d89e67ad3190a05ca9514131b.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2630,7 +2877,8 @@
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE\n전체 사이즈: 600X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X594\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
-      "visible": true,
+      "visible": false,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -2642,10 +2890,11 @@
         "M시리즈"
       ],
       "subcategory": "라인매입등",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/5cce10b371fa90067c2187ea08521df8.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20250725/d94127d7cf95a42a7a2096518bfd6604.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1786079873/1-04_zp2mfs.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250828/8a93a628b853f98eb21f2d4f57191ad6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
@@ -2653,7 +2902,8 @@
       "description": "",
       "specs": "정격 전력: LED 8W\n색상: WHITE\n전체 사이즈: 300X35XH30\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 28X294\n색온도: 5700K / 4000K / 3000K",
       "badge": "",
-      "visible": true,
+      "visible": false,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
@@ -3017,18 +3267,26 @@
     },
     {
       "name": "SQF COB40W 레일 (COB110S)",
-      "category": "",
+      "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/e4aa1a92942250e30d9984904d8091f7.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230526/SQF-COB-40W-ED9994EC9DB4ED8AB8EC9798ED8FACEC8AA4-EC82ACEBB3B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 40W\n색상: WHITE / BLACK\n전체 사이즈: 190X125XH209\n설치 방식: RAIL\n정격 전압: AC220V / 60HZ\n색온도: 2700K / 5700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3210,18 +3468,26 @@
     {
       "name": "KS. 사각멀티 3구 매입등 집중형/COB 24W",
       "category": "멀티등기구",
+      "categories": [
+        "멀티등기구"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/55d14f724e2eab632dfd479a17978260.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%82%AC%EA%B0%81%EB%A9%80%ED%8B%B03%EA%B5%AC-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230607/EC82ACEAB081EBA980ED8BB03EAB5ACECA791ECA491ED9895COBED9994EC9DB4ED8AB8-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20241224/fe5bb253d63fd76ff4adf5f57bc02a61.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 24W\n색상: WHITE / BLACK\n전체 사이즈: 257X93XH43\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅235X70 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3243,17 +3509,25 @@
     {
       "name": "KS. 사각멀티 2구 매입등 집중형/COB 16W",
       "category": "멀티등기구",
+      "categories": [
+        "멀티등기구"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/2e5802cdf089e05d3693d36fe2f63c68.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%82%AC%EA%B0%81%EB%A9%80%ED%8B%B02%EA%B5%AC-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230607/copy-1686104530-EC82ACEAB081EBA980ED8BB02EAB5ACECA791ECA491ED9895COBED9994EC9DB4ED8AB8-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 16W\n색상: WHITE / BLACK\n전체 사이즈: 175X93XH43\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅155X70 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3275,18 +3549,26 @@
     {
       "name": "KS. 사각멀티 1구 매입등 집중형/COB 8W",
       "category": "멀티등기구",
+      "categories": [
+        "멀티등기구"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/7dc49b54246dfbbc396b1001477d43ef.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%82%AC%EA%B0%81%EB%A9%80%ED%8B%B01%EA%B5%AC-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230607/EC82ACEAB081EBA980ED8BB01EAB5ACECA791ECA491ED9895COBE3858EE38587E3858C-EC9888EB8F84-EC8381EC84B8.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20241224/8e0faf9b64c721580e920ace883d7c20.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20241224/e9a08884cbfdb07c9d916ddde7e82d73.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: 93X93XH43\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3297,21 +3579,20 @@
       ],
       "subcategory": "",
       "subsubcategory": "",
-      "image": "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442618/%EB%A9%94%EC%9D%B81_jbkrwg.png",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A9%94%EC%9D%B81.jpg?raw=true",
       "images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443011/%EB%A9%94%EC%9D%B82_g9gi9o.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777443031/%EB%A9%94%EC%9D%B83_lfvaua.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A9%94%EC%9D%B82.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%A9%94%EC%9D%B83.jpg?raw=true"
       ],
       "detail_images": [
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442673/%EC%83%81%EC%84%B8_k1mpdj.jpg",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442702/%EC%83%81%EC%84%B82_amkfzx.png",
-        "https://res.cloudinary.com/dafx5aokq/image/upload/v1777442918/%EC%83%81%EC%84%B83_calpcr.jpg"
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%81%EC%84%B8%60.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%83%81%EC%84%B82.png?raw=true"
       ],
       "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 190X125XH209\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 2700K / 5700K",
       "badge": "",
-      "visible": true,
+      "visible": false,
       "subcat_only": false,
       "featured": false,
       "isnew": false,
@@ -3365,9 +3646,13 @@
       "related_products": []
     },
     {
-      "name": "KS 슬림투광기 LED30W WH",
+      "name": "KS 슬림투광기 LED30W",
       "category": "투광기",
+      "categories": [
+        "투광기"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/ef84220668ae5b39020bdf003f43f678.jpg",
       "images": [],
       "detail_images": [
@@ -3375,10 +3660,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20241226/3cd05dc0e54fc077585a351367a005e6.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK\n전체 사이즈: 195XH145\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3633,7 +3922,11 @@
     {
       "name": "카르코 직부 / 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/55cbcd658e5e278efd80168bde5c8fd6.jpg",
       "images": [],
       "detail_images": [
@@ -3641,10 +3934,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250225/0582aa57e45e8d10810a04b3fc3eef30.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250225/229ec04fc1784b1d91c63ae00df669cc.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK /. GREY\n전체 사이즈: 247XH240 / H800(MAX)\n설치 방식: CEILING / RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: WHITE / BLACK / GREY\n전체 사이즈: 247XH240 / H800(MAX)\n설치 방식: CEILING / RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3666,49 +3963,73 @@
     {
       "name": "식탁등 350 직부",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/35ed756594e6ad048958c4adc0048343.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/350-EC8B9DED8381EB93B1-ECA781EBB680-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK\n전체 사이즈: 350XH200 / H800(MAX)\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "식탁등 230 직부",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/98d6a46cb4dcb4930fe542a070bfd01a.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/230-EC8B9DED8381EB93B1-ECA781EBB680-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK\n전체 사이즈: 230XH300 / H800(MAX)\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "190 식탁등 직부",
+      "name": "식탁등 190 직부",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/02725ccea361c553a71dfb54d4ad2f20.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/190-EC8B9DED8381EB93B1-ECA781EBB680-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK\n전체 사이즈: 190XH400 / H800(MAX)\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3778,17 +4099,25 @@
     {
       "name": "(2) 직각회전 프레스 (Y-220C)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/dfbabf280d7639bb956341a71940c5ed.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/2%EC%9D%B8%EC%B9%98%EC%A7%81%EA%B0%81%ED%9A%8C%EC%A0%84%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-220CED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%A7%81%EA%B0%81%ED%9A%8C%EC%A0%84%ED%94%84%EB%A0%88%EC%8A%A4-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / SATINCHROME\n전체 사이즈: ∅90XH48\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm",
+      "specs": "색상: SATINCHROME\n전체 사이즈: ∅90XH48\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3810,17 +4139,25 @@
     {
       "name": "(2) 직각회전 캐스팅 (Y-221C)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/5bb8dee3ffd343df66b3754f468f4dc9.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-221CED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%A7%81%EA%B0%81%ED%9A%8C%EC%A0%84%EC%BA%90%EC%8A%A4%ED%8C%85-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / SATINCHROME\n전체 사이즈: ∅88XH21\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm",
+      "specs": "색상: PEARL / SATINCHROME\n전체 사이즈: ∅88XH21\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -3882,33 +4219,49 @@
     {
       "name": "(3) 공회전 (Y-300A)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/484e9b6040bbfa868d0a7be32d8c277b.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/3%EC%9D%B8%EC%B9%98%EA%B3%B5%ED%9A%8C%EC%A0%84%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-300AED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK / GOLD\n전체 사이즈: ∅105XH57\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85 mm",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: ∅105XH57\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "(3) 띠직회전 (Y-320A)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/54c8419ca61e75face586c81f45e5b7d.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%9D%A0%EC%A7%81%ED%9A%8C%EC%A0%84%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-320AED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%9D%A0%EC%A7%81%ED%9A%8C%EC%A0%84-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / SATINCHROME / GOLDCHROME\n전체 사이즈: ∅102XH32\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4010,17 +4363,25 @@
     {
       "name": "(4) 공회전 (Y-400A)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/08c82725abcc91059a8545d41064bde7.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/4%EC%9D%B8%EC%B9%98%EA%B3%B5%ED%9A%8C%EC%A0%84%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-400AED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/4%EC%9D%B8%EC%B9%98%EA%B3%B5%ED%9A%8C%EC%A0%84-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK / GOLD\n전체 사이즈: ∅120XH61\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100~105 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4089,34 +4450,50 @@
     },
     {
       "name": "원형 분리 직매입 (Y-312A)",
-      "category": "",
+      "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202303/aaf158d3030029d8a1cf09d090d024ff.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230302/Y-312-EC9B90ED9895ED95A0EBA19CEAB290_EC9888EB8F84ECA084EAB8B0EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "",
       "badge": "",
-      "visible": false,
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "(3) 이중원형 캐스팅 (Y-321B)",
       "category": "MR 매입등",
+      "categories": [
+        "MR 매입등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/57708e8aebe12810e161cf22cc7ac209.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250213/61cafcc5caecb14b50a6581b1110d569.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE\n전체 사이즈: ∅100XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅90~95 mm",
+      "specs": "색상: WHITE\n전체 사이즈: ∅103XH50\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅90~95 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -4408,7 +4785,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅90XH40.5\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85\n색온도: 5700K / 2700K",
+      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅95XH40.5\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80~85\n색온도: 5700K / 2700K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -4522,8 +4899,10 @@
     },
     {
       "name": "원형 엣지 센서등 LED20W",
-      "category": "",
-      "categories": [],
+      "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
       "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/894ce9bc8e05c262d363f6ad34bb36f3.jpg",
@@ -4534,7 +4913,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: ∅220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K, 4000K",
+      "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: ∅220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -4544,18 +4923,26 @@
     },
     {
       "name": "사각 엣지 센서등 LED 20W",
-      "category": "",
+      "category": "직부등",
+      "categories": [
+        "직부등"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/2607a7986447cf5c28ddfe23548a507e.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230206/EC9888EB8F8429-8EC9DB8ECB998-EC8AACEBA6BC-EC84BCEC849C-EC97A3ECA780-EC82ACEAB081ECA781EBB680-20wEC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE\n전체 사이즈: 220X220XH18\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -5569,7 +5956,11 @@
     {
       "name": "KS.고효율. T33 직부등 300 LED 5W",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "직부형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/0d58cb80c0802782996f36dfb3f36881.jpg",
       "images": [],
       "detail_images": [
@@ -5579,10 +5970,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250701/00fec855316a08ef7aa7f1ff946becb9.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250701/d73fd24c10651345f8e4fc610c62cb87.jpg"
       ],
+      "short_desc": "",
       "description": "티라인 직부형 제품으로 별도의 연결부속 없이 끊김없는 라인조명 시공이 가능한 것이 특징입니다.",
-      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 300X33X38H\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 5W\n색상: WHITE\n전체 사이즈: 300X33XH38\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -5975,7 +6370,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 50X74XH62",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 50X70XH60",
       "badge": "",
       "visible": true,
       "subcat_only": true,
@@ -6081,17 +6476,25 @@
     {
       "name": "쿠스 갓등 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/60c71221b1e52ffdadf56da3d810db2c.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20200131/%EC%BF%A0%EC%8A%A4-%EB%A0%88%EC%9D%BC(%EC%98%88%EB%8F%84)_shop1_164615.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: BLAKC\n전체 사이즈: 270XH1000(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: BLACK\n전체 사이즈: 270XH1000(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6439,7 +6842,7 @@
       "related_products": []
     },
     {
-      "name": "고효율 (8) LED 30W",
+      "name": "KC. 8\" 고효율 매입등 LED 30W",
       "category": "매입등",
       "categories": [
         "매입등"
@@ -6463,7 +6866,7 @@
       "related_products": []
     },
     {
-      "name": "고효율 (6) LED15W",
+      "name": "KC. 6\" 고효율 매입등 LED15W",
       "category": "매입등",
       "categories": [
         "매입등"
@@ -6487,7 +6890,7 @@
       "related_products": []
     },
     {
-      "name": "고효율 (4) LED 10W",
+      "name": "KC. 4\" 고효율 매입등 LED 10W",
       "category": "매입등",
       "categories": [
         "매입등"
@@ -6643,17 +7046,25 @@
     {
       "name": "KC. T5 LED 9W 600 (2핀)",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "직부형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/a14870fa78c5a357af8ac9aa7845c7c1.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/35bca21ad669d981d9f4183f232e81c1.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d60d09c86ff6c0afbbb3e1018c2dd6f0.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: LED 9W\n색상: WHITE\n전체 사이즈: 593X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 9W\n색상: WHITE\n전체 사이즈: 592X23XH34\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6768,7 +7179,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n정격 전압: 60HZ / 출력 DC 12V\n사용가능 램프: LED MR16 LAMP, MR16 20W",
+      "specs": "색상: WHITE\n정격 전압: 60HZ / 출력 DC 12V\n사용가능 램프: LED MR16 LAMP, MR16 20W",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -6817,7 +7228,11 @@
     {
       "name": "KS. T-LINE(티라인) LED 10W 레일등",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/109ac4efb3f2e1510f9a0c53be4630eb.jpg",
       "images": [],
       "detail_images": [
@@ -6827,10 +7242,14 @@
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/c25ba1350a8acf38967e3b1b6b7bd4aa.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "T5 대체형 레일조명으로써 간접등 또는 작업등으로 사용시 편리합니다.",
-      "specs": "정격 전력: LED 10W\n색상: WHITE / BLACK\n전체 사이즈: 600X30XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 10W\n색상: WHITE / BLACK\n전체 사이즈: 600X33XH50\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -6991,7 +7410,7 @@
       "related_products": []
     },
     {
-      "name": "너트형 레이스웨이 레일 고정 지지대",
+      "name": "KC. 나비(너트)형 레이스웨이 레일 고정 지지대",
       "category": "레일 및 부품",
       "categories": [
         "레일 및 부품"
@@ -7003,12 +7422,12 @@
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20251231/17aa7aa75ce5a841c5324250521003f8.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20251231/9ae1a61df789e27586c02cc0bfe69e88.jpg",
-        "https://elphos.cafe24.com/web/upload/NNEditor/20251231/b1dda3cb124946642d84f57f4ef00daf.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EB%84%88%ED%8A%B8%ED%98%95%20%EB%A0%88%EC%9D%B4%EC%8A%A4%EC%9B%A8%EC%9D%B4%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%88%98%EC%A0%95-02.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 40 x 37 x H66",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 40 x 38 x H66",
       "badge": "",
       "visible": true,
       "subcat_only": true,
@@ -7072,10 +7491,10 @@
       ],
       "subcategory": "E26",
       "subsubcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/b4c182aba9440782ae4348903a3b52d8.jpg",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9B%90%ED%86%B5%EB%A0%88_%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-EBA088EC9DBC_WH_20181122_shop1_143429.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9B%90%ED%86%B5%EB%A0%88_1-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
@@ -7090,7 +7509,7 @@
         349,
         358,
         359,
-        360
+        361
       ]
     },
     {
@@ -7101,10 +7520,10 @@
       ],
       "subcategory": "E26",
       "subsubcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/268ddf6a4d9204ccb580e074937eec57.jpg",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9B%90%ED%86%B5%EC%A7%81_%EB%8C%80%ED%91%9C-01.jpg?raw=true",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20220823/EC9B90ED86B5-EB8C8028E5A4A729-ECA781EBB680_WH_20181122_shop1_144209.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9B%90%ED%86%B5%EC%A7%81_1-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
@@ -7206,12 +7625,12 @@
       "image": "https://elphos.cafe24.com/web/product/medium/202412/033ec1c6b76a5b0125e16889d0e49ac1.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20180731/20180730_ydl_EC9B90ED86B5EC8AA4ED8FACED8AB8_skill_900.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9B%90%ED%86%B5COB30W-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 105X110XH165\n설치 방식: RAIL\n정격 전압: AC220V / 60HZ\n색온도: 2700K / 4000K / 5700K",
+      "specs": "정격 전력: COB 30W\n색상: WHITE / BLACK\n전체 사이즈: 105X110XH120\n설치 방식: RAIL\n정격 전압: AC220V / 60HZ\n색온도: 3000K / 4000K / 6500K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -7254,33 +7673,49 @@
     {
       "name": "멀티 1구 COB 8W",
       "category": "멀티등기구",
+      "categories": [
+        "멀티등기구"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/ade159cd44587dd6b09e215522fd133d.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230302/EBA980ED8BB01EAB5ACCOB8W230302.jpg",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%82%AC%EA%B0%81%EB%A9%80%ED%8B%B01%EA%B5%AC(100%ED%83%80%EA%B3%B5)-01.jpg?raw=true",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: 110X110XH75\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100X100 mm\n색온도: 5700K / 2700K",
+      "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: 110X110XH75\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100X100 mm\n색온도: 5700K / 4000K/ 2700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "2인치 직매입 COB 8W (COB211B)",
-      "category": "",
-      "subcategory": "",
+      "category": "매입등",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/7958d5f9253597b47c8a6814d363b27e.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20180730/20180730_ydl_COB211B_skill_900.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: COB 8W\n색상: WHITE / BLACK\n전체 사이즈: ∅82XH41\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅70~75\n색온도: 5700K / 2700K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -7332,35 +7767,51 @@
       "related_products": []
     },
     {
-      "name": "T8 레일등 1200 LED 20W (WH, BK)",
+      "name": "KC. T8 레일등 1200 LED 20W (WH, BK)",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/6648079b7cd3200fed9a321af655aef4.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/a9e3a9f0d96adde7f0f919fc7e727755.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d168c7fa62305d2c9900b7b6908f054d.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 20W\n색상: WHITE / BLACK\n전체 사이즈: 1270X38XH57\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
-      "name": "T8 레일등 600 LED 10W (WH, BK)",
+      "name": "KC. T8 레일등 600 LED 10W (WH, BK)",
       "category": "T시리즈",
+      "categories": [
+        "T시리즈"
+      ],
       "subcategory": "레일형",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/c0a1d24a1accc2b2301c1cdac6fe97c1.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d2dc1d50b7a98646c36dbf9f5413d399.jpg",
         "https://elphos.cafe24.com/web/upload/NNEditor/20250221/d8d812014bc386cb0f4c8e6c8e8c7f9b.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 10W\n색상: WHITE / BLACK\n전체 사이즈: 715X38XH57\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -7430,33 +7881,49 @@
     {
       "name": "앤티크 220 갓등 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/2aeebc19031b8ed10668e3cbc995c83e.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%95%A4%ED%8B%B0%ED%81%AC220-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/EC95A4ED8BB0ED81AC-220-EAB093EB93B1-EBA088EC9DBC-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8-EC82ACEBB3B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK / BRONZE / WALNUT\n전체 사이즈: 220XH1000(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "앤티크 220 갓등 직부",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202412/abfc585f82c59956b1984ab4e582de58.jpg",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%95%A4%ED%8B%B0%ED%81%AC220-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/EC95A4ED8BB0ED81AC-220-EAB093EB93B1-ECA781EBB680-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK / BRONZE / WALNUT\n전체 사이즈: 220XH1000(MAX)\n설치 방식: CEILING\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -7858,27 +8325,36 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: 2W\n전체 사이즈: ∅65XH140\n색온도: 2300K\n소켓규격: E26",
+      "specs": "정격 전력: 2W\n전체 사이즈: ∅64XH140\n색온도: 2300K\n소켓규격: E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
       "featured": false,
       "isnew": false,
       "related_products": []
     },
     {
       "name": "(6) AC타입 LED 15W",
-      "category": "",
-      "subcategory": "",
+      "category": "매입등",
+      "categories": [
+        "매입등"
+      ],
+      "subcategory": "직매입",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202504/3c4b17c975703e840b16ad3d1a3aec2d.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20171013/copy-1507885856-6EC9DB8ECB99820EBA7A4EC9E85EB93B120EGA.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 15W\n색상: WHITE / BLACK\n전체 사이즈: ∅175XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150 mm\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -8259,7 +8735,7 @@
       "related_products": []
     },
     {
-      "name": "(6) 다운라이트 LED 15W",
+      "name": "KC. (6) 다운라이트 LED 15W",
       "category": "매입등",
       "categories": [
         "매입등"
@@ -8283,51 +8759,75 @@
       "related_products": []
     },
     {
-      "name": "190 식탁등 레일",
+      "name": "식탁등 190 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/4f9e5480b676998711aaffe909176b64.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/copy-1677801143-190-EC8B9DED8381EB93B1-EBA088EC9DBC-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: BLACK\n전체 사이즈: 190XH400 / H800\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: BLACK\n전체 사이즈: 190XH400 / H800(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "식탁등 230 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/f7153b747c78dfc5c98dbb3885da4ec0.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/230-EC8B9DED8381EB93B1-EBA088EC9DBC-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: BLACK\n전체 사이즈: 190XH400 / H800\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: BLACK\n전체 사이즈: 230XH300 / H800(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
       "name": "식탁등 350 레일",
       "category": "팬던트",
+      "categories": [
+        "팬던트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/15c27af0c513a9bf21c25a4ef25e6636.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/350-EC8B9DED8381EB93B1-EBA088EC9DBC-EC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: BLACK\n전체 사이즈: 350XH200 / H800(MAX)\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9038,17 +9538,25 @@
     {
       "name": "PAR 30 레일",
       "category": "스포트 라이트",
+      "categories": [
+        "스포트 라이트"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/cf3608fa1be4caa8607ce2c400345b4a.jpg",
       "images": [],
       "detail_images": [
         "http://elphos.cafe24.com/web/upload/NNEditor/20160218/PAR30레일_WH-01_shop1_152534.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 130XH230\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 133XH230\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n사용가능 램프: LED램프, EL, IL / E26",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -9908,7 +10416,7 @@
       "related_products": []
     },
     {
-      "name": "레일 중간 전원연결",
+      "name": "KC. 레일 중간 전원연결",
       "category": "레일 및 부품",
       "categories": [
         "레일 및 부품"
@@ -9934,17 +10442,25 @@
     {
       "name": "ㄱ,ㅡ자 조절용 파이프",
       "category": "악세사리",
+      "categories": [
+        "악세사리"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202412/73064dbb76cb1309b5235a7be4248430.jpg",
       "images": [],
       "detail_images": [
-        "https://elphos.cafe24.com/web/upload/NNEditor/20230306/E384B12CE385A1EC9E90-ECA1B0ECA088EC9AA9-ED8C8CEC9DB4ED9484.jpg",
+        "https://res.cloudinary.com/dafx5aokq/image/upload/v1785731315/1-01_fboyk9.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
       "specs": "색상: WHITE / BLACK",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -10212,7 +10728,7 @@
       "related_products": []
     },
     {
-      "name": "너트형 레일 고정 지지대",
+      "name": "KC. 나비(너트)형 레일 고정 지지대",
       "category": "레일 및 부품",
       "categories": [
         "레일 및 부품"
@@ -10456,17 +10972,25 @@
     {
       "name": "PAR-30 2등 신형/스틸(피스타입)",
       "category": "멀티등기구",
+      "categories": [
+        "멀티등기구"
+      ],
       "subcategory": "",
+      "subsubcategory": "",
       "image": "https://elphos.cafe24.com/web/product/medium/202505/d476365956266b05dff2178b230cbe4d.jpg",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230303/PAR30-2EAB5ACEC9888EB8F84ECA084EAB8B0-ED9988ED8E98EC9DB4ECA780-EC8381EC84B8.jpg",
         "https://gi.esmplus.com/elphos1/yd/main/sangse/00-gong-ji/bottom-00.jpg"
       ],
+      "short_desc": "",
       "description": "",
-      "specs": "색상: WHITE / BLACK\n전체 사이즈: 360X195\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 330X165 mm",
+      "specs": "색상: WHITE / BLACK\n전체 사이즈: 355X195\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: 330X165 mm",
       "badge": "",
       "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
       "related_products": []
     },
     {
@@ -11013,7 +11537,7 @@
       ],
       "subcategory": "캐스팅",
       "subsubcategory": "",
-      "image": "https://elphos.cafe24.com/web/product/medium/202504/7f152a5e5d1cfa45c91035976cb54678.jpg",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/4%EC%9D%B8%EC%B9%98%EC%BA%90%EC%8A%A4%ED%8C%85%EB%A9%94%EC%9D%B8-01.jpg?raw=true",
       "images": [],
       "detail_images": [
         "https://elphos.cafe24.com/web/upload/NNEditor/20230224/copy-1677221528-4EC9DB8ECB998ECBA90EC8AA4ED8C85EBA7A4EC9E85EB93B10224.jpg",
@@ -11021,7 +11545,7 @@
       ],
       "short_desc": "",
       "description": "",
-      "specs": "정격 전력: LED 10W\n색상: WHITE\n전체 사이즈: ∅120XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 6500K / 4000K / 3000K",
+      "specs": "정격 전력: LED 10W\n색상: WHITE, BLACK\n전체 사이즈: ∅120XH40\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅100 mm\n색온도: 6500K / 4000K / 3000K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -11046,6 +11570,29 @@
       "short_desc": "",
       "description": "",
       "specs": "정격 전력: LED 7W\n색상: WHITE\n전체 사이즈: ∅100XH35\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅80 mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": false,
+      "isnew": false,
+      "related_products": []
+    },
+    {
+      "name": "KC. 일자등 LED 30W 직부",
+      "category": "홈조명(방등)",
+      "categories": [
+        "홈조명(방등)"
+      ],
+      "subcategory": "",
+      "subsubcategory": "",
+      "image": "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9D%BC%EC%9E%90%EB%93%B1_%EB%8C%80%ED%91%9C-01.jpg?raw=true",
+      "images": [],
+      "detail_images": [
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/%EC%9D%BC%EC%9E%90%EB%93%B1_1-01.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 30W\n색상: WHITE \n전체 사이즈: 550X58XH50\n설치 방식: CELING\n정격 전압: 220V / 60HZ\n색온도: 6500K / 3000K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -11088,6 +11635,15 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1782868645846,
-  "yedo_subcats_LED 매입등": []
+  "yedo_saved_at": 1792569526667,
+  "yedo_subcats_LED 매입등": [],
+  "yedo_main_new": [
+    "KC. TS-LINE 22 직하레일등 LED",
+    "KC. 새턴매입등 LED 5W",
+    "KS. 미니멀티 폴드매입등 LED",
+    "KC. 노출매입등 LED 8W",
+    "KS. T33 (롱) 직부등",
+    "KC. S-COB 원통형 레일",
+    "KS. 클랙슨 매입등 (확산형) LED"
+  ]
 }
