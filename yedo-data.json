@@ -36,6 +36,41 @@
   "yedo_last_saved": 1776833507413,
   "yedo_products": [
     {
+      "name": "S매입등 디밍형 LED",
+      "category": "NEW PRODUCT",
+      "categories": [
+        "NEW PRODUCT",
+        "매입등"
+      ],
+      "subcategory": "S매입등",
+      "subsubcategory": "",
+      "image": "https://github.com/elphos/yedo-image/blob/main/S%EB%A7%A4%EC%9E%85%EB%93%B1%EB%94%94%EB%B0%8D%EB%A9%94%EC%9D%B8-01.jpg?raw=true",
+      "images": [],
+      "detail_images": [
+        "https://github.com/elphos/yedo-image/blob/main/S%EB%A7%A4%EC%9E%85%EB%93%B1%20%EB%94%94%EB%B0%8D-01.jpg?raw=true",
+        "https://github.com/elphos/yedo-image/blob/main/S%EB%A7%A4%EC%9E%85%EB%93%B1%20%EB%94%94%EB%B0%8D-03.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-02.jpg?raw=true",
+        "https://github.com/nul0001111-boop/yedo-image/blob/main/1-03.jpg?raw=true",
+        "https://raw.githubusercontent.com/elphos/video/refs/heads/main/S%EB%A7%A4%EC%9E%85%EB%93%B1%EB%94%94%EB%B0%8D%EC%97%B0%EC%98%81%EC%83%81.mp4",
+        "https://github.com/elphos/yedo-image/blob/main/S%EB%A7%A4%EC%9E%85%EB%93%B1%20%EB%94%94%EB%B0%8D-02.jpg?raw=true"
+      ],
+      "short_desc": "색상 : WHITE",
+      "description": "",
+      "specs": "정격 전력: LED 15W / LED 10W / LED 6W\n색상: WHITE\n전체 사이즈: 176XH24 / 132XH24 / 112XH22\n설치 방식: DOWN LIGHT\n정격 전압: 220V / 60HZ\n타공 사이즈: ∅150mm / ∅100mm /  ∅80mm\n색온도: 6500K / 4000K / 3000K",
+      "badge": "",
+      "visible": true,
+      "subcat_only": false,
+      "featured": true,
+      "isnew": true,
+      "related_products": [
+        160,
+        161,
+        162,
+        163,
+        164
+      ]
+    },
+    {
       "name": "KC. TS-LINE 22 직하레일등 LED",
       "category": "NEW PRODUCT",
       "categories": [
@@ -56,7 +91,7 @@
       ],
       "short_desc": "색상 : WHITE, BLACK",
       "description": "",
-      "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300X22XH38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 4000K",
+      "specs": "정격 전력: LED 30W / 24W / 15W / 8W\n색상: WHITE / BLACK\n전체 사이즈: 1200/900/600/300 X 22 X H38\n설치 방식: RAIL\n정격 전압: 220V / 60HZ\n색온도: 6500K / 4000K",
       "badge": "",
       "visible": true,
       "subcat_only": false,
@@ -11635,15 +11670,15 @@
       "time": 1776651403581
     }
   ],
-  "yedo_saved_at": 1792569526667,
+  "yedo_saved_at": 1793155520208,
   "yedo_subcats_LED 매입등": [],
   "yedo_main_new": [
+    "S매입등 디밍형 LED",
     "KC. TS-LINE 22 직하레일등 LED",
     "KC. 새턴매입등 LED 5W",
-    "KS. 미니멀티 폴드매입등 LED",
     "KC. 노출매입등 LED 8W",
+    "KS. 미니멀티 폴드매입등 LED",
     "KS. T33 (롱) 직부등",
-    "KC. S-COB 원통형 레일",
-    "KS. 클랙슨 매입등 (확산형) LED"
+    "KC. S-COB 원통형 레일"
   ]
 }
